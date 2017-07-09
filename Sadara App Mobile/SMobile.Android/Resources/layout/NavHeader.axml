@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="210dp"
+    android:background="@color/menu_drawer_header_background"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:gravity="bottom">
+  
+  <!--Imagen del Usuario-->
+  <ImageView
+    android:id="@+id/navheader_profile"
+    android:src="@drawable/ic_navheader_profile"
+    android:layout_width="75dp"
+    android:layout_height="75dp"
+    />
+  
+<!--Nombre de Usuario-->
+    <TextView
+        android:text="Michel Roberto Traña Tablada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/navheader_username"
+        android:textColor="@color/text_color_primary"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+<!--Email de Usuario-->
+    <TextView
+        android:text="mtraatabladaa94@gmail.com"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/navheader_useremail"
+        android:textColor="@color/text_color_primary"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+</LinearLayout>
