@@ -39,6 +39,7 @@
               android:id="@+id/nav_create_list"
               android:icon="@drawable/ic_playlist_add"
               android:title="Crear Lista"
+              android:tint="#000000"
           />
 
 

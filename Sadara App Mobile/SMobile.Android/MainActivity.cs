@@ -22,7 +22,7 @@ namespace SMobile.Android
 
         //Text input
         EditText productEditText;
-        Button productSentButton;
+        ImageButton productSentButton;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -57,7 +57,7 @@ namespace SMobile.Android
 
             //Input text Real Test
             this.productEditText = FindViewById<EditText>(Resource.Id.productEditText);
-            this.productSentButton = FindViewById<Button>(Resource.Id.productSentButton);
+            this.productSentButton = FindViewById<ImageButton>(Resource.Id.productSentButton);
             this.productSentButton.Click += delegate {
 
                 this.saveProduct();

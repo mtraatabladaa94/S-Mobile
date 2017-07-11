@@ -21,6 +21,7 @@ E:\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\android\assets\Xa
 E:\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\android\assets\Xamarin.Android.Support.Media.Compat.dll
 E:\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\android\assets\Xamarin.Android.Support.Transition.dll
 E:\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\android\assets\Xamarin.Android.Support.v7.AppCompat.dll
+E:\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\android\assets\Xamarin.Android.Support.v7.CardView.dll
 E:\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\android\assets\Xamarin.Android.Support.v7.RecyclerView.dll
 E:\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\android\assets\Xamarin.Android.Support.Vector.Drawable.dll
 E:\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\android\assets\System.Runtime.dll

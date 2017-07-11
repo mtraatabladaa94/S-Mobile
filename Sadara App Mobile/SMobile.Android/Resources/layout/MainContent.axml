@@ -14,44 +14,43 @@
   
   <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+    android:orientation="horizontal"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:paddingLeft="12dp"
-    android:paddingRight="12dp"
-    android:paddingTop="8dp"
-    android:paddingBottom="8dp"
-    android:background="@drawable/background_edit_text_primary"
   >
+  
+    <LinearLayout
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      android:orientation="vertical"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:paddingLeft="12dp"
+      android:paddingRight="12dp"
+      android:paddingTop="8dp"
+      android:paddingBottom="8dp"
+      android:background="@drawable/background_edit_text_primary"
+    >
     
-    <EditText
-      android:id="@+id/productEditText"
-      android:layout_width="match_parent"
-      android:layout_height="24dp"
-      android:background="@color/transparent"
-      android:hint="Escribir producto"
-      android:textColorHint="#b0bec5"
-      android:textSize="15dp"
-    />
+      <EditText
+        android:id="@+id/productEditText"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:background="@color/transparent"
+        android:hint="Escribir producto"
+        android:textColorHint="#b0bec5"
+        android:textSize="15dp"
+      />
   
-  </LinearLayout>
+    </LinearLayout>
   
-  <LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="horizontal"
-    android:background="@drawable/background_button_primary"
-    android:layout_width="44dp"
-    android:layout_height="44dp"
-    android:padding="10dp"
-  >
-
-    <Button
+    <ImageButton
       android:id="@+id/productSentButton"
-      android:background="@color/transparent"
-      android:drawableLeft="@drawable/ic_send"
-      android:drawableTintMode="src_over"
+      android:background="@drawable/background_button_primary"
+      android:src="@drawable/ic_send"
       android:layout_width="44dp"
       android:layout_height="44dp"
+      android:padding="10dp"
+      android:layout_marginLeft="5dp"
     />
   
   </LinearLayout>

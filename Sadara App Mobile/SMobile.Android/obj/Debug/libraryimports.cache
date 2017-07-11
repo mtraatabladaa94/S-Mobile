@@ -10,6 +10,7 @@
     <ManifestDocument>obj\Debug\__library_projects__\Xamarin.Android.Support.Media.Compat\library_project_imports\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Debug\__library_projects__\Xamarin.Android.Support.Transition\library_project_imports\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Debug\__library_projects__\Xamarin.Android.Support.v7.AppCompat\library_project_imports\AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj\Debug\__library_projects__\Xamarin.Android.Support.v7.CardView\library_project_imports\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Debug\__library_projects__\Xamarin.Android.Support.v7.RecyclerView\library_project_imports\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Debug\__library_projects__\Xamarin.Android.Support.Vector.Drawable\library_project_imports\AndroidManifest.xml</ManifestDocument>
   </ManifestDocuments>
@@ -25,6 +26,7 @@
     <Jar>obj\Debug\__library_projects__\Xamarin.Android.Support.Media.Compat\library_project_imports\bin\classes.jar</Jar>
     <Jar>obj\Debug\__library_projects__\Xamarin.Android.Support.Transition\library_project_imports\bin\classes.jar</Jar>
     <Jar>obj\Debug\__library_projects__\Xamarin.Android.Support.v7.AppCompat\library_project_imports\bin\classes.jar</Jar>
+    <Jar>obj\Debug\__library_projects__\Xamarin.Android.Support.v7.CardView\library_project_imports\bin\classes.jar</Jar>
     <Jar>obj\Debug\__library_projects__\Xamarin.Android.Support.v7.RecyclerView\library_project_imports\bin\classes.jar</Jar>
     <Jar>obj\Debug\__library_projects__\Xamarin.Android.Support.Vector.Drawable\library_project_imports\bin\classes.jar</Jar>
   </Jars>
