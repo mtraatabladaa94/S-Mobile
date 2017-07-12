@@ -2,6 +2,10 @@ SMobile.Android.MainActivity, SMobile.Android;md5c505fb031811711d82aa71f5c0e0a7a
 SMobile.Android.MainActivity, SMobile.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5c505fb031811711d82aa71f5c0e0a7ac.MainActivity
 SMobile.Android.MainActivity;md5c505fb031811711d82aa71f5c0e0a7ac.MainActivity
 smobile.android.MainActivity;md5c505fb031811711d82aa71f5c0e0a7ac.MainActivity
+SMobile.Android.Activities.SigninActivity, SMobile.Android;md538a4c09f23a14d23b9bd851d99c7aeeb.SigninActivity
+SMobile.Android.Activities.SigninActivity, SMobile.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md538a4c09f23a14d23b9bd851d99c7aeeb.SigninActivity
+SMobile.Android.Activities.SigninActivity;md538a4c09f23a14d23b9bd851d99c7aeeb.SigninActivity
+smobile.android.activities.SigninActivity;md538a4c09f23a14d23b9bd851d99c7aeeb.SigninActivity
 Android.Support.V4.Widget.SearchViewCompat/IOnCloseListenerImplementor, Xamarin.Android.Support.Compat;mono.android.support.v4.widget.SearchViewCompat_OnCloseListenerImplementor
 Android.Support.V4.Widget.SearchViewCompat+IOnCloseListenerImplementor, Xamarin.Android.Support.Compat, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.android.support.v4.widget.SearchViewCompat_OnCloseListenerImplementor
 Android.Support.V4.Widget.SearchViewCompat.IOnCloseListenerImplementor;mono.android.support.v4.widget.SearchViewCompat_OnCloseListenerImplementor

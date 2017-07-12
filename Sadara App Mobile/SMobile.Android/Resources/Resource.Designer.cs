@@ -2282,6 +2282,9 @@ namespace SMobile.Android
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f07009f
+			public const int Signin = 2131165343;
+			
 			// aapt resource value: 0x7f07008b
 			public const int action0 = 2131165323;
 			
@@ -2354,8 +2357,8 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f070023
 			public const int always = 2131165219;
 			
-			// aapt resource value: 0x7f0700a0
-			public const int appbar = 2131165344;
+			// aapt resource value: 0x7f0700a2
+			public const int appbar = 2131165346;
 			
 			// aapt resource value: 0x7f07002f
 			public const int auto = 2131165231;
@@ -2483,6 +2486,9 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f070049
 			public const int icon = 2131165257;
 			
+			// aapt resource value: 0x7f0700a0
+			public const int iconImageView = 2131165344;
+			
 			// aapt resource value: 0x7f070099
 			public const int icon_group = 2131165337;
 			
@@ -2516,11 +2522,11 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f070048
 			public const int list_item = 2131165256;
 			
-			// aapt resource value: 0x7f07009f
-			public const int main_content = 2131165343;
+			// aapt resource value: 0x7f0700a1
+			public const int main_content = 2131165345;
 			
-			// aapt resource value: 0x7f0700a3
-			public const int masked = 2131165347;
+			// aapt resource value: 0x7f0700a5
+			public const int masked = 2131165349;
 			
 			// aapt resource value: 0x7f07008e
 			public const int media_actions = 2131165326;
@@ -2534,32 +2540,32 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f070019
 			public const int multiply = 2131165209;
 			
-			// aapt resource value: 0x7f0700aa
-			public const int nav_activities = 2131165354;
-			
-			// aapt resource value: 0x7f0700ab
-			public const int nav_config = 2131165355;
-			
-			// aapt resource value: 0x7f0700a7
-			public const int nav_create_list = 2131165351;
-			
-			// aapt resource value: 0x7f0700a6
-			public const int nav_discussion = 2131165350;
-			
-			// aapt resource value: 0x7f0700a8
-			public const int nav_favorite = 2131165352;
-			
-			// aapt resource value: 0x7f0700a5
-			public const int nav_friends = 2131165349;
-			
-			// aapt resource value: 0x7f0700a4
-			public const int nav_home = 2131165348;
-			
 			// aapt resource value: 0x7f0700ac
-			public const int nav_off_session = 2131165356;
+			public const int nav_activities = 2131165356;
+			
+			// aapt resource value: 0x7f0700ad
+			public const int nav_config = 2131165357;
 			
 			// aapt resource value: 0x7f0700a9
-			public const int nav_saved = 2131165353;
+			public const int nav_create_list = 2131165353;
+			
+			// aapt resource value: 0x7f0700a8
+			public const int nav_discussion = 2131165352;
+			
+			// aapt resource value: 0x7f0700aa
+			public const int nav_favorite = 2131165354;
+			
+			// aapt resource value: 0x7f0700a7
+			public const int nav_friends = 2131165351;
+			
+			// aapt resource value: 0x7f0700a6
+			public const int nav_home = 2131165350;
+			
+			// aapt resource value: 0x7f0700ae
+			public const int nav_off_session = 2131165358;
+			
+			// aapt resource value: 0x7f0700ab
+			public const int nav_saved = 2131165355;
 			
 			// aapt resource value: 0x7f070082
 			public const int nav_view = 2131165314;
@@ -2765,8 +2771,8 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f070057
 			public const int title_template = 2131165271;
 			
-			// aapt resource value: 0x7f0700a1
-			public const int toolbar = 2131165345;
+			// aapt resource value: 0x7f0700a3
+			public const int toolbar = 2131165347;
 			
 			// aapt resource value: 0x7f070029
 			public const int top = 2131165225;
@@ -2792,8 +2798,8 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f07000e
 			public const int view_offset_helper = 2131165198;
 			
-			// aapt resource value: 0x7f0700a2
-			public const int visible = 2131165346;
+			// aapt resource value: 0x7f0700a4
+			public const int visible = 2131165348;
 			
 			// aapt resource value: 0x7f070027
 			public const int withText = 2131165223;
@@ -3041,10 +3047,13 @@ namespace SMobile.Android
 			public const int select_dialog_singlechoice_material = 2130903101;
 			
 			// aapt resource value: 0x7f03003e
-			public const int support_simple_spinner_dropdown_item = 2130903102;
+			public const int Signin = 2130903102;
 			
 			// aapt resource value: 0x7f03003f
-			public const int Toolbar = 2130903103;
+			public const int support_simple_spinner_dropdown_item = 2130903103;
+			
+			// aapt resource value: 0x7f030040
+			public const int Toolbar = 2130903104;
 			
 			static Layout()
 			{

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/Signin"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:padding="16dp"
+>
+
+  <ImageView
+    android:id="@+id/iconImageView"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:background="@drawable/ic_isotipo_sadara"
+    android:layout_width="75dp"
+    android:layout_height="75dp"
+  />
+  
+</RelativeLayout>
