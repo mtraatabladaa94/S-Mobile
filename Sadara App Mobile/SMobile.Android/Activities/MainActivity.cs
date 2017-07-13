@@ -58,7 +58,8 @@ namespace SMobile.Android
             //Input text Real Test
             this.productEditText = FindViewById<EditText>(Resource.Id.productEditText);
             this.productSentButton = FindViewById<ImageButton>(Resource.Id.productSentButton);
-            this.productSentButton.Click += delegate {
+            this.productSentButton.Click += delegate
+            {
 
                 this.saveProduct();
 

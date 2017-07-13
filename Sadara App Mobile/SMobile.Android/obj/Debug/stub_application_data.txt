@@ -1,2 +1,2 @@
 android.app.Application
-SMobile.Android.SMobile.Android
+com.sadara.android

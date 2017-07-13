@@ -6,6 +6,10 @@ SMobile.Android.Activities.SigninActivity, SMobile.Android;md538a4c09f23a14d23b9
 SMobile.Android.Activities.SigninActivity, SMobile.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md538a4c09f23a14d23b9bd851d99c7aeeb.SigninActivity
 SMobile.Android.Activities.SigninActivity;md538a4c09f23a14d23b9bd851d99c7aeeb.SigninActivity
 smobile.android.activities.SigninActivity;md538a4c09f23a14d23b9bd851d99c7aeeb.SigninActivity
+SMobile.Android.Activities.SignupActivity, SMobile.Android;md538a4c09f23a14d23b9bd851d99c7aeeb.SignupActivity
+SMobile.Android.Activities.SignupActivity, SMobile.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md538a4c09f23a14d23b9bd851d99c7aeeb.SignupActivity
+SMobile.Android.Activities.SignupActivity;md538a4c09f23a14d23b9bd851d99c7aeeb.SignupActivity
+smobile.android.activities.SignupActivity;md538a4c09f23a14d23b9bd851d99c7aeeb.SignupActivity
 Android.Support.V4.Widget.SearchViewCompat/IOnCloseListenerImplementor, Xamarin.Android.Support.Compat;mono.android.support.v4.widget.SearchViewCompat_OnCloseListenerImplementor
 Android.Support.V4.Widget.SearchViewCompat+IOnCloseListenerImplementor, Xamarin.Android.Support.Compat, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.android.support.v4.widget.SearchViewCompat_OnCloseListenerImplementor
 Android.Support.V4.Widget.SearchViewCompat.IOnCloseListenerImplementor;mono.android.support.v4.widget.SearchViewCompat_OnCloseListenerImplementor
@@ -222,3 +226,63 @@ Android.Support.V7.Widget.RecyclerView/IRecyclerListenerImplementor, Xamarin.And
 Android.Support.V7.Widget.RecyclerView+IRecyclerListenerImplementor, Xamarin.Android.Support.v7.RecyclerView, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.android.support.v7.widget.RecyclerView_RecyclerListenerImplementor
 Android.Support.V7.Widget.RecyclerView.IRecyclerListenerImplementor;mono.android.support.v7.widget.RecyclerView_RecyclerListenerImplementor
 mono.android.support.v7.widget.RecyclerView_RecyclerListenerImplementor;mono.android.support.v7.widget.RecyclerView_RecyclerListenerImplementor
+Android.Gms.Common.Apis.ResultCallback`1, Xamarin.GooglePlayServices.Basement;md531f8cc8d4d39b2fa02686ee0eb368905.ResultCallback_1
+Android.Gms.Common.Apis.ResultCallback`1, Xamarin.GooglePlayServices.Basement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md531f8cc8d4d39b2fa02686ee0eb368905.ResultCallback_1
+Android.Gms.Common.Apis.ResultCallback`1;md531f8cc8d4d39b2fa02686ee0eb368905.ResultCallback_1
+android.gms.common.apis.ResultCallback_1;md531f8cc8d4d39b2fa02686ee0eb368905.ResultCallback_1
+Android.Gms.Common.Apis.AwaitableResultCallback`1, Xamarin.GooglePlayServices.Basement;md531f8cc8d4d39b2fa02686ee0eb368905.AwaitableResultCallback_1
+Android.Gms.Common.Apis.AwaitableResultCallback`1, Xamarin.GooglePlayServices.Basement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md531f8cc8d4d39b2fa02686ee0eb368905.AwaitableResultCallback_1
+Android.Gms.Common.Apis.AwaitableResultCallback`1;md531f8cc8d4d39b2fa02686ee0eb368905.AwaitableResultCallback_1
+android.gms.common.apis.AwaitableResultCallback_1;md531f8cc8d4d39b2fa02686ee0eb368905.AwaitableResultCallback_1
+Android.Gms.Security.ProviderInstaller/IProviderInstallListenerImplementor, Xamarin.GooglePlayServices.Basement;mono.com.google.android.gms.security.ProviderInstaller_ProviderInstallListenerImplementor
+Android.Gms.Security.ProviderInstaller+IProviderInstallListenerImplementor, Xamarin.GooglePlayServices.Basement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.gms.security.ProviderInstaller_ProviderInstallListenerImplementor
+Android.Gms.Security.ProviderInstaller.IProviderInstallListenerImplementor;mono.com.google.android.gms.security.ProviderInstaller_ProviderInstallListenerImplementor
+mono.com.google.android.gms.security.ProviderInstaller_ProviderInstallListenerImplementor;mono.com.google.android.gms.security.ProviderInstaller_ProviderInstallListenerImplementor
+Android.Gms.Extensions.AwaitableTaskCompleteListener`1, Xamarin.GooglePlayServices.Tasks;md5048a04284979bff265231e98628579ce.AwaitableTaskCompleteListener_1
+Android.Gms.Extensions.AwaitableTaskCompleteListener`1, Xamarin.GooglePlayServices.Tasks, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5048a04284979bff265231e98628579ce.AwaitableTaskCompleteListener_1
+Android.Gms.Extensions.AwaitableTaskCompleteListener`1;md5048a04284979bff265231e98628579ce.AwaitableTaskCompleteListener_1
+android.gms.extensions.AwaitableTaskCompleteListener_1;md5048a04284979bff265231e98628579ce.AwaitableTaskCompleteListener_1
+Android.Gms.Tasks.IOnCompleteListenerImplementor, Xamarin.GooglePlayServices.Tasks;mono.com.google.android.gms.tasks.OnCompleteListenerImplementor
+Android.Gms.Tasks.IOnCompleteListenerImplementor, Xamarin.GooglePlayServices.Tasks, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.gms.tasks.OnCompleteListenerImplementor
+Android.Gms.Tasks.IOnCompleteListenerImplementor;mono.com.google.android.gms.tasks.OnCompleteListenerImplementor
+mono.com.google.android.gms.tasks.OnCompleteListenerImplementor;mono.com.google.android.gms.tasks.OnCompleteListenerImplementor
+Android.Gms.Tasks.IOnFailureListenerImplementor, Xamarin.GooglePlayServices.Tasks;mono.com.google.android.gms.tasks.OnFailureListenerImplementor
+Android.Gms.Tasks.IOnFailureListenerImplementor, Xamarin.GooglePlayServices.Tasks, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.gms.tasks.OnFailureListenerImplementor
+Android.Gms.Tasks.IOnFailureListenerImplementor;mono.com.google.android.gms.tasks.OnFailureListenerImplementor
+mono.com.google.android.gms.tasks.OnFailureListenerImplementor;mono.com.google.android.gms.tasks.OnFailureListenerImplementor
+Android.Gms.Tasks.IOnSuccessListenerImplementor, Xamarin.GooglePlayServices.Tasks;mono.com.google.android.gms.tasks.OnSuccessListenerImplementor
+Android.Gms.Tasks.IOnSuccessListenerImplementor, Xamarin.GooglePlayServices.Tasks, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.gms.tasks.OnSuccessListenerImplementor
+Android.Gms.Tasks.IOnSuccessListenerImplementor;mono.com.google.android.gms.tasks.OnSuccessListenerImplementor
+mono.com.google.android.gms.tasks.OnSuccessListenerImplementor;mono.com.google.android.gms.tasks.OnSuccessListenerImplementor
+Android.Gms.Common.Apis.GoogleApiClient/IOnConnectionFailedListenerImplementor, Xamarin.GooglePlayServices.Base;mono.com.google.android.gms.common.api.GoogleApiClient_OnConnectionFailedListenerImplementor
+Android.Gms.Common.Apis.GoogleApiClient+IOnConnectionFailedListenerImplementor, Xamarin.GooglePlayServices.Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.gms.common.api.GoogleApiClient_OnConnectionFailedListenerImplementor
+Android.Gms.Common.Apis.GoogleApiClient.IOnConnectionFailedListenerImplementor;mono.com.google.android.gms.common.api.GoogleApiClient_OnConnectionFailedListenerImplementor
+mono.com.google.android.gms.common.api.GoogleApiClient_OnConnectionFailedListenerImplementor;mono.com.google.android.gms.common.api.GoogleApiClient_OnConnectionFailedListenerImplementor
+Android.Gms.Common.Apis.GoogleApiClientConnectionCallbacksImpl, Xamarin.GooglePlayServices.Base;md526b7ac14cffc1a788e82c7b73f3add08.GoogleApiClientConnectionCallbacksImpl
+Android.Gms.Common.Apis.GoogleApiClientConnectionCallbacksImpl, Xamarin.GooglePlayServices.Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md526b7ac14cffc1a788e82c7b73f3add08.GoogleApiClientConnectionCallbacksImpl
+Android.Gms.Common.Apis.GoogleApiClientConnectionCallbacksImpl;md526b7ac14cffc1a788e82c7b73f3add08.GoogleApiClientConnectionCallbacksImpl
+android.gms.common.apis.GoogleApiClientConnectionCallbacksImpl;md526b7ac14cffc1a788e82c7b73f3add08.GoogleApiClientConnectionCallbacksImpl
+Android.Gms.Common.Apis.GoogleApiClientOnConnectionFailedListenerImpl, Xamarin.GooglePlayServices.Base;md526b7ac14cffc1a788e82c7b73f3add08.GoogleApiClientOnConnectionFailedListenerImpl
+Android.Gms.Common.Apis.GoogleApiClientOnConnectionFailedListenerImpl, Xamarin.GooglePlayServices.Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md526b7ac14cffc1a788e82c7b73f3add08.GoogleApiClientOnConnectionFailedListenerImpl
+Android.Gms.Common.Apis.GoogleApiClientOnConnectionFailedListenerImpl;md526b7ac14cffc1a788e82c7b73f3add08.GoogleApiClientOnConnectionFailedListenerImpl
+android.gms.common.apis.GoogleApiClientOnConnectionFailedListenerImpl;md526b7ac14cffc1a788e82c7b73f3add08.GoogleApiClientOnConnectionFailedListenerImpl
+Android.Gms.Common.Images.ImageManager/IOnImageLoadedListenerImplementor, Xamarin.GooglePlayServices.Base;mono.com.google.android.gms.common.images.ImageManager_OnImageLoadedListenerImplementor
+Android.Gms.Common.Images.ImageManager+IOnImageLoadedListenerImplementor, Xamarin.GooglePlayServices.Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.gms.common.images.ImageManager_OnImageLoadedListenerImplementor
+Android.Gms.Common.Images.ImageManager.IOnImageLoadedListenerImplementor;mono.com.google.android.gms.common.images.ImageManager_OnImageLoadedListenerImplementor
+mono.com.google.android.gms.common.images.ImageManager_OnImageLoadedListenerImplementor;mono.com.google.android.gms.common.images.ImageManager_OnImageLoadedListenerImplementor
+Firebase.Auth.FirebaseAuth/IAuthStateListenerImplementor, Xamarin.Firebase.Auth;mono.com.google.firebase.auth.FirebaseAuth_AuthStateListenerImplementor
+Firebase.Auth.FirebaseAuth+IAuthStateListenerImplementor, Xamarin.Firebase.Auth, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.firebase.auth.FirebaseAuth_AuthStateListenerImplementor
+Firebase.Auth.FirebaseAuth.IAuthStateListenerImplementor;mono.com.google.firebase.auth.FirebaseAuth_AuthStateListenerImplementor
+mono.com.google.firebase.auth.FirebaseAuth_AuthStateListenerImplementor;mono.com.google.firebase.auth.FirebaseAuth_AuthStateListenerImplementor
+Firebase.Database.DatabaseReference/ICompletionListenerImplementor, Xamarin.Firebase.Database;mono.com.google.firebase.database.DatabaseReference_CompletionListenerImplementor
+Firebase.Database.DatabaseReference+ICompletionListenerImplementor, Xamarin.Firebase.Database, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.firebase.database.DatabaseReference_CompletionListenerImplementor
+Firebase.Database.DatabaseReference.ICompletionListenerImplementor;mono.com.google.firebase.database.DatabaseReference_CompletionListenerImplementor
+mono.com.google.firebase.database.DatabaseReference_CompletionListenerImplementor;mono.com.google.firebase.database.DatabaseReference_CompletionListenerImplementor
+Firebase.Database.IChildEventListenerImplementor, Xamarin.Firebase.Database;mono.com.google.firebase.database.ChildEventListenerImplementor
+Firebase.Database.IChildEventListenerImplementor, Xamarin.Firebase.Database, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.firebase.database.ChildEventListenerImplementor
+Firebase.Database.IChildEventListenerImplementor;mono.com.google.firebase.database.ChildEventListenerImplementor
+mono.com.google.firebase.database.ChildEventListenerImplementor;mono.com.google.firebase.database.ChildEventListenerImplementor
+Firebase.Database.IValueEventListenerImplementor, Xamarin.Firebase.Database;mono.com.google.firebase.database.ValueEventListenerImplementor
+Firebase.Database.IValueEventListenerImplementor, Xamarin.Firebase.Database, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.firebase.database.ValueEventListenerImplementor
+Firebase.Database.IValueEventListenerImplementor;mono.com.google.firebase.database.ValueEventListenerImplementor
+mono.com.google.firebase.database.ValueEventListenerImplementor;mono.com.google.firebase.database.ValueEventListenerImplementor

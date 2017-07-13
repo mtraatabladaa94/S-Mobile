@@ -4,6 +4,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+  
     <android.support.v4.widget.DrawerLayout xmlns:app="http://schemas.android.com/apk/res-auto"
         android:id="@+id/drawer_layout"
         android:layout_height="match_parent"
@@ -14,13 +15,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
+          
           <include
               android:layout_height="wrap_content"
               android:layout_width="match_parent"
-              layout="@layout/toolbar" />
+              layout="@layout/maintoolbar" />
+          
           <include
             layout="@layout/maincontent"
             />
+          
         </LinearLayout>
         
         <android.support.design.widget.NavigationView
@@ -30,6 +34,7 @@
             android:layout_gravity="start"
             android:background="@color/menu_drawer_background"
             android:fitsSystemWindows="true"
-            app:headerLayout="@layout/navheader" />
+            app:headerLayout="@layout/mainnavheader" />
     </android.support.v4.widget.DrawerLayout>
+  
 </LinearLayout>

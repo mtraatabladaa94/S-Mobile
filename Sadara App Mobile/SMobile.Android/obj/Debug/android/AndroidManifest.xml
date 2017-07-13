@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="SMobile.Android.SMobile.Android" android:versionCode="1" android:versionName="1.0">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.sadara.android" android:versionCode="1" android:versionName="1.0" android:installLocation="auto">
   <!--suppress UsesMinSdkAttributes-->
   <uses-sdk android:minSdkVersion="21" />
   <uses-permission android:name="android.permission.INTERNET" />
@@ -12,12 +12,13 @@
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
-    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="SMobile.Android.SMobile.Android.mono.MonoRuntimeProvider.__mono_init__" />
+    <activity android:label="SignupActivity" android:name="md538a4c09f23a14d23b9bd851d99c7aeeb.SignupActivity" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.sadara.android.mono.MonoRuntimeProvider.__mono_init__" />
     <!--suppress ExportedReceiver-->
     <receiver android:name="mono.android.Seppuku">
       <intent-filter>
         <action android:name="mono.android.intent.action.SEPPUKU" />
-        <category android:name="mono.android.intent.category.SEPPUKU.SMobile.Android.SMobile.Android" />
+        <category android:name="mono.android.intent.category.SEPPUKU.com.sadara.android" />
       </intent-filter>
     </receiver>
     <meta-data android:name="android.support.VERSION" android:value="25.4.0" />
@@ -32,5 +33,9 @@
     <meta-data android:name="android.support.VERSION" android:value="25.4.0" />
     <meta-data android:name="android.support.VERSION" android:value="25.4.0" />
     <meta-data android:name="android.support.VERSION" android:value="25.4.0" />
+    <meta-data android:name="android.support.VERSION" android:value="25.4.0" />
+    <provider android:authorities="com.sadara.android.firebaseinitprovider" android:name="com.google.firebase.provider.FirebaseInitProvider" android:exported="false" android:initOrder="100" />
+    <activity android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:exported="false" />
+    <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
   </application>
 </manifest>

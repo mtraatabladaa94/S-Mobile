@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "603040444031",
+    "firebase_url": "https://sadara-app.firebaseio.com",
+    "project_id": "sadara-app",
+    "storage_bucket": "sadara-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:603040444031:android:fbe2e50d50062b1e",
+        "android_client_info": {
+          "package_name": "com.sadara.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "603040444031-vu99si1itfpvbb60uucs2ifno5lr7d5c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sadara.android",
+            "certificate_hash": "c5b802f375f5aa9bb3473b18772d7639081d00e1"
+          }
+        },
+        {
+          "client_id": "603040444031-reojkmf8m8224jsolorbnguh0dmnad81.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFdEMwXBf4zzFxRYD0S24tPrjFs-ASKUg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "603040444031-reojkmf8m8224jsolorbnguh0dmnad81.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
