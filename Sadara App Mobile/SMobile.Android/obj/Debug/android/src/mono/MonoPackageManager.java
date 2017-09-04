@@ -99,9 +99,17 @@ class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		/* We need to ensure that "SMobile.Android.dll" comes first in this list. */
 		"SMobile.Android.dll",
+		"crypto.dll",
+		"Firebase.Xamarin.dll",
+		"JWT.dll",
+		"Newtonsoft.Json.dll",
 		"Realm.DataBinding.dll",
 		"Realm.dll",
 		"Remotion.Linq.dll",
+		"System.Reactive.Core.dll",
+		"System.Reactive.Interfaces.dll",
+		"System.Reactive.Linq.dll",
+		"System.Reactive.PlatformServices.dll",
 		"System.Runtime.CompilerServices.Unsafe.dll",
 		"Xamarin.Android.Support.Animated.Vector.Drawable.dll",
 		"Xamarin.Android.Support.Annotations.dll",
@@ -122,6 +130,10 @@ class MonoPackageManager_Resources {
 		"Xamarin.Firebase.Common.dll",
 		"Xamarin.GooglePlayServices.Base.dll",
 		"Xamarin.Firebase.Auth.dll",
+		"Xamarin.Firebase.Iid.dll",
+		"Xamarin.Firebase.Messaging.dll",
+		"Xamarin.Firebase.Analytics.Impl.dll",
+		"Xamarin.Firebase.Analytics.dll",
 		"Xamarin.Firebase.Database.Connection.dll",
 		"Xamarin.Firebase.Database.dll",
 	};

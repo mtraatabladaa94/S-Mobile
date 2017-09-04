@@ -79,18 +79,12 @@ namespace SMobile.Android.Activities
         
         private void StartFirebaseAuth()
         {
-
-            var options = new FirebaseOptions
-                .Builder()
-                .SetApplicationId(FirebaseConfig.FIREBASE_APP_KEY)
-                .SetApiKey(FirebaseConfig.FIREBASE_API_KEY)
-                .Build();
-
+            
             if (FirebaseConfig.app == null)
-                FirebaseConfig.app = FirebaseApp.InitializeApp(this, options);
+                FirebaseConfig.app = FirebaseApp.InitializeApp(this, FirebaseConfig.firebaseOptions);
 
             this.auth = FirebaseAuth.GetInstance(FirebaseConfig.app);
-
+            
         }
 
         private void SigninClick(string UserName, string Password)

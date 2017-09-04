@@ -24,5 +24,33 @@ namespace SMobile.Android.Configuration
         /// </summary>
         public static Firebase.FirebaseApp app;
 
+        /// <summary>
+        /// URL de los nodos en Firebase
+        /// </summary>
+        public const string FIREBASE_URL = "https://sadara-app.firebaseio.com/";
+
+        /// <summary>
+        /// Opciones de firebase preconfiguradas
+        /// </summary>
+        private static Firebase.FirebaseOptions _firebaseOptions = 
+            new Firebase.FirebaseOptions
+                .Builder()
+                .SetApplicationId(FirebaseConfig.FIREBASE_APP_KEY)
+                .SetApiKey(FirebaseConfig.FIREBASE_API_KEY)
+                .Build();
+
+        /// <summary>
+        /// Opciones de firebase preconfiguradas
+        /// </summary>
+        public static Firebase.FirebaseOptions firebaseOptions {
+
+            get {
+
+                return FirebaseConfig._firebaseOptions;
+
+            }
+
+        }
+
     }
 }
