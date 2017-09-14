@@ -94,6 +94,18 @@ Android.Support.V4.Content.Loader/IOnLoadCompleteListenerImplementor, Xamarin.An
 Android.Support.V4.Content.Loader+IOnLoadCompleteListenerImplementor, Xamarin.Android.Support.Core.Utils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.android.support.v4.content.Loader_OnLoadCompleteListenerImplementor
 Android.Support.V4.Content.Loader.IOnLoadCompleteListenerImplementor;mono.android.support.v4.content.Loader_OnLoadCompleteListenerImplementor
 mono.android.support.v4.content.Loader_OnLoadCompleteListenerImplementor;mono.android.support.v4.content.Loader_OnLoadCompleteListenerImplementor
+Android.Support.CustomTabs.CustomTabsClient/CustomTabsCallbackImpl, Xamarin.Android.Support.CustomTabs;android.support.customtabs.CustomTabsClient_CustomTabsCallbackImpl
+Android.Support.CustomTabs.CustomTabsClient+CustomTabsCallbackImpl, Xamarin.Android.Support.CustomTabs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;android.support.customtabs.CustomTabsClient_CustomTabsCallbackImpl
+Android.Support.CustomTabs.CustomTabsClient.CustomTabsCallbackImpl;android.support.customtabs.CustomTabsClient_CustomTabsCallbackImpl
+android.support.customtabs.CustomTabsClient_CustomTabsCallbackImpl;android.support.customtabs.CustomTabsClient_CustomTabsCallbackImpl
+Android.Support.CustomTabs.KeepAliveService, Xamarin.Android.Support.CustomTabs;md59f70a99687498e7ba187118950981d26.KeepAliveService
+Android.Support.CustomTabs.KeepAliveService, Xamarin.Android.Support.CustomTabs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md59f70a99687498e7ba187118950981d26.KeepAliveService
+Android.Support.CustomTabs.KeepAliveService;md59f70a99687498e7ba187118950981d26.KeepAliveService
+android.support.customtabs.KeepAliveService;md59f70a99687498e7ba187118950981d26.KeepAliveService
+Android.Support.CustomTabs.CustomTabsServiceConnectionImpl, Xamarin.Android.Support.CustomTabs;md59f70a99687498e7ba187118950981d26.CustomTabsServiceConnectionImpl
+Android.Support.CustomTabs.CustomTabsServiceConnectionImpl, Xamarin.Android.Support.CustomTabs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md59f70a99687498e7ba187118950981d26.CustomTabsServiceConnectionImpl
+Android.Support.CustomTabs.CustomTabsServiceConnectionImpl;md59f70a99687498e7ba187118950981d26.CustomTabsServiceConnectionImpl
+android.support.customtabs.CustomTabsServiceConnectionImpl;md59f70a99687498e7ba187118950981d26.CustomTabsServiceConnectionImpl
 Android.Support.Design.Widget.AppBarLayout/IOnOffsetChangedListenerImplementor, Xamarin.Android.Support.Design;mono.android.support.design.widget.AppBarLayout_OnOffsetChangedListenerImplementor
 Android.Support.Design.Widget.AppBarLayout+IOnOffsetChangedListenerImplementor, Xamarin.Android.Support.Design, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.android.support.design.widget.AppBarLayout_OnOffsetChangedListenerImplementor
 Android.Support.Design.Widget.AppBarLayout.IOnOffsetChangedListenerImplementor;mono.android.support.design.widget.AppBarLayout_OnOffsetChangedListenerImplementor
@@ -226,6 +238,30 @@ Android.Support.V7.Widget.RecyclerView/IRecyclerListenerImplementor, Xamarin.And
 Android.Support.V7.Widget.RecyclerView+IRecyclerListenerImplementor, Xamarin.Android.Support.v7.RecyclerView, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.android.support.v7.widget.RecyclerView_RecyclerListenerImplementor
 Android.Support.V7.Widget.RecyclerView.IRecyclerListenerImplementor;mono.android.support.v7.widget.RecyclerView_RecyclerListenerImplementor
 mono.android.support.v7.widget.RecyclerView_RecyclerListenerImplementor;mono.android.support.v7.widget.RecyclerView_RecyclerListenerImplementor
+Xamarin.Facebook.Places.Internal.LocationPackageManager/IListenerImplementor, Xamarin.Facebook;mono.com.facebook.places.internal.LocationPackageManager_ListenerImplementor
+Xamarin.Facebook.Places.Internal.LocationPackageManager+IListenerImplementor, Xamarin.Facebook, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.facebook.places.internal.LocationPackageManager_ListenerImplementor
+Xamarin.Facebook.Places.Internal.LocationPackageManager.IListenerImplementor;mono.com.facebook.places.internal.LocationPackageManager_ListenerImplementor
+mono.com.facebook.places.internal.LocationPackageManager_ListenerImplementor;mono.com.facebook.places.internal.LocationPackageManager_ListenerImplementor
+Xamarin.Facebook.Login.Widget.ProfilePictureView/IOnErrorListenerImplementor, Xamarin.Facebook;mono.com.facebook.login.widget.ProfilePictureView_OnErrorListenerImplementor
+Xamarin.Facebook.Login.Widget.ProfilePictureView+IOnErrorListenerImplementor, Xamarin.Facebook, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.facebook.login.widget.ProfilePictureView_OnErrorListenerImplementor
+Xamarin.Facebook.Login.Widget.ProfilePictureView.IOnErrorListenerImplementor;mono.com.facebook.login.widget.ProfilePictureView_OnErrorListenerImplementor
+mono.com.facebook.login.widget.ProfilePictureView_OnErrorListenerImplementor;mono.com.facebook.login.widget.ProfilePictureView_OnErrorListenerImplementor
+Xamarin.Facebook.Internal.CollectionMapper/IOnErrorListenerImplementor, Xamarin.Facebook;mono.com.facebook.internal.CollectionMapper_OnErrorListenerImplementor
+Xamarin.Facebook.Internal.CollectionMapper+IOnErrorListenerImplementor, Xamarin.Facebook, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.facebook.internal.CollectionMapper_OnErrorListenerImplementor
+Xamarin.Facebook.Internal.CollectionMapper.IOnErrorListenerImplementor;mono.com.facebook.internal.CollectionMapper_OnErrorListenerImplementor
+mono.com.facebook.internal.CollectionMapper_OnErrorListenerImplementor;mono.com.facebook.internal.CollectionMapper_OnErrorListenerImplementor
+Xamarin.Facebook.Internal.PlatformServiceClient/ICompletedListenerImplementor, Xamarin.Facebook;mono.com.facebook.internal.PlatformServiceClient_CompletedListenerImplementor
+Xamarin.Facebook.Internal.PlatformServiceClient+ICompletedListenerImplementor, Xamarin.Facebook, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.facebook.internal.PlatformServiceClient_CompletedListenerImplementor
+Xamarin.Facebook.Internal.PlatformServiceClient.ICompletedListenerImplementor;mono.com.facebook.internal.PlatformServiceClient_CompletedListenerImplementor
+mono.com.facebook.internal.PlatformServiceClient_CompletedListenerImplementor;mono.com.facebook.internal.PlatformServiceClient_CompletedListenerImplementor
+Xamarin.Facebook.Internal.WebDialog/IOnCompleteListenerImplementor, Xamarin.Facebook;mono.com.facebook.internal.WebDialog_OnCompleteListenerImplementor
+Xamarin.Facebook.Internal.WebDialog+IOnCompleteListenerImplementor, Xamarin.Facebook, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.facebook.internal.WebDialog_OnCompleteListenerImplementor
+Xamarin.Facebook.Internal.WebDialog.IOnCompleteListenerImplementor;mono.com.facebook.internal.WebDialog_OnCompleteListenerImplementor
+mono.com.facebook.internal.WebDialog_OnCompleteListenerImplementor;mono.com.facebook.internal.WebDialog_OnCompleteListenerImplementor
+Xamarin.Facebook.Share.Widget.LikeView/IOnErrorListenerImplementor, Xamarin.Facebook;mono.com.facebook.share.widget.LikeView_OnErrorListenerImplementor
+Xamarin.Facebook.Share.Widget.LikeView+IOnErrorListenerImplementor, Xamarin.Facebook, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.facebook.share.widget.LikeView_OnErrorListenerImplementor
+Xamarin.Facebook.Share.Widget.LikeView.IOnErrorListenerImplementor;mono.com.facebook.share.widget.LikeView_OnErrorListenerImplementor
+mono.com.facebook.share.widget.LikeView_OnErrorListenerImplementor;mono.com.facebook.share.widget.LikeView_OnErrorListenerImplementor
 Android.Gms.Common.Apis.ResultCallback`1, Xamarin.GooglePlayServices.Basement;md531f8cc8d4d39b2fa02686ee0eb368905.ResultCallback_1
 Android.Gms.Common.Apis.ResultCallback`1, Xamarin.GooglePlayServices.Basement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md531f8cc8d4d39b2fa02686ee0eb368905.ResultCallback_1
 Android.Gms.Common.Apis.ResultCallback`1;md531f8cc8d4d39b2fa02686ee0eb368905.ResultCallback_1

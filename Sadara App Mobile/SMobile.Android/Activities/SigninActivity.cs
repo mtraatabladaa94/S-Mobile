@@ -7,11 +7,16 @@ using Firebase.Auth;
 using Android.Gms.Tasks;
 using Android.Content;
 using SMobile.Android.Configuration;
+using Android.Util;
+using Android.Views;
+using Xamarin.Facebook;
+using Java.Lang;
+using Xamarin.Facebook.Login.Widget;
 
 namespace SMobile.Android.Activities
 {
     [Activity(Label = "Iniciar Sesión", MainLauncher = true)]
-    public class SigninActivity : AppCompatActivity, IOnCompleteListener
+    public class SigninActivity : AppCompatActivity, IOnCompleteListener, IFacebookCallback
     {
 
         FirebaseAuth auth;
@@ -24,10 +29,21 @@ namespace SMobile.Android.Activities
 
         TextView txtRegister1, txtRegister2;
 
+        private void handlerLoginFacebook(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
+        {
+
+            //View view = inflater.Inflate();
+
+        }
+
         protected override void OnCreate(Bundle savedInstanceState)
         {
 
             base.OnCreate(savedInstanceState);
+
+            FacebookSdk.ApplicationId = Resource.String.facebook_app_id.ToString();
+
+            FacebookSdk.SdkInitialize(this);
 
             this.SetContentView(Resource.Layout.Signin);
 
@@ -74,6 +90,10 @@ namespace SMobile.Android.Activities
                 this.SignupClick();
 
             };
+
+            LoginButton loginButton = FindViewById<LoginButton>(Resource.Id.login_button);
+
+
 
         }
         
@@ -133,6 +153,21 @@ namespace SMobile.Android.Activities
 
             }
 
+        }
+
+        public void OnCancel()
+        {
+            
+        }
+
+        public void OnError(FacebookException error)
+        {
+            
+        }
+
+        public void OnSuccess(Object result)
+        {
+            
         }
 
     }
