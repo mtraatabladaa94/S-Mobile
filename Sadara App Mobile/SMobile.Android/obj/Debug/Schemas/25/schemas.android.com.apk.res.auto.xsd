@@ -2,7 +2,7 @@
 <xs:schema xmlns:app="http://schemas.android.com/apk/res-auto" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/apk/res-auto" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v25</xs:documentation>
-    <xs:documentation>14/09/2017 16:36:00</xs:documentation>
+    <xs:documentation>19/09/2017 21:42:52</xs:documentation>
   </xs:annotation>
   <xs:attribute name="allowStacking">
     <xs:annotation>
@@ -456,6 +456,10 @@
             <xs:enumeration value="@drawable/ic_off_session" />
             <xs:enumeration value="@drawable/ic_people" />
             <xs:enumeration value="@drawable/ic_playlist_add" />
+            <xs:enumeration value="@drawable/ic_plusone_medium_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_small_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_standard_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_tall_off_client" />
             <xs:enumeration value="@drawable/ic_save" />
             <xs:enumeration value="@drawable/ic_send" />
             <xs:enumeration value="@drawable/messenger_bubble_large_blue" />
@@ -1807,6 +1811,10 @@
             <xs:enumeration value="@drawable/ic_off_session" />
             <xs:enumeration value="@drawable/ic_people" />
             <xs:enumeration value="@drawable/ic_playlist_add" />
+            <xs:enumeration value="@drawable/ic_plusone_medium_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_small_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_standard_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_tall_off_client" />
             <xs:enumeration value="@drawable/ic_save" />
             <xs:enumeration value="@drawable/ic_send" />
             <xs:enumeration value="@drawable/messenger_bubble_large_blue" />
@@ -2365,6 +2373,10 @@
             <xs:enumeration value="@drawable/ic_off_session" />
             <xs:enumeration value="@drawable/ic_people" />
             <xs:enumeration value="@drawable/ic_playlist_add" />
+            <xs:enumeration value="@drawable/ic_plusone_medium_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_small_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_standard_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_tall_off_client" />
             <xs:enumeration value="@drawable/ic_save" />
             <xs:enumeration value="@drawable/ic_send" />
             <xs:enumeration value="@drawable/messenger_bubble_large_blue" />
@@ -2774,6 +2786,10 @@
             <xs:enumeration value="@drawable/ic_off_session" />
             <xs:enumeration value="@drawable/ic_people" />
             <xs:enumeration value="@drawable/ic_playlist_add" />
+            <xs:enumeration value="@drawable/ic_plusone_medium_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_small_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_standard_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_tall_off_client" />
             <xs:enumeration value="@drawable/ic_save" />
             <xs:enumeration value="@drawable/ic_send" />
             <xs:enumeration value="@drawable/messenger_bubble_large_blue" />
@@ -3186,6 +3202,10 @@
             <xs:enumeration value="@drawable/ic_off_session" />
             <xs:enumeration value="@drawable/ic_people" />
             <xs:enumeration value="@drawable/ic_playlist_add" />
+            <xs:enumeration value="@drawable/ic_plusone_medium_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_small_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_standard_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_tall_off_client" />
             <xs:enumeration value="@drawable/ic_save" />
             <xs:enumeration value="@drawable/ic_send" />
             <xs:enumeration value="@drawable/messenger_bubble_large_blue" />
@@ -3595,6 +3615,10 @@
             <xs:enumeration value="@drawable/ic_off_session" />
             <xs:enumeration value="@drawable/ic_people" />
             <xs:enumeration value="@drawable/ic_playlist_add" />
+            <xs:enumeration value="@drawable/ic_plusone_medium_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_small_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_standard_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_tall_off_client" />
             <xs:enumeration value="@drawable/ic_save" />
             <xs:enumeration value="@drawable/ic_send" />
             <xs:enumeration value="@drawable/messenger_bubble_large_blue" />
@@ -6569,6 +6593,10 @@
             <xs:enumeration value="@drawable/ic_off_session" />
             <xs:enumeration value="@drawable/ic_people" />
             <xs:enumeration value="@drawable/ic_playlist_add" />
+            <xs:enumeration value="@drawable/ic_plusone_medium_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_small_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_standard_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_tall_off_client" />
             <xs:enumeration value="@drawable/ic_save" />
             <xs:enumeration value="@drawable/ic_send" />
             <xs:enumeration value="@drawable/messenger_bubble_large_blue" />
@@ -6978,6 +7006,10 @@
             <xs:enumeration value="@drawable/ic_off_session" />
             <xs:enumeration value="@drawable/ic_people" />
             <xs:enumeration value="@drawable/ic_playlist_add" />
+            <xs:enumeration value="@drawable/ic_plusone_medium_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_small_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_standard_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_tall_off_client" />
             <xs:enumeration value="@drawable/ic_save" />
             <xs:enumeration value="@drawable/ic_send" />
             <xs:enumeration value="@drawable/messenger_bubble_large_blue" />
@@ -7513,6 +7545,10 @@
             <xs:enumeration value="@drawable/ic_off_session" />
             <xs:enumeration value="@drawable/ic_people" />
             <xs:enumeration value="@drawable/ic_playlist_add" />
+            <xs:enumeration value="@drawable/ic_plusone_medium_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_small_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_standard_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_tall_off_client" />
             <xs:enumeration value="@drawable/ic_save" />
             <xs:enumeration value="@drawable/ic_send" />
             <xs:enumeration value="@drawable/messenger_bubble_large_blue" />
@@ -8184,6 +8220,10 @@
             <xs:enumeration value="@drawable/ic_off_session" />
             <xs:enumeration value="@drawable/ic_people" />
             <xs:enumeration value="@drawable/ic_playlist_add" />
+            <xs:enumeration value="@drawable/ic_plusone_medium_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_small_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_standard_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_tall_off_client" />
             <xs:enumeration value="@drawable/ic_save" />
             <xs:enumeration value="@drawable/ic_send" />
             <xs:enumeration value="@drawable/messenger_bubble_large_blue" />
@@ -8593,6 +8633,10 @@
             <xs:enumeration value="@drawable/ic_off_session" />
             <xs:enumeration value="@drawable/ic_people" />
             <xs:enumeration value="@drawable/ic_playlist_add" />
+            <xs:enumeration value="@drawable/ic_plusone_medium_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_small_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_standard_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_tall_off_client" />
             <xs:enumeration value="@drawable/ic_save" />
             <xs:enumeration value="@drawable/ic_send" />
             <xs:enumeration value="@drawable/messenger_bubble_large_blue" />
@@ -10095,6 +10139,10 @@
             <xs:enumeration value="@drawable/ic_off_session" />
             <xs:enumeration value="@drawable/ic_people" />
             <xs:enumeration value="@drawable/ic_playlist_add" />
+            <xs:enumeration value="@drawable/ic_plusone_medium_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_small_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_standard_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_tall_off_client" />
             <xs:enumeration value="@drawable/ic_save" />
             <xs:enumeration value="@drawable/ic_send" />
             <xs:enumeration value="@drawable/messenger_bubble_large_blue" />
@@ -10565,6 +10613,10 @@
             <xs:enumeration value="@drawable/ic_off_session" />
             <xs:enumeration value="@drawable/ic_people" />
             <xs:enumeration value="@drawable/ic_playlist_add" />
+            <xs:enumeration value="@drawable/ic_plusone_medium_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_small_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_standard_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_tall_off_client" />
             <xs:enumeration value="@drawable/ic_save" />
             <xs:enumeration value="@drawable/ic_send" />
             <xs:enumeration value="@drawable/messenger_bubble_large_blue" />
@@ -10974,6 +11026,10 @@
             <xs:enumeration value="@drawable/ic_off_session" />
             <xs:enumeration value="@drawable/ic_people" />
             <xs:enumeration value="@drawable/ic_playlist_add" />
+            <xs:enumeration value="@drawable/ic_plusone_medium_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_small_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_standard_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_tall_off_client" />
             <xs:enumeration value="@drawable/ic_save" />
             <xs:enumeration value="@drawable/ic_send" />
             <xs:enumeration value="@drawable/messenger_bubble_large_blue" />
@@ -11473,6 +11529,10 @@
             <xs:enumeration value="@drawable/ic_off_session" />
             <xs:enumeration value="@drawable/ic_people" />
             <xs:enumeration value="@drawable/ic_playlist_add" />
+            <xs:enumeration value="@drawable/ic_plusone_medium_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_small_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_standard_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_tall_off_client" />
             <xs:enumeration value="@drawable/ic_save" />
             <xs:enumeration value="@drawable/ic_send" />
             <xs:enumeration value="@drawable/messenger_bubble_large_blue" />
@@ -12198,6 +12258,10 @@
             <xs:enumeration value="@drawable/ic_off_session" />
             <xs:enumeration value="@drawable/ic_people" />
             <xs:enumeration value="@drawable/ic_playlist_add" />
+            <xs:enumeration value="@drawable/ic_plusone_medium_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_small_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_standard_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_tall_off_client" />
             <xs:enumeration value="@drawable/ic_save" />
             <xs:enumeration value="@drawable/ic_send" />
             <xs:enumeration value="@drawable/messenger_bubble_large_blue" />
@@ -12686,6 +12750,10 @@
             <xs:enumeration value="@drawable/ic_off_session" />
             <xs:enumeration value="@drawable/ic_people" />
             <xs:enumeration value="@drawable/ic_playlist_add" />
+            <xs:enumeration value="@drawable/ic_plusone_medium_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_small_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_standard_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_tall_off_client" />
             <xs:enumeration value="@drawable/ic_save" />
             <xs:enumeration value="@drawable/ic_send" />
             <xs:enumeration value="@drawable/messenger_bubble_large_blue" />
@@ -13332,6 +13400,10 @@
             <xs:enumeration value="@drawable/ic_off_session" />
             <xs:enumeration value="@drawable/ic_people" />
             <xs:enumeration value="@drawable/ic_playlist_add" />
+            <xs:enumeration value="@drawable/ic_plusone_medium_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_small_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_standard_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_tall_off_client" />
             <xs:enumeration value="@drawable/ic_save" />
             <xs:enumeration value="@drawable/ic_send" />
             <xs:enumeration value="@drawable/messenger_bubble_large_blue" />
@@ -13978,6 +14050,10 @@
             <xs:enumeration value="@drawable/ic_off_session" />
             <xs:enumeration value="@drawable/ic_people" />
             <xs:enumeration value="@drawable/ic_playlist_add" />
+            <xs:enumeration value="@drawable/ic_plusone_medium_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_small_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_standard_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_tall_off_client" />
             <xs:enumeration value="@drawable/ic_save" />
             <xs:enumeration value="@drawable/ic_send" />
             <xs:enumeration value="@drawable/messenger_bubble_large_blue" />
@@ -14387,6 +14463,10 @@
             <xs:enumeration value="@drawable/ic_off_session" />
             <xs:enumeration value="@drawable/ic_people" />
             <xs:enumeration value="@drawable/ic_playlist_add" />
+            <xs:enumeration value="@drawable/ic_plusone_medium_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_small_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_standard_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_tall_off_client" />
             <xs:enumeration value="@drawable/ic_save" />
             <xs:enumeration value="@drawable/ic_send" />
             <xs:enumeration value="@drawable/messenger_bubble_large_blue" />
@@ -14922,6 +15002,10 @@
             <xs:enumeration value="@drawable/ic_off_session" />
             <xs:enumeration value="@drawable/ic_people" />
             <xs:enumeration value="@drawable/ic_playlist_add" />
+            <xs:enumeration value="@drawable/ic_plusone_medium_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_small_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_standard_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_tall_off_client" />
             <xs:enumeration value="@drawable/ic_save" />
             <xs:enumeration value="@drawable/ic_send" />
             <xs:enumeration value="@drawable/messenger_bubble_large_blue" />
@@ -15912,6 +15996,10 @@
             <xs:enumeration value="@drawable/ic_off_session" />
             <xs:enumeration value="@drawable/ic_people" />
             <xs:enumeration value="@drawable/ic_playlist_add" />
+            <xs:enumeration value="@drawable/ic_plusone_medium_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_small_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_standard_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_tall_off_client" />
             <xs:enumeration value="@drawable/ic_save" />
             <xs:enumeration value="@drawable/ic_send" />
             <xs:enumeration value="@drawable/messenger_bubble_large_blue" />
@@ -16447,6 +16535,10 @@
             <xs:enumeration value="@drawable/ic_off_session" />
             <xs:enumeration value="@drawable/ic_people" />
             <xs:enumeration value="@drawable/ic_playlist_add" />
+            <xs:enumeration value="@drawable/ic_plusone_medium_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_small_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_standard_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_tall_off_client" />
             <xs:enumeration value="@drawable/ic_save" />
             <xs:enumeration value="@drawable/ic_send" />
             <xs:enumeration value="@drawable/messenger_bubble_large_blue" />
@@ -16982,6 +17074,10 @@
             <xs:enumeration value="@drawable/ic_off_session" />
             <xs:enumeration value="@drawable/ic_people" />
             <xs:enumeration value="@drawable/ic_playlist_add" />
+            <xs:enumeration value="@drawable/ic_plusone_medium_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_small_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_standard_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_tall_off_client" />
             <xs:enumeration value="@drawable/ic_save" />
             <xs:enumeration value="@drawable/ic_send" />
             <xs:enumeration value="@drawable/messenger_bubble_large_blue" />
@@ -17691,6 +17787,10 @@
             <xs:enumeration value="@drawable/ic_off_session" />
             <xs:enumeration value="@drawable/ic_people" />
             <xs:enumeration value="@drawable/ic_playlist_add" />
+            <xs:enumeration value="@drawable/ic_plusone_medium_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_small_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_standard_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_tall_off_client" />
             <xs:enumeration value="@drawable/ic_save" />
             <xs:enumeration value="@drawable/ic_send" />
             <xs:enumeration value="@drawable/messenger_bubble_large_blue" />
@@ -18305,6 +18405,10 @@
             <xs:enumeration value="@drawable/ic_off_session" />
             <xs:enumeration value="@drawable/ic_people" />
             <xs:enumeration value="@drawable/ic_playlist_add" />
+            <xs:enumeration value="@drawable/ic_plusone_medium_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_small_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_standard_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_tall_off_client" />
             <xs:enumeration value="@drawable/ic_save" />
             <xs:enumeration value="@drawable/ic_send" />
             <xs:enumeration value="@drawable/messenger_bubble_large_blue" />
@@ -19122,6 +19226,10 @@
             <xs:enumeration value="@drawable/ic_off_session" />
             <xs:enumeration value="@drawable/ic_people" />
             <xs:enumeration value="@drawable/ic_playlist_add" />
+            <xs:enumeration value="@drawable/ic_plusone_medium_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_small_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_standard_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_tall_off_client" />
             <xs:enumeration value="@drawable/ic_save" />
             <xs:enumeration value="@drawable/ic_send" />
             <xs:enumeration value="@drawable/messenger_bubble_large_blue" />
@@ -19877,6 +19985,10 @@
             <xs:enumeration value="@drawable/ic_off_session" />
             <xs:enumeration value="@drawable/ic_people" />
             <xs:enumeration value="@drawable/ic_playlist_add" />
+            <xs:enumeration value="@drawable/ic_plusone_medium_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_small_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_standard_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_tall_off_client" />
             <xs:enumeration value="@drawable/ic_save" />
             <xs:enumeration value="@drawable/ic_send" />
             <xs:enumeration value="@drawable/messenger_bubble_large_blue" />
@@ -20286,6 +20398,10 @@
             <xs:enumeration value="@drawable/ic_off_session" />
             <xs:enumeration value="@drawable/ic_people" />
             <xs:enumeration value="@drawable/ic_playlist_add" />
+            <xs:enumeration value="@drawable/ic_plusone_medium_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_small_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_standard_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_tall_off_client" />
             <xs:enumeration value="@drawable/ic_save" />
             <xs:enumeration value="@drawable/ic_send" />
             <xs:enumeration value="@drawable/messenger_bubble_large_blue" />
@@ -20875,6 +20991,10 @@
             <xs:enumeration value="@drawable/ic_off_session" />
             <xs:enumeration value="@drawable/ic_people" />
             <xs:enumeration value="@drawable/ic_playlist_add" />
+            <xs:enumeration value="@drawable/ic_plusone_medium_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_small_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_standard_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_tall_off_client" />
             <xs:enumeration value="@drawable/ic_save" />
             <xs:enumeration value="@drawable/ic_send" />
             <xs:enumeration value="@drawable/messenger_bubble_large_blue" />
@@ -21521,6 +21641,10 @@
             <xs:enumeration value="@drawable/ic_off_session" />
             <xs:enumeration value="@drawable/ic_people" />
             <xs:enumeration value="@drawable/ic_playlist_add" />
+            <xs:enumeration value="@drawable/ic_plusone_medium_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_small_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_standard_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_tall_off_client" />
             <xs:enumeration value="@drawable/ic_save" />
             <xs:enumeration value="@drawable/ic_send" />
             <xs:enumeration value="@drawable/messenger_bubble_large_blue" />
@@ -22056,6 +22180,10 @@
             <xs:enumeration value="@drawable/ic_off_session" />
             <xs:enumeration value="@drawable/ic_people" />
             <xs:enumeration value="@drawable/ic_playlist_add" />
+            <xs:enumeration value="@drawable/ic_plusone_medium_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_small_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_standard_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_tall_off_client" />
             <xs:enumeration value="@drawable/ic_save" />
             <xs:enumeration value="@drawable/ic_send" />
             <xs:enumeration value="@drawable/messenger_bubble_large_blue" />
@@ -22702,6 +22830,10 @@
             <xs:enumeration value="@drawable/ic_off_session" />
             <xs:enumeration value="@drawable/ic_people" />
             <xs:enumeration value="@drawable/ic_playlist_add" />
+            <xs:enumeration value="@drawable/ic_plusone_medium_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_small_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_standard_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_tall_off_client" />
             <xs:enumeration value="@drawable/ic_save" />
             <xs:enumeration value="@drawable/ic_send" />
             <xs:enumeration value="@drawable/messenger_bubble_large_blue" />
@@ -23521,6 +23653,10 @@
             <xs:enumeration value="@drawable/ic_off_session" />
             <xs:enumeration value="@drawable/ic_people" />
             <xs:enumeration value="@drawable/ic_playlist_add" />
+            <xs:enumeration value="@drawable/ic_plusone_medium_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_small_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_standard_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_tall_off_client" />
             <xs:enumeration value="@drawable/ic_save" />
             <xs:enumeration value="@drawable/ic_send" />
             <xs:enumeration value="@drawable/messenger_bubble_large_blue" />
@@ -23930,6 +24066,10 @@
             <xs:enumeration value="@drawable/ic_off_session" />
             <xs:enumeration value="@drawable/ic_people" />
             <xs:enumeration value="@drawable/ic_playlist_add" />
+            <xs:enumeration value="@drawable/ic_plusone_medium_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_small_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_standard_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_tall_off_client" />
             <xs:enumeration value="@drawable/ic_save" />
             <xs:enumeration value="@drawable/ic_send" />
             <xs:enumeration value="@drawable/messenger_bubble_large_blue" />
@@ -26688,6 +26828,10 @@
             <xs:enumeration value="@drawable/ic_off_session" />
             <xs:enumeration value="@drawable/ic_people" />
             <xs:enumeration value="@drawable/ic_playlist_add" />
+            <xs:enumeration value="@drawable/ic_plusone_medium_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_small_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_standard_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_tall_off_client" />
             <xs:enumeration value="@drawable/ic_save" />
             <xs:enumeration value="@drawable/ic_send" />
             <xs:enumeration value="@drawable/messenger_bubble_large_blue" />
@@ -29082,6 +29226,10 @@
             <xs:enumeration value="@drawable/ic_off_session" />
             <xs:enumeration value="@drawable/ic_people" />
             <xs:enumeration value="@drawable/ic_playlist_add" />
+            <xs:enumeration value="@drawable/ic_plusone_medium_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_small_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_standard_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_tall_off_client" />
             <xs:enumeration value="@drawable/ic_save" />
             <xs:enumeration value="@drawable/ic_send" />
             <xs:enumeration value="@drawable/messenger_bubble_large_blue" />
@@ -29728,6 +29876,10 @@
             <xs:enumeration value="@drawable/ic_off_session" />
             <xs:enumeration value="@drawable/ic_people" />
             <xs:enumeration value="@drawable/ic_playlist_add" />
+            <xs:enumeration value="@drawable/ic_plusone_medium_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_small_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_standard_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_tall_off_client" />
             <xs:enumeration value="@drawable/ic_save" />
             <xs:enumeration value="@drawable/ic_send" />
             <xs:enumeration value="@drawable/messenger_bubble_large_blue" />
@@ -30137,6 +30289,10 @@
             <xs:enumeration value="@drawable/ic_off_session" />
             <xs:enumeration value="@drawable/ic_people" />
             <xs:enumeration value="@drawable/ic_playlist_add" />
+            <xs:enumeration value="@drawable/ic_plusone_medium_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_small_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_standard_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_tall_off_client" />
             <xs:enumeration value="@drawable/ic_save" />
             <xs:enumeration value="@drawable/ic_send" />
             <xs:enumeration value="@drawable/messenger_bubble_large_blue" />
@@ -30847,6 +31003,10 @@
             <xs:enumeration value="@drawable/ic_off_session" />
             <xs:enumeration value="@drawable/ic_people" />
             <xs:enumeration value="@drawable/ic_playlist_add" />
+            <xs:enumeration value="@drawable/ic_plusone_medium_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_small_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_standard_off_client" />
+            <xs:enumeration value="@drawable/ic_plusone_tall_off_client" />
             <xs:enumeration value="@drawable/ic_save" />
             <xs:enumeration value="@drawable/ic_send" />
             <xs:enumeration value="@drawable/messenger_bubble_large_blue" />

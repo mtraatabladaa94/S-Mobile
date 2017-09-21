@@ -3,6 +3,8 @@
   <!--suppress UsesMinSdkAttributes-->
   <uses-sdk android:minSdkVersion="21" />
   <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+  <uses-permission android:name="android.permission.USE_CREDENTIALS" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <application android:allowBackup="true" android:label="@string/app_name" android:theme="@style/Main.Theme.SadaraTheme" android:name="android.support.multidex.MultiDexApplication" android:debuggable="true">
     <activity android:label="Sadara Mobile" android:theme="@style/Main.Theme.SadaraTheme" android:name="md5c505fb031811711d82aa71f5c0e0a7ac.MainActivity" />

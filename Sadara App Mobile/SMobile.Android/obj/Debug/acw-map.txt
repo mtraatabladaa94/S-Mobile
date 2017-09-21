@@ -6,6 +6,10 @@ SMobile.Android.Activities.SigninActivity, SMobile.Android;md538a4c09f23a14d23b9
 SMobile.Android.Activities.SigninActivity, SMobile.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md538a4c09f23a14d23b9bd851d99c7aeeb.SigninActivity
 SMobile.Android.Activities.SigninActivity;md538a4c09f23a14d23b9bd851d99c7aeeb.SigninActivity
 smobile.android.activities.SigninActivity;md538a4c09f23a14d23b9bd851d99c7aeeb.SigninActivity
+SMobile.Android.Activities.SigninActivity/DialogInterfaceOnCancelListener, SMobile.Android;md538a4c09f23a14d23b9bd851d99c7aeeb.SigninActivity_DialogInterfaceOnCancelListener
+SMobile.Android.Activities.SigninActivity+DialogInterfaceOnCancelListener, SMobile.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md538a4c09f23a14d23b9bd851d99c7aeeb.SigninActivity_DialogInterfaceOnCancelListener
+SMobile.Android.Activities.SigninActivity.DialogInterfaceOnCancelListener;md538a4c09f23a14d23b9bd851d99c7aeeb.SigninActivity_DialogInterfaceOnCancelListener
+smobile.android.activities.SigninActivity_DialogInterfaceOnCancelListener;md538a4c09f23a14d23b9bd851d99c7aeeb.SigninActivity_DialogInterfaceOnCancelListener
 SMobile.Android.Activities.SignupActivity, SMobile.Android;md538a4c09f23a14d23b9bd851d99c7aeeb.SignupActivity
 SMobile.Android.Activities.SignupActivity, SMobile.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md538a4c09f23a14d23b9bd851d99c7aeeb.SignupActivity
 SMobile.Android.Activities.SignupActivity;md538a4c09f23a14d23b9bd851d99c7aeeb.SignupActivity
@@ -322,3 +326,7 @@ Firebase.Database.IValueEventListenerImplementor, Xamarin.Firebase.Database;mono
 Firebase.Database.IValueEventListenerImplementor, Xamarin.Firebase.Database, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.firebase.database.ValueEventListenerImplementor
 Firebase.Database.IValueEventListenerImplementor;mono.com.google.firebase.database.ValueEventListenerImplementor
 mono.com.google.firebase.database.ValueEventListenerImplementor;mono.com.google.firebase.database.ValueEventListenerImplementor
+Android.Gms.Plus.PlusOneButton/IOnPlusOneClickListenerImplementor, Xamarin.GooglePlayServices.Plus;mono.com.google.android.gms.plus.PlusOneButton_OnPlusOneClickListenerImplementor
+Android.Gms.Plus.PlusOneButton+IOnPlusOneClickListenerImplementor, Xamarin.GooglePlayServices.Plus, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.gms.plus.PlusOneButton_OnPlusOneClickListenerImplementor
+Android.Gms.Plus.PlusOneButton.IOnPlusOneClickListenerImplementor;mono.com.google.android.gms.plus.PlusOneButton_OnPlusOneClickListenerImplementor
+mono.com.google.android.gms.plus.PlusOneButton_OnPlusOneClickListenerImplementor;mono.com.google.android.gms.plus.PlusOneButton_OnPlusOneClickListenerImplementor

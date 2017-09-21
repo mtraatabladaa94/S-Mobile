@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/windows_background_light"
+    >
+  
+  <!--Encablezado-->
+  <include
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      layout="@layout/sesionintroheader" />
+  
+  <!--Contenido-->
+  <RelativeLayout
+    android:layout_centerHorizontal="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    >
+    
+    <!--Etiquetas de géneros-->
+    <RelativeLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentRight="true"
+      >
+      
+      <!--Etiqueta Masculino-->
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Masculino"
+        />
+      
+      <!--Etiqueta Femenino-->
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Femenino"
+        />
+    
+    </RelativeLayout>
+    
+    <!--Gender Group-->
+    <RadioGroup
+      android:layout_alignParentLeft="true"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      >
+      
+      <!--Masculino-->
+      <RadioButton
+        android:id="@+id/maleRadioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+      
+      <!--Femenino-->
+      <RadioButton
+        android:id="@+id/femaleRadioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    
+    </RadioGroup>
+    
+  </RelativeLayout>
+  
+</RelativeLayout>

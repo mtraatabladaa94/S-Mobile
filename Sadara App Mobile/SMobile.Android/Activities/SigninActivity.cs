@@ -7,16 +7,24 @@ using Firebase.Auth;
 using Android.Gms.Tasks;
 using Android.Content;
 using SMobile.Android.Configuration;
-using Android.Util;
 using Android.Views;
+
 using Xamarin.Facebook;
 using Java.Lang;
 using Xamarin.Facebook.Login.Widget;
 
+using Android.Gms.Plus;
+using Android.Gms.Common.Apis;
+using Android.Gms.Common;
+using Android.Util;
+using System;
+using Android.Runtime;
+using Android;
+
 namespace SMobile.Android.Activities
 {
     [Activity(Label = "Iniciar Sesión", MainLauncher = true)]
-    public class SigninActivity : AppCompatActivity, IOnCompleteListener, IFacebookCallback
+    public class SigninActivity : AppCompatActivity, IOnCompleteListener, IFacebookCallback, GoogleApiClient.IOnConnectionFailedListener, GoogleApiClient.IConnectionCallbacks
     {
 
         FirebaseAuth auth;
@@ -28,6 +36,19 @@ namespace SMobile.Android.Activities
         RelativeLayout lytSignin, lytSignup;
 
         TextView txtRegister1, txtRegister2;
+
+        //------------SAIRA
+        private GoogleApiClient mGoogleApiClient;
+        private SignInButton mGoogleSignIn;
+
+        const string TAG = "SigninActivity";
+        const string KEY_resuelto = "resuelto";
+        const string KEY_poresolver = "por_resolver";
+        const int RC_SIGN_IN = 9001;
+        TextView mStatus;
+        bool resuelto = false;
+        bool poresolver = false;
+        //____________________
 
         private void handlerLoginFacebook(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
@@ -41,11 +62,77 @@ namespace SMobile.Android.Activities
 
             base.OnCreate(savedInstanceState);
 
+            RequestPermissions(
+
+                new string[] {
+
+                    Manifest.Permission.GetAccounts,
+
+                    Manifest.Permission.UseCredentials,
+
+                    Manifest.Permission.Internet,
+
+                    Manifest.Permission.ReadContacts,
+
+                    Manifest.Permission.Camera
+
+                },
+
+                0
+
+            );
+
             FacebookSdk.ApplicationId = Resource.String.facebook_app_id.ToString();
 
             FacebookSdk.SdkInitialize(this);
 
             this.SetContentView(Resource.Layout.Signin);
+
+            //----------------------------//
+            if (savedInstanceState != null)
+            {
+                resuelto = savedInstanceState.GetBoolean(KEY_resuelto);
+                poresolver = savedInstanceState.GetBoolean(KEY_poresolver);
+            }
+            //___________________________________________________
+            //_____________________________________________________//
+            this.mStatus = FindViewById<TextView>(Resource.Id.forgotPasswordTextView);
+
+            mGoogleSignIn = FindViewById<SignInButton>(Resource.Id.signinButtongoogle);
+            //mGoogleSignIn.SetOnClickListener(this);
+            mGoogleSignIn.Click += delegate {
+                mStatus.Text = "Sign in..";
+                poresolver = true;
+                mGoogleApiClient.Connect();
+            };
+            //FindViewById<TextView>(Resource.Id.SignOut).SetOnClickListener(this);
+            TextView txtSignout = FindViewById<TextView>(Resource.Id.SignOut);
+            mStatus.Click += delegate {
+                if (mGoogleApiClient.IsConnected)
+                {
+                    PlusClass.AccountApi.ClearDefaultAccount(mGoogleApiClient);
+                    mGoogleApiClient.Disconnect();
+                    Toast.MakeText(this, "Ya habia iniciado sesión", ToastLength.Long).Show();
+                }
+                else
+                {
+                    Toast.MakeText(this, "No ha iniciado sesión", ToastLength.Long).Show();
+                }
+                UpdateUI(false);
+            };
+
+            mGoogleApiClient = new GoogleApiClient.Builder(this)
+             .AddConnectionCallbacks(this)
+             .AddOnConnectionFailedListener(this)
+             .AddApi(PlusClass.API)
+             .AddScope(new Scope(Scopes.Profile))
+             .Build();
+
+
+            // GoogleSignInOptions gso= new GoogleSignInOptions.B
+            // GoogleApiClientBuilder builder = new GoogleApiClientBuilder(this);
+
+            //_____________________________________________________///
 
             this.StartFirebaseAuth();
 
@@ -155,6 +242,7 @@ namespace SMobile.Android.Activities
 
         }
 
+        //Facebook Callback
         public void OnCancel()
         {
             
@@ -165,9 +253,146 @@ namespace SMobile.Android.Activities
             
         }
 
-        public void OnSuccess(Object result)
+        public void OnSuccess(Java.Lang.Object result)
         {
             
+        }
+        //End Facebook Callback
+
+        //Google API Client
+        public void OnConnectionFailed(ConnectionResult result)
+        {
+            Log.Debug(TAG, "onConnectionFailed:" + result);
+            
+            if (!resuelto && poresolver)
+            {
+                if (result.HasResolution)
+                {
+                    try
+                    {
+                        result.StartResolutionForResult(this, RC_SIGN_IN);
+                        resuelto = true;
+                    }
+                    catch (IntentSender.SendIntentException e)
+                    {
+                        Log.Error(TAG, "No se puede resolver la conexión.", e);
+                        resuelto = false;
+                        mGoogleApiClient.Connect();
+                    }
+                }
+                else
+                {
+                    ShowErrorDialog(result);
+                }
+            }
+            else
+            {
+                UpdateUI(false);
+            }
+        }
+
+        class DialogInterfaceOnCancelListener : Java.Lang.Object, IDialogInterfaceOnCancelListener
+        {
+            public Action<IDialogInterface> OnCancelImpl { get; set; }
+
+            public void OnCancel(IDialogInterface dialog)
+            {
+                OnCancelImpl(dialog);
+            }
+        }
+
+        void ShowErrorDialog(ConnectionResult connectionResult)
+        {
+            int errorCode = connectionResult.ErrorCode;
+
+            if (GooglePlayServicesUtil.IsUserRecoverableError(errorCode))
+            {
+                var listener = new DialogInterfaceOnCancelListener();
+                listener.OnCancelImpl = (dialog) =>
+                {
+                    poresolver = false;
+                    UpdateUI(false);
+                };
+                GooglePlayServicesUtil.GetErrorDialog(errorCode, this, RC_SIGN_IN, listener).Show();
+            }
+            else
+            {
+                //var errorstring = string.Format(GetString(Resource.String.common_google_play_services_update_title), errorCode);
+                var errorstring = string.Format("ERROR Google Play Service", errorCode);
+                Toast.MakeText(this, errorstring, ToastLength.Short).Show();
+
+                poresolver = false;
+                UpdateUI(false);
+            }
+        }
+
+        public void OnConnected(Bundle connectionHint)
+        {
+            Log.Debug(TAG, "onConnected:" + connectionHint);
+
+            UpdateUI(true);
+        }
+
+        public void OnConnectionSuspended(int cause)
+        {
+            Log.Warn(TAG, "onConnectionSuspended:" + cause);
+        }
+
+        void UpdateUI(bool isSignedIn)
+        {
+            if (isSignedIn)
+            {
+                var person = PlusClass.PeopleApi.GetCurrentPerson(mGoogleApiClient);
+                var name = string.Empty;
+                if (person != null)
+                    name = person.DisplayName;
+                var genero = person.Gender;
+                var fechaNac = person.Birthday;
+                var personPhoto = person.Image;
+                var email = PlusClass.AccountApi.GetAccountName(mGoogleApiClient);
+                //mStatus.Text = string.Format(GetString(Resource.String.signed_in_fmt), name);
+                mStatus.Text = name.ToString();
+
+
+                FindViewById(Resource.Id.signinButtongoogle).Visibility = ViewStates.Gone;
+                FindViewById(Resource.Id.SignOut).Visibility = ViewStates.Visible;
+            }
+            else
+            {
+                mStatus.Text = "Sign OUT";
+
+                FindViewById(Resource.Id.signinButtongoogle).Enabled = true;
+                //  FindViewById(Resource.Id.sign_in_button).Visibility = ViewStates.Visible;
+                FindViewById(Resource.Id.SignOut).Visibility = ViewStates.Gone;
+            }
+        }
+
+        //End Google API Client
+
+        protected override void OnStart()
+        {
+            base.OnStart();
+            mGoogleApiClient.Connect();
+        }
+
+        protected override void OnStop()
+        {
+            base.OnStop();
+            mGoogleApiClient.Disconnect();
+        }
+        protected override void OnActivityResult(int requestCode, [GeneratedEnum] Result resultCode, Intent data)
+        {
+            base.OnActivityResult(requestCode, resultCode, data);
+            Log.Debug(TAG, "onActivityResult:" + requestCode + ":" + resultCode + ":" + data);
+            if (requestCode == RC_SIGN_IN)
+            {
+                if (resultCode != Result.Ok)
+                {
+                    poresolver = false;
+                }
+                resuelto = false;
+                mGoogleApiClient.Connect();
+            }
         }
 
     }
