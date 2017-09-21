@@ -191,6 +191,7 @@
     <Compile Include="Activities\SignupActivity.cs" />
     <Compile Include="Configuration\FirebaseConfig.cs" />
     <Compile Include="Models\Entities\UserEntity.cs" />
+    <Compile Include="Models\FirebaseModel\UserModel.cs" />
     <Compile Include="Models\RealmModel\PORO\ProductEntity.cs" />
     <Compile Include="Models\RealmModel\RealmConfig.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
@@ -218,6 +219,9 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\SesionIntroHeader.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\SignupEmailOrPhone.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\SignupGender.axml">

@@ -1,72 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
+    android:id="@+id/SignupGenderLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/windows_background_light"
-    >
+    android:background="@color/windows_background_light">
   
-  <!--Encablezado-->
   <include
+      android:id="@+id/headerInclude"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       layout="@layout/sesionintroheader" />
   
-  <!--Contenido-->
   <RelativeLayout
-    android:layout_centerHorizontal="true"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:padding="16dp"
-    >
-    
-    <!--Etiquetas de géneros-->
-    <RelativeLayout
-      android:layout_width="wrap_content"
+      android:id="@+id/contentLayout"
+      android:layout_below="@+id/headerInclude"
+      android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:layout_alignParentRight="true"
-      >
-      
-      <!--Etiqueta Masculino-->
-      <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Masculino"
-        />
-      
-      <!--Etiqueta Femenino-->
-      <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Femenino"
-        />
+      android:padding="16dp">
     
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido ¿Eres hombre o mujer?"
+        android:textColor="@color/text_color_primary_light"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+    
+    <RelativeLayout
+      android:id="@+id/genderLayout"
+      android:layout_below="@+id/titleTextView"
+      android:layout_centerHorizontal="true"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+    >
+      
+      <LinearLayout
+        android:id="@+id/genderTextLayout"
+        android:layout_alignParentLeft="true"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        
+        <RelativeLayout
+          android:layout_marginTop="8dp"
+          android:layout_marginBottom="8dp"
+          android:layout_width="wrap_content"
+          android:layout_height="32dp"
+          >
+          
+          <TextView
+            android:layout_centerVertical="true"
+            android:text="Hombre"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+          />
+          
+        </RelativeLayout>
+        
+        <RelativeLayout
+          android:layout_marginTop="8dp"
+          android:layout_marginBottom="8dp"
+          android:layout_width="wrap_content"
+          android:layout_height="32dp"
+          >
+          
+          <TextView
+            android:layout_centerVertical="true"
+            android:text="Mujer"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+          />
+          
+        </RelativeLayout>
+        
+      </LinearLayout>
+      <RadioGroup
+        android:id="@+id/genderRadioGroup"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton android:id="@+id/maleRadioButton"
+          android:layout_marginTop="8dp"
+          android:layout_marginBottom="8dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+        <RadioButton android:id="@+id/femaleRadioButton"
+          android:layout_marginTop="8dp"
+          android:layout_marginBottom="8dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+      </RadioGroup>
     </RelativeLayout>
     
-    <!--Gender Group-->
-    <RadioGroup
-      android:layout_alignParentLeft="true"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      >
-      
-      <!--Masculino-->
-      <RadioButton
-        android:id="@+id/maleRadioButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        />
-      
-      <!--Femenino-->
-      <RadioButton
-        android:id="@+id/femaleRadioButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        />
-    
-    </RadioGroup>
+    <Button
+      android:id="@+id/nextSignupGenderButton"
+      android:layout_below="@+id/genderLayout"
+      android:text="Siguiente"
+      style="@style/Widget.AppCompat.Button.Colored"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
     
   </RelativeLayout>
-  
 </RelativeLayout>

@@ -3028,13 +3028,7 @@ containing a value of this type.
         public static final int abc_textfield_search_material=0x7f020051;
         public static final int abc_vector_test=0x7f020052;
         public static final int avd_hide_password=0x7f020053;
-        public static final int avd_hide_password_1=0x7f0200b4;
-        public static final int avd_hide_password_2=0x7f0200b5;
-        public static final int avd_hide_password_3=0x7f0200b6;
         public static final int avd_show_password=0x7f020054;
-        public static final int avd_show_password_1=0x7f0200b7;
-        public static final int avd_show_password_2=0x7f0200b8;
-        public static final int avd_show_password_3=0x7f0200b9;
         public static final int background_button_primary=0x7f020055;
         public static final int background_edit_text_primary=0x7f020056;
         public static final int com_facebook_auth_dialog_background=0x7f020057;
@@ -3135,6 +3129,8 @@ containing a value of this type.
         public static final int SignOut=0x7f0b00cd;
         public static final int Signin=0x7f0b00c4;
         public static final int Signup=0x7f0b00d2;
+        public static final int SignupGenderLayout=0x7f0b00db;
+        public static final int SignupLocation=0x7f0b00e2;
         public static final int action0=0x7f0b00ae;
         public static final int action_bar=0x7f0b0076;
         public static final int action_bar_activity_content=0x7f0b0001;
@@ -3216,11 +3212,15 @@ containing a value of this type.
         public static final int exitUntilCollapsed=0x7f0b0042;
         public static final int expand_activities_button=0x7f0b0057;
         public static final int expanded_menu=0x7f0b006c;
+        public static final int femaleRadioButton=0x7f0b00e0;
         public static final int fill=0x7f0b004d;
         public static final int fill_horizontal=0x7f0b004e;
         public static final int fill_vertical=0x7f0b0047;
         public static final int fixed=0x7f0b0051;
         public static final int forgotPasswordTextView=0x7f0b00c9;
+        public static final int genderLayout=0x7f0b00dc;
+        public static final int genderRadioGroup=0x7f0b00de;
+        public static final int genderTextLayout=0x7f0b00dd;
         public static final int headerInclude=0x7f0b00d3;
         public static final int home=0x7f0b0005;
         public static final int homeAsUp=0x7f0b002c;
@@ -3247,7 +3247,8 @@ containing a value of this type.
         public static final int loginLayout=0x7f0b00da;
         public static final int login_button=0x7f0b00cb;
         public static final int main_content=0x7f0b00a7;
-        public static final int masked=0x7f0b00dc;
+        public static final int maleRadioButton=0x7f0b00df;
+        public static final int masked=0x7f0b00e4;
         public static final int media_actions=0x7f0b00b1;
         public static final int messenger_send_button=0x7f0b00aa;
         public static final int middle=0x7f0b003a;
@@ -3255,15 +3256,15 @@ containing a value of this type.
         public static final int multiply=0x7f0b0031;
         public static final int nameEditText=0x7f0b00d7;
         public static final int nameTextInputLayout=0x7f0b00d6;
-        public static final int nav_activities=0x7f0b00e3;
-        public static final int nav_config=0x7f0b00e4;
-        public static final int nav_create_list=0x7f0b00e0;
-        public static final int nav_discussion=0x7f0b00df;
-        public static final int nav_favorite=0x7f0b00e1;
-        public static final int nav_friends=0x7f0b00de;
-        public static final int nav_home=0x7f0b00dd;
-        public static final int nav_off_session=0x7f0b00e5;
-        public static final int nav_saved=0x7f0b00e2;
+        public static final int nav_activities=0x7f0b00eb;
+        public static final int nav_config=0x7f0b00ec;
+        public static final int nav_create_list=0x7f0b00e8;
+        public static final int nav_discussion=0x7f0b00e7;
+        public static final int nav_favorite=0x7f0b00e9;
+        public static final int nav_friends=0x7f0b00e6;
+        public static final int nav_home=0x7f0b00e5;
+        public static final int nav_off_session=0x7f0b00ed;
+        public static final int nav_saved=0x7f0b00ea;
         public static final int nav_view=0x7f0b00a1;
         public static final int navheader_profile=0x7f0b00a4;
         public static final int navheader_useremail=0x7f0b00a6;
@@ -3271,6 +3272,7 @@ containing a value of this type.
         public static final int navigation_header_container=0x7f0b009a;
         public static final int never=0x7f0b003e;
         public static final int never_display=0x7f0b0025;
+        public static final int nextButton=0x7f0b00e1;
         public static final int none=0x7f0b0011;
         public static final int normal=0x7f0b0027;
         public static final int notification_background=0x7f0b00ba;
@@ -3358,7 +3360,7 @@ containing a value of this type.
         public static final int useLogo=0x7f0b0030;
         public static final int usernameEditText=0x7f0b00c6;
         public static final int view_offset_helper=0x7f0b000e;
-        public static final int visible=0x7f0b00db;
+        public static final int visible=0x7f0b00e3;
         public static final int wide=0x7f0b0014;
         public static final int withText=0x7f0b003f;
         public static final int wrap_content=0x7f0b0037;
@@ -3453,7 +3455,9 @@ containing a value of this type.
         public static final int sesionintroheader=0x7f03004a;
         public static final int signin=0x7f03004b;
         public static final int signup=0x7f03004c;
-        public static final int support_simple_spinner_dropdown_item=0x7f03004d;
+        public static final int signupgender=0x7f03004d;
+        public static final int signuplocation=0x7f03004e;
+        public static final int support_simple_spinner_dropdown_item=0x7f03004f;
     }
     public static final class menu {
         public static final int navmenu=0x7f0d0000;

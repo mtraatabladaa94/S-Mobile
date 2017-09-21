@@ -13,19 +13,20 @@ namespace SMobile.Android.Models.Entities
     internal sealed class UserEntity
     {
 
-        public string uid { get; set; }
+        public string uid { get; set; } // Key del nodo
 
-        public string firstName { get; set; }
+        public string firstName { get; set; } // Nombres
 
-        public string lastName { get; set; }
+        public string lastName { get; set; } // Apellidos
 
-        public async void UserEntityD()
-        {
+        public string gender { get; set; } // género
 
-            FirebaseClient db = new FirebaseClient("");
+        public string birthDate { get; set; } // fecha de nacimiento
 
-        }
-        
+        public string email { get; set; } // correo electrónico
+
+        public string phone { get; set; } // número de teléfono
+
     }
 
 }

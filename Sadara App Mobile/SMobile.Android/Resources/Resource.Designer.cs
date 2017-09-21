@@ -2395,26 +2395,8 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f020053
 			public const int avd_hide_password = 2130837587;
 			
-			// aapt resource value: 0x7f0200b4
-			public const int avd_hide_password_1 = 2130837684;
-			
-			// aapt resource value: 0x7f0200b5
-			public const int avd_hide_password_2 = 2130837685;
-			
-			// aapt resource value: 0x7f0200b6
-			public const int avd_hide_password_3 = 2130837686;
-			
 			// aapt resource value: 0x7f020054
 			public const int avd_show_password = 2130837588;
-			
-			// aapt resource value: 0x7f0200b7
-			public const int avd_show_password_1 = 2130837687;
-			
-			// aapt resource value: 0x7f0200b8
-			public const int avd_show_password_2 = 2130837688;
-			
-			// aapt resource value: 0x7f0200b9
-			public const int avd_show_password_3 = 2130837689;
 			
 			// aapt resource value: 0x7f020055
 			public const int background_button_primary = 2130837589;
@@ -2723,6 +2705,12 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f0b00d2
 			public const int Signup = 2131427538;
 			
+			// aapt resource value: 0x7f0b00dc
+			public const int SignupEmailOrPhone = 2131427548;
+			
+			// aapt resource value: 0x7f0b00e3
+			public const int SignupGenderLayout = 2131427555;
+			
 			// aapt resource value: 0x7f0b00ae
 			public const int action0 = 2131427502;
 			
@@ -2945,6 +2933,12 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f0b0078
 			public const int edit_query = 2131427448;
 			
+			// aapt resource value: 0x7f0b00de
+			public const int emailEditText = 2131427550;
+			
+			// aapt resource value: 0x7f0b00dd
+			public const int emailTextInputLayout = 2131427549;
+			
 			// aapt resource value: 0x7f0b0039
 			public const int end = 2131427385;
 			
@@ -2966,8 +2960,8 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f0b006c
 			public const int expanded_menu = 2131427436;
 			
-			// aapt resource value: 0x7f0b00dc
-			public const int femaleRadioButton = 2131427548;
+			// aapt resource value: 0x7f0b00e8
+			public const int femaleRadioButton = 2131427560;
 			
 			// aapt resource value: 0x7f0b004d
 			public const int fill = 2131427405;
@@ -2978,11 +2972,26 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f0b0047
 			public const int fill_vertical = 2131427399;
 			
+			// aapt resource value: 0x7f0b00d7
+			public const int firstnameEditText = 2131427543;
+			
+			// aapt resource value: 0x7f0b00d6
+			public const int firstnameTextInputLayout = 2131427542;
+			
 			// aapt resource value: 0x7f0b0051
 			public const int @fixed = 2131427409;
 			
 			// aapt resource value: 0x7f0b00c9
 			public const int forgotPasswordTextView = 2131427529;
+			
+			// aapt resource value: 0x7f0b00e4
+			public const int genderLayout = 2131427556;
+			
+			// aapt resource value: 0x7f0b00e6
+			public const int genderRadioGroup = 2131427558;
+			
+			// aapt resource value: 0x7f0b00e5
+			public const int genderTextLayout = 2131427557;
 			
 			// aapt resource value: 0x7f0b00d3
 			public const int headerInclude = 2131427539;
@@ -3053,8 +3062,8 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f0b005a
 			public const int list_item = 2131427418;
 			
-			// aapt resource value: 0x7f0b00da
-			public const int loginLayout = 2131427546;
+			// aapt resource value: 0x7f0b00db
+			public const int loginLayout = 2131427547;
 			
 			// aapt resource value: 0x7f0b00cb
 			public const int login_button = 2131427531;
@@ -3062,11 +3071,11 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f0b00a7
 			public const int main_content = 2131427495;
 			
-			// aapt resource value: 0x7f0b00db
-			public const int maleRadioButton = 2131427547;
+			// aapt resource value: 0x7f0b00e7
+			public const int maleRadioButton = 2131427559;
 			
-			// aapt resource value: 0x7f0b00de
-			public const int masked = 2131427550;
+			// aapt resource value: 0x7f0b00eb
+			public const int masked = 2131427563;
 			
 			// aapt resource value: 0x7f0b00b1
 			public const int media_actions = 2131427505;
@@ -3083,38 +3092,35 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f0b0031
 			public const int multiply = 2131427377;
 			
-			// aapt resource value: 0x7f0b00d7
-			public const int nameEditText = 2131427543;
-			
-			// aapt resource value: 0x7f0b00d6
-			public const int nameTextInputLayout = 2131427542;
-			
-			// aapt resource value: 0x7f0b00e5
-			public const int nav_activities = 2131427557;
-			
-			// aapt resource value: 0x7f0b00e6
-			public const int nav_config = 2131427558;
-			
-			// aapt resource value: 0x7f0b00e2
-			public const int nav_create_list = 2131427554;
-			
-			// aapt resource value: 0x7f0b00e1
-			public const int nav_discussion = 2131427553;
-			
-			// aapt resource value: 0x7f0b00e3
-			public const int nav_favorite = 2131427555;
-			
 			// aapt resource value: 0x7f0b00e0
-			public const int nav_friends = 2131427552;
+			public const int nameTextInputLayout = 2131427552;
 			
-			// aapt resource value: 0x7f0b00df
-			public const int nav_home = 2131427551;
+			// aapt resource value: 0x7f0b00f2
+			public const int nav_activities = 2131427570;
 			
-			// aapt resource value: 0x7f0b00e7
-			public const int nav_off_session = 2131427559;
+			// aapt resource value: 0x7f0b00f3
+			public const int nav_config = 2131427571;
 			
-			// aapt resource value: 0x7f0b00e4
-			public const int nav_saved = 2131427556;
+			// aapt resource value: 0x7f0b00ef
+			public const int nav_create_list = 2131427567;
+			
+			// aapt resource value: 0x7f0b00ee
+			public const int nav_discussion = 2131427566;
+			
+			// aapt resource value: 0x7f0b00f0
+			public const int nav_favorite = 2131427568;
+			
+			// aapt resource value: 0x7f0b00ed
+			public const int nav_friends = 2131427565;
+			
+			// aapt resource value: 0x7f0b00ec
+			public const int nav_home = 2131427564;
+			
+			// aapt resource value: 0x7f0b00f4
+			public const int nav_off_session = 2131427572;
+			
+			// aapt resource value: 0x7f0b00f1
+			public const int nav_saved = 2131427569;
 			
 			// aapt resource value: 0x7f0b00a1
 			public const int nav_view = 2131427489;
@@ -3136,6 +3142,15 @@ namespace SMobile.Android
 			
 			// aapt resource value: 0x7f0b0025
 			public const int never_display = 2131427365;
+			
+			// aapt resource value: 0x7f0b00da
+			public const int nextSignupButton = 2131427546;
+			
+			// aapt resource value: 0x7f0b00e2
+			public const int nextSignupEmailOrPhoneButton = 2131427554;
+			
+			// aapt resource value: 0x7f0b00e9
+			public const int nextSignupGenderButton = 2131427561;
 			
 			// aapt resource value: 0x7f0b0011
 			public const int none = 2131427345;
@@ -3169,6 +3184,12 @@ namespace SMobile.Android
 			
 			// aapt resource value: 0x7f0b00c7
 			public const int passwordEditText = 2131427527;
+			
+			// aapt resource value: 0x7f0b00e1
+			public const int phoneEditText = 2131427553;
+			
+			// aapt resource value: 0x7f0b00df
+			public const int phoneTextInputLayout = 2131427551;
 			
 			// aapt resource value: 0x7f0b004a
 			public const int pin = 2131427402;
@@ -3398,8 +3419,8 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f0b000e
 			public const int view_offset_helper = 2131427342;
 			
-			// aapt resource value: 0x7f0b00dd
-			public const int visible = 2131427549;
+			// aapt resource value: 0x7f0b00ea
+			public const int visible = 2131427562;
 			
 			// aapt resource value: 0x7f0b0014
 			public const int wide = 2131427348;
@@ -3698,10 +3719,13 @@ namespace SMobile.Android
 			public const int Signup = 2130903116;
 			
 			// aapt resource value: 0x7f03004d
-			public const int SignupGender = 2130903117;
+			public const int SignupEmailOrPhone = 2130903117;
 			
 			// aapt resource value: 0x7f03004e
-			public const int support_simple_spinner_dropdown_item = 2130903118;
+			public const int SignupGender = 2130903118;
+			
+			// aapt resource value: 0x7f03004f
+			public const int support_simple_spinner_dropdown_item = 2130903119;
 			
 			static Layout()
 			{
