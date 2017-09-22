@@ -24,6 +24,13 @@ namespace SMobile.Android.Models.FirebaseModel
 
         }
 
+        public void Register()
+        {
+
+            
+
+        }
+
         public async void Edit(Models.Entities.UserEntity user)
         {
             

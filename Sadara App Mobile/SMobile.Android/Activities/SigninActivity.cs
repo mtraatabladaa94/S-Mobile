@@ -12,6 +12,7 @@ using Android.Views;
 using Xamarin.Facebook;
 using Java.Lang;
 using Xamarin.Facebook.Login.Widget;
+using Xamarin.Facebook.Login;
 
 using Android.Gms.Plus;
 using Android.Gms.Common.Apis;
@@ -50,12 +51,11 @@ namespace SMobile.Android.Activities
         bool poresolver = false;
         //____________________
 
-        private void handlerLoginFacebook(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
-        {
 
-            //View view = inflater.Inflate();
-
-        }
+        /*Facebook Objects*/
+        Button facebookButton;
+        ICallbackManager facebookCallbackManager;
+        /*Fin Facebook Objects*/
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -81,10 +81,6 @@ namespace SMobile.Android.Activities
                 0
 
             );
-
-            FacebookSdk.ApplicationId = Resource.String.facebook_app_id.ToString();
-
-            FacebookSdk.SdkInitialize(this);
 
             this.SetContentView(Resource.Layout.Signin);
 
@@ -178,7 +174,46 @@ namespace SMobile.Android.Activities
 
             };
 
-            LoginButton loginButton = FindViewById<LoginButton>(Resource.Id.login_button);
+            //LoginButton loginButton = FindViewById<LoginButton>(Resource.Id.login_button);
+
+
+
+            /*Login de Facebook*/
+            FacebookSdk.ApplicationId = Resource.String.facebook_app_id.ToString();
+
+            FacebookSdk.SdkInitialize(this);
+
+            this.facebookButton = FindViewById<Button>(Resource.Id.facebookButton);//Receipt button from view
+
+            this.facebookCallbackManager = CallbackManagerFactory.Create();//Create interface 'ICallbackManager'
+
+            LoginManager.Instance.RegisterCallback(facebookCallbackManager, this);//Register instance 'ICallbackManager' in LoginManager
+
+            this.facebookButton.Click += (e, handler) => {
+
+                if (AccessToken.CurrentAccessToken == null)
+                {
+                    
+                    LoginManager.Instance.LogInWithReadPermissions(
+
+                        this,
+
+                        new System.Collections.Generic.List<string>() {
+
+                            "public_profile",
+
+                            "email"
+
+                        }
+
+                    );
+
+                    
+
+                }
+
+            };
+            /*Fin Login de Facebook*/
 
 
 
@@ -245,17 +280,27 @@ namespace SMobile.Android.Activities
         //Facebook Callback
         public void OnCancel()
         {
-            
+
         }
 
         public void OnError(FacebookException error)
         {
-            
+
         }
 
         public void OnSuccess(Java.Lang.Object result)
         {
-            
+            if (AccessToken.CurrentAccessToken == null)
+            {
+
+                LoginResult loginResult = result as LoginResult;
+
+                var email = loginResult.Class.GetField("email").ToString();
+
+                Toast.MakeText(this, email, ToastLength.Long).Show();
+
+            }
+
         }
         //End Facebook Callback
 
@@ -349,6 +394,8 @@ namespace SMobile.Android.Activities
                 var genero = person.Gender;
                 var fechaNac = person.Birthday;
                 var personPhoto = person.Image;
+                    
+            
                 var email = PlusClass.AccountApi.GetAccountName(mGoogleApiClient);
                 //mStatus.Text = string.Format(GetString(Resource.String.signed_in_fmt), name);
                 mStatus.Text = name.ToString();
@@ -380,6 +427,7 @@ namespace SMobile.Android.Activities
             base.OnStop();
             mGoogleApiClient.Disconnect();
         }
+
         protected override void OnActivityResult(int requestCode, [GeneratedEnum] Result resultCode, Intent data)
         {
             base.OnActivityResult(requestCode, resultCode, data);

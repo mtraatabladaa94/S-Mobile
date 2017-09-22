@@ -36,7 +36,7 @@ namespace SMobile.Android.Activities
 
             this.nextSignupButton = FindViewById<Button>(Resource.Id.nextSignupButton);
 
-            this.nextSignupButton.Click += new System.EventHandler(this.nextButton_Click);
+            //this.nextSignupButton.Click += new System.EventHandler(this.nextButton_Click);
             
         }
 
