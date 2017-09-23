@@ -82,6 +82,10 @@ namespace SMobile.Android.Activities
 
             );
 
+            /*Initialize SDK Facebook*/
+            FacebookSdk.SdkInitialize(this);
+            /*Fin SDK Facebook*/
+
             this.SetContentView(Resource.Layout.Signin);
 
             //----------------------------//
@@ -174,18 +178,14 @@ namespace SMobile.Android.Activities
 
             };
 
-            //LoginButton loginButton = FindViewById<LoginButton>(Resource.Id.login_button);
-
-
-
+            
             /*Login de Facebook*/
-            FacebookSdk.ApplicationId = Resource.String.facebook_app_id.ToString();
-
-            FacebookSdk.SdkInitialize(this);
-
             this.facebookButton = FindViewById<Button>(Resource.Id.facebookButton);//Receipt button from view
-
+            
             this.facebookCallbackManager = CallbackManagerFactory.Create();//Create interface 'ICallbackManager'
+
+            LoginButton loginButton = FindViewById<LoginButton>(Resource.Id.login_button);
+            loginButton.RegisterCallback(this.facebookCallbackManager, this);
 
             LoginManager.Instance.RegisterCallback(facebookCallbackManager, this);//Register instance 'ICallbackManager' in LoginManager
 
@@ -441,6 +441,9 @@ namespace SMobile.Android.Activities
                 resuelto = false;
                 mGoogleApiClient.Connect();
             }
+
+            /*Facebook SDK Result*/
+            this.facebookCallbackManager.OnActivityResult(requestCode, (int)resultCode, data);
         }
 
     }
