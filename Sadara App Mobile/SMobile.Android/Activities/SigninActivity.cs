@@ -208,21 +208,14 @@ namespace SMobile.Android.Activities
                         this,
 
                         new System.Collections.Generic.List<string>() {
-
-                            "public_profile",
-
+                            
                             "email",
-
-                            "user_about_me",
-
-                            "user_birthday",
                             
                         }
 
                     );
 
                     
-
                 }
 
             };
@@ -319,6 +312,7 @@ namespace SMobile.Android.Activities
         {
             if (AccessToken.CurrentAccessToken != null)
             {
+                var permisos = AccessToken.CurrentAccessToken.Permissions;
 
                 GraphRequest graphRequest = GraphRequest.NewMeRequest(AccessToken.CurrentAccessToken, this);
 
@@ -479,7 +473,29 @@ namespace SMobile.Android.Activities
 
         public void OnCompleted(JSONObject @object, GraphResponse response)
         {
+
             Models.FacebookModel.FacebookResult result = JsonConvert.DeserializeObject<Models.FacebookModel.FacebookResult>(@object.ToString());
+
+            Models.FirebaseModel.UserModel userModel = new Models.FirebaseModel.UserModel();
+
+            userModel.Add(
+                new Models.Entities.UserEntity() {
+
+                    firstName = result.first_name,
+
+                    lastName = result.last_name,
+
+                    email = result.email,
+
+                    gender = result.gender,
+
+                    birthDate = "",
+
+                    phone = "",
+
+                }
+            );
+
         }
     }
 

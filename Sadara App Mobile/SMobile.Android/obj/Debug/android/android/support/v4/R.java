@@ -3028,7 +3028,13 @@ containing a value of this type.
         public static final int abc_textfield_search_material=0x7f020051;
         public static final int abc_vector_test=0x7f020052;
         public static final int avd_hide_password=0x7f020053;
+        public static final int avd_hide_password_1=0x7f0200b4;
+        public static final int avd_hide_password_2=0x7f0200b5;
+        public static final int avd_hide_password_3=0x7f0200b6;
         public static final int avd_show_password=0x7f020054;
+        public static final int avd_show_password_1=0x7f0200b7;
+        public static final int avd_show_password_2=0x7f0200b8;
+        public static final int avd_show_password_3=0x7f0200b9;
         public static final int background_button_primary=0x7f020055;
         public static final int background_edit_text_primary=0x7f020056;
         public static final int com_facebook_auth_dialog_background=0x7f020057;
