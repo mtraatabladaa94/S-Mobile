@@ -191,6 +191,9 @@
     <Compile Include="Activities\SignupActivity.cs" />
     <Compile Include="Configuration\FirebaseConfig.cs" />
     <Compile Include="Models\Entities\UserEntity.cs" />
+    <Compile Include="Models\FacebookModel\FacebookResult.cs" />
+    <Compile Include="Models\FacebookModel\MyProfileTracker.cs" />
+    <Compile Include="Models\FacebookModel\OnProfileChangedEventArgs.cs" />
     <Compile Include="Models\FirebaseModel\UserModel.cs" />
     <Compile Include="Models\RealmModel\PORO\ProductEntity.cs" />
     <Compile Include="Models\RealmModel\RealmConfig.cs" />
@@ -235,6 +238,7 @@
     <AndroidResource Include="Resources\values\Strings.xml" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Models\GoogleModel\" />
     <Folder Include="Resources\mipmap-hdpi\" />
     <Folder Include="Resources\mipmap-mdpi\" />
     <Folder Include="Resources\mipmap-xhdpi\" />

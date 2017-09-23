@@ -21,11 +21,14 @@ using Android.Util;
 using System;
 using Android.Runtime;
 using Android;
+using Xamarin.Facebook.AppEvents;
+using Org.Json;
+using Newtonsoft.Json;
 
 namespace SMobile.Android.Activities
 {
     [Activity(Label = "Iniciar Sesión", MainLauncher = true)]
-    public class SigninActivity : AppCompatActivity, IOnCompleteListener, IFacebookCallback, GoogleApiClient.IOnConnectionFailedListener, GoogleApiClient.IConnectionCallbacks
+    public class SigninActivity : AppCompatActivity, IOnCompleteListener, IFacebookCallback, GoogleApiClient.IOnConnectionFailedListener, GoogleApiClient.IConnectionCallbacks, GraphRequest.IGraphJSONObjectCallback
     {
 
         FirebaseAuth auth;
@@ -55,12 +58,13 @@ namespace SMobile.Android.Activities
         /*Facebook Objects*/
         Button facebookButton;
         ICallbackManager facebookCallbackManager;
+        Models.FacebookModel.MyProfileTracker myProfile;
         /*Fin Facebook Objects*/
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
 
-            base.OnCreate(savedInstanceState);
+            base.OnCreate(savedInstanceState);            
 
             RequestPermissions(
 
@@ -84,6 +88,10 @@ namespace SMobile.Android.Activities
 
             /*Initialize SDK Facebook*/
             FacebookSdk.SdkInitialize(this);
+            AppEventsLogger.ActivateApp(this);
+            this.myProfile = new Models.FacebookModel.MyProfileTracker();
+            this.myProfile.onProfileChanged += MyProfile_onProfileChanged;
+            this.myProfile.StartTracking();
             /*Fin SDK Facebook*/
 
             this.SetContentView(Resource.Layout.Signin);
@@ -135,6 +143,7 @@ namespace SMobile.Android.Activities
             //_____________________________________________________///
 
             this.StartFirebaseAuth();
+
 
             this.edtUsername = FindViewById<EditText>(Resource.Id.usernameEditText);
 
@@ -202,8 +211,12 @@ namespace SMobile.Android.Activities
 
                             "public_profile",
 
-                            "email"
+                            "email",
 
+                            "user_about_me",
+
+                            "user_birthday",
+                            
                         }
 
                     );
@@ -214,16 +227,30 @@ namespace SMobile.Android.Activities
 
             };
             /*Fin Login de Facebook*/
+            
+        }
 
+        private void MyProfile_onProfileChanged(object sender, Models.FacebookModel.OnProfileChangedEventArgs e)
+        {
+            if(e.profile != null)
+                Toast.MakeText(this, $"Nombre: {e.profile.FirstName} {e.profile.LastName} {e.profile.Name} {e.profile.GetProfilePictureUri(512, 512).ToString()}", ToastLength.Long).Show();
+        }
 
+        protected override void OnDestroy()
+        {
+            
+            myProfile.StopTracking();
+
+            base.OnDestroy();
 
         }
-        
+
         private void StartFirebaseAuth()
         {
             
             if (FirebaseConfig.app == null)
-                FirebaseConfig.app = FirebaseApp.InitializeApp(this, FirebaseConfig.firebaseOptions);
+                FirebaseConfig.app = FirebaseApp.InitializeApp(this, FirebaseConfig.firebaseOptions, "Sadara Mobile");
+            
 
             this.auth = FirebaseAuth.GetInstance(FirebaseConfig.app);
             
@@ -290,14 +317,18 @@ namespace SMobile.Android.Activities
 
         public void OnSuccess(Java.Lang.Object result)
         {
-            if (AccessToken.CurrentAccessToken == null)
+            if (AccessToken.CurrentAccessToken != null)
             {
 
-                LoginResult loginResult = result as LoginResult;
+                GraphRequest graphRequest = GraphRequest.NewMeRequest(AccessToken.CurrentAccessToken, this);
 
-                var email = loginResult.Class.GetField("email").ToString();
+                Bundle bundle = new Bundle();
 
-                Toast.MakeText(this, email, ToastLength.Long).Show();
+                bundle.PutString("fields", "id,email,first_name,last_name,birthday,gender");
+
+                graphRequest.Parameters = bundle;
+
+                graphRequest.ExecuteAsync();
 
             }
 
@@ -446,6 +477,10 @@ namespace SMobile.Android.Activities
             this.facebookCallbackManager.OnActivityResult(requestCode, (int)resultCode, data);
         }
 
+        public void OnCompleted(JSONObject @object, GraphResponse response)
+        {
+            Models.FacebookModel.FacebookResult result = JsonConvert.DeserializeObject<Models.FacebookModel.FacebookResult>(@object.ToString());
+        }
     }
 
 }
