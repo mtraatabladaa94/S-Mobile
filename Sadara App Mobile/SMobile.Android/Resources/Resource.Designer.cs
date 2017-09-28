@@ -2395,8 +2395,26 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f020053
 			public const int avd_hide_password = 2130837587;
 			
+			// aapt resource value: 0x7f0200b6
+			public const int avd_hide_password_1 = 2130837686;
+			
+			// aapt resource value: 0x7f0200b7
+			public const int avd_hide_password_2 = 2130837687;
+			
+			// aapt resource value: 0x7f0200b8
+			public const int avd_hide_password_3 = 2130837688;
+			
 			// aapt resource value: 0x7f020054
 			public const int avd_show_password = 2130837588;
+			
+			// aapt resource value: 0x7f0200b9
+			public const int avd_show_password_1 = 2130837689;
+			
+			// aapt resource value: 0x7f0200ba
+			public const int avd_show_password_2 = 2130837690;
+			
+			// aapt resource value: 0x7f0200bb
+			public const int avd_show_password_3 = 2130837691;
 			
 			// aapt resource value: 0x7f020055
 			public const int background_button_flat = 2130837589;

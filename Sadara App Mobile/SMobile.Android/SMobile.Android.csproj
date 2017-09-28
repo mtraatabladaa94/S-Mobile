@@ -185,6 +185,7 @@
     <Compile Include="Activities\SignupActivity.cs" />
     <Compile Include="Activities\UserPreferenceActivity.cs" />
     <Compile Include="Configuration\FirebaseConfig.cs" />
+    <Compile Include="Helpers\SadaraFirebaseIIDService.cs" />
     <Compile Include="Models\Entities\PreferenceEntity.cs" />
     <Compile Include="Models\Entities\UserEntity.cs" />
     <Compile Include="Models\FacebookModel\FacebookResult.cs" />

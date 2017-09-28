@@ -13,6 +13,8 @@ using Android.Support.V7.Widget;
 using Android;
 using SMobile.Android.Configuration;
 using Firebase;
+using Android.Gms.Common;
+using Android.Util;
 
 namespace SMobile.Android.Activities
 {
@@ -58,10 +60,68 @@ namespace SMobile.Android.Activities
 
             // Create your application here
             this.SetContentView(Resource.Layout.UserPreference);
-            
-            this.progressBar = FindViewById<ProgressBar>(Resource.Id.userPreferenceProgressBar);
 
-            this.LoadUsersPreferencesList();
+            //this.progressBar = FindViewById<ProgressBar>(Resource.Id.userPreferenceProgressBar);
+
+            //this.LoadUsersPreferencesList();
+
+            this.ManageIntent();
+
+            if (this.IsPlayServicesAvailable())
+            {
+
+
+
+            }
+            else
+            {
+
+                Toast.MakeText(this, this.msgText, ToastLength.Long).Show();
+
+            }
+
+        }
+
+        string msgText;
+
+        public bool IsPlayServicesAvailable()
+        {
+            int resultCode = GoogleApiAvailability.Instance.IsGooglePlayServicesAvailable(this);            
+            if (resultCode != ConnectionResult.Success)
+            {
+                if (GoogleApiAvailability.Instance.IsUserResolvableError(resultCode)) {
+                    msgText = GoogleApiAvailability.Instance.GetErrorString(resultCode);
+                }
+                else
+                {
+                    msgText = "This device is not supported";
+                    Finish();
+                }
+                return false;
+            }
+            else
+            {
+                msgText = "Google Play Services is available.";
+                return true;
+            }
+        }
+
+        public void ManageIntent()
+        {
+
+            if (Intent.Extras != null)
+            {
+
+                foreach (var key in Intent.Extras.KeySet())
+                {
+
+                    var value = Intent.Extras.GetString(key);
+
+                    Log.Debug("SadaraFirebaseIIDService", "Key: {0} Value: {1}", key, value);
+
+                }
+
+            }
 
         }
 
