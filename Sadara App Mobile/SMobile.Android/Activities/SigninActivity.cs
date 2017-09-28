@@ -27,7 +27,7 @@ using Newtonsoft.Json;
 
 namespace SMobile.Android.Activities
 {
-    [Activity(Label = "Iniciar Sesión", MainLauncher = true)]
+    [Activity(Label = "Iniciar Sesión")]
     public class SigninActivity : AppCompatActivity, IOnCompleteListener, IFacebookCallback, GoogleApiClient.IOnConnectionFailedListener, GoogleApiClient.IConnectionCallbacks, GraphRequest.IGraphJSONObjectCallback
     {
 
@@ -53,7 +53,6 @@ namespace SMobile.Android.Activities
         bool resuelto = false;
         bool poresolver = false;
         //____________________
-
 
         /*Facebook Objects*/
         Button facebookButton;
@@ -214,7 +213,6 @@ namespace SMobile.Android.Activities
                         }
 
                     );
-
                     
                 }
 
@@ -244,7 +242,6 @@ namespace SMobile.Android.Activities
             if (FirebaseConfig.app == null)
                 FirebaseConfig.app = FirebaseApp.InitializeApp(this, FirebaseConfig.firebaseOptions, "Sadara Mobile");
             
-
             this.auth = FirebaseAuth.GetInstance(FirebaseConfig.app);
             
         }
@@ -394,6 +391,7 @@ namespace SMobile.Android.Activities
                 poresolver = false;
                 UpdateUI(false);
             }
+
         }
 
         public void OnConnected(Bundle connectionHint)

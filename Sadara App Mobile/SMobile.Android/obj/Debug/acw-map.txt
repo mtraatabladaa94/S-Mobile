@@ -2,6 +2,14 @@ SMobile.Android.MainActivity, SMobile.Android;md5c505fb031811711d82aa71f5c0e0a7a
 SMobile.Android.MainActivity, SMobile.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5c505fb031811711d82aa71f5c0e0a7ac.MainActivity
 SMobile.Android.MainActivity;md5c505fb031811711d82aa71f5c0e0a7ac.MainActivity
 smobile.android.MainActivity;md5c505fb031811711d82aa71f5c0e0a7ac.MainActivity
+SMobile.Android.Helpers.UserPreferenceRecyclerViewHolder, SMobile.Android;md517446a5280af20f9ac0dac7891ed4a4c.UserPreferenceRecyclerViewHolder
+SMobile.Android.Helpers.UserPreferenceRecyclerViewHolder, SMobile.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md517446a5280af20f9ac0dac7891ed4a4c.UserPreferenceRecyclerViewHolder
+SMobile.Android.Helpers.UserPreferenceRecyclerViewHolder;md517446a5280af20f9ac0dac7891ed4a4c.UserPreferenceRecyclerViewHolder
+smobile.android.helpers.UserPreferenceRecyclerViewHolder;md517446a5280af20f9ac0dac7891ed4a4c.UserPreferenceRecyclerViewHolder
+SMobile.Android.Helpers.UserPreferenceRecyclerViewAdapter, SMobile.Android;md517446a5280af20f9ac0dac7891ed4a4c.UserPreferenceRecyclerViewAdapter
+SMobile.Android.Helpers.UserPreferenceRecyclerViewAdapter, SMobile.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md517446a5280af20f9ac0dac7891ed4a4c.UserPreferenceRecyclerViewAdapter
+SMobile.Android.Helpers.UserPreferenceRecyclerViewAdapter;md517446a5280af20f9ac0dac7891ed4a4c.UserPreferenceRecyclerViewAdapter
+smobile.android.helpers.UserPreferenceRecyclerViewAdapter;md517446a5280af20f9ac0dac7891ed4a4c.UserPreferenceRecyclerViewAdapter
 SMobile.Android.Models.FacebookModel.MyProfileTracker, SMobile.Android;md531526361f3ef9016303822e6e53ceacf.MyProfileTracker
 SMobile.Android.Models.FacebookModel.MyProfileTracker, SMobile.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md531526361f3ef9016303822e6e53ceacf.MyProfileTracker
 SMobile.Android.Models.FacebookModel.MyProfileTracker;md531526361f3ef9016303822e6e53ceacf.MyProfileTracker
@@ -18,6 +26,10 @@ SMobile.Android.Activities.SignupActivity, SMobile.Android;md538a4c09f23a14d23b9
 SMobile.Android.Activities.SignupActivity, SMobile.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md538a4c09f23a14d23b9bd851d99c7aeeb.SignupActivity
 SMobile.Android.Activities.SignupActivity;md538a4c09f23a14d23b9bd851d99c7aeeb.SignupActivity
 smobile.android.activities.SignupActivity;md538a4c09f23a14d23b9bd851d99c7aeeb.SignupActivity
+SMobile.Android.Activities.UserPreferenceActivity, SMobile.Android;md538a4c09f23a14d23b9bd851d99c7aeeb.UserPreferenceActivity
+SMobile.Android.Activities.UserPreferenceActivity, SMobile.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md538a4c09f23a14d23b9bd851d99c7aeeb.UserPreferenceActivity
+SMobile.Android.Activities.UserPreferenceActivity;md538a4c09f23a14d23b9bd851d99c7aeeb.UserPreferenceActivity
+smobile.android.activities.UserPreferenceActivity;md538a4c09f23a14d23b9bd851d99c7aeeb.UserPreferenceActivity
 Android.Support.V4.Widget.SearchViewCompat/IOnCloseListenerImplementor, Xamarin.Android.Support.Compat;mono.android.support.v4.widget.SearchViewCompat_OnCloseListenerImplementor
 Android.Support.V4.Widget.SearchViewCompat+IOnCloseListenerImplementor, Xamarin.Android.Support.Compat, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.android.support.v4.widget.SearchViewCompat_OnCloseListenerImplementor
 Android.Support.V4.Widget.SearchViewCompat.IOnCloseListenerImplementor;mono.android.support.v4.widget.SearchViewCompat_OnCloseListenerImplementor
@@ -318,18 +330,6 @@ Firebase.Auth.FirebaseAuth/IAuthStateListenerImplementor, Xamarin.Firebase.Auth;
 Firebase.Auth.FirebaseAuth+IAuthStateListenerImplementor, Xamarin.Firebase.Auth, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.firebase.auth.FirebaseAuth_AuthStateListenerImplementor
 Firebase.Auth.FirebaseAuth.IAuthStateListenerImplementor;mono.com.google.firebase.auth.FirebaseAuth_AuthStateListenerImplementor
 mono.com.google.firebase.auth.FirebaseAuth_AuthStateListenerImplementor;mono.com.google.firebase.auth.FirebaseAuth_AuthStateListenerImplementor
-Firebase.Database.DatabaseReference/ICompletionListenerImplementor, Xamarin.Firebase.Database;mono.com.google.firebase.database.DatabaseReference_CompletionListenerImplementor
-Firebase.Database.DatabaseReference+ICompletionListenerImplementor, Xamarin.Firebase.Database, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.firebase.database.DatabaseReference_CompletionListenerImplementor
-Firebase.Database.DatabaseReference.ICompletionListenerImplementor;mono.com.google.firebase.database.DatabaseReference_CompletionListenerImplementor
-mono.com.google.firebase.database.DatabaseReference_CompletionListenerImplementor;mono.com.google.firebase.database.DatabaseReference_CompletionListenerImplementor
-Firebase.Database.IChildEventListenerImplementor, Xamarin.Firebase.Database;mono.com.google.firebase.database.ChildEventListenerImplementor
-Firebase.Database.IChildEventListenerImplementor, Xamarin.Firebase.Database, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.firebase.database.ChildEventListenerImplementor
-Firebase.Database.IChildEventListenerImplementor;mono.com.google.firebase.database.ChildEventListenerImplementor
-mono.com.google.firebase.database.ChildEventListenerImplementor;mono.com.google.firebase.database.ChildEventListenerImplementor
-Firebase.Database.IValueEventListenerImplementor, Xamarin.Firebase.Database;mono.com.google.firebase.database.ValueEventListenerImplementor
-Firebase.Database.IValueEventListenerImplementor, Xamarin.Firebase.Database, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.firebase.database.ValueEventListenerImplementor
-Firebase.Database.IValueEventListenerImplementor;mono.com.google.firebase.database.ValueEventListenerImplementor
-mono.com.google.firebase.database.ValueEventListenerImplementor;mono.com.google.firebase.database.ValueEventListenerImplementor
 Android.Gms.Plus.PlusOneButton/IOnPlusOneClickListenerImplementor, Xamarin.GooglePlayServices.Plus;mono.com.google.android.gms.plus.PlusOneButton_OnPlusOneClickListenerImplementor
 Android.Gms.Plus.PlusOneButton+IOnPlusOneClickListenerImplementor, Xamarin.GooglePlayServices.Plus, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.gms.plus.PlusOneButton_OnPlusOneClickListenerImplementor
 Android.Gms.Plus.PlusOneButton.IOnPlusOneClickListenerImplementor;mono.com.google.android.gms.plus.PlusOneButton_OnPlusOneClickListenerImplementor

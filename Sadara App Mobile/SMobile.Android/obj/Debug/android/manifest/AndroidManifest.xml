@@ -9,13 +9,14 @@
     <uses-permission android:name="android.permission.USE_CREDENTIALS" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <activity android:label="Sadara Mobile" android:theme="@style/Main.Theme.SadaraTheme" android:name="md5c505fb031811711d82aa71f5c0e0a7ac.MainActivity" />
-    <activity android:label="Iniciar Sesión" android:name="md538a4c09f23a14d23b9bd851d99c7aeeb.SigninActivity">
+    <activity android:label="Iniciar Sesión" android:name="md538a4c09f23a14d23b9bd851d99c7aeeb.SigninActivity" />
+    <activity android:label="SignupActivity" android:name="md538a4c09f23a14d23b9bd851d99c7aeeb.SignupActivity" />
+    <activity android:label="UserPreferenceActivity" android:name="md538a4c09f23a14d23b9bd851d99c7aeeb.UserPreferenceActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
-    <activity android:label="SignupActivity" android:name="md538a4c09f23a14d23b9bd851d99c7aeeb.SignupActivity" />
     <service android:name="md59f70a99687498e7ba187118950981d26.KeepAliveService" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.sadara.android.mono.MonoRuntimeProvider.__mono_init__" />
     <!--suppress ExportedReceiver-->

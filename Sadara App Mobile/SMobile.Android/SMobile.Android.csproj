@@ -160,12 +160,6 @@
     <Reference Include="Xamarin.Firebase.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Xamarin.Firebase.Common.42.1021.1\lib\MonoAndroid70\Xamarin.Firebase.Common.dll</HintPath>
     </Reference>
-    <Reference Include="Xamarin.Firebase.Database, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Xamarin.Firebase.Database.42.1021.1\lib\MonoAndroid70\Xamarin.Firebase.Database.dll</HintPath>
-    </Reference>
-    <Reference Include="Xamarin.Firebase.Database.Connection, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Xamarin.Firebase.Database.Connection.42.1021.1\lib\MonoAndroid70\Xamarin.Firebase.Database.Connection.dll</HintPath>
-    </Reference>
     <Reference Include="Xamarin.Firebase.Iid, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Xamarin.Firebase.Iid.42.1021.1\lib\MonoAndroid70\Xamarin.Firebase.Iid.dll</HintPath>
     </Reference>
@@ -189,16 +183,20 @@
     <Compile Include="Activities\SigninActivity.cs" />
     <Compile Include="Activities\MainActivity.cs" />
     <Compile Include="Activities\SignupActivity.cs" />
+    <Compile Include="Activities\UserPreferenceActivity.cs" />
     <Compile Include="Configuration\FirebaseConfig.cs" />
+    <Compile Include="Models\Entities\PreferenceEntity.cs" />
     <Compile Include="Models\Entities\UserEntity.cs" />
     <Compile Include="Models\FacebookModel\FacebookResult.cs" />
     <Compile Include="Models\FacebookModel\MyProfileTracker.cs" />
     <Compile Include="Models\FacebookModel\OnProfileChangedEventArgs.cs" />
+    <Compile Include="Models\FirebaseModel\PreferenceModel.cs" />
     <Compile Include="Models\FirebaseModel\UserModel.cs" />
     <Compile Include="Models\RealmModel\PORO\ProductEntity.cs" />
     <Compile Include="Models\RealmModel\RealmConfig.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Helpers\UserPreference\UserPreferenceRecyclerViewAdapter.cs" />
   </ItemGroup>
   <ItemGroup>
     <GoogleServicesJson Include="google-services.json" />
@@ -228,6 +226,12 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\SignupGender.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\UserPreference.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\UserPreferenceItem.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
@@ -299,6 +303,14 @@
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\background_button_primary.xml" />
   </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\user_preference_background_item.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\background_button_flat.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
@@ -330,8 +342,6 @@
     <Error Condition="!Exists('..\packages\Xamarin.Firebase.Messaging.42.1021.1\build\MonoAndroid70\Xamarin.Firebase.Messaging.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.Firebase.Messaging.42.1021.1\build\MonoAndroid70\Xamarin.Firebase.Messaging.targets'))" />
     <Error Condition="!Exists('..\packages\Xamarin.Firebase.Analytics.Impl.42.1021.1\build\MonoAndroid70\Xamarin.Firebase.Analytics.Impl.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.Firebase.Analytics.Impl.42.1021.1\build\MonoAndroid70\Xamarin.Firebase.Analytics.Impl.targets'))" />
     <Error Condition="!Exists('..\packages\Xamarin.Firebase.Analytics.42.1021.1\build\MonoAndroid70\Xamarin.Firebase.Analytics.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.Firebase.Analytics.42.1021.1\build\MonoAndroid70\Xamarin.Firebase.Analytics.targets'))" />
-    <Error Condition="!Exists('..\packages\Xamarin.Firebase.Database.Connection.42.1021.1\build\MonoAndroid70\Xamarin.Firebase.Database.Connection.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.Firebase.Database.Connection.42.1021.1\build\MonoAndroid70\Xamarin.Firebase.Database.Connection.targets'))" />
-    <Error Condition="!Exists('..\packages\Xamarin.Firebase.Database.42.1021.1\build\MonoAndroid70\Xamarin.Firebase.Database.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.Firebase.Database.42.1021.1\build\MonoAndroid70\Xamarin.Firebase.Database.targets'))" />
     <Error Condition="!Exists('..\packages\Xamarin.Android.Support.CustomTabs.25.4.0.2\build\MonoAndroid70\Xamarin.Android.Support.CustomTabs.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.Android.Support.CustomTabs.25.4.0.2\build\MonoAndroid70\Xamarin.Android.Support.CustomTabs.targets'))" />
     <Error Condition="!Exists('..\packages\Xamarin.GooglePlayServices.Plus.42.1021.1\build\MonoAndroid70\Xamarin.GooglePlayServices.Plus.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.GooglePlayServices.Plus.42.1021.1\build\MonoAndroid70\Xamarin.GooglePlayServices.Plus.targets'))" />
   </Target>
@@ -360,8 +370,6 @@
   <Import Project="..\packages\Xamarin.Firebase.Messaging.42.1021.1\build\MonoAndroid70\Xamarin.Firebase.Messaging.targets" Condition="Exists('..\packages\Xamarin.Firebase.Messaging.42.1021.1\build\MonoAndroid70\Xamarin.Firebase.Messaging.targets')" />
   <Import Project="..\packages\Xamarin.Firebase.Analytics.Impl.42.1021.1\build\MonoAndroid70\Xamarin.Firebase.Analytics.Impl.targets" Condition="Exists('..\packages\Xamarin.Firebase.Analytics.Impl.42.1021.1\build\MonoAndroid70\Xamarin.Firebase.Analytics.Impl.targets')" />
   <Import Project="..\packages\Xamarin.Firebase.Analytics.42.1021.1\build\MonoAndroid70\Xamarin.Firebase.Analytics.targets" Condition="Exists('..\packages\Xamarin.Firebase.Analytics.42.1021.1\build\MonoAndroid70\Xamarin.Firebase.Analytics.targets')" />
-  <Import Project="..\packages\Xamarin.Firebase.Database.Connection.42.1021.1\build\MonoAndroid70\Xamarin.Firebase.Database.Connection.targets" Condition="Exists('..\packages\Xamarin.Firebase.Database.Connection.42.1021.1\build\MonoAndroid70\Xamarin.Firebase.Database.Connection.targets')" />
-  <Import Project="..\packages\Xamarin.Firebase.Database.42.1021.1\build\MonoAndroid70\Xamarin.Firebase.Database.targets" Condition="Exists('..\packages\Xamarin.Firebase.Database.42.1021.1\build\MonoAndroid70\Xamarin.Firebase.Database.targets')" />
   <Import Project="..\packages\Xamarin.Android.Support.CustomTabs.25.4.0.2\build\MonoAndroid70\Xamarin.Android.Support.CustomTabs.targets" Condition="Exists('..\packages\Xamarin.Android.Support.CustomTabs.25.4.0.2\build\MonoAndroid70\Xamarin.Android.Support.CustomTabs.targets')" />
   <Import Project="..\packages\Xamarin.GooglePlayServices.Plus.42.1021.1\build\MonoAndroid70\Xamarin.GooglePlayServices.Plus.targets" Condition="Exists('..\packages\Xamarin.GooglePlayServices.Plus.42.1021.1\build\MonoAndroid70\Xamarin.GooglePlayServices.Plus.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

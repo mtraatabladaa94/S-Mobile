@@ -1,4 +1,5 @@
-﻿using Firebase.Xamarin.Database;
+﻿using Firebase.Auth;
+using Firebase.Xamarin.Database;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,16 +22,9 @@ namespace SMobile.Android.Models.FirebaseModel
                 .PostAsync<Models.Entities.UserEntity>
 
                 (user);
-
-        }
-
-        public void Register()
-        {
-
             
-
         }
-
+        
         public async void Edit(Models.Entities.UserEntity user)
         {
             
