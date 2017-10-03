@@ -135,10 +135,10 @@ class MonoPackageManager_Resources {
 		"Xamarin.GooglePlayServices.Base.dll",
 		"Xamarin.Firebase.Auth.dll",
 		"Xamarin.Firebase.Iid.dll",
-		"Xamarin.Firebase.Messaging.dll",
 		"Xamarin.Firebase.Analytics.Impl.dll",
 		"Xamarin.Firebase.Analytics.dll",
 		"Xamarin.GooglePlayServices.Plus.dll",
+		"Xamarin.Firebase.Messaging.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};

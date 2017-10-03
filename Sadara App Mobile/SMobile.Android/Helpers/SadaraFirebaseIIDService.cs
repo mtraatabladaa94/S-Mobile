@@ -17,7 +17,7 @@ namespace SMobile.Android.Helpers
 
     [Service]
     [IntentFilter(new[] { "com.google.firebase.INSTANCE_ID_EVENT" })]
-    public class SadaraFirebaseIIDService : FirebaseInstanceIdService
+    class SadaraFirebaseIIDService : FirebaseInstanceIdService
     {
 
         const string TAG = "SadaraFirebaseIIDService";

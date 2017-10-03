@@ -35,10 +35,10 @@ E:\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\android\assets\Xa
 E:\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\android\assets\Xamarin.GooglePlayServices.Base.dll
 E:\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\android\assets\Xamarin.Firebase.Auth.dll
 E:\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\android\assets\Xamarin.Firebase.Iid.dll
-E:\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\android\assets\Xamarin.Firebase.Messaging.dll
 E:\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\android\assets\Xamarin.Firebase.Analytics.Impl.dll
 E:\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\android\assets\Xamarin.Firebase.Analytics.dll
 E:\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\android\assets\Xamarin.GooglePlayServices.Plus.dll
+E:\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\android\assets\Xamarin.Firebase.Messaging.dll
 E:\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\android\assets\Java.Interop.dll
 E:\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\android\assets\Mono.Android.dll
 E:\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\android\assets\System.Core.dll

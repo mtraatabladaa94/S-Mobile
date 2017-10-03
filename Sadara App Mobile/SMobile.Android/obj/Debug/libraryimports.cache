@@ -22,8 +22,6 @@
     <ManifestDocument>obj\Debug\__library_projects__\Xamarin.Firebase.Analytics.Impl\library_project_imports\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Debug\__library_projects__\Xamarin.Firebase.Auth\library_project_imports\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Debug\__library_projects__\Xamarin.Firebase.Common\library_project_imports\AndroidManifest.xml</ManifestDocument>
-    <ManifestDocument>obj\Debug\__library_projects__\Xamarin.Firebase.Database\library_project_imports\AndroidManifest.xml</ManifestDocument>
-    <ManifestDocument>obj\Debug\__library_projects__\Xamarin.Firebase.Database.Connection\library_project_imports\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Debug\__library_projects__\Xamarin.Firebase.Iid\library_project_imports\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Debug\__library_projects__\Xamarin.Firebase.Messaging\library_project_imports\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Debug\__library_projects__\Xamarin.GooglePlayServices.Base\library_project_imports\AndroidManifest.xml</ManifestDocument>
@@ -55,8 +53,6 @@
     <Jar>obj\Debug\__library_projects__\Xamarin.Firebase.Analytics.Impl\library_project_imports\classes.jar</Jar>
     <Jar>obj\Debug\__library_projects__\Xamarin.Firebase.Auth\library_project_imports\classes.jar</Jar>
     <Jar>obj\Debug\__library_projects__\Xamarin.Firebase.Common\library_project_imports\classes.jar</Jar>
-    <Jar>obj\Debug\__library_projects__\Xamarin.Firebase.Database\library_project_imports\classes.jar</Jar>
-    <Jar>obj\Debug\__library_projects__\Xamarin.Firebase.Database.Connection\library_project_imports\classes.jar</Jar>
     <Jar>obj\Debug\__library_projects__\Xamarin.Firebase.Iid\library_project_imports\classes.jar</Jar>
     <Jar>obj\Debug\__library_projects__\Xamarin.Firebase.Messaging\library_project_imports\classes.jar</Jar>
     <Jar>obj\Debug\__library_projects__\Xamarin.GooglePlayServices.Base\library_project_imports\classes.jar</Jar>

@@ -2395,26 +2395,8 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f020053
 			public const int avd_hide_password = 2130837587;
 			
-			// aapt resource value: 0x7f0200b6
-			public const int avd_hide_password_1 = 2130837686;
-			
-			// aapt resource value: 0x7f0200b7
-			public const int avd_hide_password_2 = 2130837687;
-			
-			// aapt resource value: 0x7f0200b8
-			public const int avd_hide_password_3 = 2130837688;
-			
 			// aapt resource value: 0x7f020054
 			public const int avd_show_password = 2130837588;
-			
-			// aapt resource value: 0x7f0200b9
-			public const int avd_show_password_1 = 2130837689;
-			
-			// aapt resource value: 0x7f0200ba
-			public const int avd_show_password_2 = 2130837690;
-			
-			// aapt resource value: 0x7f0200bb
-			public const int avd_show_password_3 = 2130837691;
 			
 			// aapt resource value: 0x7f020055
 			public const int background_button_flat = 2130837589;
@@ -3909,8 +3891,8 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f070051
 			public const int abc_toolbar_collapse_description = 2131165265;
 			
-			// aapt resource value: 0x7f070068
-			public const int app_name = 2131165288;
+			// aapt resource value: 0x7f07006f
+			public const int app_name = 2131165295;
 			
 			// aapt resource value: 0x7f070060
 			public const int appbar_scrolling_view_behavior = 2131165280;
@@ -4108,16 +4090,37 @@ namespace SMobile.Android
 			public const int common_signin_button_text_long = 2131165199;
 			
 			// aapt resource value: 0x7f07006a
-			public const int drawer_close = 2131165290;
+			public const int default_web_client_id = 2131165290;
 			
-			// aapt resource value: 0x7f070069
-			public const int drawer_open = 2131165289;
+			// aapt resource value: 0x7f070071
+			public const int drawer_close = 2131165297;
+			
+			// aapt resource value: 0x7f070070
+			public const int drawer_open = 2131165296;
+			
+			// aapt resource value: 0x7f070072
+			public const int facebook_app_id = 2131165298;
+			
+			// aapt resource value: 0x7f070073
+			public const int fb_login_protocol_scheme = 2131165299;
 			
 			// aapt resource value: 0x7f07006b
-			public const int facebook_app_id = 2131165291;
+			public const int firebase_database_url = 2131165291;
+			
+			// aapt resource value: 0x7f070068
+			public const int gcm_defaultSenderId = 2131165288;
 			
 			// aapt resource value: 0x7f07006c
-			public const int fb_login_protocol_scheme = 2131165292;
+			public const int google_api_key = 2131165292;
+			
+			// aapt resource value: 0x7f070069
+			public const int google_app_id = 2131165289;
+			
+			// aapt resource value: 0x7f07006d
+			public const int google_crash_reporting_api_key = 2131165293;
+			
+			// aapt resource value: 0x7f07006e
+			public const int google_storage_bucket = 2131165294;
 			
 			// aapt resource value: 0x7f070028
 			public const int messenger_send_button_text = 2131165224;

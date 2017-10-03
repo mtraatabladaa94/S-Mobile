@@ -15,9 +15,12 @@ using SMobile.Android.Configuration;
 using Firebase;
 using Android.Gms.Common;
 using Android.Util;
+using System.Threading.Tasks;
+using Firebase.Iid;
 
 namespace SMobile.Android.Activities
 {
+    
     [Activity(Label = "UserPreferenceActivity", MainLauncher = true)]
     public class UserPreferenceActivity : Activity
     {
@@ -56,29 +59,48 @@ namespace SMobile.Android.Activities
 
             );
 
-            this.StartFirebase();
-
             // Create your application here
             this.SetContentView(Resource.Layout.UserPreference);
+
+            //this.StartFirebase();
 
             //this.progressBar = FindViewById<ProgressBar>(Resource.Id.userPreferenceProgressBar);
 
             //this.LoadUsersPreferencesList();
 
-            this.ManageIntent();
+            FirebaseConfig.app = FirebaseApp.InitializeApp(this, FirebaseConfig.firebaseOptions, "Sadara Mobile");
 
-            if (this.IsPlayServicesAvailable())
-            {
+            //this.ManageIntent();
+
+            Task.Run(() => {
+
+                var instanceId = FirebaseInstanceId.Instance;
+
+                instanceId.DeleteInstanceId();
+
+            });
+
+            var instanceid = FirebaseInstanceId.GetInstance(FirebaseConfig.app);
+
+            Toast.MakeText(this, instanceid.Token, ToastLength.Long).Show();
+            
+            Firebase.Messaging.FirebaseMessaging.Instance.SubscribeToTopic("Pizzas");
+
+            //if (this.IsPlayServicesAvailable())
+            //{
+            //    Log.Debug("Sadara FCM", "InstanceID token: " + Firebase.Iid.FirebaseInstanceId.Instance.Token);
+
+            //    Firebase.Messaging.FirebaseMessaging.Instance.SubscribeToTopic("news");
+
+            //}
+            //else
+            //{
+
+            //    Toast.MakeText(this, this.msgText, ToastLength.Long).Show();
+
+            //}
 
 
-
-            }
-            else
-            {
-
-                Toast.MakeText(this, this.msgText, ToastLength.Long).Show();
-
-            }
 
         }
 
