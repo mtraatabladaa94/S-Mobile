@@ -30,15 +30,18 @@ namespace SMobile.Android.Helpers
             this.userPreferenceSelected = itemView.FindViewById<CheckBox>(Resource.Id.userPreferenceSelected);
 
         }
+
     }
     public class UserPreferenceRecyclerViewAdapter : RecyclerView.Adapter
     {
 
-        List<Models.Entities.PreferenceEntity> PreferenceList = new List<Models.Entities.PreferenceEntity>();
+        List<Models.Entities.PreferenceSelectedEntity> PreferenceList = new List<Models.Entities.PreferenceSelectedEntity>();
 
-        public UserPreferenceRecyclerViewAdapter(List<Models.Entities.PreferenceEntity> PreferenceList)
+        public UserPreferenceRecyclerViewAdapter(List<Models.Entities.PreferenceSelectedEntity> PreferenceList)
         {
+
             this.PreferenceList = PreferenceList;
+
         }
 
         public override int ItemCount => this.PreferenceList.Count;
@@ -51,16 +54,28 @@ namespace SMobile.Android.Helpers
             userPreferenceHolder.userPreferenceId.Text = this.PreferenceList[position].uid;
 
             userPreferenceHolder.userPreferenceName.Text = this.PreferenceList[position].name;
+
+            userPreferenceHolder.userPreferenceSelected.CheckedChange += (e, handler) => {
+
+                this.PreferenceList[position].selected = userPreferenceHolder.userPreferenceSelected.Checked;
+
+            };
             
         }
 
         public override RecyclerView.ViewHolder OnCreateViewHolder(ViewGroup parent, int viewType)
         {
+
             LayoutInflater layoutInflater = LayoutInflater.From(parent.Context);
 
             View itemView = layoutInflater.Inflate(Resource.Layout.UserPreferenceItem, parent, false);
 
             return new UserPreferenceRecyclerViewHolder(itemView);
+
         }
+
     }
+
+
+
 }

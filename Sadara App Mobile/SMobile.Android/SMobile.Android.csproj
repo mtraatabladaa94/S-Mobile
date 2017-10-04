@@ -188,11 +188,14 @@
     <Compile Include="Helpers\SadaraFirebaseIIDService.cs" />
     <Compile Include="Helpers\SadaraFirebaseMessagingService.cs" />
     <Compile Include="Models\Entities\PreferenceEntity.cs" />
+    <Compile Include="Models\Entities\PreferenceSelectedEntity.cs" />
+    <Compile Include="Models\Entities\PreferenceWithUserEntity.cs" />
     <Compile Include="Models\Entities\UserEntity.cs" />
     <Compile Include="Models\FacebookModel\FacebookResult.cs" />
     <Compile Include="Models\FacebookModel\MyProfileTracker.cs" />
     <Compile Include="Models\FacebookModel\OnProfileChangedEventArgs.cs" />
     <Compile Include="Models\FirebaseModel\PreferenceModel.cs" />
+    <Compile Include="Models\FirebaseModel\PreferenceWithUserModel.cs" />
     <Compile Include="Models\FirebaseModel\UserModel.cs" />
     <Compile Include="Models\RealmModel\PORO\ProductEntity.cs" />
     <Compile Include="Models\RealmModel\RealmConfig.cs" />
@@ -314,6 +317,9 @@
     <AndroidResource Include="Resources\drawable\background_button_flat.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ic_isotipo_sadara_ico.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

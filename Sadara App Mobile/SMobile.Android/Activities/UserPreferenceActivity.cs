@@ -21,7 +21,7 @@ using Firebase.Iid;
 namespace SMobile.Android.Activities
 {
     
-    [Activity(Label = "UserPreferenceActivity", MainLauncher = true)]
+    [Activity(Label = "UserPreferenceActivity", MainLauncher = true, Icon = "@drawable/ic_isotipo_sadara")]
     public class UserPreferenceActivity : Activity
     {
 
@@ -33,7 +33,10 @@ namespace SMobile.Android.Activities
 
         RecyclerView.LayoutManager layoutManger;
 
-        List<Models.Entities.PreferenceEntity> preferences = new List<Models.Entities.PreferenceEntity>();
+        Button btnPreferences;
+
+        List<Models.Entities.PreferenceSelectedEntity> preferences =
+            new List<Models.Entities.PreferenceSelectedEntity>();
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -62,45 +65,72 @@ namespace SMobile.Android.Activities
             // Create your application here
             this.SetContentView(Resource.Layout.UserPreference);
 
-            //this.StartFirebase();
+            this.StartFirebase();
 
-            //this.progressBar = FindViewById<ProgressBar>(Resource.Id.userPreferenceProgressBar);
+            this.progressBar = FindViewById<ProgressBar>(Resource.Id.userPreferenceProgressBar);
 
-            //this.LoadUsersPreferencesList();
+            this.recyclerView = FindViewById<RecyclerView>(Resource.Id.preferencesRecyclerView);
 
-            FirebaseConfig.app = FirebaseApp.InitializeApp(this, FirebaseConfig.firebaseOptions, "Sadara Mobile");
-
+            this.LoadUsersPreferencesList();
+            
             //this.ManageIntent();
 
             Task.Run(() => {
 
-                var instanceId = FirebaseInstanceId.Instance;
+                //var instanceId = FirebaseInstanceId.Instance;
 
-                instanceId.DeleteInstanceId();
+                //instanceId.DeleteInstanceId();
 
             });
 
-            var instanceid = FirebaseInstanceId.GetInstance(FirebaseConfig.app);
+            //Selección de Preferencias
+            this.btnPreferences = FindViewById<Button>(Resource.Id.selectPreferencesButton);
 
-            Toast.MakeText(this, instanceid.Token, ToastLength.Long).Show();
-            
-            Firebase.Messaging.FirebaseMessaging.Instance.SubscribeToTopic("Pizzas");
+            this.btnPreferences.Click += (e, handler) => {
 
-            //if (this.IsPlayServicesAvailable())
-            //{
-            //    Log.Debug("Sadara FCM", "InstanceID token: " + Firebase.Iid.FirebaseInstanceId.Instance.Token);
+                var selectList = this.preferences.Where(c => c.selected).ToList();
 
-            //    Firebase.Messaging.FirebaseMessaging.Instance.SubscribeToTopic("news");
+                selectList.ForEach((item) => {
 
-            //}
-            //else
-            //{
+                    Models.FirebaseModel.PreferenceWithUserModel preferenceWithUserModel = new Models.FirebaseModel.PreferenceWithUserModel();
 
-            //    Toast.MakeText(this, this.msgText, ToastLength.Long).Show();
+                    preferenceWithUserModel.Add(new Models.Entities.PreferenceWithUserEntity() {
 
-            //}
+                        uid = "Ingresar Uid del Usuario",
 
+                        uidPreference = item.uid,
 
+                    });
+
+                });
+
+            };
+
+        }
+
+        public string GetTokenForApp()
+        {
+
+            var instanceId = Firebase.Iid.FirebaseInstanceId.GetInstance(Configuration.FirebaseConfig.app);
+
+            return instanceId.Token;
+
+        }
+
+        public void SubscribeToTopic(string topic)
+        {
+            if (this.IsPlayServicesAvailable())
+            {
+
+                Firebase.Messaging.FirebaseMessaging.Instance.SubscribeToTopic(topic);
+
+            }
+            else
+            {
+
+                Toast.MakeText(this, this.msgText, ToastLength.Long).Show();
+
+            }
 
         }
 
@@ -162,15 +192,16 @@ namespace SMobile.Android.Activities
             this.ShowProgressBar(true);
 
             var list = await model.List();
-
-            //if (list.IsCompleted)
-            //{
             
-            //}
-
             this.preferences.Clear();
 
-            this.preferences = list;
+            foreach (var item in list)
+            {
+                this.preferences.Add(new Models.Entities.PreferenceSelectedEntity() {
+                    uid = item.uid,
+                    name = item.name
+                });
+            }
 
             this.adapter = new Helpers.UserPreferenceRecyclerViewAdapter(this.preferences);
 

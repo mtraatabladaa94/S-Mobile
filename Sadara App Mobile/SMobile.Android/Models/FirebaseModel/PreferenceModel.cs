@@ -9,7 +9,9 @@ namespace SMobile.Android.Models.FirebaseModel
 {
     public class PreferenceModel
     {
-        
+
+        public const string PREFERENCE_NAME = "Preferences";
+
         FirebaseClient firebaseClient = new FirebaseClient(Configuration.FirebaseConfig.FIREBASE_URL);
 
         public async void Add(Models.Entities.PreferenceEntity preference)
@@ -17,7 +19,7 @@ namespace SMobile.Android.Models.FirebaseModel
 
             await firebaseClient
 
-                .Child("Preferences")
+                .Child(PreferenceModel.PREFERENCE_NAME)
 
                 .PostAsync<Models.Entities.PreferenceEntity>
 
@@ -27,18 +29,20 @@ namespace SMobile.Android.Models.FirebaseModel
 
         public async Task<List<Models.Entities.PreferenceEntity>> List()
         {
+
             try
             {
                 
-                var preferences = await this.firebaseClient.Child("Preferences").OnceAsync<Models.Entities.PreferenceEntity>();
-
-
+                var preferences = await this.firebaseClient.Child(PreferenceModel.PREFERENCE_NAME).OnceAsync<Models.Entities.PreferenceEntity>();
+                
                 List<Models.Entities.PreferenceEntity> preferencesList = new List<Entities.PreferenceEntity>();
 
                 foreach (var preference in preferences)
                 {
 
-                    var productos = await this.firebaseClient.Child(preference.Key).OnceAsync<Models.Entities.PreferenceEntity>();
+                    var productos = await this.firebaseClient
+                        .Child(preference.Key)
+                        .OnceAsync<Models.Entities.PreferenceEntity>();
 
                     preferencesList.Add(
 
@@ -68,4 +72,5 @@ namespace SMobile.Android.Models.FirebaseModel
         }
 
     }
+
 }

@@ -40,4 +40,19 @@
         android:theme="@style/ProgressBarTheme"
         style="@style/Widget.AppCompat.ProgressBar"
         android:id="@+id/userPreferenceProgressBar" />
+    <RelativeLayout
+      android:layout_alignParentBottom="true"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="#FFFFFF"
+      >
+      <Button
+        android:id="@+id/selectPreferencesButton"
+        android:layout_alignParentRight="true"
+        android:layout_margin="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Terminar"
+      />
+    </RelativeLayout>
 </RelativeLayout>

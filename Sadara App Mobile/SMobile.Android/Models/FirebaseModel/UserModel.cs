@@ -10,6 +10,9 @@ namespace SMobile.Android.Models.FirebaseModel
 {
     class UserModel
     {
+
+        public const string USER_NAME = "Users";
+
         FirebaseClient firebaseClient = new FirebaseClient(Configuration.FirebaseConfig.FIREBASE_URL);
 
         public async void Add(Models.Entities.UserEntity user)
@@ -17,7 +20,7 @@ namespace SMobile.Android.Models.FirebaseModel
             
             await firebaseClient
 
-                .Child("Users")
+                .Child(UserModel.USER_NAME)
 
                 .PostAsync<Models.Entities.UserEntity>
 
@@ -30,7 +33,7 @@ namespace SMobile.Android.Models.FirebaseModel
             
             await firebaseClient
 
-                .Child("Users")
+                .Child(UserModel.USER_NAME)
 
                 .Client
 
@@ -49,7 +52,7 @@ namespace SMobile.Android.Models.FirebaseModel
 
             await firebaseClient
 
-                .Child("Users")
+                .Child(UserModel.USER_NAME)
 
                 .Client.Child(user.uid)
 
@@ -60,7 +63,7 @@ namespace SMobile.Android.Models.FirebaseModel
         public async Task<List<Models.Entities.UserEntity>> List()
         {
 
-            var users = await this.firebaseClient.Child("Users").OnceAsync<Models.Entities.UserEntity>();
+            var users = await this.firebaseClient.Child(UserModel.USER_NAME).OnceAsync<Models.Entities.UserEntity>();
 
             List<Models.Entities.UserEntity> usersList = new List<Entities.UserEntity>();
 
