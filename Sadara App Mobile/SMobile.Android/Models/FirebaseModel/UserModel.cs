@@ -1,10 +1,12 @@
-﻿using Firebase.Auth;
-using Firebase.Xamarin.Database;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
+using Firebase.Auth;
+using Firebase.Xamarin.Database;
+using Firebase.Xamarin.Database.Query;
 
 namespace SMobile.Android.Models.FirebaseModel
 {
@@ -98,4 +100,5 @@ namespace SMobile.Android.Models.FirebaseModel
         }
 
     }
+
 }

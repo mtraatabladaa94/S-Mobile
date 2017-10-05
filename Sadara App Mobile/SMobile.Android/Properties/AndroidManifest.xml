@@ -3,6 +3,12 @@
 	<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="23" />
 	<application android:allowBackup="true" android:label="@string/app_name" android:theme="@style/Main.Theme.SadaraTheme">
 		
+    <!--Permisos de Android-->
+		<uses-permission android:name="android.permission.INTERNET" />
+		<uses-permission android:name="android.permission.GET_ACCOUNTS" />
+		<uses-permission android:name="android.permission.USE_CREDENTIALS" />
+		<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    
     <!--Firebase Cloud Messaging Icon-->
     <meta-data
       android:name="com.google.firebase.messaging.default_notification_icon"
@@ -26,10 +32,5 @@
     <!--Facebook ID-->
     <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id" />
     
-    <!--Permisos de Android-->
-		<uses-permission android:name="android.permission.INTERNET" />
-		<uses-permission android:name="android.permission.GET_ACCOUNTS" />
-		<uses-permission android:name="android.permission.USE_CREDENTIALS" />
-		<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 	</application>
 </manifest>

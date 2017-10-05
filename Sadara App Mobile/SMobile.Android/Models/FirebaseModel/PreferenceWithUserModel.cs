@@ -1,4 +1,5 @@
 ﻿using Firebase.Xamarin.Database;
+using Firebase.Xamarin.Database.Query;
 using System;
 using System.Collections.Generic;
 using System.Linq;

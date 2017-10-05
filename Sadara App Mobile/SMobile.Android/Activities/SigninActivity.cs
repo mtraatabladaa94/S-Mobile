@@ -239,10 +239,10 @@ namespace SMobile.Android.Activities
         private void StartFirebaseAuth()
         {
             
-            if (FirebaseConfig.app == null)
-                FirebaseConfig.app = FirebaseApp.InitializeApp(this, FirebaseConfig.firebaseOptions, "Sadara Mobile");
+            if (FirebaseConfig.App == null)
+                FirebaseConfig.App = FirebaseApp.InitializeApp(this, FirebaseConfig.FirebaseOptions, "Sadara Mobile");
             
-            this.auth = FirebaseAuth.GetInstance(FirebaseConfig.app);
+            this.auth = FirebaseAuth.GetInstance(FirebaseConfig.App);
             
         }
 

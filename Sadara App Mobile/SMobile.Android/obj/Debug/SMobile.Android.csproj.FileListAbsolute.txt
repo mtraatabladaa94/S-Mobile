@@ -147,6 +147,7 @@ E:\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\bin\Debug\Realm.xml
 E:\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\bin\Debug\Realm.DataBinding.pdb
 E:\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\bin\Debug\Remotion.Linq.xml
 E:\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\SMobile.Android.csprojResolveAssemblyReference.cache
 E:\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\XbdMerge\Xamarin.GooglePlayServices.Basement.dll
 E:\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\XbdMerge\Xamarin.GooglePlayServices.Tasks.dll
 E:\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\XbdMerge\Xamarin.Firebase.Common.dll
@@ -157,7 +158,6 @@ E:\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\XbdMerge\Xamarin.
 E:\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\XbdMerge\Xamarin.Firebase.Analytics.dll
 E:\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\XbdMerge\Xamarin.GooglePlayServices.Plus.dll
 E:\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\XbdMerge\Xamarin.Firebase.Messaging.dll
-E:\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\res\values\goog_svcs_json.xml
 E:\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\ProcessGoogleServicesJson.stamp
 E:\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\SMobile.Android.csproj.CoreCompileInputs.cache
 E:\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\SMobile.Android.dll
@@ -197,3 +197,5 @@ E:\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\res\drawable\back
 E:\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\res\drawable\ic_isotipo_sadara_ico.ico
 E:\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\R.cs.flag
 E:\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\uploadflags.txt
+E:\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\bin\Debug\SMobile.Android.dll.mdb
+E:\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\android\assets\SMobile.Android.dll.mdb

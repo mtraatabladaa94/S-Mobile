@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Firebase;
 
 namespace SMobile.Android.Configuration
 {
@@ -22,7 +23,13 @@ namespace SMobile.Android.Configuration
         /// <summary>
         /// Instancia de FirebaseApp
         /// </summary>
-        public static Firebase.FirebaseApp app;
+        private static Firebase.FirebaseApp app;
+
+        /// <summary>
+        /// Propiedad Instancia de FirebaseApp
+        /// </summary>
+        public static FirebaseApp App { get => app; set => app = value; }
+        
 
         /// <summary>
         /// URL de los nodos en Firebase
@@ -32,7 +39,7 @@ namespace SMobile.Android.Configuration
         /// <summary>
         /// Opciones de firebase preconfiguradas
         /// </summary>
-        private static Firebase.FirebaseOptions _firebaseOptions = 
+        private static Firebase.FirebaseOptions firebaseOptions = 
             new Firebase.FirebaseOptions
                 .Builder()
                 .SetApplicationId(FirebaseConfig.FIREBASE_APP_KEY)
@@ -42,15 +49,25 @@ namespace SMobile.Android.Configuration
         /// <summary>
         /// Opciones de firebase preconfiguradas
         /// </summary>
-        public static Firebase.FirebaseOptions firebaseOptions {
+        public static Firebase.FirebaseOptions FirebaseOptions {
 
             get {
 
-                return FirebaseConfig._firebaseOptions;
+                return FirebaseConfig.firebaseOptions;
 
             }
 
         }
 
+        /// <summary>
+        /// Usuario autenticado
+        /// </summary>
+        private static Firebase.Auth.FirebaseAuth auth;
+
+        /// <summary>
+        /// Permite obtener o establecer el Usuario Actual
+        /// </summary>
+        public static Firebase.Auth.FirebaseAuth Auth { get => auth; set => auth = value; }
+        
     }
 }

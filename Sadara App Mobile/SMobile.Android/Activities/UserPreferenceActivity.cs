@@ -71,30 +71,39 @@ namespace SMobile.Android.Activities
 
             this.recyclerView = FindViewById<RecyclerView>(Resource.Id.preferencesRecyclerView);
 
-            this.LoadUsersPreferencesList();
-            
+            //this.LoadUsersPreferencesList();
+
             //this.ManageIntent();
+            
+            //Task.Run(() => {
 
-            Task.Run(() => {
+            //    var instanceId = FirebaseInstanceId.Instance;
 
-                //var instanceId = FirebaseInstanceId.Instance;
+            //    instanceId.DeleteInstanceId();
 
-                //instanceId.DeleteInstanceId();
-
-            });
+            //});
 
             //Selección de Preferencias
             this.btnPreferences = FindViewById<Button>(Resource.Id.selectPreferencesButton);
 
-            this.btnPreferences.Click += (e, handler) => {
+            this.btnPreferences.Click += (e, handler) =>
+            {
+
+                var instanceId = Firebase.Iid.FirebaseInstanceId.GetInstance(Configuration.FirebaseConfig.App);
+
+                var token = instanceId.Token;
+
+                var token2 = token;
 
                 var selectList = this.preferences.Where(c => c.selected).ToList();
 
-                selectList.ForEach((item) => {
+                selectList.ForEach((item) =>
+                {
 
                     Models.FirebaseModel.PreferenceWithUserModel preferenceWithUserModel = new Models.FirebaseModel.PreferenceWithUserModel();
 
-                    preferenceWithUserModel.Add(new Models.Entities.PreferenceWithUserEntity() {
+                    preferenceWithUserModel.Add(new Models.Entities.PreferenceWithUserEntity()
+                    {
 
                         uid = "Ingresar Uid del Usuario",
 
@@ -111,7 +120,7 @@ namespace SMobile.Android.Activities
         public string GetTokenForApp()
         {
 
-            var instanceId = Firebase.Iid.FirebaseInstanceId.GetInstance(Configuration.FirebaseConfig.app);
+            var instanceId = Firebase.Iid.FirebaseInstanceId.GetInstance(Configuration.FirebaseConfig.App);
 
             return instanceId.Token;
 
@@ -180,8 +189,8 @@ namespace SMobile.Android.Activities
         private void StartFirebase()
         {
 
-            if (FirebaseConfig.app == null)
-                FirebaseConfig.app = FirebaseApp.InitializeApp(this, FirebaseConfig.firebaseOptions, "Sadara Mobile");
+            if (FirebaseConfig.App == null)
+                FirebaseConfig.App = FirebaseApp.InitializeApp(this, FirebaseConfig.FirebaseOptions, "Sadara Mobile");
 
         }
 
