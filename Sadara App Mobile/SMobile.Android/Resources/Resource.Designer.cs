@@ -2677,11 +2677,11 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f0200b1
 			public const int notification_icon_background = 2130837681;
 			
-			// aapt resource value: 0x7f0200b5
-			public const int notification_template_icon_bg = 2130837685;
-			
 			// aapt resource value: 0x7f0200b6
-			public const int notification_template_icon_low_bg = 2130837686;
+			public const int notification_template_icon_bg = 2130837686;
+			
+			// aapt resource value: 0x7f0200b7
+			public const int notification_template_icon_low_bg = 2130837687;
 			
 			// aapt resource value: 0x7f0200b2
 			public const int notification_tile_bg = 2130837682;
@@ -2690,7 +2690,10 @@ namespace SMobile.Android
 			public const int notify_panel_notification_icon_bg = 2130837683;
 			
 			// aapt resource value: 0x7f0200b4
-			public const int user_preference_background_item = 2130837684;
+			public const int recyclerview_background = 2130837684;
+			
+			// aapt resource value: 0x7f0200b5
+			public const int user_preference_background_item = 2130837685;
 			
 			static Drawable()
 			{
@@ -3897,8 +3900,8 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f070051
 			public const int abc_toolbar_collapse_description = 2131165265;
 			
-			// aapt resource value: 0x7f07006f
-			public const int app_name = 2131165295;
+			// aapt resource value: 0x7f070068
+			public const int app_name = 2131165288;
 			
 			// aapt resource value: 0x7f070060
 			public const int appbar_scrolling_view_behavior = 2131165280;
@@ -4096,37 +4099,16 @@ namespace SMobile.Android
 			public const int common_signin_button_text_long = 2131165199;
 			
 			// aapt resource value: 0x7f07006a
-			public const int default_web_client_id = 2131165290;
-			
-			// aapt resource value: 0x7f070071
-			public const int drawer_close = 2131165297;
-			
-			// aapt resource value: 0x7f070070
-			public const int drawer_open = 2131165296;
-			
-			// aapt resource value: 0x7f070072
-			public const int facebook_app_id = 2131165298;
-			
-			// aapt resource value: 0x7f070073
-			public const int fb_login_protocol_scheme = 2131165299;
-			
-			// aapt resource value: 0x7f07006b
-			public const int firebase_database_url = 2131165291;
-			
-			// aapt resource value: 0x7f070068
-			public const int gcm_defaultSenderId = 2131165288;
-			
-			// aapt resource value: 0x7f07006c
-			public const int google_api_key = 2131165292;
+			public const int drawer_close = 2131165290;
 			
 			// aapt resource value: 0x7f070069
-			public const int google_app_id = 2131165289;
+			public const int drawer_open = 2131165289;
 			
-			// aapt resource value: 0x7f07006d
-			public const int google_crash_reporting_api_key = 2131165293;
+			// aapt resource value: 0x7f07006b
+			public const int facebook_app_id = 2131165291;
 			
-			// aapt resource value: 0x7f07006e
-			public const int google_storage_bucket = 2131165294;
+			// aapt resource value: 0x7f07006c
+			public const int fb_login_protocol_scheme = 2131165292;
 			
 			// aapt resource value: 0x7f070028
 			public const int messenger_send_button_text = 2131165224;

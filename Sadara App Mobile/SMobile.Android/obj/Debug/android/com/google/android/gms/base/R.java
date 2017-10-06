@@ -3122,11 +3122,12 @@ containing a value of this type.
         public static final int notification_bg_normal=0x7f0200af;
         public static final int notification_bg_normal_pressed=0x7f0200b0;
         public static final int notification_icon_background=0x7f0200b1;
-        public static final int notification_template_icon_bg=0x7f0200b5;
-        public static final int notification_template_icon_low_bg=0x7f0200b6;
+        public static final int notification_template_icon_bg=0x7f0200b6;
+        public static final int notification_template_icon_low_bg=0x7f0200b7;
         public static final int notification_tile_bg=0x7f0200b2;
         public static final int notify_panel_notification_icon_bg=0x7f0200b3;
-        public static final int user_preference_background_item=0x7f0200b4;
+        public static final int recyclerview_background=0x7f0200b4;
+        public static final int user_preference_background_item=0x7f0200b5;
     }
     public static final class id {
         public static final int HeaderTextLayout=0x7f0b00ec;
@@ -3517,7 +3518,7 @@ containing a value of this type.
         public static final int abc_shareactionprovider_share_with=0x7f07004f;
         public static final int abc_shareactionprovider_share_with_application=0x7f070050;
         public static final int abc_toolbar_collapse_description=0x7f070051;
-        public static final int app_name=0x7f07006f;
+        public static final int app_name=0x7f070068;
         public static final int appbar_scrolling_view_behavior=0x7f070060;
         public static final int bottom_sheet_behavior=0x7f070061;
         public static final int character_counter_pattern=0x7f070062;
@@ -3583,17 +3584,10 @@ containing a value of this type.
         public static final int common_open_on_phone=0x7f07000d;
         public static final int common_signin_button_text=0x7f07000e;
         public static final int common_signin_button_text_long=0x7f07000f;
-        public static final int default_web_client_id=0x7f07006a;
-        public static final int drawer_close=0x7f070071;
-        public static final int drawer_open=0x7f070070;
-        public static final int facebook_app_id=0x7f070072;
-        public static final int fb_login_protocol_scheme=0x7f070073;
-        public static final int firebase_database_url=0x7f07006b;
-        public static final int gcm_defaultSenderId=0x7f070068;
-        public static final int google_api_key=0x7f07006c;
-        public static final int google_app_id=0x7f070069;
-        public static final int google_crash_reporting_api_key=0x7f07006d;
-        public static final int google_storage_bucket=0x7f07006e;
+        public static final int drawer_close=0x7f07006a;
+        public static final int drawer_open=0x7f070069;
+        public static final int facebook_app_id=0x7f07006b;
+        public static final int fb_login_protocol_scheme=0x7f07006c;
         public static final int messenger_send_button_text=0x7f070028;
         public static final int password_toggle_content_description=0x7f070063;
         public static final int path_password_eye=0x7f070064;

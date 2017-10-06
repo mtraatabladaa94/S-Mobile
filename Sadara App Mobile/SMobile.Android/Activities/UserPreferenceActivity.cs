@@ -40,6 +40,7 @@ namespace SMobile.Android.Activities
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
+
             base.OnCreate(savedInstanceState);
 
             RequestPermissions(
@@ -71,53 +72,58 @@ namespace SMobile.Android.Activities
 
             this.recyclerView = FindViewById<RecyclerView>(Resource.Id.preferencesRecyclerView);
 
-            //this.LoadUsersPreferencesList();
+            this.LoadUsersPreferencesList();
+
+            this.SubscribeToTopic("news");
+
+            Toast.MakeText(this, "Suscripción lista", ToastLength.Long).Show();
 
             //this.ManageIntent();
-            
-            //Task.Run(() => {
 
-            //    var instanceId = FirebaseInstanceId.Instance;
+            Task.Run(() =>
+            {
 
-            //    instanceId.DeleteInstanceId();
+                var instanceId = FirebaseInstanceId.Instance;
 
-            //});
+                instanceId.DeleteInstanceId();
+
+            });
 
             //Selección de Preferencias
             this.btnPreferences = FindViewById<Button>(Resource.Id.selectPreferencesButton);
 
-            this.btnPreferences.Click += (e, handler) =>
-            {
-
-                var instanceId = Firebase.Iid.FirebaseInstanceId.GetInstance(Configuration.FirebaseConfig.App);
-
-                var token = instanceId.Token;
-
-                var token2 = token;
-
-                var selectList = this.preferences.Where(c => c.selected).ToList();
-
-                selectList.ForEach((item) =>
-                {
-
-                    Models.FirebaseModel.PreferenceWithUserModel preferenceWithUserModel = new Models.FirebaseModel.PreferenceWithUserModel();
-
-                    preferenceWithUserModel.Add(new Models.Entities.PreferenceWithUserEntity()
-                    {
-
-                        uid = "Ingresar Uid del Usuario",
-
-                        uidPreference = item.uid,
-
-                    });
-
-                });
-
-            };
+            this.btnPreferences.Click += (e, handler) => this.SendSuscriptions();
 
         }
 
-        public string GetTokenForApp()
+        private void SendSuscriptions()
+        {
+
+            var selectList = this.preferences.Where(c => c.selected).ToList();
+
+            selectList.ForEach((item) =>
+            {
+
+                //Subscribir a los topics
+                this.SubscribeToTopic(item.topic);
+
+                //Almacenar suscripciones y preferencias de usuario
+                Models.FirebaseModel.PreferenceWithUserModel preferenceWithUserModel = new Models.FirebaseModel.PreferenceWithUserModel();
+
+                preferenceWithUserModel.Add(new Models.Entities.PreferenceWithUserEntity()
+                {
+
+                    uid = "ovp5YuTtwScaEj2bIwCb1ezTRPd2",
+
+                    uidPreference = item.uid,
+
+                });
+
+            });
+
+        }
+
+        private string GetTokenForApp()
         {
 
             var instanceId = Firebase.Iid.FirebaseInstanceId.GetInstance(Configuration.FirebaseConfig.App);
@@ -128,10 +134,14 @@ namespace SMobile.Android.Activities
 
         public void SubscribeToTopic(string topic)
         {
+
             if (this.IsPlayServicesAvailable())
             {
 
-                Firebase.Messaging.FirebaseMessaging.Instance.SubscribeToTopic(topic);
+                if (string.IsNullOrEmpty(this.GetTokenForApp()))
+                    Firebase.Messaging.FirebaseMessaging.Instance.SubscribeToTopic(topic);
+                else
+                    Toast.MakeText(this, "No se cargo el Token", ToastLength.Long).Show();
 
             }
             else
@@ -194,23 +204,36 @@ namespace SMobile.Android.Activities
 
         }
 
+        private void AddPreferenceToList(List<Models.Entities.PreferenceEntity> preferences)
+        {
+
+            this.preferences.Clear();
+
+            preferences.ForEach(preference => 
+
+                this.preferences.Add(new Models.Entities.PreferenceSelectedEntity()
+                {
+
+                    uid = preference.uid,
+
+                    name = preference.name,
+
+                    topic = preference.topic,
+
+                })
+
+            );
+
+        }
+
         private async void LoadUsersPreferencesList()
         {
+
             var model = new Models.FirebaseModel.PreferenceModel();
 
             this.ShowProgressBar(true);
 
-            var list = await model.List();
-            
-            this.preferences.Clear();
-
-            foreach (var item in list)
-            {
-                this.preferences.Add(new Models.Entities.PreferenceSelectedEntity() {
-                    uid = item.uid,
-                    name = item.name
-                });
-            }
+            this.AddPreferenceToList(await model.List());
 
             this.adapter = new Helpers.UserPreferenceRecyclerViewAdapter(this.preferences);
 
@@ -232,5 +255,7 @@ namespace SMobile.Android.Activities
             progressBar.Visibility = IsVisible ? ViewStates.Visible : ViewStates.Invisible;
 
         }
+
     }
+
 }

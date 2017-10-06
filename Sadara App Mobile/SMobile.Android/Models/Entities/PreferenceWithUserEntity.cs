@@ -19,7 +19,7 @@ namespace SMobile.Android.Models.Entities
         public string uid { get; set; }
 
         public string uidPreference { get; set; }
-
+        
     }
 
 }

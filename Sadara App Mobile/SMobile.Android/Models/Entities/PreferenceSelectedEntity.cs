@@ -19,6 +19,8 @@ namespace SMobile.Android.Models.Entities
 
         public string name { get; set; } // Nombre de la preferencia
 
+        public string topic { get; set; } // Nombre de la preferencia
+
         public bool selected { get; set; } = false; // Seleccionado
 
     }

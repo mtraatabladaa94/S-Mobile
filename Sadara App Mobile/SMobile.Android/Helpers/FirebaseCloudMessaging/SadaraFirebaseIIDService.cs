@@ -5,10 +5,6 @@ using System.Text;
 
 using Android.App;
 using Android.Content;
-using Android.OS;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
 using Firebase.Iid;
 using Android.Util;
 
@@ -33,32 +29,36 @@ namespace SMobile.Android.Helpers
 
         }
 
-        void SendRegistrationToServer(string token)
+        private void SendRegistrationToServer(string token)
         {
 
             // Add custom implementation, as needed.
-            Models.FirebaseModel.UserTokenModel userTokenModel = new Models.FirebaseModel.UserTokenModel();
-
             try
             {
 
-                userTokenModel.Add(new Models.Entities.UserTokenEntity()
-                {
-
-                    uid = Configuration.FirebaseConfig.Auth.CurrentUser.Uid,
-
-                    token = token,
-
-                });
 
             }
             catch (Java.Lang.Exception ex)
             {
-                
 
+                throw ex;
 
             }
-            
+        }
+
+        private void SendToken(string token)
+        {
+            Models.FirebaseModel.UserTokenModel userTokenModel = new Models.FirebaseModel.UserTokenModel();
+
+            userTokenModel.Add(new Models.Entities.UserTokenEntity()
+            {
+
+                uid = Configuration.FirebaseConfig.Auth.CurrentUser.Uid,
+
+                token = token,
+
+            });
+
         }
 
     }

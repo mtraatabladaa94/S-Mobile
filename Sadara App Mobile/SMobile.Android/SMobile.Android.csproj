@@ -323,6 +323,9 @@
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\ic_isotipo_sadara_ico.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\recyclerview_background.xml" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
