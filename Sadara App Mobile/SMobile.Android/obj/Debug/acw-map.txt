@@ -34,6 +34,10 @@ SMobile.Android.Activities.SignupActivity, SMobile.Android;md538a4c09f23a14d23b9
 SMobile.Android.Activities.SignupActivity, SMobile.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md538a4c09f23a14d23b9bd851d99c7aeeb.SignupActivity
 SMobile.Android.Activities.SignupActivity;md538a4c09f23a14d23b9bd851d99c7aeeb.SignupActivity
 smobile.android.activities.SignupActivity;md538a4c09f23a14d23b9bd851d99c7aeeb.SignupActivity
+SMobile.Android.Activities.UserListActivity, SMobile.Android;md538a4c09f23a14d23b9bd851d99c7aeeb.UserListActivity
+SMobile.Android.Activities.UserListActivity, SMobile.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md538a4c09f23a14d23b9bd851d99c7aeeb.UserListActivity
+SMobile.Android.Activities.UserListActivity;md538a4c09f23a14d23b9bd851d99c7aeeb.UserListActivity
+smobile.android.activities.UserListActivity;md538a4c09f23a14d23b9bd851d99c7aeeb.UserListActivity
 SMobile.Android.Activities.UserPreferenceActivity, SMobile.Android;md538a4c09f23a14d23b9bd851d99c7aeeb.UserPreferenceActivity
 SMobile.Android.Activities.UserPreferenceActivity, SMobile.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md538a4c09f23a14d23b9bd851d99c7aeeb.UserPreferenceActivity
 SMobile.Android.Activities.UserPreferenceActivity;md538a4c09f23a14d23b9bd851d99c7aeeb.UserPreferenceActivity

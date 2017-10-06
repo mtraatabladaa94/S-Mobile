@@ -2576,124 +2576,127 @@ namespace SMobile.Android
 			public const int ic_activities = 2130837647;
 			
 			// aapt resource value: 0x7f020090
-			public const int ic_config = 2130837648;
+			public const int ic_add = 2130837648;
 			
 			// aapt resource value: 0x7f020091
-			public const int ic_favorite = 2130837649;
+			public const int ic_config = 2130837649;
 			
 			// aapt resource value: 0x7f020092
-			public const int ic_home = 2130837650;
+			public const int ic_favorite = 2130837650;
 			
 			// aapt resource value: 0x7f020093
-			public const int ic_isotipo_sadara = 2130837651;
+			public const int ic_home = 2130837651;
 			
 			// aapt resource value: 0x7f020094
-			public const int ic_isotipo_sadara_ico = 2130837652;
+			public const int ic_isotipo_sadara = 2130837652;
 			
 			// aapt resource value: 0x7f020095
-			public const int ic_message = 2130837653;
+			public const int ic_isotipo_sadara_ico = 2130837653;
 			
 			// aapt resource value: 0x7f020096
-			public const int ic_navheader_profile = 2130837654;
+			public const int ic_message = 2130837654;
 			
 			// aapt resource value: 0x7f020097
-			public const int ic_off_session = 2130837655;
+			public const int ic_navheader_profile = 2130837655;
 			
 			// aapt resource value: 0x7f020098
-			public const int ic_people = 2130837656;
+			public const int ic_off_session = 2130837656;
 			
 			// aapt resource value: 0x7f020099
-			public const int ic_playlist_add = 2130837657;
+			public const int ic_people = 2130837657;
 			
 			// aapt resource value: 0x7f02009a
-			public const int ic_plusone_medium_off_client = 2130837658;
+			public const int ic_playlist_add = 2130837658;
 			
 			// aapt resource value: 0x7f02009b
-			public const int ic_plusone_small_off_client = 2130837659;
+			public const int ic_plusone_medium_off_client = 2130837659;
 			
 			// aapt resource value: 0x7f02009c
-			public const int ic_plusone_standard_off_client = 2130837660;
+			public const int ic_plusone_small_off_client = 2130837660;
 			
 			// aapt resource value: 0x7f02009d
-			public const int ic_plusone_tall_off_client = 2130837661;
+			public const int ic_plusone_standard_off_client = 2130837661;
 			
 			// aapt resource value: 0x7f02009e
-			public const int ic_save = 2130837662;
+			public const int ic_plusone_tall_off_client = 2130837662;
 			
 			// aapt resource value: 0x7f02009f
-			public const int ic_send = 2130837663;
+			public const int ic_save = 2130837663;
 			
 			// aapt resource value: 0x7f0200a0
-			public const int messenger_bubble_large_blue = 2130837664;
+			public const int ic_send = 2130837664;
 			
 			// aapt resource value: 0x7f0200a1
-			public const int messenger_bubble_large_white = 2130837665;
+			public const int messenger_bubble_large_blue = 2130837665;
 			
 			// aapt resource value: 0x7f0200a2
-			public const int messenger_bubble_small_blue = 2130837666;
+			public const int messenger_bubble_large_white = 2130837666;
 			
 			// aapt resource value: 0x7f0200a3
-			public const int messenger_bubble_small_white = 2130837667;
+			public const int messenger_bubble_small_blue = 2130837667;
 			
 			// aapt resource value: 0x7f0200a4
-			public const int messenger_button_blue_bg_round = 2130837668;
+			public const int messenger_bubble_small_white = 2130837668;
 			
 			// aapt resource value: 0x7f0200a5
-			public const int messenger_button_blue_bg_selector = 2130837669;
+			public const int messenger_button_blue_bg_round = 2130837669;
 			
 			// aapt resource value: 0x7f0200a6
-			public const int messenger_button_send_round_shadow = 2130837670;
+			public const int messenger_button_blue_bg_selector = 2130837670;
 			
 			// aapt resource value: 0x7f0200a7
-			public const int messenger_button_white_bg_round = 2130837671;
+			public const int messenger_button_send_round_shadow = 2130837671;
 			
 			// aapt resource value: 0x7f0200a8
-			public const int messenger_button_white_bg_selector = 2130837672;
+			public const int messenger_button_white_bg_round = 2130837672;
 			
 			// aapt resource value: 0x7f0200a9
-			public const int navigation_empty_icon = 2130837673;
+			public const int messenger_button_white_bg_selector = 2130837673;
 			
 			// aapt resource value: 0x7f0200aa
-			public const int notification_action_background = 2130837674;
+			public const int navigation_empty_icon = 2130837674;
 			
 			// aapt resource value: 0x7f0200ab
-			public const int notification_bg = 2130837675;
+			public const int notification_action_background = 2130837675;
 			
 			// aapt resource value: 0x7f0200ac
-			public const int notification_bg_low = 2130837676;
+			public const int notification_bg = 2130837676;
 			
 			// aapt resource value: 0x7f0200ad
-			public const int notification_bg_low_normal = 2130837677;
+			public const int notification_bg_low = 2130837677;
 			
 			// aapt resource value: 0x7f0200ae
-			public const int notification_bg_low_pressed = 2130837678;
+			public const int notification_bg_low_normal = 2130837678;
 			
 			// aapt resource value: 0x7f0200af
-			public const int notification_bg_normal = 2130837679;
+			public const int notification_bg_low_pressed = 2130837679;
 			
 			// aapt resource value: 0x7f0200b0
-			public const int notification_bg_normal_pressed = 2130837680;
+			public const int notification_bg_normal = 2130837680;
 			
 			// aapt resource value: 0x7f0200b1
-			public const int notification_icon_background = 2130837681;
-			
-			// aapt resource value: 0x7f0200b6
-			public const int notification_template_icon_bg = 2130837686;
-			
-			// aapt resource value: 0x7f0200b7
-			public const int notification_template_icon_low_bg = 2130837687;
+			public const int notification_bg_normal_pressed = 2130837681;
 			
 			// aapt resource value: 0x7f0200b2
-			public const int notification_tile_bg = 2130837682;
+			public const int notification_icon_background = 2130837682;
+			
+			// aapt resource value: 0x7f0200b7
+			public const int notification_template_icon_bg = 2130837687;
+			
+			// aapt resource value: 0x7f0200b8
+			public const int notification_template_icon_low_bg = 2130837688;
 			
 			// aapt resource value: 0x7f0200b3
-			public const int notify_panel_notification_icon_bg = 2130837683;
+			public const int notification_tile_bg = 2130837683;
 			
 			// aapt resource value: 0x7f0200b4
-			public const int recyclerview_background = 2130837684;
+			public const int notify_panel_notification_icon_bg = 2130837684;
 			
 			// aapt resource value: 0x7f0200b5
-			public const int user_preference_background_item = 2130837685;
+			public const int recyclerview_background = 2130837685;
+			
+			// aapt resource value: 0x7f0200b6
+			public const int user_preference_background_item = 2130837686;
 			
 			static Drawable()
 			{
@@ -2708,11 +2711,11 @@ namespace SMobile.Android
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0b00ec
-			public const int HeaderTextLayout = 2131427564;
+			// aapt resource value: 0x7f0b00f0
+			public const int HeaderTextLayout = 2131427568;
 			
-			// aapt resource value: 0x7f0b00f2
-			public const int ItemPreferenceLayout = 2131427570;
+			// aapt resource value: 0x7f0b00f6
+			public const int ItemPreferenceLayout = 2131427574;
 			
 			// aapt resource value: 0x7f0b00ce
 			public const int SignOut = 2131427534;
@@ -2729,8 +2732,11 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f0b00e4
 			public const int SignupGenderLayout = 2131427556;
 			
-			// aapt resource value: 0x7f0b00f0
-			public const int UserPreferenceItemLayout = 2131427568;
+			// aapt resource value: 0x7f0b00ec
+			public const int UserListAppBarLayout = 2131427564;
+			
+			// aapt resource value: 0x7f0b00f4
+			public const int UserPreferenceItemLayout = 2131427572;
 			
 			// aapt resource value: 0x7f0b00ae
 			public const int action0 = 2131427502;
@@ -2981,6 +2987,9 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f0b006c
 			public const int expanded_menu = 2131427436;
 			
+			// aapt resource value: 0x7f0b00ee
+			public const int fab = 2131427566;
+			
 			// aapt resource value: 0x7f0b00cc
 			public const int facebookButton = 2131427532;
 			
@@ -3098,8 +3107,8 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f0b00e8
 			public const int maleRadioButton = 2131427560;
 			
-			// aapt resource value: 0x7f0b00f6
-			public const int masked = 2131427574;
+			// aapt resource value: 0x7f0b00fa
+			public const int masked = 2131427578;
 			
 			// aapt resource value: 0x7f0b00b1
 			public const int media_actions = 2131427505;
@@ -3119,32 +3128,32 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f0b00e1
 			public const int nameTextInputLayout = 2131427553;
 			
-			// aapt resource value: 0x7f0b00fd
-			public const int nav_activities = 2131427581;
+			// aapt resource value: 0x7f0b0101
+			public const int nav_activities = 2131427585;
+			
+			// aapt resource value: 0x7f0b0102
+			public const int nav_config = 2131427586;
 			
 			// aapt resource value: 0x7f0b00fe
-			public const int nav_config = 2131427582;
+			public const int nav_create_list = 2131427582;
 			
-			// aapt resource value: 0x7f0b00fa
-			public const int nav_create_list = 2131427578;
-			
-			// aapt resource value: 0x7f0b00f9
-			public const int nav_discussion = 2131427577;
-			
-			// aapt resource value: 0x7f0b00fb
-			public const int nav_favorite = 2131427579;
-			
-			// aapt resource value: 0x7f0b00f8
-			public const int nav_friends = 2131427576;
-			
-			// aapt resource value: 0x7f0b00f7
-			public const int nav_home = 2131427575;
+			// aapt resource value: 0x7f0b00fd
+			public const int nav_discussion = 2131427581;
 			
 			// aapt resource value: 0x7f0b00ff
-			public const int nav_off_session = 2131427583;
+			public const int nav_favorite = 2131427583;
 			
 			// aapt resource value: 0x7f0b00fc
-			public const int nav_saved = 2131427580;
+			public const int nav_friends = 2131427580;
+			
+			// aapt resource value: 0x7f0b00fb
+			public const int nav_home = 2131427579;
+			
+			// aapt resource value: 0x7f0b0103
+			public const int nav_off_session = 2131427587;
+			
+			// aapt resource value: 0x7f0b0100
+			public const int nav_saved = 2131427584;
 			
 			// aapt resource value: 0x7f0b00a1
 			public const int nav_view = 2131427489;
@@ -3218,8 +3227,8 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f0b004a
 			public const int pin = 2131427402;
 			
-			// aapt resource value: 0x7f0b00ed
-			public const int preferencesRecyclerView = 2131427565;
+			// aapt resource value: 0x7f0b00f1
+			public const int preferencesRecyclerView = 2131427569;
 			
 			// aapt resource value: 0x7f0b00a2
 			public const int productEditText = 2131427490;
@@ -3305,8 +3314,8 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f0b0083
 			public const int search_voice_btn = 2131427459;
 			
-			// aapt resource value: 0x7f0b00ef
-			public const int selectPreferencesButton = 2131427567;
+			// aapt resource value: 0x7f0b00f3
+			public const int selectPreferencesButton = 2131427571;
 			
 			// aapt resource value: 0x7f0b0084
 			public const int select_dialog_listview = 2131427460;
@@ -3443,20 +3452,26 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f0b0030
 			public const int useLogo = 2131427376;
 			
-			// aapt resource value: 0x7f0b00f1
-			public const int userPreferenceIdTextView = 2131427569;
+			// aapt resource value: 0x7f0b00f5
+			public const int userPreferenceIdTextView = 2131427573;
+			
+			// aapt resource value: 0x7f0b00ef
+			public const int userPreferenceLayout = 2131427567;
+			
+			// aapt resource value: 0x7f0b00f7
+			public const int userPreferenceNameTextView = 2131427575;
+			
+			// aapt resource value: 0x7f0b00f2
+			public const int userPreferenceProgressBar = 2131427570;
+			
+			// aapt resource value: 0x7f0b00f8
+			public const int userPreferenceSelected = 2131427576;
 			
 			// aapt resource value: 0x7f0b00eb
-			public const int userPreferenceLayout = 2131427563;
+			public const int user_list_layout = 2131427563;
 			
-			// aapt resource value: 0x7f0b00f3
-			public const int userPreferenceNameTextView = 2131427571;
-			
-			// aapt resource value: 0x7f0b00ee
-			public const int userPreferenceProgressBar = 2131427566;
-			
-			// aapt resource value: 0x7f0b00f4
-			public const int userPreferenceSelected = 2131427572;
+			// aapt resource value: 0x7f0b00ed
+			public const int user_list_toolbar = 2131427565;
 			
 			// aapt resource value: 0x7f0b00c6
 			public const int usernameEditText = 2131427526;
@@ -3464,8 +3479,8 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f0b000e
 			public const int view_offset_helper = 2131427342;
 			
-			// aapt resource value: 0x7f0b00f5
-			public const int visible = 2131427573;
+			// aapt resource value: 0x7f0b00f9
+			public const int visible = 2131427577;
 			
 			// aapt resource value: 0x7f0b0014
 			public const int wide = 2131427348;
@@ -3773,10 +3788,16 @@ namespace SMobile.Android
 			public const int support_simple_spinner_dropdown_item = 2130903119;
 			
 			// aapt resource value: 0x7f030050
-			public const int UserPreference = 2130903120;
+			public const int user_list_layout = 2130903120;
 			
 			// aapt resource value: 0x7f030051
-			public const int UserPreferenceItem = 2130903121;
+			public const int user_list_layout_item = 2130903121;
+			
+			// aapt resource value: 0x7f030052
+			public const int UserPreference = 2130903122;
+			
+			// aapt resource value: 0x7f030053
+			public const int UserPreferenceItem = 2130903123;
 			
 			static Layout()
 			{

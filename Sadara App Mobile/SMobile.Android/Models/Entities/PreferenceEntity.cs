@@ -8,11 +8,17 @@ namespace SMobile.Android.Models.Entities
     public class PreferenceEntity
     {
 
+
         public string uid { get; set; } // Key del nodo
 
         public string name { get; set; } // Nombre de la preferencia
 
         public string topic { get; set; }
-        
+
+        public override string ToString()
+        {
+            return base.ToString();
+        }
+
     }
 }

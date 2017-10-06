@@ -34,12 +34,13 @@
     </service>
     <activity android:label="Iniciar Sesión" android:name="md538a4c09f23a14d23b9bd851d99c7aeeb.SigninActivity" />
     <activity android:label="SignupActivity" android:name="md538a4c09f23a14d23b9bd851d99c7aeeb.SignupActivity" />
-    <activity android:icon="@drawable/ic_isotipo_sadara" android:label="UserPreferenceActivity" android:name="md538a4c09f23a14d23b9bd851d99c7aeeb.UserPreferenceActivity">
+    <activity android:icon="@drawable/ic_isotipo_sadara" android:label="Sadara" android:name="md538a4c09f23a14d23b9bd851d99c7aeeb.UserListActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
+    <activity android:label="UserPreferenceActivity" android:name="md538a4c09f23a14d23b9bd851d99c7aeeb.UserPreferenceActivity" />
     <service android:name="md59f70a99687498e7ba187118950981d26.KeepAliveService" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.sadara.android.mono.MonoRuntimeProvider.__mono_init__" />
     <!--suppress ExportedReceiver-->

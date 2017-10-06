@@ -183,6 +183,7 @@
     <Compile Include="Activities\SigninActivity.cs" />
     <Compile Include="Activities\MainActivity.cs" />
     <Compile Include="Activities\SignupActivity.cs" />
+    <Compile Include="Activities\UserListActivity.cs" />
     <Compile Include="Activities\UserPreferenceActivity.cs" />
     <Compile Include="Configuration\FirebaseConfig.cs" />
     <Compile Include="Helpers\FirebaseCloudMessaging\SadaraFirebaseIIDService.cs" />
@@ -195,8 +196,13 @@
     <Compile Include="Models\FacebookModel\FacebookResult.cs" />
     <Compile Include="Models\FacebookModel\MyProfileTracker.cs" />
     <Compile Include="Models\FacebookModel\OnProfileChangedEventArgs.cs" />
+    <Compile Include="Models\FirebaseModel\FirebaseModels.cs" />
     <Compile Include="Models\FirebaseModel\PreferenceModel.cs" />
     <Compile Include="Models\FirebaseModel\PreferenceWithUserModel.cs" />
+    <Compile Include="Models\FirebaseModel\Transaction\IAdd.cs" />
+    <Compile Include="Models\FirebaseModel\Transaction\IDataList.cs" />
+    <Compile Include="Models\FirebaseModel\Transaction\IRemove.cs" />
+    <Compile Include="Models\FirebaseModel\Transaction\IUpdate.cs" />
     <Compile Include="Models\FirebaseModel\UserTokenModel.cs" />
     <Compile Include="Models\FirebaseModel\UserModel.cs" />
     <Compile Include="Models\RealmModel\PORO\ProductEntity.cs" />
@@ -238,6 +244,12 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\UserPreferenceItem.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\user_list_layout.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\user_list_layout_item.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
@@ -325,6 +337,15 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\recyclerview_background.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ic_add.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <XamarinComponentReference Include="xamandroidsupportdesign">
+      <Visible>False</Visible>
+      <Version>25.1.1.0</Version>
+    </XamarinComponentReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

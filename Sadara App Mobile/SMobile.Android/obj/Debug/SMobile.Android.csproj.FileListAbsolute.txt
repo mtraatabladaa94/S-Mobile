@@ -172,6 +172,8 @@ E:\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\res\layout\signup
 E:\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\res\layout\signupgender.xml
 E:\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\res\layout\userpreference.xml
 E:\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\res\layout\userpreferenceitem.xml
+E:\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\res\layout\user_list_layout.xml
+E:\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\res\layout\user_list_layout_item.xml
 E:\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\res\layout\main.xml
 E:\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\res\values\strings.xml
 E:\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\res\drawable\ic_activities.png
@@ -194,9 +196,10 @@ E:\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\res\drawable\back
 E:\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\res\drawable\user_preference_background_item.xml
 E:\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\res\drawable\background_button_flat.xml
 E:\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\res\drawable\ic_isotipo_sadara_ico.ico
+E:\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\res\drawable\recyclerview_background.xml
 E:\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\R.cs.flag
 E:\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\uploadflags.txt
+E:\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\SMobile.Android.csprojResolveAssemblyReference.cache
+E:\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\res\drawable\ic_add.xml
 E:\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\bin\Debug\SMobile.Android.dll.mdb
 E:\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\android\assets\SMobile.Android.dll.mdb
-E:\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\SMobile.Android.csprojResolveAssemblyReference.cache
-E:\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\res\drawable\recyclerview_background.xml

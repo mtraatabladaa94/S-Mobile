@@ -21,7 +21,7 @@ using Firebase.Iid;
 namespace SMobile.Android.Activities
 {
     
-    [Activity(Label = "UserPreferenceActivity", MainLauncher = true, Icon = "@drawable/ic_isotipo_sadara")]
+    [Activity(Label = "UserPreferenceActivity")]
     public class UserPreferenceActivity : Activity
     {
 

@@ -5,7 +5,7 @@
   <xs:import schemaLocation="schemas.android.com.tools.xsd" namespace="http://schemas.android.com/tools" />
   <xs:annotation>
     <xs:documentation>v25</xs:documentation>
-    <xs:documentation>5/10/2017 17:20:28</xs:documentation>
+    <xs:documentation>6/10/2017 15:59:28</xs:documentation>
   </xs:annotation>
   <xs:group name="any-view">
     <xs:choice>
@@ -91,9 +91,9 @@
       <xs:element ref="com.facebook.login.widget.LoginButton" />
       <xs:element ref="com.facebook.login.widget.DeviceLoginButton" />
       <xs:element ref="com.facebook.FacebookButtonBase" />
-      <xs:element ref="com.google.android.gms.common.SignInButton" />
       <xs:element ref="com.google.android.gms.plus.PlusOneDummyView" />
       <xs:element ref="com.google.android.gms.plus.PlusOneButton" />
+      <xs:element ref="com.google.android.gms.common.SignInButton" />
       <xs:element ref="android.support.v7.view.menu.ExpandedMenuView" />
       <xs:element ref="android.support.v7.view.menu.ListMenuItemView" />
       <xs:element ref="android.support.v7.view.menu.ActionMenuItemView" />
@@ -1564,20 +1564,6 @@
       <xs:extension base="Button" />
     </xs:complexContent>
   </xs:complexType>
-  <xs:element name="com.google.android.gms.common.SignInButton" type="com.google.android.gms.common.SignInButton">
-    <xs:annotation>
-      <xs:documentation>Runtime Type: Android.Gms.Common.SignInButton</xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:complexType name="com.google.android.gms.common.SignInButton">
-    <xs:complexContent mixed="false">
-      <xs:extension base="FrameLayout">
-        <xs:attribute ref="app:buttonSize" />
-        <xs:attribute ref="app:colorScheme" />
-        <xs:attribute ref="app:scopeUris" />
-      </xs:extension>
-    </xs:complexContent>
-  </xs:complexType>
   <xs:element name="com.google.android.gms.plus.PlusOneDummyView" type="com.google.android.gms.plus.PlusOneDummyView">
     <xs:annotation>
       <xs:documentation>Runtime Type: Android.Gms.Plus.PlusOneDummyView</xs:documentation>
@@ -1596,6 +1582,20 @@
   <xs:complexType name="com.google.android.gms.plus.PlusOneButton">
     <xs:complexContent mixed="false">
       <xs:extension base="FrameLayout" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="com.google.android.gms.common.SignInButton" type="com.google.android.gms.common.SignInButton">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: Android.Gms.Common.SignInButton</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="com.google.android.gms.common.SignInButton">
+    <xs:complexContent mixed="false">
+      <xs:extension base="FrameLayout">
+        <xs:attribute ref="app:buttonSize" />
+        <xs:attribute ref="app:colorScheme" />
+        <xs:attribute ref="app:scopeUris" />
+      </xs:extension>
     </xs:complexContent>
   </xs:complexType>
   <xs:element name="android.support.v7.view.menu.ExpandedMenuView" type="android.support.v7.view.menu.ExpandedMenuView">
