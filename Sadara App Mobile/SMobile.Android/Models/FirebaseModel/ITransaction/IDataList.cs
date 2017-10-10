@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SMobile.Android.Models.FirebaseModel.Transaction
+namespace SMobile.Android.Models.FirebaseModel.ITransaction
 {
     interface IDataList<T>
     {

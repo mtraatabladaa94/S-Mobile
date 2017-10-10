@@ -1187,44 +1187,44 @@ namespace SMobile.Android
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f060073
-			public const int abc_background_cache_hint_selector_material_dark = 2131099763;
-			
 			// aapt resource value: 0x7f060074
-			public const int abc_background_cache_hint_selector_material_light = 2131099764;
+			public const int abc_background_cache_hint_selector_material_dark = 2131099764;
 			
 			// aapt resource value: 0x7f060075
-			public const int abc_btn_colored_borderless_text_material = 2131099765;
+			public const int abc_background_cache_hint_selector_material_light = 2131099765;
 			
 			// aapt resource value: 0x7f060076
-			public const int abc_btn_colored_text_material = 2131099766;
+			public const int abc_btn_colored_borderless_text_material = 2131099766;
 			
 			// aapt resource value: 0x7f060077
-			public const int abc_color_highlight_material = 2131099767;
+			public const int abc_btn_colored_text_material = 2131099767;
 			
 			// aapt resource value: 0x7f060078
-			public const int abc_hint_foreground_material_dark = 2131099768;
+			public const int abc_color_highlight_material = 2131099768;
 			
 			// aapt resource value: 0x7f060079
-			public const int abc_hint_foreground_material_light = 2131099769;
+			public const int abc_hint_foreground_material_dark = 2131099769;
+			
+			// aapt resource value: 0x7f06007a
+			public const int abc_hint_foreground_material_light = 2131099770;
 			
 			// aapt resource value: 0x7f060021
 			public const int abc_input_method_navigation_guard = 2131099681;
 			
-			// aapt resource value: 0x7f06007a
-			public const int abc_primary_text_disable_only_material_dark = 2131099770;
-			
 			// aapt resource value: 0x7f06007b
-			public const int abc_primary_text_disable_only_material_light = 2131099771;
+			public const int abc_primary_text_disable_only_material_dark = 2131099771;
 			
 			// aapt resource value: 0x7f06007c
-			public const int abc_primary_text_material_dark = 2131099772;
+			public const int abc_primary_text_disable_only_material_light = 2131099772;
 			
 			// aapt resource value: 0x7f06007d
-			public const int abc_primary_text_material_light = 2131099773;
+			public const int abc_primary_text_material_dark = 2131099773;
 			
 			// aapt resource value: 0x7f06007e
-			public const int abc_search_url_text = 2131099774;
+			public const int abc_primary_text_material_light = 2131099774;
+			
+			// aapt resource value: 0x7f06007f
+			public const int abc_search_url_text = 2131099775;
 			
 			// aapt resource value: 0x7f060022
 			public const int abc_search_url_text_normal = 2131099682;
@@ -1235,32 +1235,32 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f060024
 			public const int abc_search_url_text_selected = 2131099684;
 			
-			// aapt resource value: 0x7f06007f
-			public const int abc_secondary_text_material_dark = 2131099775;
-			
 			// aapt resource value: 0x7f060080
-			public const int abc_secondary_text_material_light = 2131099776;
+			public const int abc_secondary_text_material_dark = 2131099776;
 			
 			// aapt resource value: 0x7f060081
-			public const int abc_tint_btn_checkable = 2131099777;
+			public const int abc_secondary_text_material_light = 2131099777;
 			
 			// aapt resource value: 0x7f060082
-			public const int abc_tint_default = 2131099778;
+			public const int abc_tint_btn_checkable = 2131099778;
 			
 			// aapt resource value: 0x7f060083
-			public const int abc_tint_edittext = 2131099779;
+			public const int abc_tint_default = 2131099779;
 			
 			// aapt resource value: 0x7f060084
-			public const int abc_tint_seek_thumb = 2131099780;
+			public const int abc_tint_edittext = 2131099780;
 			
 			// aapt resource value: 0x7f060085
-			public const int abc_tint_spinner = 2131099781;
+			public const int abc_tint_seek_thumb = 2131099781;
 			
 			// aapt resource value: 0x7f060086
-			public const int abc_tint_switch_thumb = 2131099782;
+			public const int abc_tint_spinner = 2131099782;
 			
 			// aapt resource value: 0x7f060087
-			public const int abc_tint_switch_track = 2131099783;
+			public const int abc_tint_switch_thumb = 2131099783;
+			
+			// aapt resource value: 0x7f060088
+			public const int abc_tint_switch_track = 2131099784;
 			
 			// aapt resource value: 0x7f060025
 			public const int accent_material_dark = 2131099685;
@@ -1364,8 +1364,8 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f060014
 			public const int com_facebook_button_send_background_color_pressed = 2131099668;
 			
-			// aapt resource value: 0x7f060088
-			public const int com_facebook_button_text_color = 2131099784;
+			// aapt resource value: 0x7f060089
+			public const int com_facebook_button_text_color = 2131099785;
 			
 			// aapt resource value: 0x7f060015
 			public const int com_facebook_device_auth_text = 2131099669;
@@ -1382,8 +1382,8 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f060019
 			public const int com_facebook_messenger_blue = 2131099673;
 			
-			// aapt resource value: 0x7f060089
-			public const int com_facebook_send_button_text_color = 2131099785;
+			// aapt resource value: 0x7f06008a
+			public const int com_facebook_send_button_text_color = 2131099786;
 			
 			// aapt resource value: 0x7f06001a
 			public const int com_facebook_share_button_text_color = 2131099674;
@@ -1391,8 +1391,8 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f06001b
 			public const int com_smart_login_code = 2131099675;
 			
-			// aapt resource value: 0x7f06008a
-			public const int common_google_signin_btn_text_dark = 2131099786;
+			// aapt resource value: 0x7f06008b
+			public const int common_google_signin_btn_text_dark = 2131099787;
 			
 			// aapt resource value: 0x7f060000
 			public const int common_google_signin_btn_text_dark_default = 2131099648;
@@ -1406,8 +1406,8 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f060003
 			public const int common_google_signin_btn_text_dark_pressed = 2131099651;
 			
-			// aapt resource value: 0x7f06008b
-			public const int common_google_signin_btn_text_light = 2131099787;
+			// aapt resource value: 0x7f06008c
+			public const int common_google_signin_btn_text_light = 2131099788;
 			
 			// aapt resource value: 0x7f060004
 			public const int common_google_signin_btn_text_light_default = 2131099652;
@@ -1421,14 +1421,14 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f060007
 			public const int common_google_signin_btn_text_light_pressed = 2131099655;
 			
-			// aapt resource value: 0x7f06008c
-			public const int common_google_signin_btn_tint = 2131099788;
+			// aapt resource value: 0x7f06008d
+			public const int common_google_signin_btn_tint = 2131099789;
 			
 			// aapt resource value: 0x7f06005b
 			public const int design_bottom_navigation_shadow_color = 2131099739;
 			
-			// aapt resource value: 0x7f06008d
-			public const int design_error = 2131099789;
+			// aapt resource value: 0x7f06008e
+			public const int design_error = 2131099790;
 			
 			// aapt resource value: 0x7f06005c
 			public const int design_fab_shadow_end_color = 2131099740;
@@ -1460,8 +1460,8 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f060065
 			public const int design_textinput_error_color_light = 2131099749;
 			
-			// aapt resource value: 0x7f06008e
-			public const int design_tint_password_toggle = 2131099790;
+			// aapt resource value: 0x7f06008f
+			public const int design_tint_password_toggle = 2131099791;
 			
 			// aapt resource value: 0x7f060033
 			public const int dim_foreground_disabled_material_dark = 2131099699;
@@ -1523,20 +1523,20 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f060046
 			public const int material_grey_900 = 2131099718;
 			
-			// aapt resource value: 0x7f06006d
-			public const int menu_drawer_background = 2131099757;
-			
 			// aapt resource value: 0x7f06006e
-			public const int menu_drawer_header_background = 2131099758;
-			
-			// aapt resource value: 0x7f060070
-			public const int menu_followers = 2131099760;
+			public const int menu_drawer_background = 2131099758;
 			
 			// aapt resource value: 0x7f06006f
-			public const int menu_home = 2131099759;
+			public const int menu_drawer_header_background = 2131099759;
 			
 			// aapt resource value: 0x7f060071
-			public const int menu_messages = 2131099761;
+			public const int menu_followers = 2131099761;
+			
+			// aapt resource value: 0x7f060070
+			public const int menu_home = 2131099760;
+			
+			// aapt resource value: 0x7f060072
+			public const int menu_messages = 2131099762;
 			
 			// aapt resource value: 0x7f060020
 			public const int notification_action_color_filter = 2131099680;
@@ -1595,11 +1595,11 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f060058
 			public const int switch_thumb_disabled_material_light = 2131099736;
 			
-			// aapt resource value: 0x7f06008f
-			public const int switch_thumb_material_dark = 2131099791;
-			
 			// aapt resource value: 0x7f060090
-			public const int switch_thumb_material_light = 2131099792;
+			public const int switch_thumb_material_dark = 2131099792;
+			
+			// aapt resource value: 0x7f060091
+			public const int switch_thumb_material_light = 2131099793;
 			
 			// aapt resource value: 0x7f060059
 			public const int switch_thumb_normal_material_dark = 2131099737;
@@ -1613,8 +1613,11 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f06006b
 			public const int text_color_primary_light = 2131099755;
 			
-			// aapt resource value: 0x7f060072
-			public const int transparent = 2131099762;
+			// aapt resource value: 0x7f060073
+			public const int transparent = 2131099763;
+			
+			// aapt resource value: 0x7f06006d
+			public const int white = 2131099757;
 			
 			// aapt resource value: 0x7f06006a
 			public const int window_background = 2131099754;
@@ -4182,6 +4185,9 @@ namespace SMobile.Android
 			
 			// aapt resource value: 0x7f0a017d
 			public const int Animation_Design_BottomSheetDialog = 2131362173;
+			
+			// aapt resource value: 0x7f0a0199
+			public const int AppTheme_Toolbar_Title = 2131362201;
 			
 			// aapt resource value: 0x7f0a00bf
 			public const int Base_AlertDialog_AppCompat = 2131361983;

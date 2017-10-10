@@ -192,6 +192,7 @@
     <Compile Include="Models\Entities\PreferenceSelectedEntity.cs" />
     <Compile Include="Models\Entities\PreferenceWithUserEntity.cs" />
     <Compile Include="Models\Entities\UserEntity.cs" />
+    <Compile Include="Models\Entities\UserListEntity.cs" />
     <Compile Include="Models\Entities\UserTokenEntity.cs" />
     <Compile Include="Models\FacebookModel\FacebookResult.cs" />
     <Compile Include="Models\FacebookModel\MyProfileTracker.cs" />
@@ -199,10 +200,10 @@
     <Compile Include="Models\FirebaseModel\FirebaseModels.cs" />
     <Compile Include="Models\FirebaseModel\PreferenceModel.cs" />
     <Compile Include="Models\FirebaseModel\PreferenceWithUserModel.cs" />
-    <Compile Include="Models\FirebaseModel\Transaction\IAdd.cs" />
-    <Compile Include="Models\FirebaseModel\Transaction\IDataList.cs" />
-    <Compile Include="Models\FirebaseModel\Transaction\IRemove.cs" />
-    <Compile Include="Models\FirebaseModel\Transaction\IUpdate.cs" />
+    <Compile Include="Models\FirebaseModel\ITransaction\IAdd.cs" />
+    <Compile Include="Models\FirebaseModel\ITransaction\IDataList.cs" />
+    <Compile Include="Models\FirebaseModel\ITransaction\IRemove.cs" />
+    <Compile Include="Models\FirebaseModel\ITransaction\IUpdate.cs" />
     <Compile Include="Models\FirebaseModel\UserTokenModel.cs" />
     <Compile Include="Models\FirebaseModel\UserModel.cs" />
     <Compile Include="Models\RealmModel\PORO\ProductEntity.cs" />
@@ -316,7 +317,9 @@
     <None Include="FodyWeavers.xml" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\menu\NavMenu.xml" />
+    <AndroidResource Include="Resources\menu\NavMenu.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\ic_send.png" />

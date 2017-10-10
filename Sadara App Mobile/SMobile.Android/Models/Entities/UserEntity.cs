@@ -12,7 +12,16 @@ namespace SMobile.Android.Models.Entities
 
     internal sealed class UserEntity
     {
+        
+        public const string USER_NAME = "users";
 
+        public override string ToString()
+        {
+
+            return UserEntity.USER_NAME;
+
+        }
+        
         public string uid { get; set; } // Key del nodo
 
         public string firstName { get; set; } // Nombres

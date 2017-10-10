@@ -10,20 +10,20 @@ using System.Threading.Tasks;
 namespace SMobile.Android.Models.FirebaseModel
 {
     class FirebaseModels<T> :
-        Transaction.IAdd<T>,
-        Transaction.IUpdate<T>,
-        Transaction.IRemove<T>,
-        Transaction.IDataList<T>
+        ITransaction.IAdd<T>,
+        ITransaction.IUpdate<T>,
+        ITransaction.IRemove<T>,
+        ITransaction.IDataList<T>
     {
 
         FirebaseClient firebaseClient;
 
-        public async void Add(T Entity)
+        public async Task<FirebaseObject<T>> Add(T Entity)
         {
 
             this.firebaseClient = new FirebaseClient(Configuration.FirebaseConfig.FIREBASE_URL);
 
-            await firebaseClient
+            return await firebaseClient
 
                 .Child(Entity.ToString())
 
@@ -44,7 +44,7 @@ namespace SMobile.Android.Models.FirebaseModel
             
         }
 
-        public async void Remove<Id>(T Entity, Id Uid)
+        public async Task Remove<Id>(T Entity, Id Uid)
         {
 
             this.firebaseClient = new FirebaseClient(Configuration.FirebaseConfig.FIREBASE_URL);
@@ -59,7 +59,7 @@ namespace SMobile.Android.Models.FirebaseModel
 
         }
 
-        public async void Update(T Entity, List<Tuple<string, string, object>> DataToChanges)
+        public void Update(T Entity, List<Tuple<string, string, object>> DataToChanges)
         {
 
             this.firebaseClient = new FirebaseClient(Configuration.FirebaseConfig.FIREBASE_URL);
@@ -70,18 +70,16 @@ namespace SMobile.Android.Models.FirebaseModel
 
                 .Child(Entity.ToString())
 
-                .Client
-
                 .Child(item.Item1)
-
-                .Client
 
                 .Child(item.Item2)
 
                 .PutAsync(item.Item3);
 
             });
-
+            
         }
+
     }
+
 }

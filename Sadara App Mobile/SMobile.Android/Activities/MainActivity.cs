@@ -13,7 +13,8 @@ using Realms;
 
 namespace SMobile.Android
 {
-    [Activity(Label = "Sadara Mobile", Theme = "@style/Main.Theme.SadaraTheme")]
+    //[Activity(Label = "Sadara Mobile", Theme = "@style/Main.Theme.SadaraTheme")]
+    [Activity(Label = "Sadara", MainLauncher = false, Icon = "@drawable/ic_isotipo_sadara")]
     public class MainActivity : AppCompatActivity
     {
         //Drawable menú
@@ -26,6 +27,7 @@ namespace SMobile.Android
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
+
             base.OnCreate(savedInstanceState);
 
             // Set our view from the "main" layout resource
@@ -34,7 +36,7 @@ namespace SMobile.Android
             //
             drawerLayout = FindViewById<DrawerLayout>(Resource.Id.drawer_layout);
 
-            // Create ActionBarDrawerToggle button and add it to the toolbar  
+            // Create ActionBarDrawerToggle button and add it to the toolbar
             var toolbar = FindViewById<V7Toolbar>(Resource.Id.toolbar);
 
             //

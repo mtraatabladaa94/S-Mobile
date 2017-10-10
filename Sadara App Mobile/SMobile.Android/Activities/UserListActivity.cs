@@ -10,7 +10,8 @@ using Android.Runtime;
 using Android.Views;
 using Android.Support.V7.App;
 using Android.Support.Design.Widget;
-using Android.Support.V7.Widget;
+using V7Toolbar = Android.Support.V7.Widget.Toolbar;
+using Android.Widget;
 
 namespace SMobile.Android.Activities
 {
@@ -20,7 +21,8 @@ namespace SMobile.Android.Activities
     {
 
         FloatingActionButton AddListButton;
-        Toolbar toolbar;
+
+        V7Toolbar toolbar;
 
         private void InitialComponents()
         {
@@ -29,9 +31,11 @@ namespace SMobile.Android.Activities
             this.SetPropertiesAddListButton();
 
             //Load toolbar V7
-            this.toolbar = FindViewById<Toolbar>(Resource.Id.user_list_toolbar);
+            this.toolbar = FindViewById<V7Toolbar>(Resource.Id.user_list_toolbar);
             toolbar.Title = "Listas de productos";
             this.SetSupportActionBar(this.toolbar);
+            this.SupportActionBar.SetDisplayHomeAsUpEnabled(true);
+            this.SupportActionBar.SetHomeButtonEnabled(true);
 
         }
 
@@ -45,7 +49,7 @@ namespace SMobile.Android.Activities
 
             //Initialize all components
             this.InitialComponents();
-
+            
         }
 
         private void SetPropertiesAddListButton()
