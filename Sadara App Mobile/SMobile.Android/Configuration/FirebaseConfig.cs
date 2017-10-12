@@ -37,6 +37,16 @@ namespace SMobile.Android.Configuration
         public const string FIREBASE_URL = "https://sadara-app.firebaseio.com/";
 
         /// <summary>
+        /// Valor de 1MB
+        /// </summary>
+        public const long ONE_MEGABYTE = 1024 * 1024;
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public const string FIREBASE_STORAGE_URL = "gs://sadara-app.appspot.com/";
+
+        /// <summary>
         /// Opciones de firebase preconfiguradas
         /// </summary>
         private static Firebase.FirebaseOptions firebaseOptions = 

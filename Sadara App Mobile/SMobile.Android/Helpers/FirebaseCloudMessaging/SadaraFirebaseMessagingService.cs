@@ -5,13 +5,12 @@ using System.Text;
 
 using Android.App;
 using Android.Content;
-using Android.OS;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
 using Firebase.Messaging;
 using Android.Media;
 using Android.Support.V4.App;
+using Android.Graphics.Drawables;
+using Android.Graphics;
+using Firebase.Storage;
 
 namespace SMobile.Android.Helpers
 {
@@ -31,16 +30,16 @@ namespace SMobile.Android.Helpers
 
         private Notification BuilderNotification(string title, string body, RingtoneType defaultSoundUri, PendingIntent pendingIntent)
         {
+            
+            var builder = new NotificationCompat.Builder(this)
 
-            return new NotificationCompat.Builder(this)
-
-                .SetSmallIcon(Resource.Drawable.ic_isotipo_sadara)
+                .SetSmallIcon(Resource.Drawable.ic_isotipo_sadara_ico)
 
                 .SetContentTitle(title)
 
                 .SetContentText(body)
 
-                .SetSmallIcon(Resource.Drawable.ic_isotipo_sadara_ico)
+                .SetStyle(this.SetImageToNotification())
 
                 .SetAutoCancel(true)
 
@@ -50,8 +49,41 @@ namespace SMobile.Android.Helpers
 
                 .Build();
 
+            return builder;
+
         }
 
+        private NotificationCompat.BigPictureStyle SetImageToNotification()
+        {
+
+            NotificationCompat.BigPictureStyle bigPictureStyle = new NotificationCompat.BigPictureStyle();
+
+            BitmapFactory.Options options = new BitmapFactory.Options();
+
+            options.InSampleSize = 2;
+
+            bigPictureStyle.BigPicture(BitmapFactory.DecodeResource(this.Resources, Resource.Drawable.ic_navheader_profile, options));
+
+            bigPictureStyle.SetSummaryText("Imagen de la promoción");
+
+            return bigPictureStyle;
+
+        }
+
+        private Bitmap DownloadImage()
+        {
+
+            StorageReference storageReference = FirebaseStorage
+                .Instance
+                .GetReferenceFromUrl(Configuration.FirebaseConfig.FIREBASE_STORAGE_URL);
+
+            storageReference.GetBytes()
+
+            return null;
+
+        }
+
+        
         private void SendNotification(string title, string body)
         {
 
