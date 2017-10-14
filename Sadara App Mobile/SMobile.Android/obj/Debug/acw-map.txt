@@ -346,3 +346,11 @@ Android.Gms.Plus.PlusOneButton/IOnPlusOneClickListenerImplementor, Xamarin.Googl
 Android.Gms.Plus.PlusOneButton+IOnPlusOneClickListenerImplementor, Xamarin.GooglePlayServices.Plus, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.gms.plus.PlusOneButton_OnPlusOneClickListenerImplementor
 Android.Gms.Plus.PlusOneButton.IOnPlusOneClickListenerImplementor;mono.com.google.android.gms.plus.PlusOneButton_OnPlusOneClickListenerImplementor
 mono.com.google.android.gms.plus.PlusOneButton_OnPlusOneClickListenerImplementor;mono.com.google.android.gms.plus.PlusOneButton_OnPlusOneClickListenerImplementor
+Firebase.Storage.IOnPausedListenerImplementor, Xamarin.Firebase.Storage;mono.com.google.firebase.storage.OnPausedListenerImplementor
+Firebase.Storage.IOnPausedListenerImplementor, Xamarin.Firebase.Storage, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.firebase.storage.OnPausedListenerImplementor
+Firebase.Storage.IOnPausedListenerImplementor;mono.com.google.firebase.storage.OnPausedListenerImplementor
+mono.com.google.firebase.storage.OnPausedListenerImplementor;mono.com.google.firebase.storage.OnPausedListenerImplementor
+Firebase.Storage.IOnProgressListenerImplementor, Xamarin.Firebase.Storage;mono.com.google.firebase.storage.OnProgressListenerImplementor
+Firebase.Storage.IOnProgressListenerImplementor, Xamarin.Firebase.Storage, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.firebase.storage.OnProgressListenerImplementor
+Firebase.Storage.IOnProgressListenerImplementor;mono.com.google.firebase.storage.OnProgressListenerImplementor
+mono.com.google.firebase.storage.OnProgressListenerImplementor;mono.com.google.firebase.storage.OnProgressListenerImplementor

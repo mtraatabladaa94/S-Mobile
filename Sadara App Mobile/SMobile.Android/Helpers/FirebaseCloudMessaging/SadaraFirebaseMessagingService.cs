@@ -11,24 +11,74 @@ using Android.Support.V4.App;
 using Android.Graphics.Drawables;
 using Android.Graphics;
 using Firebase.Storage;
+using Android.Gms.Tasks;
+using Java.Lang;
+using Android.Runtime;
 
 namespace SMobile.Android.Helpers
 {
     [Service]
     [IntentFilter(new string[] { "com.google.firebase.MESSAGING_EVENT" })]
-    class SadaraFirebaseMessagingService : FirebaseMessagingService
+    class SadaraFirebaseMessagingService : FirebaseMessagingService, IOnSuccessListener, IOnFailureListener
     {
+
+        private string Title { get; set; }
+
+        private string Body { get; set; }
+
+        private string ImageUrl { get; set; }
 
         public override void OnMessageReceived(RemoteMessage message)
         {
 
             base.OnMessageReceived(message);
 
-            this.SendNotification(message.GetNotification().Title, message.GetNotification().Body);
+            this.Title = message.GetNotification().Title;
+
+            this.Body = message.GetNotification().Body;
+
+            this.ImageUrl = message.Data["main_picture"];
+
+            InitNotification();
+            
+        }
+
+        private void InitNotification()
+        {
+
+            if (string.IsNullOrWhiteSpace(this.ImageUrl) || string.IsNullOrEmpty(this.ImageUrl))
+            {
+                this.SendNotification(this.Title, this.Body);
+            }
+            else
+            {
+                this.DownloadImage(this.ImageUrl);
+            }
 
         }
 
-        private Notification BuilderNotification(string title, string body, RingtoneType defaultSoundUri, PendingIntent pendingIntent)
+        private void SendNotification(string title, string body, Bitmap image = null)
+        {
+
+            var intent = new Intent(this, typeof(MainActivity));
+
+            intent.AddFlags(ActivityFlags.ClearTop);
+
+            var pendingIntent = PendingIntent.GetActivity(this, 0, intent, PendingIntentFlags.OneShot);
+
+            var notificationManager = NotificationManager.FromContext(this);
+
+            notificationManager
+                .Notify(0, this.BuilderNotification(title, body, RingtoneType.Notification, pendingIntent, image));
+
+        }
+
+        private Notification BuilderNotification(
+            string title,
+            string body,
+            RingtoneType defaultSoundUri,
+            PendingIntent pendingIntent,
+            Bitmap image)
         {
             
             var builder = new NotificationCompat.Builder(this)
@@ -38,31 +88,32 @@ namespace SMobile.Android.Helpers
                 .SetContentTitle(title)
 
                 .SetContentText(body)
-
-                .SetStyle(this.SetImageToNotification())
-
+                
                 .SetAutoCancel(true)
 
                 .SetSound(RingtoneManager.GetDefaultUri(defaultSoundUri))
 
-                .SetContentIntent(pendingIntent)
+                .SetContentIntent(pendingIntent);
 
-                .Build();
+            if (image != null)
+            {
 
-            return builder;
+                builder
+
+                    .SetStyle(this.SetImageToNotification(image));
+
+            }
+
+            return builder.Build();
 
         }
 
-        private NotificationCompat.BigPictureStyle SetImageToNotification()
+        private NotificationCompat.BigPictureStyle SetImageToNotification(Bitmap image)
         {
 
             NotificationCompat.BigPictureStyle bigPictureStyle = new NotificationCompat.BigPictureStyle();
 
-            BitmapFactory.Options options = new BitmapFactory.Options();
-
-            options.InSampleSize = 2;
-
-            bigPictureStyle.BigPicture(BitmapFactory.DecodeResource(this.Resources, Resource.Drawable.ic_navheader_profile, options));
+            bigPictureStyle.BigPicture(image);
 
             bigPictureStyle.SetSummaryText("Imagen de la promoción");
 
@@ -70,36 +121,40 @@ namespace SMobile.Android.Helpers
 
         }
 
-        private Bitmap DownloadImage()
+        private void DownloadImage(string ImageUrl)
         {
 
             StorageReference storageReference = FirebaseStorage
                 .Instance
-                .GetReferenceFromUrl(Configuration.FirebaseConfig.FIREBASE_STORAGE_URL);
+                .GetReferenceFromUrl(Configuration.FirebaseConfig.FIREBASE_STORAGE_URL)
+                .Child(ImageUrl);
 
-            storageReference.GetBytes()
+            storageReference.GetBytes(Configuration.FirebaseConfig.ONE_MEGABYTE)
+                .AddOnSuccessListener(this)
+                .AddOnFailureListener(this);
+            
+        }
+        
+        void IOnSuccessListener.OnSuccess(Java.Lang.Object result)
+        {
 
-            return null;
+            var data = result.ToArray<byte>();
+
+            BitmapFactory.Options options = new BitmapFactory.Options();
+
+            options.InSampleSize = 2;
+
+            Bitmap bitmap = BitmapFactory.DecodeByteArray(data, 0, data.Length, options);
+
+            this.SendNotification(this.Title, this.Body, bitmap);
 
         }
 
-        
-        private void SendNotification(string title, string body)
+        void IOnFailureListener.OnFailure(Java.Lang.Exception e)
         {
-
-            var intent = new Intent(this, typeof(MainActivity));
-
-            intent.AddFlags(ActivityFlags.ClearTop);
-
-            var pendingIntent = PendingIntent.GetActivity(this, 0 , intent, PendingIntentFlags.OneShot);
             
-            var notificationManager = NotificationManager.FromContext(this);
-
-            notificationManager
-                .Notify(0, this.BuilderNotification(title, body, RingtoneType.Notification, pendingIntent));
-
         }
         
     }
-
+    
 }

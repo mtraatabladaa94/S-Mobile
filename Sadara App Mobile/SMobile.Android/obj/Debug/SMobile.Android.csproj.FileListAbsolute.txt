@@ -162,7 +162,6 @@ C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\o
 C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\XbdMerge\Xamarin.Firebase.Analytics.dll
 C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\XbdMerge\Xamarin.GooglePlayServices.Plus.dll
 C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\XbdMerge\Xamarin.Firebase.Messaging.dll
-C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\res\values\goog_svcs_json.xml
 C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\ProcessGoogleServicesJson.stamp
 C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\SMobile.Android.csproj.CoreCompileInputs.cache
 C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\SMobile.Android.dll
@@ -206,3 +205,10 @@ C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\o
 C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\res\drawable\ic_add.xml
 C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\R.cs.flag
 C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\uploadflags.txt
+C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\bin\Debug\Xamarin.Firebase.Storage.Common.dll
+C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\bin\Debug\Xamarin.Firebase.Storage.dll
+C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\SMobile.Android.csprojResolveAssemblyReference.cache
+C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\XbdMerge\Xamarin.Firebase.Storage.Common.dll
+C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\XbdMerge\Xamarin.Firebase.Storage.dll
+C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\bin\Debug\SMobile.Android.dll.mdb
+C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\android\assets\SMobile.Android.dll.mdb

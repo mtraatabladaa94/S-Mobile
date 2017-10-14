@@ -12,7 +12,7 @@ namespace SMobile.Android.Models.FacebookModel
 
         public Profile profile;
 
-        public OnProfileChangedEventArgs(Profile profile) { this.profile = profile; }
+        public OnProfileChangedEventArgs(Profile profile) => this.profile = profile;
 
     }
 }

@@ -89,7 +89,7 @@ namespace SMobile.Android.Activities
             FacebookSdk.SdkInitialize(this);
             AppEventsLogger.ActivateApp(this);
             this.myProfile = new Models.FacebookModel.MyProfileTracker();
-            this.myProfile.onProfileChanged += MyProfile_onProfileChanged;
+            this.myProfile.OnProfileChanged += MyProfile_onProfileChanged;
             this.myProfile.StartTracking();
             /*Fin SDK Facebook*/
 
@@ -307,8 +307,10 @@ namespace SMobile.Android.Activities
 
         public void OnSuccess(Java.Lang.Object result)
         {
+
             if (AccessToken.CurrentAccessToken != null)
             {
+
                 var permisos = AccessToken.CurrentAccessToken.Permissions;
 
                 GraphRequest graphRequest = GraphRequest.NewMeRequest(AccessToken.CurrentAccessToken, this);
@@ -329,33 +331,50 @@ namespace SMobile.Android.Activities
         //Google API Client
         public void OnConnectionFailed(ConnectionResult result)
         {
+
             Log.Debug(TAG, "onConnectionFailed:" + result);
             
             if (!resuelto && poresolver)
             {
+
                 if (result.HasResolution)
                 {
+
                     try
                     {
+
                         result.StartResolutionForResult(this, RC_SIGN_IN);
+
                         resuelto = true;
+
                     }
                     catch (IntentSender.SendIntentException e)
                     {
+
                         Log.Error(TAG, "No se puede resolver la conexión.", e);
+
                         resuelto = false;
+
                         mGoogleApiClient.Connect();
+
                     }
+
                 }
                 else
                 {
+
                     ShowErrorDialog(result);
+
                 }
+
             }
             else
             {
+
                 UpdateUI(false);
+
             }
+
         }
 
         class DialogInterfaceOnCancelListener : Java.Lang.Object, IDialogInterfaceOnCancelListener
@@ -408,8 +427,10 @@ namespace SMobile.Android.Activities
 
         void UpdateUI(bool isSignedIn)
         {
+
             if (isSignedIn)
             {
+
                 var person = PlusClass.PeopleApi.GetCurrentPerson(mGoogleApiClient);
                 var name = string.Empty;
                 if (person != null)
@@ -426,29 +447,39 @@ namespace SMobile.Android.Activities
 
                 FindViewById(Resource.Id.signinButtongoogle).Visibility = ViewStates.Gone;
                 FindViewById(Resource.Id.SignOut).Visibility = ViewStates.Visible;
+
             }
             else
             {
+
                 mStatus.Text = "Sign OUT";
 
                 FindViewById(Resource.Id.signinButtongoogle).Enabled = true;
                 //  FindViewById(Resource.Id.sign_in_button).Visibility = ViewStates.Visible;
                 FindViewById(Resource.Id.SignOut).Visibility = ViewStates.Gone;
+
             }
+
         }
 
         //End Google API Client
 
         protected override void OnStart()
         {
+
             base.OnStart();
+
             mGoogleApiClient.Connect();
+
         }
 
         protected override void OnStop()
         {
+
             base.OnStop();
+
             mGoogleApiClient.Disconnect();
+
         }
 
         protected override void OnActivityResult(int requestCode, [GeneratedEnum] Result resultCode, Intent data)

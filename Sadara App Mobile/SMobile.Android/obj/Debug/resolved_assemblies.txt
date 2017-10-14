@@ -39,6 +39,8 @@ C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\o
 C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\android\assets\Xamarin.Firebase.Analytics.dll
 C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\android\assets\Xamarin.GooglePlayServices.Plus.dll
 C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\android\assets\Xamarin.Firebase.Messaging.dll
+C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\android\assets\Xamarin.Firebase.Storage.Common.dll
+C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\android\assets\Xamarin.Firebase.Storage.dll
 C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\android\assets\Java.Interop.dll
 C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\android\assets\Mono.Android.dll
 C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\android\assets\System.Core.dll

@@ -9,16 +9,18 @@ namespace SMobile.Android.Models.FacebookModel
     public class MyProfileTracker : ProfileTracker
     {
 
-        public event EventHandler<OnProfileChangedEventArgs> onProfileChanged;
+        public event EventHandler<OnProfileChangedEventArgs> OnProfileChanged;
 
         protected override void OnCurrentProfileChanged(Profile oldProfile, Profile currentProfile)
         {
-            if (this.onProfileChanged != null)
+
+            if (this.OnProfileChanged != null)
             {
 
-                onProfileChanged.Invoke(this, new OnProfileChangedEventArgs(currentProfile));
+                OnProfileChanged.Invoke(this, new OnProfileChangedEventArgs(currentProfile));
 
             }
+
         }
 
     }
