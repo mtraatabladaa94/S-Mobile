@@ -20,8 +20,8 @@ using Firebase.Iid;
 
 namespace SMobile.Android.Activities
 {
-    
-    [Activity(Label = "UserPreferenceActivity")]
+
+    [Activity(Label = "Sadara Mobile", MainLauncher = false, Icon = "@drawable/ic_isotipo_sadara")]
     public class UserPreferenceActivity : Activity
     {
 
@@ -128,7 +128,9 @@ namespace SMobile.Android.Activities
 
             var instanceId = Firebase.Iid.FirebaseInstanceId.GetInstance(Configuration.FirebaseConfig.App);
 
-            return instanceId.Token;
+            var token = instanceId.Token;
+
+            return token;
 
         }
 
@@ -138,7 +140,7 @@ namespace SMobile.Android.Activities
             if (this.IsPlayServicesAvailable())
             {
 
-                if (string.IsNullOrEmpty(this.GetTokenForApp()))
+                if (!string.IsNullOrEmpty(this.GetTokenForApp()))
                     Firebase.Messaging.FirebaseMessaging.Instance.SubscribeToTopic(topic);
                 else
                     Toast.MakeText(this, "No se cargo el Token", ToastLength.Long).Show();

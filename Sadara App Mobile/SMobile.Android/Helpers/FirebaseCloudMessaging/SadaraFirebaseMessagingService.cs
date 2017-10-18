@@ -14,6 +14,7 @@ using Firebase.Storage;
 using Android.Gms.Tasks;
 using Java.Lang;
 using Android.Runtime;
+using Firebase;
 
 namespace SMobile.Android.Helpers
 {
@@ -33,11 +34,13 @@ namespace SMobile.Android.Helpers
 
             base.OnMessageReceived(message);
 
-            this.Title = message.GetNotification().Title;
+            //var App = FirebaseApp.InitializeApp(this, Configuration.FirebaseConfig.FirebaseOptions, "Sadara Mobile");
+
+            this.ImageUrl = message.Data["main_picture"];
 
             this.Body = message.GetNotification().Body;
 
-            this.ImageUrl = message.Data["main_picture"];
+            this.Title = message.GetNotification().Title;
 
             InitNotification();
             
@@ -126,8 +129,7 @@ namespace SMobile.Android.Helpers
 
             StorageReference storageReference = FirebaseStorage
                 .Instance
-                .GetReferenceFromUrl(Configuration.FirebaseConfig.FIREBASE_STORAGE_URL)
-                .Child(ImageUrl);
+                .GetReferenceFromUrl(ImageUrl);
 
             storageReference.GetBytes(Configuration.FirebaseConfig.ONE_MEGABYTE)
                 .AddOnSuccessListener(this)

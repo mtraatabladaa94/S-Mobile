@@ -143,8 +143,11 @@ C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\b
 C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\bin\Debug\Xamarin.Firebase.Common.dll
 C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\bin\Debug\Xamarin.Firebase.Iid.dll
 C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\bin\Debug\Xamarin.Firebase.Messaging.dll
+C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\bin\Debug\Xamarin.Firebase.Storage.Common.dll
+C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\bin\Debug\Xamarin.Firebase.Storage.dll
 C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\bin\Debug\Xamarin.GooglePlayServices.Base.dll
 C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\bin\Debug\Xamarin.GooglePlayServices.Basement.dll
+C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\bin\Debug\Xamarin.GooglePlayServices.Maps.dll
 C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\bin\Debug\Xamarin.GooglePlayServices.Plus.dll
 C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\bin\Debug\Xamarin.GooglePlayServices.Tasks.dll
 C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\bin\Debug\Realm.pdb
@@ -161,7 +164,10 @@ C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\o
 C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\XbdMerge\Xamarin.Firebase.Analytics.Impl.dll
 C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\XbdMerge\Xamarin.Firebase.Analytics.dll
 C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\XbdMerge\Xamarin.GooglePlayServices.Plus.dll
+C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\XbdMerge\Xamarin.Firebase.Storage.Common.dll
+C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\XbdMerge\Xamarin.Firebase.Storage.dll
 C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\XbdMerge\Xamarin.Firebase.Messaging.dll
+C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\XbdMerge\Xamarin.GooglePlayServices.Maps.dll
 C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\ProcessGoogleServicesJson.stamp
 C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\SMobile.Android.csproj.CoreCompileInputs.cache
 C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\SMobile.Android.dll
@@ -179,6 +185,7 @@ C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\o
 C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\res\layout\userpreferenceitem.xml
 C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\res\layout\user_list_layout.xml
 C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\res\layout\user_list_layout_item.xml
+C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\res\layout\maps_fragment_layout.xml
 C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\res\layout\main.xml
 C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\res\values\strings.xml
 C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\res\drawable\ic_activities.png
@@ -205,10 +212,5 @@ C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\o
 C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\res\drawable\ic_add.xml
 C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\R.cs.flag
 C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\uploadflags.txt
-C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\bin\Debug\Xamarin.Firebase.Storage.Common.dll
-C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\bin\Debug\Xamarin.Firebase.Storage.dll
-C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\SMobile.Android.csprojResolveAssemblyReference.cache
-C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\XbdMerge\Xamarin.Firebase.Storage.Common.dll
-C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\XbdMerge\Xamarin.Firebase.Storage.dll
 C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\bin\Debug\SMobile.Android.dll.mdb
 C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\android\assets\SMobile.Android.dll.mdb

@@ -9,5 +9,7 @@
 
   <string name="facebook_app_id">118266012183399</string>
   <string name="fb_login_protocol_scheme">fb118266012183399</string>
+
+  <string name="GoogleMapsAPI">AIzaSyBFdEMwXBf4zzFxRYD0S24tPrjFs-ASKUg</string>
   
 </resources>
