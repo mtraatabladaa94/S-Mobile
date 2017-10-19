@@ -212,5 +212,6 @@ C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\o
 C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\res\drawable\ic_add.xml
 C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\R.cs.flag
 C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\uploadflags.txt
+C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\SMobile.Android.csprojResolveAssemblyReference.cache
 C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\bin\Debug\SMobile.Android.dll.mdb
 C:\Users\Microsoft\Documents\GitHub\S-Mobile\Sadara App Mobile\SMobile.Android\obj\Debug\android\assets\SMobile.Android.dll.mdb

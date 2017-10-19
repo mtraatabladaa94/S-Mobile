@@ -1,0 +1,13 @@
+**/packages/*
+
+**/SMobile.Android/obj/*
+
+**/SMobile.Android/obj/Debug/*
+
+**/SMobile.Android/obj/.cahce/*
+
+**/SMobile.Android/bin/*
+
+**/.vs/*
+
+**/SMobile.Android/*.json
