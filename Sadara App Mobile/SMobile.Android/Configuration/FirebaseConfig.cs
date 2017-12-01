@@ -42,9 +42,16 @@ namespace SMobile.Android.Configuration
         public const long ONE_MEGABYTE = 1024 * 1024;
 
         /// <summary>
-        /// 
+        /// URL de servicio LUIS --Proyecto Bot
+        /// </summary>
+        public const string LUIS_URL = "https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/ec76c67f-ebd2-4836-b3bf-46a652083389?subscription-key=f50e7bb3b47b493a9744f26b20657b90&verbose=true&timezoneOffset=0&q=";
+
+        /// <summary>
+        /// URL Reference Firebase Storage
         /// </summary>
         public const string FIREBASE_STORAGE_URL = "gs://sadara-app.appspot.com/";
+
+        public const string PROFILE_IMAGES_STORAGE_URL = "users/profiles/images/";
 
         /// <summary>
         /// Opciones de firebase preconfiguradas
@@ -73,6 +80,7 @@ namespace SMobile.Android.Configuration
         /// Usuario autenticado
         /// </summary>
         private static Firebase.Auth.FirebaseAuth auth;
+        
 
         /// <summary>
         /// Permite obtener o establecer el Usuario Actual
@@ -80,4 +88,5 @@ namespace SMobile.Android.Configuration
         public static Firebase.Auth.FirebaseAuth Auth { get => auth; set => auth = value; }
         
     }
+
 }

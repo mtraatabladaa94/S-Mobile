@@ -16,7 +16,7 @@ using Android.Widget;
 namespace SMobile.Android.Activities
 {
 
-    [Activity(Label = "Sadara", MainLauncher = true, Icon = "@drawable/ic_isotipo_sadara")]
+    [Activity(Label = "Sadara", MainLauncher = false, Icon = "@drawable/ic_isotipo_sadara")]
     public class UserListActivity : AppCompatActivity
     {
 

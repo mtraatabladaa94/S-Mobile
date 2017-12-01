@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v4.view.ViewPager
+        android:id="@+id/sliderViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <RelativeLayout
+        android:id="@+id/headerRelativeLayout"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/iconImageView"
+            android:src="@drawable/ic_isotipo_sadara"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_below="@+id/iconImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:text="Sadara App Mobile"
+            android:layout_centerHorizontal="true" />
+        <RelativeLayout
+            android:id="@+id/advertisingLinearLayout"
+            android:layout_below="@+id/titleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true">
+            <LinearLayout
+                android:id="@+id/subtitlesLinearLayout"
+                android:layout_marginTop="32dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/subtitleTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="22dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Nosotros te damos la" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="22dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="center_horizontal"
+                    android:text="bienvenida a Sadara Mobile, la" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="22dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="center_horizontal"
+                    android:text="mejor app para la búsqueda de" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="22dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="center_horizontal"
+                    android:text="las mejores ofertas" />
+            </LinearLayout>
+            <ImageView
+                android:id="@+id/featuresImageView"
+                android:layout_below="@+id/subtitlesLinearLayout"
+                android:layout_marginTop="16dp"
+                android:src="@drawable/img_features"
+                android:layout_width="154dp"
+                android:layout_height="154dp"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/splash_action_layout"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="64dp">
+        <Button
+            android:id="@+id/signin_button"
+            android:background="@color/color_primary"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="#455a64"
+            android:text="Iniciar Sesión" />
+        <View
+            android:layout_height="match_parent"
+            android:layout_width="2px"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/register_button"
+            android:background="@color/color_primary"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="#455a64"
+            android:text="Regístrate" />
+    </LinearLayout>
+</RelativeLayout>

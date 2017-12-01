@@ -34,10 +34,13 @@ namespace SMobile.Android.Helpers
 
             base.OnMessageReceived(message);
 
-            //var App = FirebaseApp.InitializeApp(this, Configuration.FirebaseConfig.FirebaseOptions, "Sadara Mobile");
+            if (message.Data.ContainsKey("main_picture"))
+            {
 
-            this.ImageUrl = message.Data["main_picture"];
+                this.ImageUrl = message.Data["main_picture"];
 
+            }
+            
             this.Body = message.GetNotification().Body;
 
             this.Title = message.GetNotification().Title;
@@ -94,6 +97,8 @@ namespace SMobile.Android.Helpers
                 
                 .SetAutoCancel(true)
 
+                .SetVisibility((int)NotificationVisibility.Public)
+
                 .SetSound(RingtoneManager.GetDefaultUri(defaultSoundUri))
 
                 .SetContentIntent(pendingIntent);
@@ -118,6 +123,8 @@ namespace SMobile.Android.Helpers
 
             bigPictureStyle.BigPicture(image);
 
+            bigPictureStyle.BigLargeIcon(image);
+
             bigPictureStyle.SetSummaryText("Imagen de la promoción");
 
             return bigPictureStyle;
@@ -126,6 +133,8 @@ namespace SMobile.Android.Helpers
 
         private void DownloadImage(string ImageUrl)
         {
+
+
 
             StorageReference storageReference = FirebaseStorage
                 .Instance

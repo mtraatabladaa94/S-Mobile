@@ -1,110 +1,258 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-  xmlns:tools="http://schemas.android.com/tools"
-  android:id="@+id/Signup"
-  android:layout_width="match_parent"
-  android:layout_height="match_parent"
-  android:background="@color/windows_background_light">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Signup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/windows_background_light">
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/toolbar_coordinator_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/SignupAppBarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/ThemeOverlay.AppCompat.Light">
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/signup_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="4dp"
+                android:background="?attr/colorPrimary"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                android:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+        </android.support.design.widget.AppBarLayout>
+    </android.support.design.widget.CoordinatorLayout>
   
-  <include
+<!--<include
     android:id="@+id/headerInclude"
+    android:layout_below="@+id/toolbar_coordinator_layout"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     layout="@layout/sesionintroheader"
-  />
+  />-->
   
-  <RelativeLayout
-    android:id="@+id/contentLayout"
-    android:layout_below="@+id/headerInclude"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:padding="16dp"
-  >
-    
-    <TextView
-      android:id="@+id/titleTextView"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:text="Bienvenido ¿Como te llamas?"
-      android:textColor="@color/text_color_primary_light"
-      android:textStyle="bold"
-      android:textSize="20dp"
-    />
-    
-    <android.support.design.widget.TextInputLayout
-      android:id="@+id/firstnameTextInputLayout"
-      android:layout_below="@+id/titleTextView"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:hint="Nombres"
-      >
-    
-      <EditText
-        android:id="@+id/firstnameEditText"
+    <RelativeLayout
+        android:id="@+id/contentLayout"
+        android:layout_below="@+id/toolbar_coordinator_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        />
-  
-    </android.support.design.widget.TextInputLayout>
-  
-    <android.support.design.widget.TextInputLayout
-      android:id="@+id/lastnameTextInputLayout"
-      android:layout_below="@+id/firstnameTextInputLayout"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:hint="Apellidos"
-      >
-    
-      <EditText
-        android:id="@+id/lastnameEditText"
+        android:padding="@dimen/margin_layout_user">
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:text="Bienvenido, crea una cuenta y unete a nosotros"
+            android:textColor="@color/text_color_primary_light" />
+        <LinearLayout
+            android:id="@+id/nameLinearLayout"
+            android:layout_below="@+id/titleTextView"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/firstnameTextInputLayout"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nombres">
+                <EditText
+                    android:id="@+id/firstnameEditText"
+                    android:inputType="textCapSentences"
+                    android:singleLine="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:layout_marginTop="20dp" />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/lastnameTextInputLayout"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Apellidos">
+                <EditText
+                    android:id="@+id/lastnameEditText"
+                    android:inputType="textCapSentences"
+                    android:singleLine="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:layout_marginTop="20dp" />
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/birthdateTextView"
+            android:layout_below="@+id/nameLinearLayout"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:textColor="#607d8b"
+            android:text="Fecha de Nacimiento" />
+        <LinearLayout
+            android:id="@+id/birthdateLinearLayout"
+            android:layout_below="@+id/birthdateTextView"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/dayTextInputLayout"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Día">
+                <EditText
+                    android:id="@+id/dayEditText"
+                    android:inputType="number"
+                    android:singleLine="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:maxLength="2"
+                    android:textSize="18dp" />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/monthTextInputLayout"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Mes">
+                <EditText
+                    android:id="@+id/monthEditText"
+                    android:inputType="number"
+                    android:singleLine="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:maxLength="2"
+                    android:textSize="18dp" />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/yearTextInputLayout"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Año">
+                <EditText
+                    android:id="@+id/yearEditText"
+                    android:inputType="number"
+                    android:singleLine="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:maxLength="4"
+                    android:textSize="18dp" />
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/genderTextView"
+            android:layout_below="@+id/birthdateLinearLayout"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:textColor="#607d8b"
+            android:text="Genero" />
+        <LinearLayout
+            android:id="@+id/genderLinearLayout"
+            android:orientation="vertical"
+            android:layout_below="@+id/genderTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioGroup
+                android:id="@+id/genderRadioGroup"
+                android:layout_toRightOf="@+id/genderTextView"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/maleRadioButton"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textAlignment="viewEnd"
+                    android:text="Masculino" />
+                <RadioButton
+                    android:id="@+id/femaleRadioButton"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Femenino" />
+            </RadioGroup>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/phoneTextView"
+            android:layout_below="@+id/genderLinearLayout"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:textColor="#607d8b"
+            android:text="Teléfono Celular" />
+        <LinearLayout
+            android:id="@+id/contactLinearLayout"
+            android:layout_below="@+id/phoneTextView"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_weight="3"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="(+505)" />
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/phoneTextInputLayout"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Teléfono">
+                <EditText
+                    android:id="@+id/phoneEditText"
+                    android:inputType="phone"
+                    android:singleLine="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:textSize="18dp" />
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/loginLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        />
-  
-    </android.support.design.widget.TextInputLayout>
-
-    <Button
-      android:id="@+id/nextSignupButton"
-      android:layout_below="@+id/lastnameTextInputLayout"
-      android:text="Siguiente"
-      style="@style/Widget.AppCompat.Button.Colored"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content" />
-    
-  </RelativeLayout>
-  
-  <RelativeLayout
-    android:id="@+id/loginLayout"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_alignParentBottom="true">
-    <View
-      android:id="@+id/shapeView"
-      android:layout_width="match_parent"
-      android:layout_height="1dp"
-      android:background="#dbdbdb" />
-    <LinearLayout
-      android:layout_below="@+id/shapeView"
-      android:orientation="horizontal"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_centerHorizontal="true"
-      android:paddingTop="16dp"
-      android:paddingBottom="16dp"
-      android:clickable="true">
-      <TextView
-        android:id="@+id/register1TextView"
-        android:text="¿Ya tienes cuenta?"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-      <TextView
-        android:id="@+id/register2TextView"
-        android:text="Inicia Sesión"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textStyle="bold"
-        android:layout_marginLeft="5dp" />
-    </LinearLayout>
-  </RelativeLayout>
-  
+        android:layout_alignParentBottom="true">
+        <LinearLayout
+            android:layout_below="@+id/shapeView"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:paddingTop="0dp"
+            android:paddingBottom="0dp"
+            android:clickable="true">
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/nextSignupButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_margin="16dp"
+                app:srcCompat="@drawable/ic_next"
+                app:fabSize="normal" />
+        </LinearLayout>
+    </RelativeLayout>
 </RelativeLayout>

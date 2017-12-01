@@ -5,12 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/windows_background_light">
-  
     <include
+        android:layout_alignParentTop="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         layout="@layout/sesionintroheader" />
-  
     <RelativeLayout
         android:id="@+id/dataInputLayout"
         android:layout_centerVertical="true"
@@ -18,27 +17,41 @@
         android:layout_height="wrap_content"
         android:paddingLeft="16dp"
         android:paddingRight="16dp">
-      
-        <EditText
-            android:id="@+id/usernameEditText"
-            android:hint="Usuario o correo electrónico"
-            android:inputType="textCapWords"
-            android:maxLines="1"
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/usernameTextInputLayout"
+            android:layout_weight="1"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-      
-        <EditText
-            android:id="@+id/passwordEditText"
-            android:layout_below="@+id/usernameEditText"
-            android:hint="Contraseña"
-            android:inputType="textPassword"
-            android:maxLines="1"
+            android:layout_height="wrap_content"
+            android:hint="Correo electrónico">
+          <EditText
+              android:id="@+id/usernameEditText"
+              android:inputType="textCapWords"
+              android:maxLines="1"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/passwordTextInputLayout"
+            android:layout_below="@+id/usernameTextInputLayout"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:hint="Contraseña">
+          <EditText
+              android:id="@+id/passwordEditText"
+              android:inputType="textPassword"
+              android:maxLines="1"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content" />
+        </android.support.design.widget.TextInputLayout>
       
         <Button
             android:id="@+id/signinButton"
-            android:layout_below="@+id/passwordEditText"
+            android:layout_below="@+id/passwordTextInputLayout"
+            android:layout_marginTop="24dp"
             android:text="Iniciar Sesión"
             style="@style/Widget.AppCompat.Button.Colored"
             android:layout_width="match_parent"
@@ -50,12 +63,11 @@
             android:layout_centerHorizontal="true"
             android:clickable="true"
             android:text="¿Olvidaste tus datos de inicio de sesión?"
-            android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp"
+            android:layout_marginTop="16dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
       
-        <LinearLayout
+    <!--<LinearLayout
             android:id="@+id/orDividerLayout"
             android:layout_below="@+id/forgotPasswordTextView"
             android:gravity="center"
@@ -66,13 +78,11 @@
             android:paddingBottom="5dp"
             android:paddingLeft="5dp"
             android:paddingRight="5dp">
-          
             <View
                 android:layout_width="200dp"
                 android:layout_height="1dp"
                 android:background="#dbdbdb"
                 android:layout_margin="5dp" />
-          
             <TextView
                 android:padding="5dp"
                 android:text=" O "
@@ -80,71 +90,58 @@
                 android:textColor="#999999"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
-          
             <View
                 android:layout_width="200dp"
                 android:layout_height="1dp"
                 android:background="#dbdbdb"
                 android:layout_margin="5dp" />
-        
-        </LinearLayout>
-        
-        <com.facebook.login.widget.LoginButton
-          android:id="@+id/login_button"
-          android:layout_below="@+id/orDividerLayout"
-          android:layout_gravity="center_horizontal"
-          android:layout_marginTop="5dp"
-          android:layout_marginLeft="5dp"
-          android:layout_marginRight="5dp"
-          android:layout_marginBottom="5dp"
-          android:layout_width="match_parent"
-          android:layout_height="50dp"
-        />
-
+        </LinearLayout>-->
+    <!--<com.facebook.login.widget.LoginButton
+            android:id="@+id/login_button"
+            android:layout_below="@+id/orDividerLayout"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
         <Button
-          android:id="@+id/facebookButton"
-          android:layout_below="@+id/login_button"
-          android:layout_gravity="center_horizontal"
-          android:background="#1976d2"
-          style="@style/Widget.AppCompat.Button.Colored"
-          android:layout_width="match_parent"
-          android:layout_height="wrap_content"
-          android:text="Iniciar sesión con Facebook"
-        />
-      
+            android:id="@+id/facebookButton"
+            android:layout_below="@+id/login_button"
+            android:layout_gravity="center_horizontal"
+            android:background="#1976d2"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Iniciar sesión con Facebook" />
         <com.google.android.gms.common.SignInButton
             android:id="@+id/signinButtongoogle"
             android:layout_below="@+id/facebookButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp"
-        />
-      
-        <TextView
+            android:layout_marginBottom="5dp" />-->
+    <!--<TextView
             android:id="@+id/SignOut"
-            android:layout_below="@+id/signinButtongoogle"
+            android:layout_below="@+id/orDividerLayout"
             android:text="Salir"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
             android:textColor="#303030"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-    
+            android:layout_height="wrap_content" />-->
     </RelativeLayout>
-      
-    <RelativeLayout
+<!--<RelativeLayout
         android:id="@+id/registerLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true">
-      
         <View
             android:id="@+id/shapeView"
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:background="#dbdbdb" />
-      
         <LinearLayout
             android:layout_below="@+id/shapeView"
             android:orientation="horizontal"
@@ -154,13 +151,11 @@
             android:paddingTop="16dp"
             android:paddingBottom="16dp"
             android:clickable="true">
-          
             <TextView
                 android:id="@+id/register1TextView"
                 android:text="¿No tienes cuenta?"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
-          
             <TextView
                 android:id="@+id/register2TextView"
                 android:text="Regístrate"
@@ -168,9 +163,6 @@
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
                 android:layout_marginLeft="5dp" />
-        
         </LinearLayout>
-
-    </RelativeLayout>
-
+    </RelativeLayout>-->
 </RelativeLayout>

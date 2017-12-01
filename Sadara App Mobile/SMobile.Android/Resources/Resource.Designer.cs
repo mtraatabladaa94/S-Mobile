@@ -26,6 +26,1274 @@ namespace SMobile.Android
 		
 		public static void UpdateIdValues()
 		{
+			global::com.refractored.Resource.Animation.abc_fade_in = global::SMobile.Android.Resource.Animation.abc_fade_in;
+			global::com.refractored.Resource.Animation.abc_fade_out = global::SMobile.Android.Resource.Animation.abc_fade_out;
+			global::com.refractored.Resource.Animation.abc_grow_fade_in_from_bottom = global::SMobile.Android.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::com.refractored.Resource.Animation.abc_popup_enter = global::SMobile.Android.Resource.Animation.abc_popup_enter;
+			global::com.refractored.Resource.Animation.abc_popup_exit = global::SMobile.Android.Resource.Animation.abc_popup_exit;
+			global::com.refractored.Resource.Animation.abc_shrink_fade_out_from_bottom = global::SMobile.Android.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::com.refractored.Resource.Animation.abc_slide_in_bottom = global::SMobile.Android.Resource.Animation.abc_slide_in_bottom;
+			global::com.refractored.Resource.Animation.abc_slide_in_top = global::SMobile.Android.Resource.Animation.abc_slide_in_top;
+			global::com.refractored.Resource.Animation.abc_slide_out_bottom = global::SMobile.Android.Resource.Animation.abc_slide_out_bottom;
+			global::com.refractored.Resource.Animation.abc_slide_out_top = global::SMobile.Android.Resource.Animation.abc_slide_out_top;
+			global::com.refractored.Resource.Attribute.actionBarDivider = global::SMobile.Android.Resource.Attribute.actionBarDivider;
+			global::com.refractored.Resource.Attribute.actionBarItemBackground = global::SMobile.Android.Resource.Attribute.actionBarItemBackground;
+			global::com.refractored.Resource.Attribute.actionBarPopupTheme = global::SMobile.Android.Resource.Attribute.actionBarPopupTheme;
+			global::com.refractored.Resource.Attribute.actionBarSize = global::SMobile.Android.Resource.Attribute.actionBarSize;
+			global::com.refractored.Resource.Attribute.actionBarSplitStyle = global::SMobile.Android.Resource.Attribute.actionBarSplitStyle;
+			global::com.refractored.Resource.Attribute.actionBarStyle = global::SMobile.Android.Resource.Attribute.actionBarStyle;
+			global::com.refractored.Resource.Attribute.actionBarTabBarStyle = global::SMobile.Android.Resource.Attribute.actionBarTabBarStyle;
+			global::com.refractored.Resource.Attribute.actionBarTabStyle = global::SMobile.Android.Resource.Attribute.actionBarTabStyle;
+			global::com.refractored.Resource.Attribute.actionBarTabTextStyle = global::SMobile.Android.Resource.Attribute.actionBarTabTextStyle;
+			global::com.refractored.Resource.Attribute.actionBarTheme = global::SMobile.Android.Resource.Attribute.actionBarTheme;
+			global::com.refractored.Resource.Attribute.actionBarWidgetTheme = global::SMobile.Android.Resource.Attribute.actionBarWidgetTheme;
+			global::com.refractored.Resource.Attribute.actionButtonStyle = global::SMobile.Android.Resource.Attribute.actionButtonStyle;
+			global::com.refractored.Resource.Attribute.actionDropDownStyle = global::SMobile.Android.Resource.Attribute.actionDropDownStyle;
+			global::com.refractored.Resource.Attribute.actionLayout = global::SMobile.Android.Resource.Attribute.actionLayout;
+			global::com.refractored.Resource.Attribute.actionMenuTextAppearance = global::SMobile.Android.Resource.Attribute.actionMenuTextAppearance;
+			global::com.refractored.Resource.Attribute.actionMenuTextColor = global::SMobile.Android.Resource.Attribute.actionMenuTextColor;
+			global::com.refractored.Resource.Attribute.actionModeBackground = global::SMobile.Android.Resource.Attribute.actionModeBackground;
+			global::com.refractored.Resource.Attribute.actionModeCloseButtonStyle = global::SMobile.Android.Resource.Attribute.actionModeCloseButtonStyle;
+			global::com.refractored.Resource.Attribute.actionModeCloseDrawable = global::SMobile.Android.Resource.Attribute.actionModeCloseDrawable;
+			global::com.refractored.Resource.Attribute.actionModeCopyDrawable = global::SMobile.Android.Resource.Attribute.actionModeCopyDrawable;
+			global::com.refractored.Resource.Attribute.actionModeCutDrawable = global::SMobile.Android.Resource.Attribute.actionModeCutDrawable;
+			global::com.refractored.Resource.Attribute.actionModeFindDrawable = global::SMobile.Android.Resource.Attribute.actionModeFindDrawable;
+			global::com.refractored.Resource.Attribute.actionModePasteDrawable = global::SMobile.Android.Resource.Attribute.actionModePasteDrawable;
+			global::com.refractored.Resource.Attribute.actionModePopupWindowStyle = global::SMobile.Android.Resource.Attribute.actionModePopupWindowStyle;
+			global::com.refractored.Resource.Attribute.actionModeSelectAllDrawable = global::SMobile.Android.Resource.Attribute.actionModeSelectAllDrawable;
+			global::com.refractored.Resource.Attribute.actionModeShareDrawable = global::SMobile.Android.Resource.Attribute.actionModeShareDrawable;
+			global::com.refractored.Resource.Attribute.actionModeSplitBackground = global::SMobile.Android.Resource.Attribute.actionModeSplitBackground;
+			global::com.refractored.Resource.Attribute.actionModeStyle = global::SMobile.Android.Resource.Attribute.actionModeStyle;
+			global::com.refractored.Resource.Attribute.actionModeWebSearchDrawable = global::SMobile.Android.Resource.Attribute.actionModeWebSearchDrawable;
+			global::com.refractored.Resource.Attribute.actionOverflowButtonStyle = global::SMobile.Android.Resource.Attribute.actionOverflowButtonStyle;
+			global::com.refractored.Resource.Attribute.actionOverflowMenuStyle = global::SMobile.Android.Resource.Attribute.actionOverflowMenuStyle;
+			global::com.refractored.Resource.Attribute.actionProviderClass = global::SMobile.Android.Resource.Attribute.actionProviderClass;
+			global::com.refractored.Resource.Attribute.actionViewClass = global::SMobile.Android.Resource.Attribute.actionViewClass;
+			global::com.refractored.Resource.Attribute.activityChooserViewStyle = global::SMobile.Android.Resource.Attribute.activityChooserViewStyle;
+			global::com.refractored.Resource.Attribute.alertDialogButtonGroupStyle = global::SMobile.Android.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::com.refractored.Resource.Attribute.alertDialogCenterButtons = global::SMobile.Android.Resource.Attribute.alertDialogCenterButtons;
+			global::com.refractored.Resource.Attribute.alertDialogStyle = global::SMobile.Android.Resource.Attribute.alertDialogStyle;
+			global::com.refractored.Resource.Attribute.alertDialogTheme = global::SMobile.Android.Resource.Attribute.alertDialogTheme;
+			global::com.refractored.Resource.Attribute.allowStacking = global::SMobile.Android.Resource.Attribute.allowStacking;
+			global::com.refractored.Resource.Attribute.arrowHeadLength = global::SMobile.Android.Resource.Attribute.arrowHeadLength;
+			global::com.refractored.Resource.Attribute.arrowShaftLength = global::SMobile.Android.Resource.Attribute.arrowShaftLength;
+			global::com.refractored.Resource.Attribute.autoCompleteTextViewStyle = global::SMobile.Android.Resource.Attribute.autoCompleteTextViewStyle;
+			global::com.refractored.Resource.Attribute.background = global::SMobile.Android.Resource.Attribute.background;
+			global::com.refractored.Resource.Attribute.backgroundSplit = global::SMobile.Android.Resource.Attribute.backgroundSplit;
+			global::com.refractored.Resource.Attribute.backgroundStacked = global::SMobile.Android.Resource.Attribute.backgroundStacked;
+			global::com.refractored.Resource.Attribute.backgroundTint = global::SMobile.Android.Resource.Attribute.backgroundTint;
+			global::com.refractored.Resource.Attribute.backgroundTintMode = global::SMobile.Android.Resource.Attribute.backgroundTintMode;
+			global::com.refractored.Resource.Attribute.barLength = global::SMobile.Android.Resource.Attribute.barLength;
+			global::com.refractored.Resource.Attribute.borderlessButtonStyle = global::SMobile.Android.Resource.Attribute.borderlessButtonStyle;
+			global::com.refractored.Resource.Attribute.buttonBarButtonStyle = global::SMobile.Android.Resource.Attribute.buttonBarButtonStyle;
+			global::com.refractored.Resource.Attribute.buttonBarNegativeButtonStyle = global::SMobile.Android.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::com.refractored.Resource.Attribute.buttonBarNeutralButtonStyle = global::SMobile.Android.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::com.refractored.Resource.Attribute.buttonBarPositiveButtonStyle = global::SMobile.Android.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::com.refractored.Resource.Attribute.buttonBarStyle = global::SMobile.Android.Resource.Attribute.buttonBarStyle;
+			global::com.refractored.Resource.Attribute.buttonPanelSideLayout = global::SMobile.Android.Resource.Attribute.buttonPanelSideLayout;
+			global::com.refractored.Resource.Attribute.buttonStyle = global::SMobile.Android.Resource.Attribute.buttonStyle;
+			global::com.refractored.Resource.Attribute.buttonStyleSmall = global::SMobile.Android.Resource.Attribute.buttonStyleSmall;
+			global::com.refractored.Resource.Attribute.buttonTint = global::SMobile.Android.Resource.Attribute.buttonTint;
+			global::com.refractored.Resource.Attribute.buttonTintMode = global::SMobile.Android.Resource.Attribute.buttonTintMode;
+			global::com.refractored.Resource.Attribute.checkboxStyle = global::SMobile.Android.Resource.Attribute.checkboxStyle;
+			global::com.refractored.Resource.Attribute.checkedTextViewStyle = global::SMobile.Android.Resource.Attribute.checkedTextViewStyle;
+			global::com.refractored.Resource.Attribute.closeIcon = global::SMobile.Android.Resource.Attribute.closeIcon;
+			global::com.refractored.Resource.Attribute.closeItemLayout = global::SMobile.Android.Resource.Attribute.closeItemLayout;
+			global::com.refractored.Resource.Attribute.collapseContentDescription = global::SMobile.Android.Resource.Attribute.collapseContentDescription;
+			global::com.refractored.Resource.Attribute.collapseIcon = global::SMobile.Android.Resource.Attribute.collapseIcon;
+			global::com.refractored.Resource.Attribute.color = global::SMobile.Android.Resource.Attribute.color;
+			global::com.refractored.Resource.Attribute.colorAccent = global::SMobile.Android.Resource.Attribute.colorAccent;
+			global::com.refractored.Resource.Attribute.colorButtonNormal = global::SMobile.Android.Resource.Attribute.colorButtonNormal;
+			global::com.refractored.Resource.Attribute.colorControlActivated = global::SMobile.Android.Resource.Attribute.colorControlActivated;
+			global::com.refractored.Resource.Attribute.colorControlHighlight = global::SMobile.Android.Resource.Attribute.colorControlHighlight;
+			global::com.refractored.Resource.Attribute.colorControlNormal = global::SMobile.Android.Resource.Attribute.colorControlNormal;
+			global::com.refractored.Resource.Attribute.colorPrimary = global::SMobile.Android.Resource.Attribute.colorPrimary;
+			global::com.refractored.Resource.Attribute.colorPrimaryDark = global::SMobile.Android.Resource.Attribute.colorPrimaryDark;
+			global::com.refractored.Resource.Attribute.colorSwitchThumbNormal = global::SMobile.Android.Resource.Attribute.colorSwitchThumbNormal;
+			global::com.refractored.Resource.Attribute.commitIcon = global::SMobile.Android.Resource.Attribute.commitIcon;
+			global::com.refractored.Resource.Attribute.contentInsetEnd = global::SMobile.Android.Resource.Attribute.contentInsetEnd;
+			global::com.refractored.Resource.Attribute.contentInsetLeft = global::SMobile.Android.Resource.Attribute.contentInsetLeft;
+			global::com.refractored.Resource.Attribute.contentInsetRight = global::SMobile.Android.Resource.Attribute.contentInsetRight;
+			global::com.refractored.Resource.Attribute.contentInsetStart = global::SMobile.Android.Resource.Attribute.contentInsetStart;
+			global::com.refractored.Resource.Attribute.controlBackground = global::SMobile.Android.Resource.Attribute.controlBackground;
+			global::com.refractored.Resource.Attribute.customNavigationLayout = global::SMobile.Android.Resource.Attribute.customNavigationLayout;
+			global::com.refractored.Resource.Attribute.defaultQueryHint = global::SMobile.Android.Resource.Attribute.defaultQueryHint;
+			global::com.refractored.Resource.Attribute.dialogPreferredPadding = global::SMobile.Android.Resource.Attribute.dialogPreferredPadding;
+			global::com.refractored.Resource.Attribute.dialogTheme = global::SMobile.Android.Resource.Attribute.dialogTheme;
+			global::com.refractored.Resource.Attribute.displayOptions = global::SMobile.Android.Resource.Attribute.displayOptions;
+			global::com.refractored.Resource.Attribute.divider = global::SMobile.Android.Resource.Attribute.divider;
+			global::com.refractored.Resource.Attribute.dividerHorizontal = global::SMobile.Android.Resource.Attribute.dividerHorizontal;
+			global::com.refractored.Resource.Attribute.dividerPadding = global::SMobile.Android.Resource.Attribute.dividerPadding;
+			global::com.refractored.Resource.Attribute.dividerVertical = global::SMobile.Android.Resource.Attribute.dividerVertical;
+			global::com.refractored.Resource.Attribute.drawableSize = global::SMobile.Android.Resource.Attribute.drawableSize;
+			global::com.refractored.Resource.Attribute.drawerArrowStyle = global::SMobile.Android.Resource.Attribute.drawerArrowStyle;
+			global::com.refractored.Resource.Attribute.dropDownListViewStyle = global::SMobile.Android.Resource.Attribute.dropDownListViewStyle;
+			global::com.refractored.Resource.Attribute.dropdownListPreferredItemHeight = global::SMobile.Android.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::com.refractored.Resource.Attribute.editTextBackground = global::SMobile.Android.Resource.Attribute.editTextBackground;
+			global::com.refractored.Resource.Attribute.editTextColor = global::SMobile.Android.Resource.Attribute.editTextColor;
+			global::com.refractored.Resource.Attribute.editTextStyle = global::SMobile.Android.Resource.Attribute.editTextStyle;
+			global::com.refractored.Resource.Attribute.elevation = global::SMobile.Android.Resource.Attribute.elevation;
+			global::com.refractored.Resource.Attribute.expandActivityOverflowButtonDrawable = global::SMobile.Android.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::com.refractored.Resource.Attribute.gapBetweenBars = global::SMobile.Android.Resource.Attribute.gapBetweenBars;
+			global::com.refractored.Resource.Attribute.goIcon = global::SMobile.Android.Resource.Attribute.goIcon;
+			global::com.refractored.Resource.Attribute.height = global::SMobile.Android.Resource.Attribute.height;
+			global::com.refractored.Resource.Attribute.hideOnContentScroll = global::SMobile.Android.Resource.Attribute.hideOnContentScroll;
+			global::com.refractored.Resource.Attribute.homeAsUpIndicator = global::SMobile.Android.Resource.Attribute.homeAsUpIndicator;
+			global::com.refractored.Resource.Attribute.homeLayout = global::SMobile.Android.Resource.Attribute.homeLayout;
+			global::com.refractored.Resource.Attribute.icon = global::SMobile.Android.Resource.Attribute.icon;
+			global::com.refractored.Resource.Attribute.iconifiedByDefault = global::SMobile.Android.Resource.Attribute.iconifiedByDefault;
+			global::com.refractored.Resource.Attribute.imageButtonStyle = global::SMobile.Android.Resource.Attribute.imageButtonStyle;
+			global::com.refractored.Resource.Attribute.indeterminateProgressStyle = global::SMobile.Android.Resource.Attribute.indeterminateProgressStyle;
+			global::com.refractored.Resource.Attribute.initialActivityCount = global::SMobile.Android.Resource.Attribute.initialActivityCount;
+			global::com.refractored.Resource.Attribute.isLightTheme = global::SMobile.Android.Resource.Attribute.isLightTheme;
+			global::com.refractored.Resource.Attribute.itemPadding = global::SMobile.Android.Resource.Attribute.itemPadding;
+			global::com.refractored.Resource.Attribute.layout = global::SMobile.Android.Resource.Attribute.layout;
+			global::com.refractored.Resource.Attribute.listChoiceBackgroundIndicator = global::SMobile.Android.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::com.refractored.Resource.Attribute.listDividerAlertDialog = global::SMobile.Android.Resource.Attribute.listDividerAlertDialog;
+			global::com.refractored.Resource.Attribute.listItemLayout = global::SMobile.Android.Resource.Attribute.listItemLayout;
+			global::com.refractored.Resource.Attribute.listLayout = global::SMobile.Android.Resource.Attribute.listLayout;
+			global::com.refractored.Resource.Attribute.listPopupWindowStyle = global::SMobile.Android.Resource.Attribute.listPopupWindowStyle;
+			global::com.refractored.Resource.Attribute.listPreferredItemHeight = global::SMobile.Android.Resource.Attribute.listPreferredItemHeight;
+			global::com.refractored.Resource.Attribute.listPreferredItemHeightLarge = global::SMobile.Android.Resource.Attribute.listPreferredItemHeightLarge;
+			global::com.refractored.Resource.Attribute.listPreferredItemHeightSmall = global::SMobile.Android.Resource.Attribute.listPreferredItemHeightSmall;
+			global::com.refractored.Resource.Attribute.listPreferredItemPaddingLeft = global::SMobile.Android.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::com.refractored.Resource.Attribute.listPreferredItemPaddingRight = global::SMobile.Android.Resource.Attribute.listPreferredItemPaddingRight;
+			global::com.refractored.Resource.Attribute.logo = global::SMobile.Android.Resource.Attribute.logo;
+			global::com.refractored.Resource.Attribute.logoDescription = global::SMobile.Android.Resource.Attribute.logoDescription;
+			global::com.refractored.Resource.Attribute.maxButtonHeight = global::SMobile.Android.Resource.Attribute.maxButtonHeight;
+			global::com.refractored.Resource.Attribute.measureWithLargestChild = global::SMobile.Android.Resource.Attribute.measureWithLargestChild;
+			global::com.refractored.Resource.Attribute.multiChoiceItemLayout = global::SMobile.Android.Resource.Attribute.multiChoiceItemLayout;
+			global::com.refractored.Resource.Attribute.navigationContentDescription = global::SMobile.Android.Resource.Attribute.navigationContentDescription;
+			global::com.refractored.Resource.Attribute.navigationIcon = global::SMobile.Android.Resource.Attribute.navigationIcon;
+			global::com.refractored.Resource.Attribute.navigationMode = global::SMobile.Android.Resource.Attribute.navigationMode;
+			global::com.refractored.Resource.Attribute.overlapAnchor = global::SMobile.Android.Resource.Attribute.overlapAnchor;
+			global::com.refractored.Resource.Attribute.paddingEnd = global::SMobile.Android.Resource.Attribute.paddingEnd;
+			global::com.refractored.Resource.Attribute.paddingStart = global::SMobile.Android.Resource.Attribute.paddingStart;
+			global::com.refractored.Resource.Attribute.panelBackground = global::SMobile.Android.Resource.Attribute.panelBackground;
+			global::com.refractored.Resource.Attribute.panelMenuListTheme = global::SMobile.Android.Resource.Attribute.panelMenuListTheme;
+			global::com.refractored.Resource.Attribute.panelMenuListWidth = global::SMobile.Android.Resource.Attribute.panelMenuListWidth;
+			global::com.refractored.Resource.Attribute.popupMenuStyle = global::SMobile.Android.Resource.Attribute.popupMenuStyle;
+			global::com.refractored.Resource.Attribute.popupTheme = global::SMobile.Android.Resource.Attribute.popupTheme;
+			global::com.refractored.Resource.Attribute.popupWindowStyle = global::SMobile.Android.Resource.Attribute.popupWindowStyle;
+			global::com.refractored.Resource.Attribute.preserveIconSpacing = global::SMobile.Android.Resource.Attribute.preserveIconSpacing;
+			global::com.refractored.Resource.Attribute.progressBarPadding = global::SMobile.Android.Resource.Attribute.progressBarPadding;
+			global::com.refractored.Resource.Attribute.progressBarStyle = global::SMobile.Android.Resource.Attribute.progressBarStyle;
+			global::com.refractored.Resource.Attribute.pstsDividerColor = global::SMobile.Android.Resource.Attribute.pstsDividerColor;
+			global::com.refractored.Resource.Attribute.pstsDividerPadding = global::SMobile.Android.Resource.Attribute.pstsDividerPadding;
+			global::com.refractored.Resource.Attribute.pstsDividerWidth = global::SMobile.Android.Resource.Attribute.pstsDividerWidth;
+			global::com.refractored.Resource.Attribute.pstsIndicatorColor = global::SMobile.Android.Resource.Attribute.pstsIndicatorColor;
+			global::com.refractored.Resource.Attribute.pstsIndicatorHeight = global::SMobile.Android.Resource.Attribute.pstsIndicatorHeight;
+			global::com.refractored.Resource.Attribute.pstsPaddingMiddle = global::SMobile.Android.Resource.Attribute.pstsPaddingMiddle;
+			global::com.refractored.Resource.Attribute.pstsScrollOffset = global::SMobile.Android.Resource.Attribute.pstsScrollOffset;
+			global::com.refractored.Resource.Attribute.pstsShouldExpand = global::SMobile.Android.Resource.Attribute.pstsShouldExpand;
+			global::com.refractored.Resource.Attribute.pstsTabBackground = global::SMobile.Android.Resource.Attribute.pstsTabBackground;
+			global::com.refractored.Resource.Attribute.pstsTabPaddingLeftRight = global::SMobile.Android.Resource.Attribute.pstsTabPaddingLeftRight;
+			global::com.refractored.Resource.Attribute.pstsTextAllCaps = global::SMobile.Android.Resource.Attribute.pstsTextAllCaps;
+			global::com.refractored.Resource.Attribute.pstsTextAlpha = global::SMobile.Android.Resource.Attribute.pstsTextAlpha;
+			global::com.refractored.Resource.Attribute.pstsTextColorSelected = global::SMobile.Android.Resource.Attribute.pstsTextColorSelected;
+			global::com.refractored.Resource.Attribute.pstsTextSelectedStyle = global::SMobile.Android.Resource.Attribute.pstsTextSelectedStyle;
+			global::com.refractored.Resource.Attribute.pstsTextStyle = global::SMobile.Android.Resource.Attribute.pstsTextStyle;
+			global::com.refractored.Resource.Attribute.pstsUnderlineColor = global::SMobile.Android.Resource.Attribute.pstsUnderlineColor;
+			global::com.refractored.Resource.Attribute.pstsUnderlineHeight = global::SMobile.Android.Resource.Attribute.pstsUnderlineHeight;
+			global::com.refractored.Resource.Attribute.queryBackground = global::SMobile.Android.Resource.Attribute.queryBackground;
+			global::com.refractored.Resource.Attribute.queryHint = global::SMobile.Android.Resource.Attribute.queryHint;
+			global::com.refractored.Resource.Attribute.radioButtonStyle = global::SMobile.Android.Resource.Attribute.radioButtonStyle;
+			global::com.refractored.Resource.Attribute.ratingBarStyle = global::SMobile.Android.Resource.Attribute.ratingBarStyle;
+			global::com.refractored.Resource.Attribute.ratingBarStyleIndicator = global::SMobile.Android.Resource.Attribute.ratingBarStyleIndicator;
+			global::com.refractored.Resource.Attribute.ratingBarStyleSmall = global::SMobile.Android.Resource.Attribute.ratingBarStyleSmall;
+			global::com.refractored.Resource.Attribute.searchHintIcon = global::SMobile.Android.Resource.Attribute.searchHintIcon;
+			global::com.refractored.Resource.Attribute.searchIcon = global::SMobile.Android.Resource.Attribute.searchIcon;
+			global::com.refractored.Resource.Attribute.searchViewStyle = global::SMobile.Android.Resource.Attribute.searchViewStyle;
+			global::com.refractored.Resource.Attribute.seekBarStyle = global::SMobile.Android.Resource.Attribute.seekBarStyle;
+			global::com.refractored.Resource.Attribute.selectableItemBackground = global::SMobile.Android.Resource.Attribute.selectableItemBackground;
+			global::com.refractored.Resource.Attribute.selectableItemBackgroundBorderless = global::SMobile.Android.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::com.refractored.Resource.Attribute.showAsAction = global::SMobile.Android.Resource.Attribute.showAsAction;
+			global::com.refractored.Resource.Attribute.showDividers = global::SMobile.Android.Resource.Attribute.showDividers;
+			global::com.refractored.Resource.Attribute.showText = global::SMobile.Android.Resource.Attribute.showText;
+			global::com.refractored.Resource.Attribute.singleChoiceItemLayout = global::SMobile.Android.Resource.Attribute.singleChoiceItemLayout;
+			global::com.refractored.Resource.Attribute.spinBars = global::SMobile.Android.Resource.Attribute.spinBars;
+			global::com.refractored.Resource.Attribute.spinnerDropDownItemStyle = global::SMobile.Android.Resource.Attribute.spinnerDropDownItemStyle;
+			global::com.refractored.Resource.Attribute.spinnerStyle = global::SMobile.Android.Resource.Attribute.spinnerStyle;
+			global::com.refractored.Resource.Attribute.splitTrack = global::SMobile.Android.Resource.Attribute.splitTrack;
+			global::com.refractored.Resource.Attribute.srcCompat = global::SMobile.Android.Resource.Attribute.srcCompat;
+			global::com.refractored.Resource.Attribute.state_above_anchor = global::SMobile.Android.Resource.Attribute.state_above_anchor;
+			global::com.refractored.Resource.Attribute.submitBackground = global::SMobile.Android.Resource.Attribute.submitBackground;
+			global::com.refractored.Resource.Attribute.subtitle = global::SMobile.Android.Resource.Attribute.subtitle;
+			global::com.refractored.Resource.Attribute.subtitleTextAppearance = global::SMobile.Android.Resource.Attribute.subtitleTextAppearance;
+			global::com.refractored.Resource.Attribute.subtitleTextColor = global::SMobile.Android.Resource.Attribute.subtitleTextColor;
+			global::com.refractored.Resource.Attribute.subtitleTextStyle = global::SMobile.Android.Resource.Attribute.subtitleTextStyle;
+			global::com.refractored.Resource.Attribute.suggestionRowLayout = global::SMobile.Android.Resource.Attribute.suggestionRowLayout;
+			global::com.refractored.Resource.Attribute.switchMinWidth = global::SMobile.Android.Resource.Attribute.switchMinWidth;
+			global::com.refractored.Resource.Attribute.switchPadding = global::SMobile.Android.Resource.Attribute.switchPadding;
+			global::com.refractored.Resource.Attribute.switchStyle = global::SMobile.Android.Resource.Attribute.switchStyle;
+			global::com.refractored.Resource.Attribute.switchTextAppearance = global::SMobile.Android.Resource.Attribute.switchTextAppearance;
+			global::com.refractored.Resource.Attribute.textAllCaps = global::SMobile.Android.Resource.Attribute.textAllCaps;
+			global::com.refractored.Resource.Attribute.textAppearanceLargePopupMenu = global::SMobile.Android.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::com.refractored.Resource.Attribute.textAppearanceListItem = global::SMobile.Android.Resource.Attribute.textAppearanceListItem;
+			global::com.refractored.Resource.Attribute.textAppearanceListItemSmall = global::SMobile.Android.Resource.Attribute.textAppearanceListItemSmall;
+			global::com.refractored.Resource.Attribute.textAppearanceSearchResultSubtitle = global::SMobile.Android.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::com.refractored.Resource.Attribute.textAppearanceSearchResultTitle = global::SMobile.Android.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::com.refractored.Resource.Attribute.textAppearanceSmallPopupMenu = global::SMobile.Android.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::com.refractored.Resource.Attribute.textColorAlertDialogListItem = global::SMobile.Android.Resource.Attribute.textColorAlertDialogListItem;
+			global::com.refractored.Resource.Attribute.textColorSearchUrl = global::SMobile.Android.Resource.Attribute.textColorSearchUrl;
+			global::com.refractored.Resource.Attribute.theme = global::SMobile.Android.Resource.Attribute.theme;
+			global::com.refractored.Resource.Attribute.thickness = global::SMobile.Android.Resource.Attribute.thickness;
+			global::com.refractored.Resource.Attribute.thumbTextPadding = global::SMobile.Android.Resource.Attribute.thumbTextPadding;
+			global::com.refractored.Resource.Attribute.title = global::SMobile.Android.Resource.Attribute.title;
+			global::com.refractored.Resource.Attribute.titleMarginBottom = global::SMobile.Android.Resource.Attribute.titleMarginBottom;
+			global::com.refractored.Resource.Attribute.titleMarginEnd = global::SMobile.Android.Resource.Attribute.titleMarginEnd;
+			global::com.refractored.Resource.Attribute.titleMarginStart = global::SMobile.Android.Resource.Attribute.titleMarginStart;
+			global::com.refractored.Resource.Attribute.titleMarginTop = global::SMobile.Android.Resource.Attribute.titleMarginTop;
+			global::com.refractored.Resource.Attribute.titleMargins = global::SMobile.Android.Resource.Attribute.titleMargins;
+			global::com.refractored.Resource.Attribute.titleTextAppearance = global::SMobile.Android.Resource.Attribute.titleTextAppearance;
+			global::com.refractored.Resource.Attribute.titleTextColor = global::SMobile.Android.Resource.Attribute.titleTextColor;
+			global::com.refractored.Resource.Attribute.titleTextStyle = global::SMobile.Android.Resource.Attribute.titleTextStyle;
+			global::com.refractored.Resource.Attribute.toolbarNavigationButtonStyle = global::SMobile.Android.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::com.refractored.Resource.Attribute.toolbarStyle = global::SMobile.Android.Resource.Attribute.toolbarStyle;
+			global::com.refractored.Resource.Attribute.track = global::SMobile.Android.Resource.Attribute.track;
+			global::com.refractored.Resource.Attribute.voiceIcon = global::SMobile.Android.Resource.Attribute.voiceIcon;
+			global::com.refractored.Resource.Attribute.windowActionBar = global::SMobile.Android.Resource.Attribute.windowActionBar;
+			global::com.refractored.Resource.Attribute.windowActionBarOverlay = global::SMobile.Android.Resource.Attribute.windowActionBarOverlay;
+			global::com.refractored.Resource.Attribute.windowActionModeOverlay = global::SMobile.Android.Resource.Attribute.windowActionModeOverlay;
+			global::com.refractored.Resource.Attribute.windowFixedHeightMajor = global::SMobile.Android.Resource.Attribute.windowFixedHeightMajor;
+			global::com.refractored.Resource.Attribute.windowFixedHeightMinor = global::SMobile.Android.Resource.Attribute.windowFixedHeightMinor;
+			global::com.refractored.Resource.Attribute.windowFixedWidthMajor = global::SMobile.Android.Resource.Attribute.windowFixedWidthMajor;
+			global::com.refractored.Resource.Attribute.windowFixedWidthMinor = global::SMobile.Android.Resource.Attribute.windowFixedWidthMinor;
+			global::com.refractored.Resource.Attribute.windowMinWidthMajor = global::SMobile.Android.Resource.Attribute.windowMinWidthMajor;
+			global::com.refractored.Resource.Attribute.windowMinWidthMinor = global::SMobile.Android.Resource.Attribute.windowMinWidthMinor;
+			global::com.refractored.Resource.Attribute.windowNoTitle = global::SMobile.Android.Resource.Attribute.windowNoTitle;
+			global::com.refractored.Resource.Boolean.abc_action_bar_embed_tabs = global::SMobile.Android.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::com.refractored.Resource.Boolean.abc_allow_stacked_button_bar = global::SMobile.Android.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::com.refractored.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::SMobile.Android.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::com.refractored.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::SMobile.Android.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
+			global::com.refractored.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::SMobile.Android.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
+			global::com.refractored.Resource.Color.abc_background_cache_hint_selector_material_dark = global::SMobile.Android.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::com.refractored.Resource.Color.abc_background_cache_hint_selector_material_light = global::SMobile.Android.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::com.refractored.Resource.Color.abc_color_highlight_material = global::SMobile.Android.Resource.Color.abc_color_highlight_material;
+			global::com.refractored.Resource.Color.abc_input_method_navigation_guard = global::SMobile.Android.Resource.Color.abc_input_method_navigation_guard;
+			global::com.refractored.Resource.Color.abc_primary_text_disable_only_material_dark = global::SMobile.Android.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::com.refractored.Resource.Color.abc_primary_text_disable_only_material_light = global::SMobile.Android.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::com.refractored.Resource.Color.abc_primary_text_material_dark = global::SMobile.Android.Resource.Color.abc_primary_text_material_dark;
+			global::com.refractored.Resource.Color.abc_primary_text_material_light = global::SMobile.Android.Resource.Color.abc_primary_text_material_light;
+			global::com.refractored.Resource.Color.abc_search_url_text = global::SMobile.Android.Resource.Color.abc_search_url_text;
+			global::com.refractored.Resource.Color.abc_search_url_text_normal = global::SMobile.Android.Resource.Color.abc_search_url_text_normal;
+			global::com.refractored.Resource.Color.abc_search_url_text_pressed = global::SMobile.Android.Resource.Color.abc_search_url_text_pressed;
+			global::com.refractored.Resource.Color.abc_search_url_text_selected = global::SMobile.Android.Resource.Color.abc_search_url_text_selected;
+			global::com.refractored.Resource.Color.abc_secondary_text_material_dark = global::SMobile.Android.Resource.Color.abc_secondary_text_material_dark;
+			global::com.refractored.Resource.Color.abc_secondary_text_material_light = global::SMobile.Android.Resource.Color.abc_secondary_text_material_light;
+			global::com.refractored.Resource.Color.accent_material_dark = global::SMobile.Android.Resource.Color.accent_material_dark;
+			global::com.refractored.Resource.Color.accent_material_light = global::SMobile.Android.Resource.Color.accent_material_light;
+			global::com.refractored.Resource.Color.background_floating_material_dark = global::SMobile.Android.Resource.Color.background_floating_material_dark;
+			global::com.refractored.Resource.Color.background_floating_material_light = global::SMobile.Android.Resource.Color.background_floating_material_light;
+			global::com.refractored.Resource.Color.background_material_dark = global::SMobile.Android.Resource.Color.background_material_dark;
+			global::com.refractored.Resource.Color.background_material_light = global::SMobile.Android.Resource.Color.background_material_light;
+			global::com.refractored.Resource.Color.bright_foreground_disabled_material_dark = global::SMobile.Android.Resource.Color.bright_foreground_disabled_material_dark;
+			global::com.refractored.Resource.Color.bright_foreground_disabled_material_light = global::SMobile.Android.Resource.Color.bright_foreground_disabled_material_light;
+			global::com.refractored.Resource.Color.bright_foreground_inverse_material_dark = global::SMobile.Android.Resource.Color.bright_foreground_inverse_material_dark;
+			global::com.refractored.Resource.Color.bright_foreground_inverse_material_light = global::SMobile.Android.Resource.Color.bright_foreground_inverse_material_light;
+			global::com.refractored.Resource.Color.bright_foreground_material_dark = global::SMobile.Android.Resource.Color.bright_foreground_material_dark;
+			global::com.refractored.Resource.Color.bright_foreground_material_light = global::SMobile.Android.Resource.Color.bright_foreground_material_light;
+			global::com.refractored.Resource.Color.button_material_dark = global::SMobile.Android.Resource.Color.button_material_dark;
+			global::com.refractored.Resource.Color.button_material_light = global::SMobile.Android.Resource.Color.button_material_light;
+			global::com.refractored.Resource.Color.dim_foreground_disabled_material_dark = global::SMobile.Android.Resource.Color.dim_foreground_disabled_material_dark;
+			global::com.refractored.Resource.Color.dim_foreground_disabled_material_light = global::SMobile.Android.Resource.Color.dim_foreground_disabled_material_light;
+			global::com.refractored.Resource.Color.dim_foreground_material_dark = global::SMobile.Android.Resource.Color.dim_foreground_material_dark;
+			global::com.refractored.Resource.Color.dim_foreground_material_light = global::SMobile.Android.Resource.Color.dim_foreground_material_light;
+			global::com.refractored.Resource.Color.foreground_material_dark = global::SMobile.Android.Resource.Color.foreground_material_dark;
+			global::com.refractored.Resource.Color.foreground_material_light = global::SMobile.Android.Resource.Color.foreground_material_light;
+			global::com.refractored.Resource.Color.highlighted_text_material_dark = global::SMobile.Android.Resource.Color.highlighted_text_material_dark;
+			global::com.refractored.Resource.Color.highlighted_text_material_light = global::SMobile.Android.Resource.Color.highlighted_text_material_light;
+			global::com.refractored.Resource.Color.material_blue_grey_800 = global::SMobile.Android.Resource.Color.material_blue_grey_800;
+			global::com.refractored.Resource.Color.material_blue_grey_900 = global::SMobile.Android.Resource.Color.material_blue_grey_900;
+			global::com.refractored.Resource.Color.material_blue_grey_950 = global::SMobile.Android.Resource.Color.material_blue_grey_950;
+			global::com.refractored.Resource.Color.material_deep_teal_200 = global::SMobile.Android.Resource.Color.material_deep_teal_200;
+			global::com.refractored.Resource.Color.material_deep_teal_500 = global::SMobile.Android.Resource.Color.material_deep_teal_500;
+			global::com.refractored.Resource.Color.material_grey_100 = global::SMobile.Android.Resource.Color.material_grey_100;
+			global::com.refractored.Resource.Color.material_grey_300 = global::SMobile.Android.Resource.Color.material_grey_300;
+			global::com.refractored.Resource.Color.material_grey_50 = global::SMobile.Android.Resource.Color.material_grey_50;
+			global::com.refractored.Resource.Color.material_grey_600 = global::SMobile.Android.Resource.Color.material_grey_600;
+			global::com.refractored.Resource.Color.material_grey_800 = global::SMobile.Android.Resource.Color.material_grey_800;
+			global::com.refractored.Resource.Color.material_grey_850 = global::SMobile.Android.Resource.Color.material_grey_850;
+			global::com.refractored.Resource.Color.material_grey_900 = global::SMobile.Android.Resource.Color.material_grey_900;
+			global::com.refractored.Resource.Color.primary_dark_material_dark = global::SMobile.Android.Resource.Color.primary_dark_material_dark;
+			global::com.refractored.Resource.Color.primary_dark_material_light = global::SMobile.Android.Resource.Color.primary_dark_material_light;
+			global::com.refractored.Resource.Color.primary_material_dark = global::SMobile.Android.Resource.Color.primary_material_dark;
+			global::com.refractored.Resource.Color.primary_material_light = global::SMobile.Android.Resource.Color.primary_material_light;
+			global::com.refractored.Resource.Color.primary_text_default_material_dark = global::SMobile.Android.Resource.Color.primary_text_default_material_dark;
+			global::com.refractored.Resource.Color.primary_text_default_material_light = global::SMobile.Android.Resource.Color.primary_text_default_material_light;
+			global::com.refractored.Resource.Color.primary_text_disabled_material_dark = global::SMobile.Android.Resource.Color.primary_text_disabled_material_dark;
+			global::com.refractored.Resource.Color.primary_text_disabled_material_light = global::SMobile.Android.Resource.Color.primary_text_disabled_material_light;
+			global::com.refractored.Resource.Color.psts_background_tab_pressed = global::SMobile.Android.Resource.Color.psts_background_tab_pressed;
+			global::com.refractored.Resource.Color.ripple_material_dark = global::SMobile.Android.Resource.Color.ripple_material_dark;
+			global::com.refractored.Resource.Color.ripple_material_light = global::SMobile.Android.Resource.Color.ripple_material_light;
+			global::com.refractored.Resource.Color.secondary_text_default_material_dark = global::SMobile.Android.Resource.Color.secondary_text_default_material_dark;
+			global::com.refractored.Resource.Color.secondary_text_default_material_light = global::SMobile.Android.Resource.Color.secondary_text_default_material_light;
+			global::com.refractored.Resource.Color.secondary_text_disabled_material_dark = global::SMobile.Android.Resource.Color.secondary_text_disabled_material_dark;
+			global::com.refractored.Resource.Color.secondary_text_disabled_material_light = global::SMobile.Android.Resource.Color.secondary_text_disabled_material_light;
+			global::com.refractored.Resource.Color.switch_thumb_disabled_material_dark = global::SMobile.Android.Resource.Color.switch_thumb_disabled_material_dark;
+			global::com.refractored.Resource.Color.switch_thumb_disabled_material_light = global::SMobile.Android.Resource.Color.switch_thumb_disabled_material_light;
+			global::com.refractored.Resource.Color.switch_thumb_material_dark = global::SMobile.Android.Resource.Color.switch_thumb_material_dark;
+			global::com.refractored.Resource.Color.switch_thumb_material_light = global::SMobile.Android.Resource.Color.switch_thumb_material_light;
+			global::com.refractored.Resource.Color.switch_thumb_normal_material_dark = global::SMobile.Android.Resource.Color.switch_thumb_normal_material_dark;
+			global::com.refractored.Resource.Color.switch_thumb_normal_material_light = global::SMobile.Android.Resource.Color.switch_thumb_normal_material_light;
+			global::com.refractored.Resource.Dimension.abc_action_bar_content_inset_material = global::SMobile.Android.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::com.refractored.Resource.Dimension.abc_action_bar_default_height_material = global::SMobile.Android.Resource.Dimension.abc_action_bar_default_height_material;
+			global::com.refractored.Resource.Dimension.abc_action_bar_default_padding_end_material = global::SMobile.Android.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::com.refractored.Resource.Dimension.abc_action_bar_default_padding_start_material = global::SMobile.Android.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::com.refractored.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::SMobile.Android.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::com.refractored.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::SMobile.Android.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::com.refractored.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::SMobile.Android.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::com.refractored.Resource.Dimension.abc_action_bar_progress_bar_size = global::SMobile.Android.Resource.Dimension.abc_action_bar_progress_bar_size;
+			global::com.refractored.Resource.Dimension.abc_action_bar_stacked_max_height = global::SMobile.Android.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::com.refractored.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::SMobile.Android.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::com.refractored.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::SMobile.Android.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::com.refractored.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::SMobile.Android.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::com.refractored.Resource.Dimension.abc_action_button_min_height_material = global::SMobile.Android.Resource.Dimension.abc_action_button_min_height_material;
+			global::com.refractored.Resource.Dimension.abc_action_button_min_width_material = global::SMobile.Android.Resource.Dimension.abc_action_button_min_width_material;
+			global::com.refractored.Resource.Dimension.abc_action_button_min_width_overflow_material = global::SMobile.Android.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::com.refractored.Resource.Dimension.abc_alert_dialog_button_bar_height = global::SMobile.Android.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::com.refractored.Resource.Dimension.abc_button_inset_horizontal_material = global::SMobile.Android.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::com.refractored.Resource.Dimension.abc_button_inset_vertical_material = global::SMobile.Android.Resource.Dimension.abc_button_inset_vertical_material;
+			global::com.refractored.Resource.Dimension.abc_button_padding_horizontal_material = global::SMobile.Android.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::com.refractored.Resource.Dimension.abc_button_padding_vertical_material = global::SMobile.Android.Resource.Dimension.abc_button_padding_vertical_material;
+			global::com.refractored.Resource.Dimension.abc_config_prefDialogWidth = global::SMobile.Android.Resource.Dimension.abc_config_prefDialogWidth;
+			global::com.refractored.Resource.Dimension.abc_control_corner_material = global::SMobile.Android.Resource.Dimension.abc_control_corner_material;
+			global::com.refractored.Resource.Dimension.abc_control_inset_material = global::SMobile.Android.Resource.Dimension.abc_control_inset_material;
+			global::com.refractored.Resource.Dimension.abc_control_padding_material = global::SMobile.Android.Resource.Dimension.abc_control_padding_material;
+			global::com.refractored.Resource.Dimension.abc_dialog_fixed_height_major = global::SMobile.Android.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::com.refractored.Resource.Dimension.abc_dialog_fixed_height_minor = global::SMobile.Android.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::com.refractored.Resource.Dimension.abc_dialog_fixed_width_major = global::SMobile.Android.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::com.refractored.Resource.Dimension.abc_dialog_fixed_width_minor = global::SMobile.Android.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::com.refractored.Resource.Dimension.abc_dialog_min_width_major = global::SMobile.Android.Resource.Dimension.abc_dialog_min_width_major;
+			global::com.refractored.Resource.Dimension.abc_dialog_min_width_minor = global::SMobile.Android.Resource.Dimension.abc_dialog_min_width_minor;
+			global::com.refractored.Resource.Dimension.abc_dialog_padding_material = global::SMobile.Android.Resource.Dimension.abc_dialog_padding_material;
+			global::com.refractored.Resource.Dimension.abc_dialog_padding_top_material = global::SMobile.Android.Resource.Dimension.abc_dialog_padding_top_material;
+			global::com.refractored.Resource.Dimension.abc_disabled_alpha_material_dark = global::SMobile.Android.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::com.refractored.Resource.Dimension.abc_disabled_alpha_material_light = global::SMobile.Android.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::com.refractored.Resource.Dimension.abc_dropdownitem_icon_width = global::SMobile.Android.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::com.refractored.Resource.Dimension.abc_dropdownitem_text_padding_left = global::SMobile.Android.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::com.refractored.Resource.Dimension.abc_dropdownitem_text_padding_right = global::SMobile.Android.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::com.refractored.Resource.Dimension.abc_edit_text_inset_bottom_material = global::SMobile.Android.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::com.refractored.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::SMobile.Android.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::com.refractored.Resource.Dimension.abc_edit_text_inset_top_material = global::SMobile.Android.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::com.refractored.Resource.Dimension.abc_floating_window_z = global::SMobile.Android.Resource.Dimension.abc_floating_window_z;
+			global::com.refractored.Resource.Dimension.abc_list_item_padding_horizontal_material = global::SMobile.Android.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::com.refractored.Resource.Dimension.abc_panel_menu_list_width = global::SMobile.Android.Resource.Dimension.abc_panel_menu_list_width;
+			global::com.refractored.Resource.Dimension.abc_search_view_preferred_width = global::SMobile.Android.Resource.Dimension.abc_search_view_preferred_width;
+			global::com.refractored.Resource.Dimension.abc_seekbar_track_background_height_material = global::SMobile.Android.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::com.refractored.Resource.Dimension.abc_seekbar_track_progress_height_material = global::SMobile.Android.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::com.refractored.Resource.Dimension.abc_select_dialog_padding_start_material = global::SMobile.Android.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::com.refractored.Resource.Dimension.abc_switch_padding = global::SMobile.Android.Resource.Dimension.abc_switch_padding;
+			global::com.refractored.Resource.Dimension.abc_text_size_body_1_material = global::SMobile.Android.Resource.Dimension.abc_text_size_body_1_material;
+			global::com.refractored.Resource.Dimension.abc_text_size_body_2_material = global::SMobile.Android.Resource.Dimension.abc_text_size_body_2_material;
+			global::com.refractored.Resource.Dimension.abc_text_size_button_material = global::SMobile.Android.Resource.Dimension.abc_text_size_button_material;
+			global::com.refractored.Resource.Dimension.abc_text_size_caption_material = global::SMobile.Android.Resource.Dimension.abc_text_size_caption_material;
+			global::com.refractored.Resource.Dimension.abc_text_size_display_1_material = global::SMobile.Android.Resource.Dimension.abc_text_size_display_1_material;
+			global::com.refractored.Resource.Dimension.abc_text_size_display_2_material = global::SMobile.Android.Resource.Dimension.abc_text_size_display_2_material;
+			global::com.refractored.Resource.Dimension.abc_text_size_display_3_material = global::SMobile.Android.Resource.Dimension.abc_text_size_display_3_material;
+			global::com.refractored.Resource.Dimension.abc_text_size_display_4_material = global::SMobile.Android.Resource.Dimension.abc_text_size_display_4_material;
+			global::com.refractored.Resource.Dimension.abc_text_size_headline_material = global::SMobile.Android.Resource.Dimension.abc_text_size_headline_material;
+			global::com.refractored.Resource.Dimension.abc_text_size_large_material = global::SMobile.Android.Resource.Dimension.abc_text_size_large_material;
+			global::com.refractored.Resource.Dimension.abc_text_size_medium_material = global::SMobile.Android.Resource.Dimension.abc_text_size_medium_material;
+			global::com.refractored.Resource.Dimension.abc_text_size_menu_material = global::SMobile.Android.Resource.Dimension.abc_text_size_menu_material;
+			global::com.refractored.Resource.Dimension.abc_text_size_small_material = global::SMobile.Android.Resource.Dimension.abc_text_size_small_material;
+			global::com.refractored.Resource.Dimension.abc_text_size_subhead_material = global::SMobile.Android.Resource.Dimension.abc_text_size_subhead_material;
+			global::com.refractored.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::SMobile.Android.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::com.refractored.Resource.Dimension.abc_text_size_title_material = global::SMobile.Android.Resource.Dimension.abc_text_size_title_material;
+			global::com.refractored.Resource.Dimension.abc_text_size_title_material_toolbar = global::SMobile.Android.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::com.refractored.Resource.Dimension.disabled_alpha_material_dark = global::SMobile.Android.Resource.Dimension.disabled_alpha_material_dark;
+			global::com.refractored.Resource.Dimension.disabled_alpha_material_light = global::SMobile.Android.Resource.Dimension.disabled_alpha_material_light;
+			global::com.refractored.Resource.Dimension.highlight_alpha_material_colored = global::SMobile.Android.Resource.Dimension.highlight_alpha_material_colored;
+			global::com.refractored.Resource.Dimension.highlight_alpha_material_dark = global::SMobile.Android.Resource.Dimension.highlight_alpha_material_dark;
+			global::com.refractored.Resource.Dimension.highlight_alpha_material_light = global::SMobile.Android.Resource.Dimension.highlight_alpha_material_light;
+			global::com.refractored.Resource.Dimension.notification_large_icon_height = global::SMobile.Android.Resource.Dimension.notification_large_icon_height;
+			global::com.refractored.Resource.Dimension.notification_large_icon_width = global::SMobile.Android.Resource.Dimension.notification_large_icon_width;
+			global::com.refractored.Resource.Dimension.notification_subtext_size = global::SMobile.Android.Resource.Dimension.notification_subtext_size;
+			global::com.refractored.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::SMobile.Android.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_action_bar_item_background_material = global::SMobile.Android.Resource.Drawable.abc_action_bar_item_background_material;
+			global::com.refractored.Resource.Drawable.abc_btn_borderless_material = global::SMobile.Android.Resource.Drawable.abc_btn_borderless_material;
+			global::com.refractored.Resource.Drawable.abc_btn_check_material = global::SMobile.Android.Resource.Drawable.abc_btn_check_material;
+			global::com.refractored.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::SMobile.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::com.refractored.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::SMobile.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::com.refractored.Resource.Drawable.abc_btn_colored_material = global::SMobile.Android.Resource.Drawable.abc_btn_colored_material;
+			global::com.refractored.Resource.Drawable.abc_btn_default_mtrl_shape = global::SMobile.Android.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::com.refractored.Resource.Drawable.abc_btn_radio_material = global::SMobile.Android.Resource.Drawable.abc_btn_radio_material;
+			global::com.refractored.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::SMobile.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::com.refractored.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::SMobile.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::com.refractored.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::SMobile.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::com.refractored.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::SMobile.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::com.refractored.Resource.Drawable.abc_cab_background_internal_bg = global::SMobile.Android.Resource.Drawable.abc_cab_background_internal_bg;
+			global::com.refractored.Resource.Drawable.abc_cab_background_top_material = global::SMobile.Android.Resource.Drawable.abc_cab_background_top_material;
+			global::com.refractored.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::SMobile.Android.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_control_background_material = global::SMobile.Android.Resource.Drawable.abc_control_background_material;
+			global::com.refractored.Resource.Drawable.abc_edit_text_material = global::SMobile.Android.Resource.Drawable.abc_edit_text_material;
+			global::com.refractored.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::SMobile.Android.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::SMobile.Android.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::com.refractored.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::SMobile.Android.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::SMobile.Android.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::com.refractored.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::SMobile.Android.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::SMobile.Android.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_ic_star_black_16dp = global::SMobile.Android.Resource.Drawable.abc_ic_star_black_16dp;
+			global::com.refractored.Resource.Drawable.abc_ic_star_black_36dp = global::SMobile.Android.Resource.Drawable.abc_ic_star_black_36dp;
+			global::com.refractored.Resource.Drawable.abc_ic_star_half_black_16dp = global::SMobile.Android.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::com.refractored.Resource.Drawable.abc_ic_star_half_black_36dp = global::SMobile.Android.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::com.refractored.Resource.Drawable.abc_item_background_holo_dark = global::SMobile.Android.Resource.Drawable.abc_item_background_holo_dark;
+			global::com.refractored.Resource.Drawable.abc_item_background_holo_light = global::SMobile.Android.Resource.Drawable.abc_item_background_holo_light;
+			global::com.refractored.Resource.Drawable.abc_list_divider_mtrl_alpha = global::SMobile.Android.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_list_focused_holo = global::SMobile.Android.Resource.Drawable.abc_list_focused_holo;
+			global::com.refractored.Resource.Drawable.abc_list_longpressed_holo = global::SMobile.Android.Resource.Drawable.abc_list_longpressed_holo;
+			global::com.refractored.Resource.Drawable.abc_list_pressed_holo_dark = global::SMobile.Android.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::com.refractored.Resource.Drawable.abc_list_pressed_holo_light = global::SMobile.Android.Resource.Drawable.abc_list_pressed_holo_light;
+			global::com.refractored.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::SMobile.Android.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::com.refractored.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::SMobile.Android.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::com.refractored.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::SMobile.Android.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::com.refractored.Resource.Drawable.abc_list_selector_disabled_holo_light = global::SMobile.Android.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::com.refractored.Resource.Drawable.abc_list_selector_holo_dark = global::SMobile.Android.Resource.Drawable.abc_list_selector_holo_dark;
+			global::com.refractored.Resource.Drawable.abc_list_selector_holo_light = global::SMobile.Android.Resource.Drawable.abc_list_selector_holo_light;
+			global::com.refractored.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::SMobile.Android.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::com.refractored.Resource.Drawable.abc_popup_background_mtrl_mult = global::SMobile.Android.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::com.refractored.Resource.Drawable.abc_ratingbar_indicator_material = global::SMobile.Android.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::com.refractored.Resource.Drawable.abc_ratingbar_small_material = global::SMobile.Android.Resource.Drawable.abc_ratingbar_small_material;
+			global::com.refractored.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::SMobile.Android.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::SMobile.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::com.refractored.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::SMobile.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::com.refractored.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::SMobile.Android.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::SMobile.Android.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_seekbar_thumb_material = global::SMobile.Android.Resource.Drawable.abc_seekbar_thumb_material;
+			global::com.refractored.Resource.Drawable.abc_seekbar_track_material = global::SMobile.Android.Resource.Drawable.abc_seekbar_track_material;
+			global::com.refractored.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::SMobile.Android.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::com.refractored.Resource.Drawable.abc_spinner_textfield_background_material = global::SMobile.Android.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::com.refractored.Resource.Drawable.abc_switch_thumb_material = global::SMobile.Android.Resource.Drawable.abc_switch_thumb_material;
+			global::com.refractored.Resource.Drawable.abc_switch_track_mtrl_alpha = global::SMobile.Android.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_tab_indicator_material = global::SMobile.Android.Resource.Drawable.abc_tab_indicator_material;
+			global::com.refractored.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::SMobile.Android.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_text_cursor_material = global::SMobile.Android.Resource.Drawable.abc_text_cursor_material;
+			global::com.refractored.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::SMobile.Android.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::SMobile.Android.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::SMobile.Android.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::SMobile.Android.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_textfield_search_material = global::SMobile.Android.Resource.Drawable.abc_textfield_search_material;
+			global::com.refractored.Resource.Drawable.notification_template_icon_bg = global::SMobile.Android.Resource.Drawable.notification_template_icon_bg;
+			global::com.refractored.Resource.Drawable.psts_background_tab = global::SMobile.Android.Resource.Drawable.psts_background_tab;
+			global::com.refractored.Resource.Id.action0 = global::SMobile.Android.Resource.Id.action0;
+			global::com.refractored.Resource.Id.action_bar = global::SMobile.Android.Resource.Id.action_bar;
+			global::com.refractored.Resource.Id.action_bar_activity_content = global::SMobile.Android.Resource.Id.action_bar_activity_content;
+			global::com.refractored.Resource.Id.action_bar_container = global::SMobile.Android.Resource.Id.action_bar_container;
+			global::com.refractored.Resource.Id.action_bar_root = global::SMobile.Android.Resource.Id.action_bar_root;
+			global::com.refractored.Resource.Id.action_bar_spinner = global::SMobile.Android.Resource.Id.action_bar_spinner;
+			global::com.refractored.Resource.Id.action_bar_subtitle = global::SMobile.Android.Resource.Id.action_bar_subtitle;
+			global::com.refractored.Resource.Id.action_bar_title = global::SMobile.Android.Resource.Id.action_bar_title;
+			global::com.refractored.Resource.Id.action_context_bar = global::SMobile.Android.Resource.Id.action_context_bar;
+			global::com.refractored.Resource.Id.action_divider = global::SMobile.Android.Resource.Id.action_divider;
+			global::com.refractored.Resource.Id.action_menu_divider = global::SMobile.Android.Resource.Id.action_menu_divider;
+			global::com.refractored.Resource.Id.action_menu_presenter = global::SMobile.Android.Resource.Id.action_menu_presenter;
+			global::com.refractored.Resource.Id.action_mode_bar = global::SMobile.Android.Resource.Id.action_mode_bar;
+			global::com.refractored.Resource.Id.action_mode_bar_stub = global::SMobile.Android.Resource.Id.action_mode_bar_stub;
+			global::com.refractored.Resource.Id.action_mode_close_button = global::SMobile.Android.Resource.Id.action_mode_close_button;
+			global::com.refractored.Resource.Id.activity_chooser_view_content = global::SMobile.Android.Resource.Id.activity_chooser_view_content;
+			global::com.refractored.Resource.Id.alertTitle = global::SMobile.Android.Resource.Id.alertTitle;
+			global::com.refractored.Resource.Id.always = global::SMobile.Android.Resource.Id.always;
+			global::com.refractored.Resource.Id.beginning = global::SMobile.Android.Resource.Id.beginning;
+			global::com.refractored.Resource.Id.bold = global::SMobile.Android.Resource.Id.bold;
+			global::com.refractored.Resource.Id.buttonPanel = global::SMobile.Android.Resource.Id.buttonPanel;
+			global::com.refractored.Resource.Id.cancel_action = global::SMobile.Android.Resource.Id.cancel_action;
+			global::com.refractored.Resource.Id.checkbox = global::SMobile.Android.Resource.Id.checkbox;
+			global::com.refractored.Resource.Id.chronometer = global::SMobile.Android.Resource.Id.chronometer;
+			global::com.refractored.Resource.Id.collapseActionView = global::SMobile.Android.Resource.Id.collapseActionView;
+			global::com.refractored.Resource.Id.contentPanel = global::SMobile.Android.Resource.Id.contentPanel;
+			global::com.refractored.Resource.Id.custom = global::SMobile.Android.Resource.Id.custom;
+			global::com.refractored.Resource.Id.customPanel = global::SMobile.Android.Resource.Id.customPanel;
+			global::com.refractored.Resource.Id.decor_content_parent = global::SMobile.Android.Resource.Id.decor_content_parent;
+			global::com.refractored.Resource.Id.default_activity_button = global::SMobile.Android.Resource.Id.default_activity_button;
+			global::com.refractored.Resource.Id.disableHome = global::SMobile.Android.Resource.Id.disableHome;
+			global::com.refractored.Resource.Id.edit_query = global::SMobile.Android.Resource.Id.edit_query;
+			global::com.refractored.Resource.Id.end = global::SMobile.Android.Resource.Id.end;
+			global::com.refractored.Resource.Id.end_padder = global::SMobile.Android.Resource.Id.end_padder;
+			global::com.refractored.Resource.Id.expand_activities_button = global::SMobile.Android.Resource.Id.expand_activities_button;
+			global::com.refractored.Resource.Id.expanded_menu = global::SMobile.Android.Resource.Id.expanded_menu;
+			global::com.refractored.Resource.Id.home = global::SMobile.Android.Resource.Id.home;
+			global::com.refractored.Resource.Id.homeAsUp = global::SMobile.Android.Resource.Id.homeAsUp;
+			global::com.refractored.Resource.Id.icon = global::SMobile.Android.Resource.Id.icon;
+			global::com.refractored.Resource.Id.ifRoom = global::SMobile.Android.Resource.Id.ifRoom;
+			global::com.refractored.Resource.Id.image = global::SMobile.Android.Resource.Id.image;
+			global::com.refractored.Resource.Id.info = global::SMobile.Android.Resource.Id.info;
+			global::com.refractored.Resource.Id.italic = global::SMobile.Android.Resource.Id.italic;
+			global::com.refractored.Resource.Id.line1 = global::SMobile.Android.Resource.Id.line1;
+			global::com.refractored.Resource.Id.line3 = global::SMobile.Android.Resource.Id.line3;
+			global::com.refractored.Resource.Id.listMode = global::SMobile.Android.Resource.Id.listMode;
+			global::com.refractored.Resource.Id.list_item = global::SMobile.Android.Resource.Id.list_item;
+			global::com.refractored.Resource.Id.media_actions = global::SMobile.Android.Resource.Id.media_actions;
+			global::com.refractored.Resource.Id.middle = global::SMobile.Android.Resource.Id.middle;
+			global::com.refractored.Resource.Id.multiply = global::SMobile.Android.Resource.Id.multiply;
+			global::com.refractored.Resource.Id.never = global::SMobile.Android.Resource.Id.never;
+			global::com.refractored.Resource.Id.none = global::SMobile.Android.Resource.Id.none;
+			global::com.refractored.Resource.Id.normal = global::SMobile.Android.Resource.Id.normal;
+			global::com.refractored.Resource.Id.parentPanel = global::SMobile.Android.Resource.Id.parentPanel;
+			global::com.refractored.Resource.Id.progress_circular = global::SMobile.Android.Resource.Id.progress_circular;
+			global::com.refractored.Resource.Id.progress_horizontal = global::SMobile.Android.Resource.Id.progress_horizontal;
+			global::com.refractored.Resource.Id.psts_tab_title = global::SMobile.Android.Resource.Id.psts_tab_title;
+			global::com.refractored.Resource.Id.radio = global::SMobile.Android.Resource.Id.radio;
+			global::com.refractored.Resource.Id.screen = global::SMobile.Android.Resource.Id.screen;
+			global::com.refractored.Resource.Id.scrollIndicatorDown = global::SMobile.Android.Resource.Id.scrollIndicatorDown;
+			global::com.refractored.Resource.Id.scrollIndicatorUp = global::SMobile.Android.Resource.Id.scrollIndicatorUp;
+			global::com.refractored.Resource.Id.scrollView = global::SMobile.Android.Resource.Id.scrollView;
+			global::com.refractored.Resource.Id.search_badge = global::SMobile.Android.Resource.Id.search_badge;
+			global::com.refractored.Resource.Id.search_bar = global::SMobile.Android.Resource.Id.search_bar;
+			global::com.refractored.Resource.Id.search_button = global::SMobile.Android.Resource.Id.search_button;
+			global::com.refractored.Resource.Id.search_close_btn = global::SMobile.Android.Resource.Id.search_close_btn;
+			global::com.refractored.Resource.Id.search_edit_frame = global::SMobile.Android.Resource.Id.search_edit_frame;
+			global::com.refractored.Resource.Id.search_go_btn = global::SMobile.Android.Resource.Id.search_go_btn;
+			global::com.refractored.Resource.Id.search_mag_icon = global::SMobile.Android.Resource.Id.search_mag_icon;
+			global::com.refractored.Resource.Id.search_plate = global::SMobile.Android.Resource.Id.search_plate;
+			global::com.refractored.Resource.Id.search_src_text = global::SMobile.Android.Resource.Id.search_src_text;
+			global::com.refractored.Resource.Id.search_voice_btn = global::SMobile.Android.Resource.Id.search_voice_btn;
+			global::com.refractored.Resource.Id.select_dialog_listview = global::SMobile.Android.Resource.Id.select_dialog_listview;
+			global::com.refractored.Resource.Id.shortcut = global::SMobile.Android.Resource.Id.shortcut;
+			global::com.refractored.Resource.Id.showCustom = global::SMobile.Android.Resource.Id.showCustom;
+			global::com.refractored.Resource.Id.showHome = global::SMobile.Android.Resource.Id.showHome;
+			global::com.refractored.Resource.Id.showTitle = global::SMobile.Android.Resource.Id.showTitle;
+			global::com.refractored.Resource.Id.spacer = global::SMobile.Android.Resource.Id.spacer;
+			global::com.refractored.Resource.Id.split_action_bar = global::SMobile.Android.Resource.Id.split_action_bar;
+			global::com.refractored.Resource.Id.src_atop = global::SMobile.Android.Resource.Id.src_atop;
+			global::com.refractored.Resource.Id.src_in = global::SMobile.Android.Resource.Id.src_in;
+			global::com.refractored.Resource.Id.src_over = global::SMobile.Android.Resource.Id.src_over;
+			global::com.refractored.Resource.Id.status_bar_latest_event_content = global::SMobile.Android.Resource.Id.status_bar_latest_event_content;
+			global::com.refractored.Resource.Id.submit_area = global::SMobile.Android.Resource.Id.submit_area;
+			global::com.refractored.Resource.Id.tabMode = global::SMobile.Android.Resource.Id.tabMode;
+			global::com.refractored.Resource.Id.text = global::SMobile.Android.Resource.Id.text;
+			global::com.refractored.Resource.Id.text2 = global::SMobile.Android.Resource.Id.text2;
+			global::com.refractored.Resource.Id.textSpacerNoButtons = global::SMobile.Android.Resource.Id.textSpacerNoButtons;
+			global::com.refractored.Resource.Id.time = global::SMobile.Android.Resource.Id.time;
+			global::com.refractored.Resource.Id.title = global::SMobile.Android.Resource.Id.title;
+			global::com.refractored.Resource.Id.title_template = global::SMobile.Android.Resource.Id.title_template;
+			global::com.refractored.Resource.Id.topPanel = global::SMobile.Android.Resource.Id.topPanel;
+			global::com.refractored.Resource.Id.up = global::SMobile.Android.Resource.Id.up;
+			global::com.refractored.Resource.Id.useLogo = global::SMobile.Android.Resource.Id.useLogo;
+			global::com.refractored.Resource.Id.withText = global::SMobile.Android.Resource.Id.withText;
+			global::com.refractored.Resource.Id.wrap_content = global::SMobile.Android.Resource.Id.wrap_content;
+			global::com.refractored.Resource.Integer.abc_config_activityDefaultDur = global::SMobile.Android.Resource.Integer.abc_config_activityDefaultDur;
+			global::com.refractored.Resource.Integer.abc_config_activityShortDur = global::SMobile.Android.Resource.Integer.abc_config_activityShortDur;
+			global::com.refractored.Resource.Integer.cancel_button_image_alpha = global::SMobile.Android.Resource.Integer.cancel_button_image_alpha;
+			global::com.refractored.Resource.Integer.status_bar_notification_info_maxnum = global::SMobile.Android.Resource.Integer.status_bar_notification_info_maxnum;
+			global::com.refractored.Resource.Layout.abc_action_bar_title_item = global::SMobile.Android.Resource.Layout.abc_action_bar_title_item;
+			global::com.refractored.Resource.Layout.abc_action_bar_up_container = global::SMobile.Android.Resource.Layout.abc_action_bar_up_container;
+			global::com.refractored.Resource.Layout.abc_action_bar_view_list_nav_layout = global::SMobile.Android.Resource.Layout.abc_action_bar_view_list_nav_layout;
+			global::com.refractored.Resource.Layout.abc_action_menu_item_layout = global::SMobile.Android.Resource.Layout.abc_action_menu_item_layout;
+			global::com.refractored.Resource.Layout.abc_action_menu_layout = global::SMobile.Android.Resource.Layout.abc_action_menu_layout;
+			global::com.refractored.Resource.Layout.abc_action_mode_bar = global::SMobile.Android.Resource.Layout.abc_action_mode_bar;
+			global::com.refractored.Resource.Layout.abc_action_mode_close_item_material = global::SMobile.Android.Resource.Layout.abc_action_mode_close_item_material;
+			global::com.refractored.Resource.Layout.abc_activity_chooser_view = global::SMobile.Android.Resource.Layout.abc_activity_chooser_view;
+			global::com.refractored.Resource.Layout.abc_activity_chooser_view_list_item = global::SMobile.Android.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::com.refractored.Resource.Layout.abc_alert_dialog_button_bar_material = global::SMobile.Android.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::com.refractored.Resource.Layout.abc_alert_dialog_material = global::SMobile.Android.Resource.Layout.abc_alert_dialog_material;
+			global::com.refractored.Resource.Layout.abc_dialog_title_material = global::SMobile.Android.Resource.Layout.abc_dialog_title_material;
+			global::com.refractored.Resource.Layout.abc_expanded_menu_layout = global::SMobile.Android.Resource.Layout.abc_expanded_menu_layout;
+			global::com.refractored.Resource.Layout.abc_list_menu_item_checkbox = global::SMobile.Android.Resource.Layout.abc_list_menu_item_checkbox;
+			global::com.refractored.Resource.Layout.abc_list_menu_item_icon = global::SMobile.Android.Resource.Layout.abc_list_menu_item_icon;
+			global::com.refractored.Resource.Layout.abc_list_menu_item_layout = global::SMobile.Android.Resource.Layout.abc_list_menu_item_layout;
+			global::com.refractored.Resource.Layout.abc_list_menu_item_radio = global::SMobile.Android.Resource.Layout.abc_list_menu_item_radio;
+			global::com.refractored.Resource.Layout.abc_popup_menu_item_layout = global::SMobile.Android.Resource.Layout.abc_popup_menu_item_layout;
+			global::com.refractored.Resource.Layout.abc_screen_content_include = global::SMobile.Android.Resource.Layout.abc_screen_content_include;
+			global::com.refractored.Resource.Layout.abc_screen_simple = global::SMobile.Android.Resource.Layout.abc_screen_simple;
+			global::com.refractored.Resource.Layout.abc_screen_simple_overlay_action_mode = global::SMobile.Android.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::com.refractored.Resource.Layout.abc_screen_toolbar = global::SMobile.Android.Resource.Layout.abc_screen_toolbar;
+			global::com.refractored.Resource.Layout.abc_search_dropdown_item_icons_2line = global::SMobile.Android.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::com.refractored.Resource.Layout.abc_search_view = global::SMobile.Android.Resource.Layout.abc_search_view;
+			global::com.refractored.Resource.Layout.abc_select_dialog_material = global::SMobile.Android.Resource.Layout.abc_select_dialog_material;
+			global::com.refractored.Resource.Layout.notification_media_action = global::SMobile.Android.Resource.Layout.notification_media_action;
+			global::com.refractored.Resource.Layout.notification_media_cancel_action = global::SMobile.Android.Resource.Layout.notification_media_cancel_action;
+			global::com.refractored.Resource.Layout.notification_template_big_media = global::SMobile.Android.Resource.Layout.notification_template_big_media;
+			global::com.refractored.Resource.Layout.notification_template_big_media_narrow = global::SMobile.Android.Resource.Layout.notification_template_big_media_narrow;
+			global::com.refractored.Resource.Layout.notification_template_media = global::SMobile.Android.Resource.Layout.notification_template_media;
+			global::com.refractored.Resource.Layout.notification_template_part_chronometer = global::SMobile.Android.Resource.Layout.notification_template_part_chronometer;
+			global::com.refractored.Resource.Layout.notification_template_part_time = global::SMobile.Android.Resource.Layout.notification_template_part_time;
+			global::com.refractored.Resource.Layout.psts_tab = global::SMobile.Android.Resource.Layout.psts_tab;
+			global::com.refractored.Resource.Layout.select_dialog_item_material = global::SMobile.Android.Resource.Layout.select_dialog_item_material;
+			global::com.refractored.Resource.Layout.select_dialog_multichoice_material = global::SMobile.Android.Resource.Layout.select_dialog_multichoice_material;
+			global::com.refractored.Resource.Layout.select_dialog_singlechoice_material = global::SMobile.Android.Resource.Layout.select_dialog_singlechoice_material;
+			global::com.refractored.Resource.Layout.support_simple_spinner_dropdown_item = global::SMobile.Android.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::com.refractored.Resource.String.abc_action_bar_home_description = global::SMobile.Android.Resource.String.abc_action_bar_home_description;
+			global::com.refractored.Resource.String.abc_action_bar_home_description_format = global::SMobile.Android.Resource.String.abc_action_bar_home_description_format;
+			global::com.refractored.Resource.String.abc_action_bar_home_subtitle_description_format = global::SMobile.Android.Resource.String.abc_action_bar_home_subtitle_description_format;
+			global::com.refractored.Resource.String.abc_action_bar_up_description = global::SMobile.Android.Resource.String.abc_action_bar_up_description;
+			global::com.refractored.Resource.String.abc_action_menu_overflow_description = global::SMobile.Android.Resource.String.abc_action_menu_overflow_description;
+			global::com.refractored.Resource.String.abc_action_mode_done = global::SMobile.Android.Resource.String.abc_action_mode_done;
+			global::com.refractored.Resource.String.abc_activity_chooser_view_see_all = global::SMobile.Android.Resource.String.abc_activity_chooser_view_see_all;
+			global::com.refractored.Resource.String.abc_activitychooserview_choose_application = global::SMobile.Android.Resource.String.abc_activitychooserview_choose_application;
+			global::com.refractored.Resource.String.abc_capital_off = global::SMobile.Android.Resource.String.abc_capital_off;
+			global::com.refractored.Resource.String.abc_capital_on = global::SMobile.Android.Resource.String.abc_capital_on;
+			global::com.refractored.Resource.String.abc_search_hint = global::SMobile.Android.Resource.String.abc_search_hint;
+			global::com.refractored.Resource.String.abc_searchview_description_clear = global::SMobile.Android.Resource.String.abc_searchview_description_clear;
+			global::com.refractored.Resource.String.abc_searchview_description_query = global::SMobile.Android.Resource.String.abc_searchview_description_query;
+			global::com.refractored.Resource.String.abc_searchview_description_search = global::SMobile.Android.Resource.String.abc_searchview_description_search;
+			global::com.refractored.Resource.String.abc_searchview_description_submit = global::SMobile.Android.Resource.String.abc_searchview_description_submit;
+			global::com.refractored.Resource.String.abc_searchview_description_voice = global::SMobile.Android.Resource.String.abc_searchview_description_voice;
+			global::com.refractored.Resource.String.abc_shareactionprovider_share_with = global::SMobile.Android.Resource.String.abc_shareactionprovider_share_with;
+			global::com.refractored.Resource.String.abc_shareactionprovider_share_with_application = global::SMobile.Android.Resource.String.abc_shareactionprovider_share_with_application;
+			global::com.refractored.Resource.String.abc_toolbar_collapse_description = global::SMobile.Android.Resource.String.abc_toolbar_collapse_description;
+			global::com.refractored.Resource.String.status_bar_notification_info_overflow = global::SMobile.Android.Resource.String.status_bar_notification_info_overflow;
+			global::com.refractored.Resource.Style.AlertDialog_AppCompat = global::SMobile.Android.Resource.Style.AlertDialog_AppCompat;
+			global::com.refractored.Resource.Style.AlertDialog_AppCompat_Light = global::SMobile.Android.Resource.Style.AlertDialog_AppCompat_Light;
+			global::com.refractored.Resource.Style.Animation_AppCompat_Dialog = global::SMobile.Android.Resource.Style.Animation_AppCompat_Dialog;
+			global::com.refractored.Resource.Style.Animation_AppCompat_DropDownUp = global::SMobile.Android.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::com.refractored.Resource.Style.Base_AlertDialog_AppCompat = global::SMobile.Android.Resource.Style.Base_AlertDialog_AppCompat;
+			global::com.refractored.Resource.Style.Base_AlertDialog_AppCompat_Light = global::SMobile.Android.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::com.refractored.Resource.Style.Base_Animation_AppCompat_Dialog = global::SMobile.Android.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::com.refractored.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::SMobile.Android.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::com.refractored.Resource.Style.Base_DialogWindowTitle_AppCompat = global::SMobile.Android.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::com.refractored.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::SMobile.Android.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat = global::SMobile.Android.Resource.Style.Base_TextAppearance_AppCompat;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::SMobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::SMobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Button = global::SMobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::SMobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::SMobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::SMobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::SMobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::SMobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::SMobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::SMobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Large = global::SMobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::SMobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::SMobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::SMobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::SMobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::SMobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::SMobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::SMobile.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::SMobile.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::SMobile.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Small = global::SMobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::SMobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::SMobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::SMobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Title = global::SMobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::SMobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::SMobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::SMobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::SMobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::SMobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::SMobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::SMobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::SMobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::SMobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::SMobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::SMobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::SMobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::SMobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::SMobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::SMobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::com.refractored.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::SMobile.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::com.refractored.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::SMobile.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::com.refractored.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::SMobile.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::com.refractored.Resource.Style.Base_Theme_AppCompat = global::SMobile.Android.Resource.Style.Base_Theme_AppCompat;
+			global::com.refractored.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::SMobile.Android.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::com.refractored.Resource.Style.Base_Theme_AppCompat_Dialog = global::SMobile.Android.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::com.refractored.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::SMobile.Android.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::com.refractored.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::SMobile.Android.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::com.refractored.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::SMobile.Android.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::com.refractored.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::SMobile.Android.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::com.refractored.Resource.Style.Base_Theme_AppCompat_Light = global::SMobile.Android.Resource.Style.Base_Theme_AppCompat_Light;
+			global::com.refractored.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::SMobile.Android.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::com.refractored.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::SMobile.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::com.refractored.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::SMobile.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::com.refractored.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::SMobile.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::com.refractored.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::SMobile.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::com.refractored.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::SMobile.Android.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::com.refractored.Resource.Style.Base_ThemeOverlay_AppCompat = global::SMobile.Android.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::com.refractored.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::SMobile.Android.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::com.refractored.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::SMobile.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::com.refractored.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::SMobile.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::com.refractored.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::SMobile.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::com.refractored.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::SMobile.Android.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
+			global::com.refractored.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::SMobile.Android.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
+			global::com.refractored.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::SMobile.Android.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
+			global::com.refractored.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::SMobile.Android.Resource.Style.Base_V12_Widget_AppCompat_EditText;
+			global::com.refractored.Resource.Style.Base_V21_Theme_AppCompat = global::SMobile.Android.Resource.Style.Base_V21_Theme_AppCompat;
+			global::com.refractored.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::SMobile.Android.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::com.refractored.Resource.Style.Base_V21_Theme_AppCompat_Light = global::SMobile.Android.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::com.refractored.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::SMobile.Android.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::com.refractored.Resource.Style.Base_V22_Theme_AppCompat = global::SMobile.Android.Resource.Style.Base_V22_Theme_AppCompat;
+			global::com.refractored.Resource.Style.Base_V22_Theme_AppCompat_Light = global::SMobile.Android.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::com.refractored.Resource.Style.Base_V23_Theme_AppCompat = global::SMobile.Android.Resource.Style.Base_V23_Theme_AppCompat;
+			global::com.refractored.Resource.Style.Base_V23_Theme_AppCompat_Light = global::SMobile.Android.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::com.refractored.Resource.Style.Base_V7_Theme_AppCompat = global::SMobile.Android.Resource.Style.Base_V7_Theme_AppCompat;
+			global::com.refractored.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::SMobile.Android.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::com.refractored.Resource.Style.Base_V7_Theme_AppCompat_Light = global::SMobile.Android.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::com.refractored.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::SMobile.Android.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::com.refractored.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::SMobile.Android.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::com.refractored.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::SMobile.Android.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ActionBar = global::SMobile.Android.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::SMobile.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::SMobile.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::SMobile.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::SMobile.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ActionButton = global::SMobile.Android.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::SMobile.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::SMobile.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ActionMode = global::SMobile.Android.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::SMobile.Android.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::SMobile.Android.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Button = global::SMobile.Android.Resource.Style.Base_Widget_AppCompat_Button;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::SMobile.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::SMobile.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::SMobile.Android.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::SMobile.Android.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Button_Small = global::SMobile.Android.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::SMobile.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::SMobile.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::SMobile.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::SMobile.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::SMobile.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::SMobile.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::SMobile.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::SMobile.Android.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_EditText = global::SMobile.Android.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ImageButton = global::SMobile.Android.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::SMobile.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::SMobile.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::SMobile.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::SMobile.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::SMobile.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::SMobile.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::SMobile.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::SMobile.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::SMobile.Android.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ListView = global::SMobile.Android.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::SMobile.Android.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::SMobile.Android.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::SMobile.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::SMobile.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::SMobile.Android.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::SMobile.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::SMobile.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_RatingBar = global::SMobile.Android.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::SMobile.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::SMobile.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_SearchView = global::SMobile.Android.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::SMobile.Android.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_SeekBar = global::SMobile.Android.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Spinner = global::SMobile.Android.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::SMobile.Android.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::SMobile.Android.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Toolbar = global::SMobile.Android.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::SMobile.Android.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::com.refractored.Resource.Style.Platform_AppCompat = global::SMobile.Android.Resource.Style.Platform_AppCompat;
+			global::com.refractored.Resource.Style.Platform_AppCompat_Light = global::SMobile.Android.Resource.Style.Platform_AppCompat_Light;
+			global::com.refractored.Resource.Style.Platform_ThemeOverlay_AppCompat = global::SMobile.Android.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::com.refractored.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::SMobile.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::com.refractored.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::SMobile.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::com.refractored.Resource.Style.Platform_V11_AppCompat = global::SMobile.Android.Resource.Style.Platform_V11_AppCompat;
+			global::com.refractored.Resource.Style.Platform_V11_AppCompat_Light = global::SMobile.Android.Resource.Style.Platform_V11_AppCompat_Light;
+			global::com.refractored.Resource.Style.Platform_V14_AppCompat = global::SMobile.Android.Resource.Style.Platform_V14_AppCompat;
+			global::com.refractored.Resource.Style.Platform_V14_AppCompat_Light = global::SMobile.Android.Resource.Style.Platform_V14_AppCompat_Light;
+			global::com.refractored.Resource.Style.Platform_Widget_AppCompat_Spinner = global::SMobile.Android.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::com.refractored.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::SMobile.Android.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::com.refractored.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::SMobile.Android.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::com.refractored.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::SMobile.Android.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::com.refractored.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::SMobile.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::com.refractored.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::SMobile.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::com.refractored.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::SMobile.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::com.refractored.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::SMobile.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::com.refractored.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::SMobile.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::com.refractored.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::SMobile.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::com.refractored.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::SMobile.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::com.refractored.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::SMobile.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::com.refractored.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::SMobile.Android.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::com.refractored.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::SMobile.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::com.refractored.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::SMobile.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat = global::SMobile.Android.Resource.Style.TextAppearance_AppCompat;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Body1 = global::SMobile.Android.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Body2 = global::SMobile.Android.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Button = global::SMobile.Android.Resource.Style.TextAppearance_AppCompat_Button;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Caption = global::SMobile.Android.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Display1 = global::SMobile.Android.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Display2 = global::SMobile.Android.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Display3 = global::SMobile.Android.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Display4 = global::SMobile.Android.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Headline = global::SMobile.Android.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Inverse = global::SMobile.Android.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Large = global::SMobile.Android.Resource.Style.TextAppearance_AppCompat_Large;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::SMobile.Android.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::SMobile.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::SMobile.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::SMobile.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::SMobile.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Medium = global::SMobile.Android.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::SMobile.Android.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Menu = global::SMobile.Android.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::SMobile.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::SMobile.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Small = global::SMobile.Android.Resource.Style.TextAppearance_AppCompat_Small;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::SMobile.Android.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Subhead = global::SMobile.Android.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::SMobile.Android.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Title = global::SMobile.Android.Resource.Style.TextAppearance_AppCompat_Title;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::SMobile.Android.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::SMobile.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::SMobile.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::SMobile.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::SMobile.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::SMobile.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::SMobile.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::SMobile.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::SMobile.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::SMobile.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::SMobile.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::SMobile.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::SMobile.Android.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::SMobile.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::SMobile.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::SMobile.Android.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::SMobile.Android.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::com.refractored.Resource.Style.TextAppearance_StatusBar_EventContent = global::SMobile.Android.Resource.Style.TextAppearance_StatusBar_EventContent;
+			global::com.refractored.Resource.Style.TextAppearance_StatusBar_EventContent_Info = global::SMobile.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Info;
+			global::com.refractored.Resource.Style.TextAppearance_StatusBar_EventContent_Line2 = global::SMobile.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Line2;
+			global::com.refractored.Resource.Style.TextAppearance_StatusBar_EventContent_Time = global::SMobile.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Time;
+			global::com.refractored.Resource.Style.TextAppearance_StatusBar_EventContent_Title = global::SMobile.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Title;
+			global::com.refractored.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::SMobile.Android.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::com.refractored.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::SMobile.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::com.refractored.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::SMobile.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::com.refractored.Resource.Style.Theme_AppCompat = global::SMobile.Android.Resource.Style.Theme_AppCompat;
+			global::com.refractored.Resource.Style.Theme_AppCompat_CompactMenu = global::SMobile.Android.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::com.refractored.Resource.Style.Theme_AppCompat_DayNight = global::SMobile.Android.Resource.Style.Theme_AppCompat_DayNight;
+			global::com.refractored.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::SMobile.Android.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::com.refractored.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::SMobile.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::com.refractored.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::SMobile.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::com.refractored.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::SMobile.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::com.refractored.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::SMobile.Android.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::com.refractored.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::SMobile.Android.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::com.refractored.Resource.Style.Theme_AppCompat_Dialog = global::SMobile.Android.Resource.Style.Theme_AppCompat_Dialog;
+			global::com.refractored.Resource.Style.Theme_AppCompat_Dialog_Alert = global::SMobile.Android.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::com.refractored.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::SMobile.Android.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::com.refractored.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::SMobile.Android.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::com.refractored.Resource.Style.Theme_AppCompat_Light = global::SMobile.Android.Resource.Style.Theme_AppCompat_Light;
+			global::com.refractored.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::SMobile.Android.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::com.refractored.Resource.Style.Theme_AppCompat_Light_Dialog = global::SMobile.Android.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::com.refractored.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::SMobile.Android.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::com.refractored.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::SMobile.Android.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::com.refractored.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::SMobile.Android.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::com.refractored.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::SMobile.Android.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::com.refractored.Resource.Style.Theme_AppCompat_NoActionBar = global::SMobile.Android.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::com.refractored.Resource.Style.ThemeOverlay_AppCompat = global::SMobile.Android.Resource.Style.ThemeOverlay_AppCompat;
+			global::com.refractored.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::SMobile.Android.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::com.refractored.Resource.Style.ThemeOverlay_AppCompat_Dark = global::SMobile.Android.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::com.refractored.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::SMobile.Android.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::com.refractored.Resource.Style.ThemeOverlay_AppCompat_Light = global::SMobile.Android.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ActionBar = global::SMobile.Android.Resource.Style.Widget_AppCompat_ActionBar;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::SMobile.Android.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::SMobile.Android.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::SMobile.Android.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::SMobile.Android.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ActionButton = global::SMobile.Android.Resource.Style.Widget_AppCompat_ActionButton;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::SMobile.Android.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::SMobile.Android.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ActionMode = global::SMobile.Android.Resource.Style.Widget_AppCompat_ActionMode;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ActivityChooserView = global::SMobile.Android.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::com.refractored.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::SMobile.Android.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Button = global::SMobile.Android.Resource.Style.Widget_AppCompat_Button;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Button_Borderless = global::SMobile.Android.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::SMobile.Android.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::SMobile.Android.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Button_Colored = global::SMobile.Android.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Button_Small = global::SMobile.Android.Resource.Style.Widget_AppCompat_Button_Small;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ButtonBar = global::SMobile.Android.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::SMobile.Android.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::com.refractored.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::SMobile.Android.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::com.refractored.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::SMobile.Android.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::com.refractored.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::SMobile.Android.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::com.refractored.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::SMobile.Android.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::com.refractored.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::SMobile.Android.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::com.refractored.Resource.Style.Widget_AppCompat_EditText = global::SMobile.Android.Resource.Style.Widget_AppCompat_EditText;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ImageButton = global::SMobile.Android.Resource.Style.Widget_AppCompat_ImageButton;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActionBar = global::SMobile.Android.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::SMobile.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::SMobile.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::SMobile.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::SMobile.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::SMobile.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::SMobile.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::SMobile.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::SMobile.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActionButton = global::SMobile.Android.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::SMobile.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::SMobile.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::SMobile.Android.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::SMobile.Android.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::SMobile.Android.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::SMobile.Android.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::SMobile.Android.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::SMobile.Android.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::SMobile.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::SMobile.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_SearchView = global::SMobile.Android.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::SMobile.Android.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ListPopupWindow = global::SMobile.Android.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ListView = global::SMobile.Android.Resource.Style.Widget_AppCompat_ListView;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ListView_DropDown = global::SMobile.Android.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ListView_Menu = global::SMobile.Android.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::com.refractored.Resource.Style.Widget_AppCompat_PopupMenu = global::SMobile.Android.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::com.refractored.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::SMobile.Android.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::com.refractored.Resource.Style.Widget_AppCompat_PopupWindow = global::SMobile.Android.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ProgressBar = global::SMobile.Android.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::SMobile.Android.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::com.refractored.Resource.Style.Widget_AppCompat_RatingBar = global::SMobile.Android.Resource.Style.Widget_AppCompat_RatingBar;
+			global::com.refractored.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::SMobile.Android.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::com.refractored.Resource.Style.Widget_AppCompat_RatingBar_Small = global::SMobile.Android.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::com.refractored.Resource.Style.Widget_AppCompat_SearchView = global::SMobile.Android.Resource.Style.Widget_AppCompat_SearchView;
+			global::com.refractored.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::SMobile.Android.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::com.refractored.Resource.Style.Widget_AppCompat_SeekBar = global::SMobile.Android.Resource.Style.Widget_AppCompat_SeekBar;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Spinner = global::SMobile.Android.Resource.Style.Widget_AppCompat_Spinner;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::SMobile.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::SMobile.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::SMobile.Android.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::com.refractored.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::SMobile.Android.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Toolbar = global::SMobile.Android.Resource.Style.Widget_AppCompat_Toolbar;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::SMobile.Android.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::com.refractored.Resource.Styleable.ActionBar = global::SMobile.Android.Resource.Styleable.ActionBar;
+			global::com.refractored.Resource.Styleable.ActionBar_background = global::SMobile.Android.Resource.Styleable.ActionBar_background;
+			global::com.refractored.Resource.Styleable.ActionBar_backgroundSplit = global::SMobile.Android.Resource.Styleable.ActionBar_backgroundSplit;
+			global::com.refractored.Resource.Styleable.ActionBar_backgroundStacked = global::SMobile.Android.Resource.Styleable.ActionBar_backgroundStacked;
+			global::com.refractored.Resource.Styleable.ActionBar_contentInsetEnd = global::SMobile.Android.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::com.refractored.Resource.Styleable.ActionBar_contentInsetLeft = global::SMobile.Android.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::com.refractored.Resource.Styleable.ActionBar_contentInsetRight = global::SMobile.Android.Resource.Styleable.ActionBar_contentInsetRight;
+			global::com.refractored.Resource.Styleable.ActionBar_contentInsetStart = global::SMobile.Android.Resource.Styleable.ActionBar_contentInsetStart;
+			global::com.refractored.Resource.Styleable.ActionBar_customNavigationLayout = global::SMobile.Android.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::com.refractored.Resource.Styleable.ActionBar_displayOptions = global::SMobile.Android.Resource.Styleable.ActionBar_displayOptions;
+			global::com.refractored.Resource.Styleable.ActionBar_divider = global::SMobile.Android.Resource.Styleable.ActionBar_divider;
+			global::com.refractored.Resource.Styleable.ActionBar_elevation = global::SMobile.Android.Resource.Styleable.ActionBar_elevation;
+			global::com.refractored.Resource.Styleable.ActionBar_height = global::SMobile.Android.Resource.Styleable.ActionBar_height;
+			global::com.refractored.Resource.Styleable.ActionBar_hideOnContentScroll = global::SMobile.Android.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::com.refractored.Resource.Styleable.ActionBar_homeAsUpIndicator = global::SMobile.Android.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::com.refractored.Resource.Styleable.ActionBar_homeLayout = global::SMobile.Android.Resource.Styleable.ActionBar_homeLayout;
+			global::com.refractored.Resource.Styleable.ActionBar_icon = global::SMobile.Android.Resource.Styleable.ActionBar_icon;
+			global::com.refractored.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::SMobile.Android.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::com.refractored.Resource.Styleable.ActionBar_itemPadding = global::SMobile.Android.Resource.Styleable.ActionBar_itemPadding;
+			global::com.refractored.Resource.Styleable.ActionBar_logo = global::SMobile.Android.Resource.Styleable.ActionBar_logo;
+			global::com.refractored.Resource.Styleable.ActionBar_navigationMode = global::SMobile.Android.Resource.Styleable.ActionBar_navigationMode;
+			global::com.refractored.Resource.Styleable.ActionBar_popupTheme = global::SMobile.Android.Resource.Styleable.ActionBar_popupTheme;
+			global::com.refractored.Resource.Styleable.ActionBar_progressBarPadding = global::SMobile.Android.Resource.Styleable.ActionBar_progressBarPadding;
+			global::com.refractored.Resource.Styleable.ActionBar_progressBarStyle = global::SMobile.Android.Resource.Styleable.ActionBar_progressBarStyle;
+			global::com.refractored.Resource.Styleable.ActionBar_subtitle = global::SMobile.Android.Resource.Styleable.ActionBar_subtitle;
+			global::com.refractored.Resource.Styleable.ActionBar_subtitleTextStyle = global::SMobile.Android.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::com.refractored.Resource.Styleable.ActionBar_title = global::SMobile.Android.Resource.Styleable.ActionBar_title;
+			global::com.refractored.Resource.Styleable.ActionBar_titleTextStyle = global::SMobile.Android.Resource.Styleable.ActionBar_titleTextStyle;
+			global::com.refractored.Resource.Styleable.ActionBarLayout = global::SMobile.Android.Resource.Styleable.ActionBarLayout;
+			global::com.refractored.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::SMobile.Android.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::com.refractored.Resource.Styleable.ActionMenuItemView = global::SMobile.Android.Resource.Styleable.ActionMenuItemView;
+			global::com.refractored.Resource.Styleable.ActionMenuItemView_android_minWidth = global::SMobile.Android.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::com.refractored.Resource.Styleable.ActionMenuView = global::SMobile.Android.Resource.Styleable.ActionMenuView;
+			global::com.refractored.Resource.Styleable.ActionMode = global::SMobile.Android.Resource.Styleable.ActionMode;
+			global::com.refractored.Resource.Styleable.ActionMode_background = global::SMobile.Android.Resource.Styleable.ActionMode_background;
+			global::com.refractored.Resource.Styleable.ActionMode_backgroundSplit = global::SMobile.Android.Resource.Styleable.ActionMode_backgroundSplit;
+			global::com.refractored.Resource.Styleable.ActionMode_closeItemLayout = global::SMobile.Android.Resource.Styleable.ActionMode_closeItemLayout;
+			global::com.refractored.Resource.Styleable.ActionMode_height = global::SMobile.Android.Resource.Styleable.ActionMode_height;
+			global::com.refractored.Resource.Styleable.ActionMode_subtitleTextStyle = global::SMobile.Android.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::com.refractored.Resource.Styleable.ActionMode_titleTextStyle = global::SMobile.Android.Resource.Styleable.ActionMode_titleTextStyle;
+			global::com.refractored.Resource.Styleable.ActivityChooserView = global::SMobile.Android.Resource.Styleable.ActivityChooserView;
+			global::com.refractored.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::SMobile.Android.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::com.refractored.Resource.Styleable.ActivityChooserView_initialActivityCount = global::SMobile.Android.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::com.refractored.Resource.Styleable.AlertDialog = global::SMobile.Android.Resource.Styleable.AlertDialog;
+			global::com.refractored.Resource.Styleable.AlertDialog_android_layout = global::SMobile.Android.Resource.Styleable.AlertDialog_android_layout;
+			global::com.refractored.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::SMobile.Android.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::com.refractored.Resource.Styleable.AlertDialog_listItemLayout = global::SMobile.Android.Resource.Styleable.AlertDialog_listItemLayout;
+			global::com.refractored.Resource.Styleable.AlertDialog_listLayout = global::SMobile.Android.Resource.Styleable.AlertDialog_listLayout;
+			global::com.refractored.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::SMobile.Android.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::com.refractored.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::SMobile.Android.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::com.refractored.Resource.Styleable.AppCompatImageView = global::SMobile.Android.Resource.Styleable.AppCompatImageView;
+			global::com.refractored.Resource.Styleable.AppCompatImageView_android_src = global::SMobile.Android.Resource.Styleable.AppCompatImageView_android_src;
+			global::com.refractored.Resource.Styleable.AppCompatImageView_srcCompat = global::SMobile.Android.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::com.refractored.Resource.Styleable.AppCompatTextView = global::SMobile.Android.Resource.Styleable.AppCompatTextView;
+			global::com.refractored.Resource.Styleable.AppCompatTextView_android_textAppearance = global::SMobile.Android.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::com.refractored.Resource.Styleable.AppCompatTextView_textAllCaps = global::SMobile.Android.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::com.refractored.Resource.Styleable.AppCompatTheme = global::SMobile.Android.Resource.Styleable.AppCompatTheme;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionBarDivider = global::SMobile.Android.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::SMobile.Android.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::SMobile.Android.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionBarSize = global::SMobile.Android.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::SMobile.Android.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionBarStyle = global::SMobile.Android.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::SMobile.Android.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::SMobile.Android.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::SMobile.Android.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionBarTheme = global::SMobile.Android.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::SMobile.Android.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::SMobile.Android.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::SMobile.Android.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::SMobile.Android.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::SMobile.Android.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionModeBackground = global::SMobile.Android.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::SMobile.Android.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::SMobile.Android.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::SMobile.Android.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::SMobile.Android.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::SMobile.Android.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::SMobile.Android.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::SMobile.Android.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::SMobile.Android.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::SMobile.Android.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::SMobile.Android.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionModeStyle = global::SMobile.Android.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::SMobile.Android.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::SMobile.Android.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::SMobile.Android.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::SMobile.Android.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::SMobile.Android.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::SMobile.Android.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::SMobile.Android.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::SMobile.Android.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::SMobile.Android.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::SMobile.Android.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::SMobile.Android.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::SMobile.Android.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::SMobile.Android.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::SMobile.Android.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::SMobile.Android.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::SMobile.Android.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::SMobile.Android.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_buttonStyle = global::SMobile.Android.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::SMobile.Android.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_checkboxStyle = global::SMobile.Android.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::SMobile.Android.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_colorAccent = global::SMobile.Android.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::SMobile.Android.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_colorControlActivated = global::SMobile.Android.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::SMobile.Android.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_colorControlNormal = global::SMobile.Android.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_colorPrimary = global::SMobile.Android.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::SMobile.Android.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::SMobile.Android.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_controlBackground = global::SMobile.Android.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::SMobile.Android.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_dialogTheme = global::SMobile.Android.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::SMobile.Android.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_dividerVertical = global::SMobile.Android.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::SMobile.Android.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::SMobile.Android.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_editTextBackground = global::SMobile.Android.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_editTextColor = global::SMobile.Android.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_editTextStyle = global::SMobile.Android.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::SMobile.Android.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::SMobile.Android.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::SMobile.Android.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::SMobile.Android.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::SMobile.Android.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::SMobile.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::SMobile.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::SMobile.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::SMobile.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::SMobile.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_panelBackground = global::SMobile.Android.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::SMobile.Android.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::SMobile.Android.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::SMobile.Android.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::SMobile.Android.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::SMobile.Android.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::SMobile.Android.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::SMobile.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::SMobile.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_searchViewStyle = global::SMobile.Android.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_seekBarStyle = global::SMobile.Android.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::SMobile.Android.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::SMobile.Android.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::SMobile.Android.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_spinnerStyle = global::SMobile.Android.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_switchStyle = global::SMobile.Android.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::SMobile.Android.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::SMobile.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::SMobile.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::SMobile.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::SMobile.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::SMobile.Android.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::SMobile.Android.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::SMobile.Android.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::SMobile.Android.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_toolbarStyle = global::SMobile.Android.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_windowActionBar = global::SMobile.Android.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::SMobile.Android.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::SMobile.Android.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::SMobile.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::SMobile.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::SMobile.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::SMobile.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::SMobile.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::SMobile.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_windowNoTitle = global::SMobile.Android.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::com.refractored.Resource.Styleable.ButtonBarLayout = global::SMobile.Android.Resource.Styleable.ButtonBarLayout;
+			global::com.refractored.Resource.Styleable.ButtonBarLayout_allowStacking = global::SMobile.Android.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::com.refractored.Resource.Styleable.CompoundButton = global::SMobile.Android.Resource.Styleable.CompoundButton;
+			global::com.refractored.Resource.Styleable.CompoundButton_android_button = global::SMobile.Android.Resource.Styleable.CompoundButton_android_button;
+			global::com.refractored.Resource.Styleable.CompoundButton_buttonTint = global::SMobile.Android.Resource.Styleable.CompoundButton_buttonTint;
+			global::com.refractored.Resource.Styleable.CompoundButton_buttonTintMode = global::SMobile.Android.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::com.refractored.Resource.Styleable.DrawerArrowToggle = global::SMobile.Android.Resource.Styleable.DrawerArrowToggle;
+			global::com.refractored.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::SMobile.Android.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::com.refractored.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::SMobile.Android.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::com.refractored.Resource.Styleable.DrawerArrowToggle_barLength = global::SMobile.Android.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::com.refractored.Resource.Styleable.DrawerArrowToggle_color = global::SMobile.Android.Resource.Styleable.DrawerArrowToggle_color;
+			global::com.refractored.Resource.Styleable.DrawerArrowToggle_drawableSize = global::SMobile.Android.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::com.refractored.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::SMobile.Android.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::com.refractored.Resource.Styleable.DrawerArrowToggle_spinBars = global::SMobile.Android.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::com.refractored.Resource.Styleable.DrawerArrowToggle_thickness = global::SMobile.Android.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::com.refractored.Resource.Styleable.LinearLayoutCompat = global::SMobile.Android.Resource.Styleable.LinearLayoutCompat;
+			global::com.refractored.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::SMobile.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::com.refractored.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::SMobile.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::com.refractored.Resource.Styleable.LinearLayoutCompat_android_gravity = global::SMobile.Android.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::com.refractored.Resource.Styleable.LinearLayoutCompat_android_orientation = global::SMobile.Android.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::com.refractored.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::SMobile.Android.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::com.refractored.Resource.Styleable.LinearLayoutCompat_divider = global::SMobile.Android.Resource.Styleable.LinearLayoutCompat_divider;
+			global::com.refractored.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::SMobile.Android.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::com.refractored.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::SMobile.Android.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::com.refractored.Resource.Styleable.LinearLayoutCompat_showDividers = global::SMobile.Android.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::com.refractored.Resource.Styleable.LinearLayoutCompat_Layout = global::SMobile.Android.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::com.refractored.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::SMobile.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::com.refractored.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::SMobile.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::com.refractored.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::SMobile.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::com.refractored.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::SMobile.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::com.refractored.Resource.Styleable.ListPopupWindow = global::SMobile.Android.Resource.Styleable.ListPopupWindow;
+			global::com.refractored.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::SMobile.Android.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::com.refractored.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::SMobile.Android.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::com.refractored.Resource.Styleable.MenuGroup = global::SMobile.Android.Resource.Styleable.MenuGroup;
+			global::com.refractored.Resource.Styleable.MenuGroup_android_checkableBehavior = global::SMobile.Android.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::com.refractored.Resource.Styleable.MenuGroup_android_enabled = global::SMobile.Android.Resource.Styleable.MenuGroup_android_enabled;
+			global::com.refractored.Resource.Styleable.MenuGroup_android_id = global::SMobile.Android.Resource.Styleable.MenuGroup_android_id;
+			global::com.refractored.Resource.Styleable.MenuGroup_android_menuCategory = global::SMobile.Android.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::com.refractored.Resource.Styleable.MenuGroup_android_orderInCategory = global::SMobile.Android.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::com.refractored.Resource.Styleable.MenuGroup_android_visible = global::SMobile.Android.Resource.Styleable.MenuGroup_android_visible;
+			global::com.refractored.Resource.Styleable.MenuItem = global::SMobile.Android.Resource.Styleable.MenuItem;
+			global::com.refractored.Resource.Styleable.MenuItem_actionLayout = global::SMobile.Android.Resource.Styleable.MenuItem_actionLayout;
+			global::com.refractored.Resource.Styleable.MenuItem_actionProviderClass = global::SMobile.Android.Resource.Styleable.MenuItem_actionProviderClass;
+			global::com.refractored.Resource.Styleable.MenuItem_actionViewClass = global::SMobile.Android.Resource.Styleable.MenuItem_actionViewClass;
+			global::com.refractored.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::SMobile.Android.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::com.refractored.Resource.Styleable.MenuItem_android_checkable = global::SMobile.Android.Resource.Styleable.MenuItem_android_checkable;
+			global::com.refractored.Resource.Styleable.MenuItem_android_checked = global::SMobile.Android.Resource.Styleable.MenuItem_android_checked;
+			global::com.refractored.Resource.Styleable.MenuItem_android_enabled = global::SMobile.Android.Resource.Styleable.MenuItem_android_enabled;
+			global::com.refractored.Resource.Styleable.MenuItem_android_icon = global::SMobile.Android.Resource.Styleable.MenuItem_android_icon;
+			global::com.refractored.Resource.Styleable.MenuItem_android_id = global::SMobile.Android.Resource.Styleable.MenuItem_android_id;
+			global::com.refractored.Resource.Styleable.MenuItem_android_menuCategory = global::SMobile.Android.Resource.Styleable.MenuItem_android_menuCategory;
+			global::com.refractored.Resource.Styleable.MenuItem_android_numericShortcut = global::SMobile.Android.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::com.refractored.Resource.Styleable.MenuItem_android_onClick = global::SMobile.Android.Resource.Styleable.MenuItem_android_onClick;
+			global::com.refractored.Resource.Styleable.MenuItem_android_orderInCategory = global::SMobile.Android.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::com.refractored.Resource.Styleable.MenuItem_android_title = global::SMobile.Android.Resource.Styleable.MenuItem_android_title;
+			global::com.refractored.Resource.Styleable.MenuItem_android_titleCondensed = global::SMobile.Android.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::com.refractored.Resource.Styleable.MenuItem_android_visible = global::SMobile.Android.Resource.Styleable.MenuItem_android_visible;
+			global::com.refractored.Resource.Styleable.MenuItem_showAsAction = global::SMobile.Android.Resource.Styleable.MenuItem_showAsAction;
+			global::com.refractored.Resource.Styleable.MenuView = global::SMobile.Android.Resource.Styleable.MenuView;
+			global::com.refractored.Resource.Styleable.MenuView_android_headerBackground = global::SMobile.Android.Resource.Styleable.MenuView_android_headerBackground;
+			global::com.refractored.Resource.Styleable.MenuView_android_horizontalDivider = global::SMobile.Android.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::com.refractored.Resource.Styleable.MenuView_android_itemBackground = global::SMobile.Android.Resource.Styleable.MenuView_android_itemBackground;
+			global::com.refractored.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::SMobile.Android.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::com.refractored.Resource.Styleable.MenuView_android_itemTextAppearance = global::SMobile.Android.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::com.refractored.Resource.Styleable.MenuView_android_verticalDivider = global::SMobile.Android.Resource.Styleable.MenuView_android_verticalDivider;
+			global::com.refractored.Resource.Styleable.MenuView_android_windowAnimationStyle = global::SMobile.Android.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::com.refractored.Resource.Styleable.MenuView_preserveIconSpacing = global::SMobile.Android.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip = global::SMobile.Android.Resource.Styleable.PagerSlidingTabStrip;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsDividerColor = global::SMobile.Android.Resource.Styleable.PagerSlidingTabStrip_pstsDividerColor;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsDividerPadding = global::SMobile.Android.Resource.Styleable.PagerSlidingTabStrip_pstsDividerPadding;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsDividerWidth = global::SMobile.Android.Resource.Styleable.PagerSlidingTabStrip_pstsDividerWidth;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsIndicatorColor = global::SMobile.Android.Resource.Styleable.PagerSlidingTabStrip_pstsIndicatorColor;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsIndicatorHeight = global::SMobile.Android.Resource.Styleable.PagerSlidingTabStrip_pstsIndicatorHeight;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsPaddingMiddle = global::SMobile.Android.Resource.Styleable.PagerSlidingTabStrip_pstsPaddingMiddle;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsScrollOffset = global::SMobile.Android.Resource.Styleable.PagerSlidingTabStrip_pstsScrollOffset;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsShouldExpand = global::SMobile.Android.Resource.Styleable.PagerSlidingTabStrip_pstsShouldExpand;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsTabBackground = global::SMobile.Android.Resource.Styleable.PagerSlidingTabStrip_pstsTabBackground;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsTabPaddingLeftRight = global::SMobile.Android.Resource.Styleable.PagerSlidingTabStrip_pstsTabPaddingLeftRight;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsTextAllCaps = global::SMobile.Android.Resource.Styleable.PagerSlidingTabStrip_pstsTextAllCaps;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsTextAlpha = global::SMobile.Android.Resource.Styleable.PagerSlidingTabStrip_pstsTextAlpha;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsTextColorSelected = global::SMobile.Android.Resource.Styleable.PagerSlidingTabStrip_pstsTextColorSelected;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsTextSelectedStyle = global::SMobile.Android.Resource.Styleable.PagerSlidingTabStrip_pstsTextSelectedStyle;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsTextStyle = global::SMobile.Android.Resource.Styleable.PagerSlidingTabStrip_pstsTextStyle;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsUnderlineColor = global::SMobile.Android.Resource.Styleable.PagerSlidingTabStrip_pstsUnderlineColor;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsUnderlineHeight = global::SMobile.Android.Resource.Styleable.PagerSlidingTabStrip_pstsUnderlineHeight;
+			global::com.refractored.Resource.Styleable.PopupWindow = global::SMobile.Android.Resource.Styleable.PopupWindow;
+			global::com.refractored.Resource.Styleable.PopupWindow_android_popupBackground = global::SMobile.Android.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::com.refractored.Resource.Styleable.PopupWindow_overlapAnchor = global::SMobile.Android.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::com.refractored.Resource.Styleable.PopupWindowBackgroundState = global::SMobile.Android.Resource.Styleable.PopupWindowBackgroundState;
+			global::com.refractored.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::SMobile.Android.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::com.refractored.Resource.Styleable.SearchView = global::SMobile.Android.Resource.Styleable.SearchView;
+			global::com.refractored.Resource.Styleable.SearchView_android_focusable = global::SMobile.Android.Resource.Styleable.SearchView_android_focusable;
+			global::com.refractored.Resource.Styleable.SearchView_android_imeOptions = global::SMobile.Android.Resource.Styleable.SearchView_android_imeOptions;
+			global::com.refractored.Resource.Styleable.SearchView_android_inputType = global::SMobile.Android.Resource.Styleable.SearchView_android_inputType;
+			global::com.refractored.Resource.Styleable.SearchView_android_maxWidth = global::SMobile.Android.Resource.Styleable.SearchView_android_maxWidth;
+			global::com.refractored.Resource.Styleable.SearchView_closeIcon = global::SMobile.Android.Resource.Styleable.SearchView_closeIcon;
+			global::com.refractored.Resource.Styleable.SearchView_commitIcon = global::SMobile.Android.Resource.Styleable.SearchView_commitIcon;
+			global::com.refractored.Resource.Styleable.SearchView_defaultQueryHint = global::SMobile.Android.Resource.Styleable.SearchView_defaultQueryHint;
+			global::com.refractored.Resource.Styleable.SearchView_goIcon = global::SMobile.Android.Resource.Styleable.SearchView_goIcon;
+			global::com.refractored.Resource.Styleable.SearchView_iconifiedByDefault = global::SMobile.Android.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::com.refractored.Resource.Styleable.SearchView_layout = global::SMobile.Android.Resource.Styleable.SearchView_layout;
+			global::com.refractored.Resource.Styleable.SearchView_queryBackground = global::SMobile.Android.Resource.Styleable.SearchView_queryBackground;
+			global::com.refractored.Resource.Styleable.SearchView_queryHint = global::SMobile.Android.Resource.Styleable.SearchView_queryHint;
+			global::com.refractored.Resource.Styleable.SearchView_searchHintIcon = global::SMobile.Android.Resource.Styleable.SearchView_searchHintIcon;
+			global::com.refractored.Resource.Styleable.SearchView_searchIcon = global::SMobile.Android.Resource.Styleable.SearchView_searchIcon;
+			global::com.refractored.Resource.Styleable.SearchView_submitBackground = global::SMobile.Android.Resource.Styleable.SearchView_submitBackground;
+			global::com.refractored.Resource.Styleable.SearchView_suggestionRowLayout = global::SMobile.Android.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::com.refractored.Resource.Styleable.SearchView_voiceIcon = global::SMobile.Android.Resource.Styleable.SearchView_voiceIcon;
+			global::com.refractored.Resource.Styleable.Spinner = global::SMobile.Android.Resource.Styleable.Spinner;
+			global::com.refractored.Resource.Styleable.Spinner_android_dropDownWidth = global::SMobile.Android.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::com.refractored.Resource.Styleable.Spinner_android_entries = global::SMobile.Android.Resource.Styleable.Spinner_android_entries;
+			global::com.refractored.Resource.Styleable.Spinner_android_popupBackground = global::SMobile.Android.Resource.Styleable.Spinner_android_popupBackground;
+			global::com.refractored.Resource.Styleable.Spinner_android_prompt = global::SMobile.Android.Resource.Styleable.Spinner_android_prompt;
+			global::com.refractored.Resource.Styleable.Spinner_popupTheme = global::SMobile.Android.Resource.Styleable.Spinner_popupTheme;
+			global::com.refractored.Resource.Styleable.SwitchCompat = global::SMobile.Android.Resource.Styleable.SwitchCompat;
+			global::com.refractored.Resource.Styleable.SwitchCompat_android_textOff = global::SMobile.Android.Resource.Styleable.SwitchCompat_android_textOff;
+			global::com.refractored.Resource.Styleable.SwitchCompat_android_textOn = global::SMobile.Android.Resource.Styleable.SwitchCompat_android_textOn;
+			global::com.refractored.Resource.Styleable.SwitchCompat_android_thumb = global::SMobile.Android.Resource.Styleable.SwitchCompat_android_thumb;
+			global::com.refractored.Resource.Styleable.SwitchCompat_showText = global::SMobile.Android.Resource.Styleable.SwitchCompat_showText;
+			global::com.refractored.Resource.Styleable.SwitchCompat_splitTrack = global::SMobile.Android.Resource.Styleable.SwitchCompat_splitTrack;
+			global::com.refractored.Resource.Styleable.SwitchCompat_switchMinWidth = global::SMobile.Android.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::com.refractored.Resource.Styleable.SwitchCompat_switchPadding = global::SMobile.Android.Resource.Styleable.SwitchCompat_switchPadding;
+			global::com.refractored.Resource.Styleable.SwitchCompat_switchTextAppearance = global::SMobile.Android.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::com.refractored.Resource.Styleable.SwitchCompat_thumbTextPadding = global::SMobile.Android.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::com.refractored.Resource.Styleable.SwitchCompat_track = global::SMobile.Android.Resource.Styleable.SwitchCompat_track;
+			global::com.refractored.Resource.Styleable.TextAppearance = global::SMobile.Android.Resource.Styleable.TextAppearance;
+			global::com.refractored.Resource.Styleable.TextAppearance_android_shadowColor = global::SMobile.Android.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::com.refractored.Resource.Styleable.TextAppearance_android_shadowDx = global::SMobile.Android.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::com.refractored.Resource.Styleable.TextAppearance_android_shadowDy = global::SMobile.Android.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::com.refractored.Resource.Styleable.TextAppearance_android_shadowRadius = global::SMobile.Android.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::com.refractored.Resource.Styleable.TextAppearance_android_textColor = global::SMobile.Android.Resource.Styleable.TextAppearance_android_textColor;
+			global::com.refractored.Resource.Styleable.TextAppearance_android_textSize = global::SMobile.Android.Resource.Styleable.TextAppearance_android_textSize;
+			global::com.refractored.Resource.Styleable.TextAppearance_android_textStyle = global::SMobile.Android.Resource.Styleable.TextAppearance_android_textStyle;
+			global::com.refractored.Resource.Styleable.TextAppearance_android_typeface = global::SMobile.Android.Resource.Styleable.TextAppearance_android_typeface;
+			global::com.refractored.Resource.Styleable.TextAppearance_textAllCaps = global::SMobile.Android.Resource.Styleable.TextAppearance_textAllCaps;
+			global::com.refractored.Resource.Styleable.Toolbar = global::SMobile.Android.Resource.Styleable.Toolbar;
+			global::com.refractored.Resource.Styleable.Toolbar_android_gravity = global::SMobile.Android.Resource.Styleable.Toolbar_android_gravity;
+			global::com.refractored.Resource.Styleable.Toolbar_android_minHeight = global::SMobile.Android.Resource.Styleable.Toolbar_android_minHeight;
+			global::com.refractored.Resource.Styleable.Toolbar_collapseContentDescription = global::SMobile.Android.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::com.refractored.Resource.Styleable.Toolbar_collapseIcon = global::SMobile.Android.Resource.Styleable.Toolbar_collapseIcon;
+			global::com.refractored.Resource.Styleable.Toolbar_contentInsetEnd = global::SMobile.Android.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::com.refractored.Resource.Styleable.Toolbar_contentInsetLeft = global::SMobile.Android.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::com.refractored.Resource.Styleable.Toolbar_contentInsetRight = global::SMobile.Android.Resource.Styleable.Toolbar_contentInsetRight;
+			global::com.refractored.Resource.Styleable.Toolbar_contentInsetStart = global::SMobile.Android.Resource.Styleable.Toolbar_contentInsetStart;
+			global::com.refractored.Resource.Styleable.Toolbar_logo = global::SMobile.Android.Resource.Styleable.Toolbar_logo;
+			global::com.refractored.Resource.Styleable.Toolbar_logoDescription = global::SMobile.Android.Resource.Styleable.Toolbar_logoDescription;
+			global::com.refractored.Resource.Styleable.Toolbar_maxButtonHeight = global::SMobile.Android.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::com.refractored.Resource.Styleable.Toolbar_navigationContentDescription = global::SMobile.Android.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::com.refractored.Resource.Styleable.Toolbar_navigationIcon = global::SMobile.Android.Resource.Styleable.Toolbar_navigationIcon;
+			global::com.refractored.Resource.Styleable.Toolbar_popupTheme = global::SMobile.Android.Resource.Styleable.Toolbar_popupTheme;
+			global::com.refractored.Resource.Styleable.Toolbar_subtitle = global::SMobile.Android.Resource.Styleable.Toolbar_subtitle;
+			global::com.refractored.Resource.Styleable.Toolbar_subtitleTextAppearance = global::SMobile.Android.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::com.refractored.Resource.Styleable.Toolbar_subtitleTextColor = global::SMobile.Android.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::com.refractored.Resource.Styleable.Toolbar_title = global::SMobile.Android.Resource.Styleable.Toolbar_title;
+			global::com.refractored.Resource.Styleable.Toolbar_titleMarginBottom = global::SMobile.Android.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::com.refractored.Resource.Styleable.Toolbar_titleMarginEnd = global::SMobile.Android.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::com.refractored.Resource.Styleable.Toolbar_titleMarginStart = global::SMobile.Android.Resource.Styleable.Toolbar_titleMarginStart;
+			global::com.refractored.Resource.Styleable.Toolbar_titleMarginTop = global::SMobile.Android.Resource.Styleable.Toolbar_titleMarginTop;
+			global::com.refractored.Resource.Styleable.Toolbar_titleMargins = global::SMobile.Android.Resource.Styleable.Toolbar_titleMargins;
+			global::com.refractored.Resource.Styleable.Toolbar_titleTextAppearance = global::SMobile.Android.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::com.refractored.Resource.Styleable.Toolbar_titleTextColor = global::SMobile.Android.Resource.Styleable.Toolbar_titleTextColor;
+			global::com.refractored.Resource.Styleable.View = global::SMobile.Android.Resource.Styleable.View;
+			global::com.refractored.Resource.Styleable.View_android_focusable = global::SMobile.Android.Resource.Styleable.View_android_focusable;
+			global::com.refractored.Resource.Styleable.View_android_theme = global::SMobile.Android.Resource.Styleable.View_android_theme;
+			global::com.refractored.Resource.Styleable.View_paddingEnd = global::SMobile.Android.Resource.Styleable.View_paddingEnd;
+			global::com.refractored.Resource.Styleable.View_paddingStart = global::SMobile.Android.Resource.Styleable.View_paddingStart;
+			global::com.refractored.Resource.Styleable.View_theme = global::SMobile.Android.Resource.Styleable.View_theme;
+			global::com.refractored.Resource.Styleable.ViewBackgroundHelper = global::SMobile.Android.Resource.Styleable.ViewBackgroundHelper;
+			global::com.refractored.Resource.Styleable.ViewBackgroundHelper_android_background = global::SMobile.Android.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::com.refractored.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::SMobile.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::com.refractored.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::SMobile.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::com.refractored.Resource.Styleable.ViewStubCompat = global::SMobile.Android.Resource.Styleable.ViewStubCompat;
+			global::com.refractored.Resource.Styleable.ViewStubCompat_android_id = global::SMobile.Android.Resource.Styleable.ViewStubCompat_android_id;
+			global::com.refractored.Resource.Styleable.ViewStubCompat_android_inflatedId = global::SMobile.Android.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::com.refractored.Resource.Styleable.ViewStubCompat_android_layout = global::SMobile.Android.Resource.Styleable.ViewStubCompat_android_layout;
 		}
 		
 		public partial class Animation
@@ -780,6 +2048,60 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f01014a
 			public const int menu = 2130772298;
 			
+			// aapt resource value: 0x7f010199
+			public const int ms_alignLabels = 2130772377;
+			
+			// aapt resource value: 0x7f01019d
+			public const int ms_arrowColor = 2130772381;
+			
+			// aapt resource value: 0x7f01019c
+			public const int ms_arrowSize = 2130772380;
+			
+			// aapt resource value: 0x7f01018e
+			public const int ms_baseColor = 2130772366;
+			
+			// aapt resource value: 0x7f01019f
+			public const int ms_enableErrorLabel = 2130772383;
+			
+			// aapt resource value: 0x7f01019e
+			public const int ms_enableFloatingLabel = 2130772382;
+			
+			// aapt resource value: 0x7f010191
+			public const int ms_error = 2130772369;
+			
+			// aapt resource value: 0x7f010190
+			public const int ms_errorColor = 2130772368;
+			
+			// aapt resource value: 0x7f010195
+			public const int ms_floatingLabelColor = 2130772373;
+			
+			// aapt resource value: 0x7f010194
+			public const int ms_floatingLabelText = 2130772372;
+			
+			// aapt resource value: 0x7f01018f
+			public const int ms_highlightColor = 2130772367;
+			
+			// aapt resource value: 0x7f010192
+			public const int ms_hint = 2130772370;
+			
+			// aapt resource value: 0x7f010193
+			public const int ms_hintColor = 2130772371;
+			
+			// aapt resource value: 0x7f010196
+			public const int ms_multiline = 2130772374;
+			
+			// aapt resource value: 0x7f010197
+			public const int ms_nbErrorLines = 2130772375;
+			
+			// aapt resource value: 0x7f01019a
+			public const int ms_thickness = 2130772378;
+			
+			// aapt resource value: 0x7f01019b
+			public const int ms_thickness_error = 2130772379;
+			
+			// aapt resource value: 0x7f010198
+			public const int ms_typeface = 2130772376;
+			
 			// aapt resource value: 0x7f01005b
 			public const int multiChoiceItemLayout = 2130772059;
 			
@@ -852,6 +2174,57 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f010049
 			public const int progressBarStyle = 2130772041;
 			
+			// aapt resource value: 0x7f01017f
+			public const int pstsDividerColor = 2130772351;
+			
+			// aapt resource value: 0x7f010183
+			public const int pstsDividerPadding = 2130772355;
+			
+			// aapt resource value: 0x7f010180
+			public const int pstsDividerWidth = 2130772352;
+			
+			// aapt resource value: 0x7f01017d
+			public const int pstsIndicatorColor = 2130772349;
+			
+			// aapt resource value: 0x7f010181
+			public const int pstsIndicatorHeight = 2130772353;
+			
+			// aapt resource value: 0x7f010189
+			public const int pstsPaddingMiddle = 2130772361;
+			
+			// aapt resource value: 0x7f010185
+			public const int pstsScrollOffset = 2130772357;
+			
+			// aapt resource value: 0x7f010187
+			public const int pstsShouldExpand = 2130772359;
+			
+			// aapt resource value: 0x7f010186
+			public const int pstsTabBackground = 2130772358;
+			
+			// aapt resource value: 0x7f010184
+			public const int pstsTabPaddingLeftRight = 2130772356;
+			
+			// aapt resource value: 0x7f010188
+			public const int pstsTextAllCaps = 2130772360;
+			
+			// aapt resource value: 0x7f01018b
+			public const int pstsTextAlpha = 2130772363;
+			
+			// aapt resource value: 0x7f01018a
+			public const int pstsTextColorSelected = 2130772362;
+			
+			// aapt resource value: 0x7f01018d
+			public const int pstsTextSelectedStyle = 2130772365;
+			
+			// aapt resource value: 0x7f01018c
+			public const int pstsTextStyle = 2130772364;
+			
+			// aapt resource value: 0x7f01017e
+			public const int pstsUnderlineColor = 2130772350;
+			
+			// aapt resource value: 0x7f010182
+			public const int pstsUnderlineHeight = 2130772354;
+			
 			// aapt resource value: 0x7f0100fc
 			public const int queryBackground = 2130772220;
 			
@@ -875,6 +2248,42 @@ namespace SMobile.Android
 			
 			// aapt resource value: 0x7f010143
 			public const int rippleColor = 2130772291;
+			
+			// aapt resource value: 0x7f010177
+			public const int riv_border_color = 2130772343;
+			
+			// aapt resource value: 0x7f010176
+			public const int riv_border_width = 2130772342;
+			
+			// aapt resource value: 0x7f010171
+			public const int riv_corner_radius = 2130772337;
+			
+			// aapt resource value: 0x7f010174
+			public const int riv_corner_radius_bottom_left = 2130772340;
+			
+			// aapt resource value: 0x7f010175
+			public const int riv_corner_radius_bottom_right = 2130772341;
+			
+			// aapt resource value: 0x7f010172
+			public const int riv_corner_radius_top_left = 2130772338;
+			
+			// aapt resource value: 0x7f010173
+			public const int riv_corner_radius_top_right = 2130772339;
+			
+			// aapt resource value: 0x7f010178
+			public const int riv_mutate_background = 2130772344;
+			
+			// aapt resource value: 0x7f010179
+			public const int riv_oval = 2130772345;
+			
+			// aapt resource value: 0x7f01017a
+			public const int riv_tile_mode = 2130772346;
+			
+			// aapt resource value: 0x7f01017b
+			public const int riv_tile_mode_x = 2130772347;
+			
+			// aapt resource value: 0x7f01017c
+			public const int riv_tile_mode_y = 2130772348;
 			
 			// aapt resource value: 0x7f01001c
 			public const int scopeUris = 2130771996;
@@ -1256,44 +2665,44 @@ namespace SMobile.Android
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f060074
-			public const int abc_background_cache_hint_selector_material_dark = 2131099764;
+			// aapt resource value: 0x7f06007b
+			public const int abc_background_cache_hint_selector_material_dark = 2131099771;
 			
-			// aapt resource value: 0x7f060075
-			public const int abc_background_cache_hint_selector_material_light = 2131099765;
+			// aapt resource value: 0x7f06007c
+			public const int abc_background_cache_hint_selector_material_light = 2131099772;
 			
-			// aapt resource value: 0x7f060076
-			public const int abc_btn_colored_borderless_text_material = 2131099766;
+			// aapt resource value: 0x7f06007d
+			public const int abc_btn_colored_borderless_text_material = 2131099773;
 			
-			// aapt resource value: 0x7f060077
-			public const int abc_btn_colored_text_material = 2131099767;
+			// aapt resource value: 0x7f06007e
+			public const int abc_btn_colored_text_material = 2131099774;
 			
-			// aapt resource value: 0x7f060078
-			public const int abc_color_highlight_material = 2131099768;
+			// aapt resource value: 0x7f06007f
+			public const int abc_color_highlight_material = 2131099775;
 			
-			// aapt resource value: 0x7f060079
-			public const int abc_hint_foreground_material_dark = 2131099769;
+			// aapt resource value: 0x7f060080
+			public const int abc_hint_foreground_material_dark = 2131099776;
 			
-			// aapt resource value: 0x7f06007a
-			public const int abc_hint_foreground_material_light = 2131099770;
+			// aapt resource value: 0x7f060081
+			public const int abc_hint_foreground_material_light = 2131099777;
 			
 			// aapt resource value: 0x7f060021
 			public const int abc_input_method_navigation_guard = 2131099681;
 			
-			// aapt resource value: 0x7f06007b
-			public const int abc_primary_text_disable_only_material_dark = 2131099771;
+			// aapt resource value: 0x7f060082
+			public const int abc_primary_text_disable_only_material_dark = 2131099778;
 			
-			// aapt resource value: 0x7f06007c
-			public const int abc_primary_text_disable_only_material_light = 2131099772;
+			// aapt resource value: 0x7f060083
+			public const int abc_primary_text_disable_only_material_light = 2131099779;
 			
-			// aapt resource value: 0x7f06007d
-			public const int abc_primary_text_material_dark = 2131099773;
+			// aapt resource value: 0x7f060084
+			public const int abc_primary_text_material_dark = 2131099780;
 			
-			// aapt resource value: 0x7f06007e
-			public const int abc_primary_text_material_light = 2131099774;
+			// aapt resource value: 0x7f060085
+			public const int abc_primary_text_material_light = 2131099781;
 			
-			// aapt resource value: 0x7f06007f
-			public const int abc_search_url_text = 2131099775;
+			// aapt resource value: 0x7f060086
+			public const int abc_search_url_text = 2131099782;
 			
 			// aapt resource value: 0x7f060022
 			public const int abc_search_url_text_normal = 2131099682;
@@ -1304,32 +2713,32 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f060024
 			public const int abc_search_url_text_selected = 2131099684;
 			
-			// aapt resource value: 0x7f060080
-			public const int abc_secondary_text_material_dark = 2131099776;
-			
-			// aapt resource value: 0x7f060081
-			public const int abc_secondary_text_material_light = 2131099777;
-			
-			// aapt resource value: 0x7f060082
-			public const int abc_tint_btn_checkable = 2131099778;
-			
-			// aapt resource value: 0x7f060083
-			public const int abc_tint_default = 2131099779;
-			
-			// aapt resource value: 0x7f060084
-			public const int abc_tint_edittext = 2131099780;
-			
-			// aapt resource value: 0x7f060085
-			public const int abc_tint_seek_thumb = 2131099781;
-			
-			// aapt resource value: 0x7f060086
-			public const int abc_tint_spinner = 2131099782;
-			
 			// aapt resource value: 0x7f060087
-			public const int abc_tint_switch_thumb = 2131099783;
+			public const int abc_secondary_text_material_dark = 2131099783;
 			
 			// aapt resource value: 0x7f060088
-			public const int abc_tint_switch_track = 2131099784;
+			public const int abc_secondary_text_material_light = 2131099784;
+			
+			// aapt resource value: 0x7f060089
+			public const int abc_tint_btn_checkable = 2131099785;
+			
+			// aapt resource value: 0x7f06008a
+			public const int abc_tint_default = 2131099786;
+			
+			// aapt resource value: 0x7f06008b
+			public const int abc_tint_edittext = 2131099787;
+			
+			// aapt resource value: 0x7f06008c
+			public const int abc_tint_seek_thumb = 2131099788;
+			
+			// aapt resource value: 0x7f06008d
+			public const int abc_tint_spinner = 2131099789;
+			
+			// aapt resource value: 0x7f06008e
+			public const int abc_tint_switch_thumb = 2131099790;
+			
+			// aapt resource value: 0x7f06008f
+			public const int abc_tint_switch_track = 2131099791;
 			
 			// aapt resource value: 0x7f060025
 			public const int accent_material_dark = 2131099685;
@@ -1385,14 +2794,17 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f06001f
 			public const int cardview_shadow_start_color = 2131099679;
 			
-			// aapt resource value: 0x7f060068
-			public const int color_accent = 2131099752;
+			// aapt resource value: 0x7f06006b
+			public const int color_accent = 2131099755;
 			
-			// aapt resource value: 0x7f060066
-			public const int color_primary = 2131099750;
+			// aapt resource value: 0x7f060069
+			public const int color_primary = 2131099753;
 			
-			// aapt resource value: 0x7f060067
-			public const int color_primary_dark = 2131099751;
+			// aapt resource value: 0x7f06006a
+			public const int color_primary_dark = 2131099754;
+			
+			// aapt resource value: 0x7f06006e
+			public const int color_primary_dark_bottom_navigation_view = 2131099758;
 			
 			// aapt resource value: 0x7f060008
 			public const int com_facebook_blue = 2131099656;
@@ -1433,8 +2845,8 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f060014
 			public const int com_facebook_button_send_background_color_pressed = 2131099668;
 			
-			// aapt resource value: 0x7f060089
-			public const int com_facebook_button_text_color = 2131099785;
+			// aapt resource value: 0x7f060090
+			public const int com_facebook_button_text_color = 2131099792;
 			
 			// aapt resource value: 0x7f060015
 			public const int com_facebook_device_auth_text = 2131099669;
@@ -1451,8 +2863,8 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f060019
 			public const int com_facebook_messenger_blue = 2131099673;
 			
-			// aapt resource value: 0x7f06008a
-			public const int com_facebook_send_button_text_color = 2131099786;
+			// aapt resource value: 0x7f060091
+			public const int com_facebook_send_button_text_color = 2131099793;
 			
 			// aapt resource value: 0x7f06001a
 			public const int com_facebook_share_button_text_color = 2131099674;
@@ -1460,8 +2872,8 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f06001b
 			public const int com_smart_login_code = 2131099675;
 			
-			// aapt resource value: 0x7f06008b
-			public const int common_google_signin_btn_text_dark = 2131099787;
+			// aapt resource value: 0x7f060092
+			public const int common_google_signin_btn_text_dark = 2131099794;
 			
 			// aapt resource value: 0x7f060000
 			public const int common_google_signin_btn_text_dark_default = 2131099648;
@@ -1475,8 +2887,8 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f060003
 			public const int common_google_signin_btn_text_dark_pressed = 2131099651;
 			
-			// aapt resource value: 0x7f06008c
-			public const int common_google_signin_btn_text_light = 2131099788;
+			// aapt resource value: 0x7f060093
+			public const int common_google_signin_btn_text_light = 2131099795;
 			
 			// aapt resource value: 0x7f060004
 			public const int common_google_signin_btn_text_light_default = 2131099652;
@@ -1490,14 +2902,14 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f060007
 			public const int common_google_signin_btn_text_light_pressed = 2131099655;
 			
-			// aapt resource value: 0x7f06008d
-			public const int common_google_signin_btn_tint = 2131099789;
+			// aapt resource value: 0x7f060094
+			public const int common_google_signin_btn_tint = 2131099796;
 			
 			// aapt resource value: 0x7f06005b
 			public const int design_bottom_navigation_shadow_color = 2131099739;
 			
-			// aapt resource value: 0x7f06008e
-			public const int design_error = 2131099790;
+			// aapt resource value: 0x7f060095
+			public const int design_error = 2131099797;
 			
 			// aapt resource value: 0x7f06005c
 			public const int design_fab_shadow_end_color = 2131099740;
@@ -1529,8 +2941,8 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f060065
 			public const int design_textinput_error_color_light = 2131099749;
 			
-			// aapt resource value: 0x7f06008f
-			public const int design_tint_password_toggle = 2131099791;
+			// aapt resource value: 0x7f060096
+			public const int design_tint_password_toggle = 2131099798;
 			
 			// aapt resource value: 0x7f060033
 			public const int dim_foreground_disabled_material_dark = 2131099699;
@@ -1543,6 +2955,12 @@ namespace SMobile.Android
 			
 			// aapt resource value: 0x7f060036
 			public const int dim_foreground_material_light = 2131099702;
+			
+			// aapt resource value: 0x7f060067
+			public const int disabled_color = 2131099751;
+			
+			// aapt resource value: 0x7f060068
+			public const int error_color = 2131099752;
 			
 			// aapt resource value: 0x7f060037
 			public const int foreground_material_dark = 2131099703;
@@ -1592,20 +3010,20 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f060046
 			public const int material_grey_900 = 2131099718;
 			
-			// aapt resource value: 0x7f06006e
-			public const int menu_drawer_background = 2131099758;
-			
-			// aapt resource value: 0x7f06006f
-			public const int menu_drawer_header_background = 2131099759;
-			
-			// aapt resource value: 0x7f060071
-			public const int menu_followers = 2131099761;
-			
-			// aapt resource value: 0x7f060070
-			public const int menu_home = 2131099760;
-			
 			// aapt resource value: 0x7f060072
-			public const int menu_messages = 2131099762;
+			public const int menu_drawer_background = 2131099762;
+			
+			// aapt resource value: 0x7f060073
+			public const int menu_drawer_header_background = 2131099763;
+			
+			// aapt resource value: 0x7f060075
+			public const int menu_followers = 2131099765;
+			
+			// aapt resource value: 0x7f060074
+			public const int menu_home = 2131099764;
+			
+			// aapt resource value: 0x7f060076
+			public const int menu_messages = 2131099766;
 			
 			// aapt resource value: 0x7f060020
 			public const int notification_action_color_filter = 2131099680;
@@ -1640,6 +3058,9 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f060050
 			public const int primary_text_disabled_material_light = 2131099728;
 			
+			// aapt resource value: 0x7f060066
+			public const int psts_background_tab_pressed = 2131099750;
+			
 			// aapt resource value: 0x7f060051
 			public const int ripple_material_dark = 2131099729;
 			
@@ -1658,17 +3079,26 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f060056
 			public const int secondary_text_disabled_material_light = 2131099734;
 			
+			// aapt resource value: 0x7f060078
+			public const int slide1 = 2131099768;
+			
+			// aapt resource value: 0x7f060079
+			public const int slide2 = 2131099769;
+			
+			// aapt resource value: 0x7f06007a
+			public const int slide3 = 2131099770;
+			
 			// aapt resource value: 0x7f060057
 			public const int switch_thumb_disabled_material_dark = 2131099735;
 			
 			// aapt resource value: 0x7f060058
 			public const int switch_thumb_disabled_material_light = 2131099736;
 			
-			// aapt resource value: 0x7f060090
-			public const int switch_thumb_material_dark = 2131099792;
+			// aapt resource value: 0x7f060097
+			public const int switch_thumb_material_dark = 2131099799;
 			
-			// aapt resource value: 0x7f060091
-			public const int switch_thumb_material_light = 2131099793;
+			// aapt resource value: 0x7f060098
+			public const int switch_thumb_material_light = 2131099800;
 			
 			// aapt resource value: 0x7f060059
 			public const int switch_thumb_normal_material_dark = 2131099737;
@@ -1676,23 +3106,23 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f06005a
 			public const int switch_thumb_normal_material_light = 2131099738;
 			
-			// aapt resource value: 0x7f060069
-			public const int text_color_primary = 2131099753;
+			// aapt resource value: 0x7f06006c
+			public const int text_color_primary = 2131099756;
 			
-			// aapt resource value: 0x7f06006b
-			public const int text_color_primary_light = 2131099755;
+			// aapt resource value: 0x7f06006f
+			public const int text_color_primary_light = 2131099759;
 			
-			// aapt resource value: 0x7f060073
-			public const int transparent = 2131099763;
+			// aapt resource value: 0x7f060077
+			public const int transparent = 2131099767;
+			
+			// aapt resource value: 0x7f060071
+			public const int white = 2131099761;
 			
 			// aapt resource value: 0x7f06006d
-			public const int white = 2131099757;
+			public const int window_background = 2131099757;
 			
-			// aapt resource value: 0x7f06006a
-			public const int window_background = 2131099754;
-			
-			// aapt resource value: 0x7f06006c
-			public const int windows_background_light = 2131099756;
+			// aapt resource value: 0x7f060070
+			public const int windows_background_light = 2131099760;
 			
 			static Color()
 			{
@@ -2127,6 +3557,18 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f09006c
 			public const int disabled_alpha_material_light = 2131296364;
 			
+			// aapt resource value: 0x7f0900a5
+			public const int error_label_spacing = 2131296421;
+			
+			// aapt resource value: 0x7f0900a6
+			public const int floating_label_bottom_spacing = 2131296422;
+			
+			// aapt resource value: 0x7f0900a7
+			public const int floating_label_inside_spacing = 2131296423;
+			
+			// aapt resource value: 0x7f0900a8
+			public const int floating_label_top_spacing = 2131296424;
+			
 			// aapt resource value: 0x7f09006d
 			public const int highlight_alpha_material_colored = 2131296365;
 			
@@ -2156,6 +3598,24 @@ namespace SMobile.Android
 			
 			// aapt resource value: 0x7f090019
 			public const int item_touch_helper_swipe_escape_velocity = 2131296281;
+			
+			// aapt resource value: 0x7f0900a9
+			public const int label_text_size = 2131296425;
+			
+			// aapt resource value: 0x7f0900ae
+			public const int margin_layout_user = 2131296430;
+			
+			// aapt resource value: 0x7f0900b1
+			public const int menu_container_item_icon_margin = 2131296433;
+			
+			// aapt resource value: 0x7f0900b0
+			public const int menu_item_icon_margin = 2131296432;
+			
+			// aapt resource value: 0x7f0900af
+			public const int menu_item_icon_size = 2131296431;
+			
+			// aapt resource value: 0x7f0900aa
+			public const int min_content_height = 2131296426;
 			
 			// aapt resource value: 0x7f090074
 			public const int notification_action_icon_size = 2131296372;
@@ -2201,6 +3661,15 @@ namespace SMobile.Android
 			
 			// aapt resource value: 0x7f09007e
 			public const int notification_top_pad_large_text = 2131296382;
+			
+			// aapt resource value: 0x7f0900ab
+			public const int right_left_spinner_padding = 2131296427;
+			
+			// aapt resource value: 0x7f0900ac
+			public const int underline_bottom_spacing = 2131296428;
+			
+			// aapt resource value: 0x7f0900ad
+			public const int underline_top_spacing = 2131296429;
 			
 			static Dimension()
 			{
@@ -2467,26 +3936,26 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f020053
 			public const int avd_hide_password = 2130837587;
 			
-			// aapt resource value: 0x7f0200b9
-			public const int avd_hide_password_1 = 2130837689;
+			// aapt resource value: 0x7f0200cd
+			public const int avd_hide_password_1 = 2130837709;
 			
-			// aapt resource value: 0x7f0200ba
-			public const int avd_hide_password_2 = 2130837690;
+			// aapt resource value: 0x7f0200ce
+			public const int avd_hide_password_2 = 2130837710;
 			
-			// aapt resource value: 0x7f0200bb
-			public const int avd_hide_password_3 = 2130837691;
+			// aapt resource value: 0x7f0200cf
+			public const int avd_hide_password_3 = 2130837711;
 			
 			// aapt resource value: 0x7f020054
 			public const int avd_show_password = 2130837588;
 			
-			// aapt resource value: 0x7f0200bc
-			public const int avd_show_password_1 = 2130837692;
+			// aapt resource value: 0x7f0200d0
+			public const int avd_show_password_1 = 2130837712;
 			
-			// aapt resource value: 0x7f0200bd
-			public const int avd_show_password_2 = 2130837693;
+			// aapt resource value: 0x7f0200d1
+			public const int avd_show_password_2 = 2130837713;
 			
-			// aapt resource value: 0x7f0200be
-			public const int avd_show_password_3 = 2130837694;
+			// aapt resource value: 0x7f0200d2
+			public const int avd_show_password_3 = 2130837714;
 			
 			// aapt resource value: 0x7f020055
 			public const int background_button_flat = 2130837589;
@@ -2669,124 +4138,184 @@ namespace SMobile.Android
 			public const int ic_add = 2130837648;
 			
 			// aapt resource value: 0x7f020091
-			public const int ic_config = 2130837649;
+			public const int ic_business = 2130837649;
 			
 			// aapt resource value: 0x7f020092
-			public const int ic_favorite = 2130837650;
+			public const int ic_call = 2130837650;
 			
 			// aapt resource value: 0x7f020093
-			public const int ic_home = 2130837651;
+			public const int ic_config = 2130837651;
 			
 			// aapt resource value: 0x7f020094
-			public const int ic_isotipo_sadara = 2130837652;
+			public const int ic_favorite = 2130837652;
 			
 			// aapt resource value: 0x7f020095
-			public const int ic_isotipo_sadara_ico = 2130837653;
+			public const int ic_home = 2130837653;
 			
 			// aapt resource value: 0x7f020096
-			public const int ic_message = 2130837654;
+			public const int ic_isotipo_sadara = 2130837654;
 			
 			// aapt resource value: 0x7f020097
-			public const int ic_navheader_profile = 2130837655;
+			public const int ic_isotipo_sadara_ico = 2130837655;
 			
 			// aapt resource value: 0x7f020098
-			public const int ic_off_session = 2130837656;
+			public const int ic_list_message = 2130837656;
 			
 			// aapt resource value: 0x7f020099
-			public const int ic_people = 2130837657;
+			public const int ic_list_message2 = 2130837657;
 			
 			// aapt resource value: 0x7f02009a
-			public const int ic_playlist_add = 2130837658;
+			public const int ic_menu_down = 2130837658;
 			
 			// aapt resource value: 0x7f02009b
-			public const int ic_plusone_medium_off_client = 2130837659;
+			public const int ic_message = 2130837659;
 			
 			// aapt resource value: 0x7f02009c
-			public const int ic_plusone_small_off_client = 2130837660;
+			public const int ic_navheader_profile = 2130837660;
 			
 			// aapt resource value: 0x7f02009d
-			public const int ic_plusone_standard_off_client = 2130837661;
+			public const int ic_next = 2130837661;
 			
 			// aapt resource value: 0x7f02009e
-			public const int ic_plusone_tall_off_client = 2130837662;
+			public const int ic_off_session = 2130837662;
 			
 			// aapt resource value: 0x7f02009f
-			public const int ic_save = 2130837663;
+			public const int ic_people = 2130837663;
 			
 			// aapt resource value: 0x7f0200a0
-			public const int ic_send = 2130837664;
+			public const int ic_playlist_add = 2130837664;
 			
 			// aapt resource value: 0x7f0200a1
-			public const int messenger_bubble_large_blue = 2130837665;
+			public const int ic_plusone_medium_off_client = 2130837665;
 			
 			// aapt resource value: 0x7f0200a2
-			public const int messenger_bubble_large_white = 2130837666;
+			public const int ic_plusone_small_off_client = 2130837666;
 			
 			// aapt resource value: 0x7f0200a3
-			public const int messenger_bubble_small_blue = 2130837667;
+			public const int ic_plusone_standard_off_client = 2130837667;
 			
 			// aapt resource value: 0x7f0200a4
-			public const int messenger_bubble_small_white = 2130837668;
+			public const int ic_plusone_tall_off_client = 2130837668;
 			
 			// aapt resource value: 0x7f0200a5
-			public const int messenger_button_blue_bg_round = 2130837669;
+			public const int ic_save = 2130837669;
 			
 			// aapt resource value: 0x7f0200a6
-			public const int messenger_button_blue_bg_selector = 2130837670;
+			public const int ic_search = 2130837670;
 			
 			// aapt resource value: 0x7f0200a7
-			public const int messenger_button_send_round_shadow = 2130837671;
+			public const int ic_search_svg = 2130837671;
 			
 			// aapt resource value: 0x7f0200a8
-			public const int messenger_button_white_bg_round = 2130837672;
+			public const int ic_send = 2130837672;
 			
 			// aapt resource value: 0x7f0200a9
-			public const int messenger_button_white_bg_selector = 2130837673;
+			public const int ic_star = 2130837673;
 			
 			// aapt resource value: 0x7f0200aa
-			public const int navigation_empty_icon = 2130837674;
+			public const int ic_star_empty = 2130837674;
 			
 			// aapt resource value: 0x7f0200ab
-			public const int notification_action_background = 2130837675;
+			public const int ic_user_man = 2130837675;
 			
 			// aapt resource value: 0x7f0200ac
-			public const int notification_bg = 2130837676;
+			public const int ic_user_woman = 2130837676;
 			
 			// aapt resource value: 0x7f0200ad
-			public const int notification_bg_low = 2130837677;
+			public const int img_features = 2130837677;
 			
 			// aapt resource value: 0x7f0200ae
-			public const int notification_bg_low_normal = 2130837678;
+			public const int img_slider1 = 2130837678;
 			
 			// aapt resource value: 0x7f0200af
-			public const int notification_bg_low_pressed = 2130837679;
+			public const int img_slider2 = 2130837679;
 			
 			// aapt resource value: 0x7f0200b0
-			public const int notification_bg_normal = 2130837680;
+			public const int menu_toolbar_ripple = 2130837680;
 			
 			// aapt resource value: 0x7f0200b1
-			public const int notification_bg_normal_pressed = 2130837681;
+			public const int messenger_bubble_large_blue = 2130837681;
 			
 			// aapt resource value: 0x7f0200b2
-			public const int notification_icon_background = 2130837682;
-			
-			// aapt resource value: 0x7f0200b7
-			public const int notification_template_icon_bg = 2130837687;
-			
-			// aapt resource value: 0x7f0200b8
-			public const int notification_template_icon_low_bg = 2130837688;
+			public const int messenger_bubble_large_white = 2130837682;
 			
 			// aapt resource value: 0x7f0200b3
-			public const int notification_tile_bg = 2130837683;
+			public const int messenger_bubble_small_blue = 2130837683;
 			
 			// aapt resource value: 0x7f0200b4
-			public const int notify_panel_notification_icon_bg = 2130837684;
+			public const int messenger_bubble_small_white = 2130837684;
 			
 			// aapt resource value: 0x7f0200b5
-			public const int recyclerview_background = 2130837685;
+			public const int messenger_button_blue_bg_round = 2130837685;
 			
 			// aapt resource value: 0x7f0200b6
-			public const int user_preference_background_item = 2130837686;
+			public const int messenger_button_blue_bg_selector = 2130837686;
+			
+			// aapt resource value: 0x7f0200b7
+			public const int messenger_button_send_round_shadow = 2130837687;
+			
+			// aapt resource value: 0x7f0200b8
+			public const int messenger_button_white_bg_round = 2130837688;
+			
+			// aapt resource value: 0x7f0200b9
+			public const int messenger_button_white_bg_selector = 2130837689;
+			
+			// aapt resource value: 0x7f0200ba
+			public const int my_background = 2130837690;
+			
+			// aapt resource value: 0x7f0200bb
+			public const int navigation_empty_icon = 2130837691;
+			
+			// aapt resource value: 0x7f0200bc
+			public const int notification_action_background = 2130837692;
+			
+			// aapt resource value: 0x7f0200bd
+			public const int notification_bg = 2130837693;
+			
+			// aapt resource value: 0x7f0200be
+			public const int notification_bg_low = 2130837694;
+			
+			// aapt resource value: 0x7f0200bf
+			public const int notification_bg_low_normal = 2130837695;
+			
+			// aapt resource value: 0x7f0200c0
+			public const int notification_bg_low_pressed = 2130837696;
+			
+			// aapt resource value: 0x7f0200c1
+			public const int notification_bg_normal = 2130837697;
+			
+			// aapt resource value: 0x7f0200c2
+			public const int notification_bg_normal_pressed = 2130837698;
+			
+			// aapt resource value: 0x7f0200c3
+			public const int notification_icon_background = 2130837699;
+			
+			// aapt resource value: 0x7f0200cb
+			public const int notification_template_icon_bg = 2130837707;
+			
+			// aapt resource value: 0x7f0200cc
+			public const int notification_template_icon_low_bg = 2130837708;
+			
+			// aapt resource value: 0x7f0200c4
+			public const int notification_tile_bg = 2130837700;
+			
+			// aapt resource value: 0x7f0200c5
+			public const int notify_panel_notification_icon_bg = 2130837701;
+			
+			// aapt resource value: 0x7f0200c6
+			public const int psts_background_tab = 2130837702;
+			
+			// aapt resource value: 0x7f0200c7
+			public const int recyclerview_background = 2130837703;
+			
+			// aapt resource value: 0x7f0200c8
+			public const int search = 2130837704;
+			
+			// aapt resource value: 0x7f0200c9
+			public const int selector_bottom_nav_item_color = 2130837705;
+			
+			// aapt resource value: 0x7f0200ca
+			public const int user_preference_background_item = 2130837706;
 			
 			static Drawable()
 			{
@@ -2801,68 +4330,104 @@ namespace SMobile.Android
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0b00f4
-			public const int HeaderTextLayout = 2131427572;
-			
-			// aapt resource value: 0x7f0b00fa
-			public const int ItemPreferenceLayout = 2131427578;
+			// aapt resource value: 0x7f0b00b6
+			public const int Description = 2131427510;
 			
 			// aapt resource value: 0x7f0b00d2
-			public const int SignOut = 2131427538;
+			public const int Empty = 2131427538;
 			
-			// aapt resource value: 0x7f0b00c8
-			public const int Signin = 2131427528;
+			// aapt resource value: 0x7f0b0151
+			public const int HeaderTextLayout = 2131427665;
 			
-			// aapt resource value: 0x7f0b00d7
-			public const int Signup = 2131427543;
+			// aapt resource value: 0x7f0b010b
+			public const int Id_ImageView = 2131427595;
+			
+			// aapt resource value: 0x7f0b00b4
+			public const int ImageProduct = 2131427508;
+			
+			// aapt resource value: 0x7f0b00be
+			public const int Image_star1 = 2131427518;
+			
+			// aapt resource value: 0x7f0b00bf
+			public const int Image_star2 = 2131427519;
+			
+			// aapt resource value: 0x7f0b00c0
+			public const int Image_star3 = 2131427520;
+			
+			// aapt resource value: 0x7f0b00c1
+			public const int Image_star4 = 2131427521;
+			
+			// aapt resource value: 0x7f0b00c2
+			public const int Image_star5 = 2131427522;
+			
+			// aapt resource value: 0x7f0b0157
+			public const int ItemPreferenceLayout = 2131427671;
+			
+			// aapt resource value: 0x7f0b00b5
+			public const int NameProduct = 2131427509;
+			
+			// aapt resource value: 0x7f0b00d3
+			public const int RVProducts = 2131427539;
+			
+			// aapt resource value: 0x7f0b0114
+			public const int Signin = 2131427604;
+			
+			// aapt resource value: 0x7f0b011c
+			public const int Signup = 2131427612;
+			
+			// aapt resource value: 0x7f0b013a
+			public const int SignupAccount = 2131427642;
+			
+			// aapt resource value: 0x7f0b0112
+			public const int SignupAppBarLayout = 2131427602;
+			
+			// aapt resource value: 0x7f0b013c
+			public const int SignupGenderLayout = 2131427644;
+			
+			// aapt resource value: 0x7f0b00cf
+			public const int ToolbarSearch = 2131427535;
+			
+			// aapt resource value: 0x7f0b014d
+			public const int UserListAppBarLayout = 2131427661;
+			
+			// aapt resource value: 0x7f0b0155
+			public const int UserPreferenceItemLayout = 2131427669;
 			
 			// aapt resource value: 0x7f0b00e1
-			public const int SignupEmailOrPhone = 2131427553;
+			public const int action0 = 2131427553;
 			
-			// aapt resource value: 0x7f0b00e8
-			public const int SignupGenderLayout = 2131427560;
-			
-			// aapt resource value: 0x7f0b00f0
-			public const int UserListAppBarLayout = 2131427568;
-			
-			// aapt resource value: 0x7f0b00f8
-			public const int UserPreferenceItemLayout = 2131427576;
-			
-			// aapt resource value: 0x7f0b00b2
-			public const int action0 = 2131427506;
-			
-			// aapt resource value: 0x7f0b0079
-			public const int action_bar = 2131427449;
+			// aapt resource value: 0x7f0b007e
+			public const int action_bar = 2131427454;
 			
 			// aapt resource value: 0x7f0b0001
 			public const int action_bar_activity_content = 2131427329;
 			
-			// aapt resource value: 0x7f0b0078
-			public const int action_bar_container = 2131427448;
+			// aapt resource value: 0x7f0b007d
+			public const int action_bar_container = 2131427453;
 			
-			// aapt resource value: 0x7f0b0074
-			public const int action_bar_root = 2131427444;
+			// aapt resource value: 0x7f0b0079
+			public const int action_bar_root = 2131427449;
 			
 			// aapt resource value: 0x7f0b0002
 			public const int action_bar_spinner = 2131427330;
 			
-			// aapt resource value: 0x7f0b0057
-			public const int action_bar_subtitle = 2131427415;
+			// aapt resource value: 0x7f0b005c
+			public const int action_bar_subtitle = 2131427420;
 			
-			// aapt resource value: 0x7f0b0056
-			public const int action_bar_title = 2131427414;
+			// aapt resource value: 0x7f0b005b
+			public const int action_bar_title = 2131427419;
 			
-			// aapt resource value: 0x7f0b00af
-			public const int action_container = 2131427503;
+			// aapt resource value: 0x7f0b00de
+			public const int action_container = 2131427550;
 			
-			// aapt resource value: 0x7f0b007a
-			public const int action_context_bar = 2131427450;
+			// aapt resource value: 0x7f0b007f
+			public const int action_context_bar = 2131427455;
 			
-			// aapt resource value: 0x7f0b00b6
-			public const int action_divider = 2131427510;
+			// aapt resource value: 0x7f0b00e5
+			public const int action_divider = 2131427557;
 			
-			// aapt resource value: 0x7f0b00b0
-			public const int action_image = 2131427504;
+			// aapt resource value: 0x7f0b00df
+			public const int action_image = 2131427551;
 			
 			// aapt resource value: 0x7f0b0003
 			public const int action_menu_divider = 2131427331;
@@ -2870,26 +4435,32 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f0b0004
 			public const int action_menu_presenter = 2131427332;
 			
-			// aapt resource value: 0x7f0b0076
-			public const int action_mode_bar = 2131427446;
+			// aapt resource value: 0x7f0b007b
+			public const int action_mode_bar = 2131427451;
 			
-			// aapt resource value: 0x7f0b0075
-			public const int action_mode_bar_stub = 2131427445;
+			// aapt resource value: 0x7f0b007a
+			public const int action_mode_bar_stub = 2131427450;
 			
-			// aapt resource value: 0x7f0b0058
-			public const int action_mode_close_button = 2131427416;
+			// aapt resource value: 0x7f0b005d
+			public const int action_mode_close_button = 2131427421;
 			
-			// aapt resource value: 0x7f0b00b1
-			public const int action_text = 2131427505;
+			// aapt resource value: 0x7f0b00e0
+			public const int action_text = 2131427552;
 			
-			// aapt resource value: 0x7f0b00bf
-			public const int actions = 2131427519;
+			// aapt resource value: 0x7f0b00f8
+			public const int actionmenuImageView = 2131427576;
 			
-			// aapt resource value: 0x7f0b0059
-			public const int activity_chooser_view_content = 2131427417;
+			// aapt resource value: 0x7f0b00ee
+			public const int actions = 2131427566;
+			
+			// aapt resource value: 0x7f0b005e
+			public const int activity_chooser_view_content = 2131427422;
 			
 			// aapt resource value: 0x7f0b0039
 			public const int add = 2131427385;
+			
+			// aapt resource value: 0x7f0b015d
+			public const int add_entity = 2131427677;
 			
 			// aapt resource value: 0x7f0b0014
 			public const int adjust_height = 2131427348;
@@ -2897,8 +4468,11 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f0b0015
 			public const int adjust_width = 2131427349;
 			
-			// aapt resource value: 0x7f0b006d
-			public const int alertTitle = 2131427437;
+			// aapt resource value: 0x7f0b0145
+			public const int advertisingLinearLayout = 2131427653;
+			
+			// aapt resource value: 0x7f0b0072
+			public const int alertTitle = 2131427442;
 			
 			// aapt resource value: 0x7f0b0052
 			public const int all = 2131427410;
@@ -2906,8 +4480,11 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f0b003e
 			public const int always = 2131427390;
 			
-			// aapt resource value: 0x7f0b00ab
-			public const int appbar = 2131427499;
+			// aapt resource value: 0x7f0b00d5
+			public const int appbar = 2131427541;
+			
+			// aapt resource value: 0x7f0b0095
+			public const int attentionTextView = 2131427477;
 			
 			// aapt resource value: 0x7f0b0019
 			public const int auto = 2131427353;
@@ -2918,23 +4495,62 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f0b003b
 			public const int beginning = 2131427387;
 			
+			// aapt resource value: 0x7f0b0126
+			public const int birthdateLinearLayout = 2131427622;
+			
+			// aapt resource value: 0x7f0b0125
+			public const int birthdateTextView = 2131427621;
+			
+			// aapt resource value: 0x7f0b0059
+			public const int bold = 2131427417;
+			
 			// aapt resource value: 0x7f0b0021
 			public const int bottom = 2131427361;
 			
 			// aapt resource value: 0x7f0b001f
 			public const int box_count = 2131427359;
 			
+			// aapt resource value: 0x7f0b008f
+			public const int businessRecyclerView = 2131427471;
+			
+			// aapt resource value: 0x7f0b008d
+			public const int business_fragment_layout = 2131427469;
+			
+			// aapt resource value: 0x7f0b0090
+			public const int business_item_cardview = 2131427472;
+			
 			// aapt resource value: 0x7f0b0020
 			public const int button = 2131427360;
 			
-			// aapt resource value: 0x7f0b0060
-			public const int buttonPanel = 2131427424;
+			// aapt resource value: 0x7f0b0065
+			public const int buttonPanel = 2131427429;
+			
+			// aapt resource value: 0x7f0b00db
+			public const int buttonmap = 2131427547;
+			
+			// aapt resource value: 0x7f0b00d8
+			public const int buttonmapintro = 2131427544;
+			
+			// aapt resource value: 0x7f0b0097
+			public const int callFab = 2131427479;
+			
+			// aapt resource value: 0x7f0b0093
+			public const int callLinearLayout = 2131427475;
+			
+			// aapt resource value: 0x7f0b00e2
+			public const int cancel_action = 2131427554;
+			
+			// aapt resource value: 0x7f0b009c
+			public const int cancel_button = 2131427484;
+			
+			// aapt resource value: 0x7f0b00ff
+			public const int captionOfferLinearLayout = 2131427583;
+			
+			// aapt resource value: 0x7f0b0096
+			public const int captionTextView = 2131427478;
 			
 			// aapt resource value: 0x7f0b00b3
-			public const int cancel_action = 2131427507;
-			
-			// aapt resource value: 0x7f0b008c
-			public const int cancel_button = 2131427468;
+			public const int card_view = 2131427507;
 			
 			// aapt resource value: 0x7f0b0024
 			public const int center = 2131427364;
@@ -2945,11 +4561,20 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f0b0049
 			public const int center_vertical = 2131427401;
 			
-			// aapt resource value: 0x7f0b0070
-			public const int checkbox = 2131427440;
+			// aapt resource value: 0x7f0b00d0
+			public const int check_price = 2131427536;
 			
-			// aapt resource value: 0x7f0b00bb
-			public const int chronometer = 2131427515;
+			// aapt resource value: 0x7f0b00d1
+			public const int check_ranking = 2131427537;
+			
+			// aapt resource value: 0x7f0b0075
+			public const int checkbox = 2131427445;
+			
+			// aapt resource value: 0x7f0b00ea
+			public const int chronometer = 2131427562;
+			
+			// aapt resource value: 0x7f0b0056
+			public const int clamp = 2131427414;
 			
 			// aapt resource value: 0x7f0b004e
 			public const int clip_horizontal = 2131427406;
@@ -2960,83 +4585,101 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f0b003f
 			public const int collapseActionView = 2131427391;
 			
-			// aapt resource value: 0x7f0b0090
-			public const int com_facebook_body_frame = 2131427472;
+			// aapt resource value: 0x7f0b00a0
+			public const int com_facebook_body_frame = 2131427488;
 			
-			// aapt resource value: 0x7f0b0092
-			public const int com_facebook_button_xout = 2131427474;
+			// aapt resource value: 0x7f0b00a2
+			public const int com_facebook_button_xout = 2131427490;
 			
-			// aapt resource value: 0x7f0b008b
-			public const int com_facebook_device_auth_instructions = 2131427467;
-			
-			// aapt resource value: 0x7f0b0088
-			public const int com_facebook_fragment_container = 2131427464;
-			
-			// aapt resource value: 0x7f0b008d
-			public const int com_facebook_login_activity_progress_bar = 2131427469;
-			
-			// aapt resource value: 0x7f0b008e
-			public const int com_facebook_smart_instructions_0 = 2131427470;
-			
-			// aapt resource value: 0x7f0b008f
-			public const int com_facebook_smart_instructions_or = 2131427471;
-			
-			// aapt resource value: 0x7f0b0094
-			public const int com_facebook_tooltip_bubble_view_bottom_pointer = 2131427476;
-			
-			// aapt resource value: 0x7f0b0093
-			public const int com_facebook_tooltip_bubble_view_text_body = 2131427475;
-			
-			// aapt resource value: 0x7f0b0091
-			public const int com_facebook_tooltip_bubble_view_top_pointer = 2131427473;
-			
-			// aapt resource value: 0x7f0b0089
-			public const int confirmation_code = 2131427465;
-			
-			// aapt resource value: 0x7f0b0097
-			public const int container = 2131427479;
-			
-			// aapt resource value: 0x7f0b00d9
-			public const int contentLayout = 2131427545;
-			
-			// aapt resource value: 0x7f0b0063
-			public const int contentPanel = 2131427427;
+			// aapt resource value: 0x7f0b009b
+			public const int com_facebook_device_auth_instructions = 2131427483;
 			
 			// aapt resource value: 0x7f0b0098
-			public const int coordinator = 2131427480;
+			public const int com_facebook_fragment_container = 2131427480;
 			
-			// aapt resource value: 0x7f0b006a
-			public const int custom = 2131427434;
+			// aapt resource value: 0x7f0b009d
+			public const int com_facebook_login_activity_progress_bar = 2131427485;
 			
-			// aapt resource value: 0x7f0b0069
-			public const int customPanel = 2131427433;
+			// aapt resource value: 0x7f0b009e
+			public const int com_facebook_smart_instructions_0 = 2131427486;
+			
+			// aapt resource value: 0x7f0b009f
+			public const int com_facebook_smart_instructions_or = 2131427487;
+			
+			// aapt resource value: 0x7f0b00a4
+			public const int com_facebook_tooltip_bubble_view_bottom_pointer = 2131427492;
+			
+			// aapt resource value: 0x7f0b00a3
+			public const int com_facebook_tooltip_bubble_view_text_body = 2131427491;
+			
+			// aapt resource value: 0x7f0b00a1
+			public const int com_facebook_tooltip_bubble_view_top_pointer = 2131427489;
+			
+			// aapt resource value: 0x7f0b00c3
+			public const int company = 2131427523;
+			
+			// aapt resource value: 0x7f0b0099
+			public const int confirmation_code = 2131427481;
+			
+			// aapt resource value: 0x7f0b0133
+			public const int contactLinearLayout = 2131427635;
+			
+			// aapt resource value: 0x7f0b00a7
+			public const int container = 2131427495;
+			
+			// aapt resource value: 0x7f0b011e
+			public const int contentLayout = 2131427614;
+			
+			// aapt resource value: 0x7f0b0068
+			public const int contentPanel = 2131427432;
+			
+			// aapt resource value: 0x7f0b00a8
+			public const int coordinator = 2131427496;
+			
+			// aapt resource value: 0x7f0b00fb
+			public const int coverImageView = 2131427579;
+			
+			// aapt resource value: 0x7f0b006f
+			public const int custom = 2131427439;
+			
+			// aapt resource value: 0x7f0b006e
+			public const int customPanel = 2131427438;
 			
 			// aapt resource value: 0x7f0b001a
 			public const int dark = 2131427354;
 			
-			// aapt resource value: 0x7f0b00c9
-			public const int dataInputLayout = 2131427529;
+			// aapt resource value: 0x7f0b0115
+			public const int dataInputLayout = 2131427605;
 			
-			// aapt resource value: 0x7f0b0077
-			public const int decor_content_parent = 2131427447;
+			// aapt resource value: 0x7f0b0128
+			public const int dayEditText = 2131427624;
 			
-			// aapt resource value: 0x7f0b005c
-			public const int default_activity_button = 2131427420;
+			// aapt resource value: 0x7f0b0127
+			public const int dayTextInputLayout = 2131427623;
 			
-			// aapt resource value: 0x7f0b009a
-			public const int design_bottom_sheet = 2131427482;
+			// aapt resource value: 0x7f0b007c
+			public const int decor_content_parent = 2131427452;
 			
-			// aapt resource value: 0x7f0b00a1
-			public const int design_menu_item_action_area = 2131427489;
+			// aapt resource value: 0x7f0b0061
+			public const int default_activity_button = 2131427425;
 			
-			// aapt resource value: 0x7f0b00a0
-			public const int design_menu_item_action_area_stub = 2131427488;
+			// aapt resource value: 0x7f0b0101
+			public const int descriptionoffersTextView = 2131427585;
 			
-			// aapt resource value: 0x7f0b009f
-			public const int design_menu_item_text = 2131427487;
+			// aapt resource value: 0x7f0b00aa
+			public const int design_bottom_sheet = 2131427498;
 			
-			// aapt resource value: 0x7f0b009e
-			public const int design_navigation_view = 2131427486;
+			// aapt resource value: 0x7f0b00b1
+			public const int design_menu_item_action_area = 2131427505;
+			
+			// aapt resource value: 0x7f0b00b0
+			public const int design_menu_item_action_area_stub = 2131427504;
+			
+			// aapt resource value: 0x7f0b00af
+			public const int design_menu_item_text = 2131427503;
+			
+			// aapt resource value: 0x7f0b00ae
+			public const int design_navigation_view = 2131427502;
 			
 			// aapt resource value: 0x7f0b002e
 			public const int disableHome = 2131427374;
@@ -3044,23 +4687,26 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f0b0028
 			public const int display_always = 2131427368;
 			
-			// aapt resource value: 0x7f0b00a3
-			public const int drawer_layout = 2131427491;
+			// aapt resource value: 0x7f0b00c4
+			public const int drawer_layout = 2131427524;
 			
-			// aapt resource value: 0x7f0b007b
-			public const int edit_query = 2131427451;
+			// aapt resource value: 0x7f0b0080
+			public const int edit_query = 2131427456;
 			
-			// aapt resource value: 0x7f0b00e3
-			public const int emailEditText = 2131427555;
-			
-			// aapt resource value: 0x7f0b00e2
-			public const int emailTextInputLayout = 2131427554;
+			// aapt resource value: 0x7f0b013b
+			public const int emailEditText = 2131427643;
 			
 			// aapt resource value: 0x7f0b003c
 			public const int end = 2131427388;
 			
-			// aapt resource value: 0x7f0b00c5
-			public const int end_padder = 2131427525;
+			// aapt resource value: 0x7f0b00fe
+			public const int endDateTextView = 2131427582;
+			
+			// aapt resource value: 0x7f0b00fd
+			public const int endTextView = 2131427581;
+			
+			// aapt resource value: 0x7f0b00f4
+			public const int end_padder = 2131427572;
 			
 			// aapt resource value: 0x7f0b0043
 			public const int enterAlways = 2131427395;
@@ -3071,20 +4717,20 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f0b0045
 			public const int exitUntilCollapsed = 2131427397;
 			
-			// aapt resource value: 0x7f0b005a
-			public const int expand_activities_button = 2131427418;
+			// aapt resource value: 0x7f0b005f
+			public const int expand_activities_button = 2131427423;
 			
-			// aapt resource value: 0x7f0b006f
-			public const int expanded_menu = 2131427439;
+			// aapt resource value: 0x7f0b0074
+			public const int expanded_menu = 2131427444;
 			
-			// aapt resource value: 0x7f0b00f2
-			public const int fab = 2131427570;
+			// aapt resource value: 0x7f0b014f
+			public const int fab = 2131427663;
 			
-			// aapt resource value: 0x7f0b00d0
-			public const int facebookButton = 2131427536;
+			// aapt resource value: 0x7f0b0148
+			public const int featuresImageView = 2131427656;
 			
-			// aapt resource value: 0x7f0b00ed
-			public const int femaleRadioButton = 2131427565;
+			// aapt resource value: 0x7f0b0131
+			public const int femaleRadioButton = 2131427633;
 			
 			// aapt resource value: 0x7f0b0050
 			public const int fill = 2131427408;
@@ -3095,29 +4741,44 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f0b004a
 			public const int fill_vertical = 2131427402;
 			
-			// aapt resource value: 0x7f0b00dc
-			public const int firstnameEditText = 2131427548;
+			// aapt resource value: 0x7f0b0122
+			public const int firstnameEditText = 2131427618;
 			
-			// aapt resource value: 0x7f0b00db
-			public const int firstnameTextInputLayout = 2131427547;
+			// aapt resource value: 0x7f0b0121
+			public const int firstnameTextInputLayout = 2131427617;
 			
 			// aapt resource value: 0x7f0b0054
 			public const int @fixed = 2131427412;
 			
-			// aapt resource value: 0x7f0b00cd
-			public const int forgotPasswordTextView = 2131427533;
+			// aapt resource value: 0x7f0b015f
+			public const int follow_user = 2131427679;
 			
-			// aapt resource value: 0x7f0b00e9
-			public const int genderLayout = 2131427561;
+			// aapt resource value: 0x7f0b011b
+			public const int forgotPasswordTextView = 2131427611;
 			
-			// aapt resource value: 0x7f0b00eb
-			public const int genderRadioGroup = 2131427563;
+			// aapt resource value: 0x7f0b00cb
+			public const int frame_container = 2131427531;
 			
-			// aapt resource value: 0x7f0b00ea
-			public const int genderTextLayout = 2131427562;
+			// aapt resource value: 0x7f0b013f
+			public const int genderLayout = 2131427647;
 			
-			// aapt resource value: 0x7f0b00d8
-			public const int headerInclude = 2131427544;
+			// aapt resource value: 0x7f0b012e
+			public const int genderLinearLayout = 2131427630;
+			
+			// aapt resource value: 0x7f0b012f
+			public const int genderRadioGroup = 2131427631;
+			
+			// aapt resource value: 0x7f0b0140
+			public const int genderTextLayout = 2131427648;
+			
+			// aapt resource value: 0x7f0b012d
+			public const int genderTextView = 2131427629;
+			
+			// aapt resource value: 0x7f0b013d
+			public const int headerInclude = 2131427645;
+			
+			// aapt resource value: 0x7f0b0143
+			public const int headerRelativeLayout = 2131427651;
 			
 			// aapt resource value: 0x7f0b0005
 			public const int home = 2131427333;
@@ -3128,17 +4789,14 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f0b000f
 			public const int hybrid = 2131427343;
 			
-			// aapt resource value: 0x7f0b005e
-			public const int icon = 2131427422;
+			// aapt resource value: 0x7f0b0063
+			public const int icon = 2131427427;
 			
-			// aapt resource value: 0x7f0b00c7
-			public const int iconImageView = 2131427527;
+			// aapt resource value: 0x7f0b0144
+			public const int iconImageView = 2131427652;
 			
-			// aapt resource value: 0x7f0b00c6
-			public const int iconLayout = 2131427526;
-			
-			// aapt resource value: 0x7f0b00c0
-			public const int icon_group = 2131427520;
+			// aapt resource value: 0x7f0b00ef
+			public const int icon_group = 2131427567;
 			
 			// aapt resource value: 0x7f0b0016
 			public const int icon_only = 2131427350;
@@ -3146,14 +4804,26 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f0b0040
 			public const int ifRoom = 2131427392;
 			
-			// aapt resource value: 0x7f0b005b
-			public const int image = 2131427419;
+			// aapt resource value: 0x7f0b0060
+			public const int image = 2131427424;
 			
-			// aapt resource value: 0x7f0b00bc
-			public const int info = 2131427516;
+			// aapt resource value: 0x7f0b00eb
+			public const int info = 2131427563;
+			
+			// aapt resource value: 0x7f0b0092
+			public const int infoLinearLayout = 2131427474;
 			
 			// aapt resource value: 0x7f0b0022
 			public const int inline = 2131427362;
+			
+			// aapt resource value: 0x7f0b005a
+			public const int italic = 2131427418;
+			
+			// aapt resource value: 0x7f0b0102
+			public const int item_subtitle = 2131427586;
+			
+			// aapt resource value: 0x7f0b0103
+			public const int item_title = 2131427587;
 			
 			// aapt resource value: 0x7f0b0000
 			public const int item_touch_helper_previous_elevation = 2131427328;
@@ -3161,14 +4831,14 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f0b002a
 			public const int large = 2131427370;
 			
-			// aapt resource value: 0x7f0b0096
-			public const int largeLabel = 2131427478;
+			// aapt resource value: 0x7f0b00a6
+			public const int largeLabel = 2131427494;
 			
-			// aapt resource value: 0x7f0b00de
-			public const int lastnameEditText = 2131427550;
+			// aapt resource value: 0x7f0b0124
+			public const int lastnameEditText = 2131427620;
 			
-			// aapt resource value: 0x7f0b00dd
-			public const int lastnameTextInputLayout = 2131427549;
+			// aapt resource value: 0x7f0b0123
+			public const int lastnameTextInputLayout = 2131427619;
 			
 			// aapt resource value: 0x7f0b0025
 			public const int left = 2131427365;
@@ -3176,41 +4846,47 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f0b001b
 			public const int light = 2131427355;
 			
-			// aapt resource value: 0x7f0b00c1
-			public const int line1 = 2131427521;
+			// aapt resource value: 0x7f0b00f0
+			public const int line1 = 2131427568;
 			
-			// aapt resource value: 0x7f0b00c3
-			public const int line3 = 2131427523;
+			// aapt resource value: 0x7f0b00f2
+			public const int line3 = 2131427570;
+			
+			// aapt resource value: 0x7f0b00bc
+			public const int linearStars = 2131427516;
 			
 			// aapt resource value: 0x7f0b002c
 			public const int listMode = 2131427372;
 			
-			// aapt resource value: 0x7f0b005d
-			public const int list_item = 2131427421;
+			// aapt resource value: 0x7f0b0062
+			public const int list_item = 2131427426;
 			
-			// aapt resource value: 0x7f0b00e0
-			public const int loginLayout = 2131427552;
+			// aapt resource value: 0x7f0b0136
+			public const int loginLayout = 2131427638;
 			
-			// aapt resource value: 0x7f0b00cf
-			public const int login_button = 2131427535;
+			// aapt resource value: 0x7f0b00d4
+			public const int main_content = 2131427540;
 			
-			// aapt resource value: 0x7f0b00aa
-			public const int main_content = 2131427498;
+			// aapt resource value: 0x7f0b00c8
+			public const int main_fragment = 2131427528;
 			
-			// aapt resource value: 0x7f0b00ec
-			public const int maleRadioButton = 2131427564;
+			// aapt resource value: 0x7f0b00c5
+			public const int main_toolbar_include = 2131427525;
 			
-			// aapt resource value: 0x7f0b00ad
-			public const int maps_fragment_layout = 2131427501;
+			// aapt resource value: 0x7f0b0130
+			public const int maleRadioButton = 2131427632;
 			
-			// aapt resource value: 0x7f0b00fe
-			public const int masked = 2131427582;
+			// aapt resource value: 0x7f0b00dc
+			public const int maps_fragment = 2131427548;
 			
-			// aapt resource value: 0x7f0b00b5
-			public const int media_actions = 2131427509;
+			// aapt resource value: 0x7f0b015b
+			public const int masked = 2131427675;
 			
-			// aapt resource value: 0x7f0b00ae
-			public const int messenger_send_button = 2131427502;
+			// aapt resource value: 0x7f0b00e4
+			public const int media_actions = 2131427556;
+			
+			// aapt resource value: 0x7f0b00dd
+			public const int messenger_send_button = 2131427549;
 			
 			// aapt resource value: 0x7f0b003d
 			public const int middle = 2131427389;
@@ -3218,53 +4894,47 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f0b0053
 			public const int mini = 2131427411;
 			
+			// aapt resource value: 0x7f0b0057
+			public const int mirror = 2131427415;
+			
+			// aapt resource value: 0x7f0b012a
+			public const int monthEditText = 2131427626;
+			
+			// aapt resource value: 0x7f0b0129
+			public const int monthTextInputLayout = 2131427625;
+			
 			// aapt resource value: 0x7f0b0034
 			public const int multiply = 2131427380;
 			
-			// aapt resource value: 0x7f0b00e5
-			public const int nameTextInputLayout = 2131427557;
+			// aapt resource value: 0x7f0b0120
+			public const int nameLinearLayout = 2131427616;
 			
-			// aapt resource value: 0x7f0b0105
-			public const int nav_activities = 2131427589;
+			// aapt resource value: 0x7f0b0094
+			public const int nameTextView = 2131427476;
 			
-			// aapt resource value: 0x7f0b0106
-			public const int nav_config = 2131427590;
+			// aapt resource value: 0x7f0b0161
+			public const int nav_follows = 2131427681;
 			
-			// aapt resource value: 0x7f0b0102
-			public const int nav_create_list = 2131427586;
+			// aapt resource value: 0x7f0b0160
+			public const int nav_home = 2131427680;
 			
-			// aapt resource value: 0x7f0b0101
-			public const int nav_discussion = 2131427585;
+			// aapt resource value: 0x7f0b0162
+			public const int nav_off_session = 2131427682;
 			
-			// aapt resource value: 0x7f0b0103
-			public const int nav_favorite = 2131427587;
+			// aapt resource value: 0x7f0b00c7
+			public const int nav_view = 2131427527;
 			
-			// aapt resource value: 0x7f0b0100
-			public const int nav_friends = 2131427584;
+			// aapt resource value: 0x7f0b00cc
+			public const int navheader_profile = 2131427532;
 			
-			// aapt resource value: 0x7f0b00ff
-			public const int nav_home = 2131427583;
+			// aapt resource value: 0x7f0b00ce
+			public const int navheader_useremail = 2131427534;
 			
-			// aapt resource value: 0x7f0b0107
-			public const int nav_off_session = 2131427591;
+			// aapt resource value: 0x7f0b00cd
+			public const int navheader_username = 2131427533;
 			
-			// aapt resource value: 0x7f0b0104
-			public const int nav_saved = 2131427588;
-			
-			// aapt resource value: 0x7f0b00a4
-			public const int nav_view = 2131427492;
-			
-			// aapt resource value: 0x7f0b00a7
-			public const int navheader_profile = 2131427495;
-			
-			// aapt resource value: 0x7f0b00a9
-			public const int navheader_useremail = 2131427497;
-			
-			// aapt resource value: 0x7f0b00a8
-			public const int navheader_username = 2131427496;
-			
-			// aapt resource value: 0x7f0b009d
-			public const int navigation_header_container = 2131427485;
+			// aapt resource value: 0x7f0b00ad
+			public const int navigation_header_container = 2131427501;
 			
 			// aapt resource value: 0x7f0b0041
 			public const int never = 2131427393;
@@ -3272,14 +4942,11 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f0b0029
 			public const int never_display = 2131427369;
 			
-			// aapt resource value: 0x7f0b00df
-			public const int nextSignupButton = 2131427551;
+			// aapt resource value: 0x7f0b0138
+			public const int nextSignupButton = 2131427640;
 			
-			// aapt resource value: 0x7f0b00e7
-			public const int nextSignupEmailOrPhoneButton = 2131427559;
-			
-			// aapt resource value: 0x7f0b00ee
-			public const int nextSignupGenderButton = 2131427566;
+			// aapt resource value: 0x7f0b0141
+			public const int nextSignupGenderButton = 2131427649;
 			
 			// aapt resource value: 0x7f0b0010
 			public const int none = 2131427344;
@@ -3287,53 +4954,92 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f0b0011
 			public const int normal = 2131427345;
 			
-			// aapt resource value: 0x7f0b00be
-			public const int notification_background = 2131427518;
+			// aapt resource value: 0x7f0b0139
+			public const int noteTextView = 2131427641;
 			
-			// aapt resource value: 0x7f0b00b8
-			public const int notification_main_column = 2131427512;
+			// aapt resource value: 0x7f0b00ed
+			public const int notification_background = 2131427565;
 			
-			// aapt resource value: 0x7f0b00b7
-			public const int notification_main_column_container = 2131427511;
+			// aapt resource value: 0x7f0b00e7
+			public const int notification_main_column = 2131427559;
+			
+			// aapt resource value: 0x7f0b00e6
+			public const int notification_main_column_container = 2131427558;
+			
+			// aapt resource value: 0x7f0b00f6
+			public const int offersRecyclerView = 2131427574;
+			
+			// aapt resource value: 0x7f0b00f7
+			public const int offers_cardview_fragment_layout = 2131427575;
+			
+			// aapt resource value: 0x7f0b00f5
+			public const int offers_fragment_layout = 2131427573;
 			
 			// aapt resource value: 0x7f0b001c
 			public const int open_graph = 2131427356;
 			
-			// aapt resource value: 0x7f0b00ce
-			public const int orDividerLayout = 2131427534;
-			
 			// aapt resource value: 0x7f0b001d
 			public const int page = 2131427357;
+			
+			// aapt resource value: 0x7f0b0104
+			public const int pager_item_fragment_layout_1 = 2131427588;
+			
+			// aapt resource value: 0x7f0b0105
+			public const int pager_item_fragment_layout_2 = 2131427589;
+			
+			// aapt resource value: 0x7f0b0106
+			public const int pager_item_fragment_layout_3 = 2131427590;
 			
 			// aapt resource value: 0x7f0b004c
 			public const int parallax = 2131427404;
 			
-			// aapt resource value: 0x7f0b0062
-			public const int parentPanel = 2131427426;
+			// aapt resource value: 0x7f0b0067
+			public const int parentPanel = 2131427431;
 			
-			// aapt resource value: 0x7f0b00cb
-			public const int passwordEditText = 2131427531;
+			// aapt resource value: 0x7f0b0119
+			public const int passwordEditText = 2131427609;
 			
-			// aapt resource value: 0x7f0b00e6
-			public const int phoneEditText = 2131427558;
+			// aapt resource value: 0x7f0b0118
+			public const int passwordTextInputLayout = 2131427608;
 			
-			// aapt resource value: 0x7f0b00e4
-			public const int phoneTextInputLayout = 2131427556;
+			// aapt resource value: 0x7f0b0135
+			public const int phoneEditText = 2131427637;
+			
+			// aapt resource value: 0x7f0b0134
+			public const int phoneTextInputLayout = 2131427636;
+			
+			// aapt resource value: 0x7f0b0132
+			public const int phoneTextView = 2131427634;
 			
 			// aapt resource value: 0x7f0b004d
 			public const int pin = 2131427405;
 			
-			// aapt resource value: 0x7f0b00f5
-			public const int preferencesRecyclerView = 2131427573;
+			// aapt resource value: 0x7f0b00c6
+			public const int pon_fragmentos = 2131427526;
 			
-			// aapt resource value: 0x7f0b00a5
-			public const int productEditText = 2131427493;
+			// aapt resource value: 0x7f0b0152
+			public const int preferencesRecyclerView = 2131427666;
 			
-			// aapt resource value: 0x7f0b00a6
-			public const int productSentButton = 2131427494;
+			// aapt resource value: 0x7f0b00b8
+			public const int price = 2131427512;
 			
-			// aapt resource value: 0x7f0b008a
-			public const int progress_bar = 2131427466;
+			// aapt resource value: 0x7f0b010a
+			public const int priceTextView = 2131427594;
+			
+			// aapt resource value: 0x7f0b0108
+			public const int productsRecyclerView = 2131427592;
+			
+			// aapt resource value: 0x7f0b0109
+			public const int products_cardview_fragment_layout = 2131427593;
+			
+			// aapt resource value: 0x7f0b0107
+			public const int products_fragment_layout = 2131427591;
+			
+			// aapt resource value: 0x7f0b0091
+			public const int profileImageView = 2131427473;
+			
+			// aapt resource value: 0x7f0b009a
+			public const int progress_bar = 2131427482;
 			
 			// aapt resource value: 0x7f0b0006
 			public const int progress_circular = 2131427334;
@@ -3341,26 +5047,35 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f0b0007
 			public const int progress_horizontal = 2131427335;
 			
-			// aapt resource value: 0x7f0b0072
-			public const int radio = 2131427442;
+			// aapt resource value: 0x7f0b010e
+			public const int psts_tab_title = 2131427598;
 			
-			// aapt resource value: 0x7f0b00d5
-			public const int register1TextView = 2131427541;
+			// aapt resource value: 0x7f0b0077
+			public const int radio = 2131427447;
 			
-			// aapt resource value: 0x7f0b00d6
-			public const int register2TextView = 2131427542;
+			// aapt resource value: 0x7f0b00bb
+			public const int ranking = 2131427515;
 			
-			// aapt resource value: 0x7f0b00d3
-			public const int registerLayout = 2131427539;
+			// aapt resource value: 0x7f0b008e
+			public const int refresher = 2131427470;
+			
+			// aapt resource value: 0x7f0b014b
+			public const int register_button = 2131427659;
+			
+			// aapt resource value: 0x7f0b0058
+			public const int repeat = 2131427416;
 			
 			// aapt resource value: 0x7f0b0026
 			public const int right = 2131427366;
 			
-			// aapt resource value: 0x7f0b00bd
-			public const int right_icon = 2131427517;
+			// aapt resource value: 0x7f0b00ec
+			public const int right_icon = 2131427564;
 			
-			// aapt resource value: 0x7f0b00b9
-			public const int right_side = 2131427513;
+			// aapt resource value: 0x7f0b00e8
+			public const int right_side = 2131427560;
+			
+			// aapt resource value: 0x7f0b00d9
+			public const int sadara_maps_fragment = 2131427545;
 			
 			// aapt resource value: 0x7f0b0012
 			public const int satellite = 2131427346;
@@ -3371,59 +5086,74 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f0b0046
 			public const int scroll = 2131427398;
 			
-			// aapt resource value: 0x7f0b0068
-			public const int scrollIndicatorDown = 2131427432;
+			// aapt resource value: 0x7f0b006d
+			public const int scrollIndicatorDown = 2131427437;
 			
-			// aapt resource value: 0x7f0b0064
-			public const int scrollIndicatorUp = 2131427428;
+			// aapt resource value: 0x7f0b0069
+			public const int scrollIndicatorUp = 2131427433;
 			
-			// aapt resource value: 0x7f0b0065
-			public const int scrollView = 2131427429;
+			// aapt resource value: 0x7f0b006a
+			public const int scrollView = 2131427434;
 			
 			// aapt resource value: 0x7f0b0055
 			public const int scrollable = 2131427413;
 			
-			// aapt resource value: 0x7f0b007d
-			public const int search_badge = 2131427453;
+			// aapt resource value: 0x7f0b0163
+			public const int search = 2131427683;
 			
-			// aapt resource value: 0x7f0b007c
-			public const int search_bar = 2131427452;
+			// aapt resource value: 0x7f0b010f
+			public const int searchFrameLayout = 2131427599;
 			
-			// aapt resource value: 0x7f0b007e
-			public const int search_button = 2131427454;
-			
-			// aapt resource value: 0x7f0b0083
-			public const int search_close_btn = 2131427459;
-			
-			// aapt resource value: 0x7f0b007f
-			public const int search_edit_frame = 2131427455;
-			
-			// aapt resource value: 0x7f0b0085
-			public const int search_go_btn = 2131427461;
-			
-			// aapt resource value: 0x7f0b0080
-			public const int search_mag_icon = 2131427456;
-			
-			// aapt resource value: 0x7f0b0081
-			public const int search_plate = 2131427457;
+			// aapt resource value: 0x7f0b0110
+			public const int searchImageView = 2131427600;
 			
 			// aapt resource value: 0x7f0b0082
-			public const int search_src_text = 2131427458;
+			public const int search_badge = 2131427458;
+			
+			// aapt resource value: 0x7f0b0081
+			public const int search_bar = 2131427457;
+			
+			// aapt resource value: 0x7f0b0083
+			public const int search_button = 2131427459;
+			
+			// aapt resource value: 0x7f0b0088
+			public const int search_close_btn = 2131427464;
+			
+			// aapt resource value: 0x7f0b0084
+			public const int search_edit_frame = 2131427460;
+			
+			// aapt resource value: 0x7f0b015e
+			public const int search_entity = 2131427678;
+			
+			// aapt resource value: 0x7f0b008a
+			public const int search_go_btn = 2131427466;
+			
+			// aapt resource value: 0x7f0b0085
+			public const int search_mag_icon = 2131427461;
+			
+			// aapt resource value: 0x7f0b015c
+			public const int search_menu = 2131427676;
 			
 			// aapt resource value: 0x7f0b0086
-			public const int search_voice_btn = 2131427462;
-			
-			// aapt resource value: 0x7f0b00f7
-			public const int selectPreferencesButton = 2131427575;
+			public const int search_plate = 2131427462;
 			
 			// aapt resource value: 0x7f0b0087
-			public const int select_dialog_listview = 2131427463;
+			public const int search_src_text = 2131427463;
 			
-			// aapt resource value: 0x7f0b00d4
-			public const int shapeView = 2131427540;
+			// aapt resource value: 0x7f0b008b
+			public const int search_voice_btn = 2131427467;
 			
-			// aapt resource value: 0x7f0b0071
-			public const int shortcut = 2131427441;
+			// aapt resource value: 0x7f0b0154
+			public const int selectPreferencesButton = 2131427668;
+			
+			// aapt resource value: 0x7f0b008c
+			public const int select_dialog_listview = 2131427468;
+			
+			// aapt resource value: 0x7f0b0137
+			public const int shapeView = 2131427639;
+			
+			// aapt resource value: 0x7f0b0076
+			public const int shortcut = 2131427446;
 			
 			// aapt resource value: 0x7f0b0030
 			public const int showCustom = 2131427376;
@@ -3434,29 +5164,44 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f0b0032
 			public const int showTitle = 2131427378;
 			
-			// aapt resource value: 0x7f0b00cc
-			public const int signinButton = 2131427532;
+			// aapt resource value: 0x7f0b011a
+			public const int signinButton = 2131427610;
 			
-			// aapt resource value: 0x7f0b00d1
-			public const int signinButtongoogle = 2131427537;
+			// aapt resource value: 0x7f0b014a
+			public const int signin_button = 2131427658;
+			
+			// aapt resource value: 0x7f0b0113
+			public const int signin_toolbar = 2131427603;
+			
+			// aapt resource value: 0x7f0b011d
+			public const int signup_toolbar = 2131427613;
+			
+			// aapt resource value: 0x7f0b0142
+			public const int sliderViewPager = 2131427650;
+			
+			// aapt resource value: 0x7f0b00c9
+			public const int sliding_tabs = 2131427529;
 			
 			// aapt resource value: 0x7f0b002b
 			public const int small = 2131427371;
 			
-			// aapt resource value: 0x7f0b0095
-			public const int smallLabel = 2131427477;
+			// aapt resource value: 0x7f0b00a5
+			public const int smallLabel = 2131427493;
 			
-			// aapt resource value: 0x7f0b009c
-			public const int snackbar_action = 2131427484;
+			// aapt resource value: 0x7f0b00ac
+			public const int snackbar_action = 2131427500;
 			
-			// aapt resource value: 0x7f0b009b
-			public const int snackbar_text = 2131427483;
+			// aapt resource value: 0x7f0b00ab
+			public const int snackbar_text = 2131427499;
 			
 			// aapt resource value: 0x7f0b0047
 			public const int snap = 2131427399;
 			
-			// aapt resource value: 0x7f0b0061
-			public const int spacer = 2131427425;
+			// aapt resource value: 0x7f0b0066
+			public const int spacer = 2131427430;
+			
+			// aapt resource value: 0x7f0b0149
+			public const int splash_action_layout = 2131427657;
 			
 			// aapt resource value: 0x7f0b0008
 			public const int split_action_bar = 2131427336;
@@ -3476,35 +5221,53 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f0b004b
 			public const int start = 2131427403;
 			
-			// aapt resource value: 0x7f0b00b4
-			public const int status_bar_latest_event_content = 2131427508;
+			// aapt resource value: 0x7f0b00fc
+			public const int startDateTextView = 2131427580;
 			
-			// aapt resource value: 0x7f0b0073
-			public const int submenuarrow = 2131427443;
+			// aapt resource value: 0x7f0b00e3
+			public const int status_bar_latest_event_content = 2131427555;
 			
-			// aapt resource value: 0x7f0b0084
-			public const int submit_area = 2131427460;
+			// aapt resource value: 0x7f0b00b9
+			public const int stock = 2131427513;
+			
+			// aapt resource value: 0x7f0b0078
+			public const int submenuarrow = 2131427448;
+			
+			// aapt resource value: 0x7f0b0089
+			public const int submit_area = 2131427465;
+			
+			// aapt resource value: 0x7f0b013e
+			public const int subtitle1TextView = 2131427646;
+			
+			// aapt resource value: 0x7f0b0147
+			public const int subtitleTextView = 2131427655;
+			
+			// aapt resource value: 0x7f0b0146
+			public const int subtitlesLinearLayout = 2131427654;
 			
 			// aapt resource value: 0x7f0b002d
 			public const int tabMode = 2131427373;
 			
+			// aapt resource value: 0x7f0b00ca
+			public const int tabs_viewpager = 2131427530;
+			
 			// aapt resource value: 0x7f0b0013
 			public const int terrain = 2131427347;
 			
-			// aapt resource value: 0x7f0b00c4
-			public const int text = 2131427524;
+			// aapt resource value: 0x7f0b00f3
+			public const int text = 2131427571;
 			
-			// aapt resource value: 0x7f0b00c2
-			public const int text2 = 2131427522;
+			// aapt resource value: 0x7f0b00f1
+			public const int text2 = 2131427569;
 			
-			// aapt resource value: 0x7f0b0067
-			public const int textSpacerNoButtons = 2131427431;
+			// aapt resource value: 0x7f0b006c
+			public const int textSpacerNoButtons = 2131427436;
 			
-			// aapt resource value: 0x7f0b0066
-			public const int textSpacerNoTitle = 2131427430;
+			// aapt resource value: 0x7f0b006b
+			public const int textSpacerNoTitle = 2131427435;
 			
-			// aapt resource value: 0x7f0b00a2
-			public const int text_input_password_toggle = 2131427490;
+			// aapt resource value: 0x7f0b00b2
+			public const int text_input_password_toggle = 2131427506;
 			
 			// aapt resource value: 0x7f0b000c
 			public const int textinput_counter = 2131427340;
@@ -3512,38 +5275,56 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f0b000d
 			public const int textinput_error = 2131427341;
 			
-			// aapt resource value: 0x7f0b00ba
-			public const int time = 2131427514;
-			
-			// aapt resource value: 0x7f0b005f
-			public const int title = 2131427423;
-			
-			// aapt resource value: 0x7f0b006e
-			public const int titleDividerNoCustom = 2131427438;
-			
 			// aapt resource value: 0x7f0b00da
-			public const int titleTextView = 2131427546;
+			public const int textviewmap = 2131427546;
 			
-			// aapt resource value: 0x7f0b006c
-			public const int title_template = 2131427436;
+			// aapt resource value: 0x7f0b00e9
+			public const int time = 2131427561;
 			
-			// aapt resource value: 0x7f0b00ac
-			public const int toolbar = 2131427500;
+			// aapt resource value: 0x7f0b0064
+			public const int title = 2131427428;
+			
+			// aapt resource value: 0x7f0b0073
+			public const int titleDividerNoCustom = 2131427443;
+			
+			// aapt resource value: 0x7f0b011f
+			public const int titleTextView = 2131427615;
+			
+			// aapt resource value: 0x7f0b00d7
+			public const int titleToolbar = 2131427543;
+			
+			// aapt resource value: 0x7f0b0071
+			public const int title_template = 2131427441;
+			
+			// aapt resource value: 0x7f0b0100
+			public const int titleoffersTextView = 2131427584;
+			
+			// aapt resource value: 0x7f0b00d6
+			public const int toolbar = 2131427542;
+			
+			// aapt resource value: 0x7f0b0111
+			public const int toolbar_coordinator_layout = 2131427601;
 			
 			// aapt resource value: 0x7f0b0023
 			public const int top = 2131427363;
 			
-			// aapt resource value: 0x7f0b006b
-			public const int topPanel = 2131427435;
+			// aapt resource value: 0x7f0b0070
+			public const int topPanel = 2131427440;
 			
-			// aapt resource value: 0x7f0b0099
-			public const int touch_outside = 2131427481;
+			// aapt resource value: 0x7f0b00a9
+			public const int touch_outside = 2131427497;
 			
 			// aapt resource value: 0x7f0b000a
 			public const int transition_current_scene = 2131427338;
 			
 			// aapt resource value: 0x7f0b000b
 			public const int transition_scene_layoutid_cache = 2131427339;
+			
+			// aapt resource value: 0x7f0b010d
+			public const int txtprice = 2131427597;
+			
+			// aapt resource value: 0x7f0b010c
+			public const int txtranking = 2131427596;
 			
 			// aapt resource value: 0x7f0b001e
 			public const int unknown = 2131427358;
@@ -3554,35 +5335,53 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f0b0033
 			public const int useLogo = 2131427379;
 			
+			// aapt resource value: 0x7f0b0156
+			public const int userPreferenceIdTextView = 2131427670;
+			
+			// aapt resource value: 0x7f0b0150
+			public const int userPreferenceLayout = 2131427664;
+			
+			// aapt resource value: 0x7f0b0158
+			public const int userPreferenceNameTextView = 2131427672;
+			
+			// aapt resource value: 0x7f0b0153
+			public const int userPreferenceProgressBar = 2131427667;
+			
+			// aapt resource value: 0x7f0b0159
+			public const int userPreferenceSelected = 2131427673;
+			
+			// aapt resource value: 0x7f0b014c
+			public const int user_list_layout = 2131427660;
+			
+			// aapt resource value: 0x7f0b014e
+			public const int user_list_toolbar = 2131427662;
+			
+			// aapt resource value: 0x7f0b00fa
+			public const int userdescriptionTextView = 2131427578;
+			
+			// aapt resource value: 0x7f0b0117
+			public const int usernameEditText = 2131427607;
+			
+			// aapt resource value: 0x7f0b0116
+			public const int usernameTextInputLayout = 2131427606;
+			
 			// aapt resource value: 0x7f0b00f9
-			public const int userPreferenceIdTextView = 2131427577;
+			public const int usernameTextView = 2131427577;
 			
-			// aapt resource value: 0x7f0b00f3
-			public const int userPreferenceLayout = 2131427571;
+			// aapt resource value: 0x7f0b00bd
+			public const int valoracion = 2131427517;
 			
-			// aapt resource value: 0x7f0b00fb
-			public const int userPreferenceNameTextView = 2131427579;
-			
-			// aapt resource value: 0x7f0b00f6
-			public const int userPreferenceProgressBar = 2131427574;
-			
-			// aapt resource value: 0x7f0b00fc
-			public const int userPreferenceSelected = 2131427580;
-			
-			// aapt resource value: 0x7f0b00ef
-			public const int user_list_layout = 2131427567;
-			
-			// aapt resource value: 0x7f0b00f1
-			public const int user_list_toolbar = 2131427569;
-			
-			// aapt resource value: 0x7f0b00ca
-			public const int usernameEditText = 2131427530;
+			// aapt resource value: 0x7f0b00b7
+			public const int view = 2131427511;
 			
 			// aapt resource value: 0x7f0b000e
 			public const int view_offset_helper = 2131427342;
 			
-			// aapt resource value: 0x7f0b00fd
-			public const int visible = 2131427581;
+			// aapt resource value: 0x7f0b015a
+			public const int visible = 2131427674;
+			
+			// aapt resource value: 0x7f0b00ba
+			public const int votes = 2131427514;
 			
 			// aapt resource value: 0x7f0b0018
 			public const int wide = 2131427352;
@@ -3592,6 +5391,12 @@ namespace SMobile.Android
 			
 			// aapt resource value: 0x7f0b003a
 			public const int wrap_content = 2131427386;
+			
+			// aapt resource value: 0x7f0b012c
+			public const int yearEditText = 2131427628;
+			
+			// aapt resource value: 0x7f0b012b
+			public const int yearTextInputLayout = 2131427627;
 			
 			static Id()
 			{
@@ -3731,178 +5536,229 @@ namespace SMobile.Android
 			public const int abc_select_dialog_material = 2130903066;
 			
 			// aapt resource value: 0x7f03001b
-			public const int com_facebook_activity_layout = 2130903067;
+			public const int business_fragment_layout = 2130903067;
 			
 			// aapt resource value: 0x7f03001c
-			public const int com_facebook_device_auth_dialog_fragment = 2130903068;
+			public const int business_item_layout = 2130903068;
 			
 			// aapt resource value: 0x7f03001d
-			public const int com_facebook_login_fragment = 2130903069;
+			public const int com_facebook_activity_layout = 2130903069;
 			
 			// aapt resource value: 0x7f03001e
-			public const int com_facebook_smart_device_dialog_fragment = 2130903070;
+			public const int com_facebook_device_auth_dialog_fragment = 2130903070;
 			
 			// aapt resource value: 0x7f03001f
-			public const int com_facebook_tooltip_bubble = 2130903071;
+			public const int com_facebook_login_fragment = 2130903071;
 			
 			// aapt resource value: 0x7f030020
-			public const int design_bottom_navigation_item = 2130903072;
+			public const int com_facebook_smart_device_dialog_fragment = 2130903072;
 			
 			// aapt resource value: 0x7f030021
-			public const int design_bottom_sheet_dialog = 2130903073;
+			public const int com_facebook_tooltip_bubble = 2130903073;
 			
 			// aapt resource value: 0x7f030022
-			public const int design_layout_snackbar = 2130903074;
+			public const int design_bottom_navigation_item = 2130903074;
 			
 			// aapt resource value: 0x7f030023
-			public const int design_layout_snackbar_include = 2130903075;
+			public const int design_bottom_sheet_dialog = 2130903075;
 			
 			// aapt resource value: 0x7f030024
-			public const int design_layout_tab_icon = 2130903076;
+			public const int design_layout_snackbar = 2130903076;
 			
 			// aapt resource value: 0x7f030025
-			public const int design_layout_tab_text = 2130903077;
+			public const int design_layout_snackbar_include = 2130903077;
 			
 			// aapt resource value: 0x7f030026
-			public const int design_menu_item_action_area = 2130903078;
+			public const int design_layout_tab_icon = 2130903078;
 			
 			// aapt resource value: 0x7f030027
-			public const int design_navigation_item = 2130903079;
+			public const int design_layout_tab_text = 2130903079;
 			
 			// aapt resource value: 0x7f030028
-			public const int design_navigation_item_header = 2130903080;
+			public const int design_menu_item_action_area = 2130903080;
 			
 			// aapt resource value: 0x7f030029
-			public const int design_navigation_item_separator = 2130903081;
+			public const int design_navigation_item = 2130903081;
 			
 			// aapt resource value: 0x7f03002a
-			public const int design_navigation_item_subheader = 2130903082;
+			public const int design_navigation_item_header = 2130903082;
 			
 			// aapt resource value: 0x7f03002b
-			public const int design_navigation_menu = 2130903083;
+			public const int design_navigation_item_separator = 2130903083;
 			
 			// aapt resource value: 0x7f03002c
-			public const int design_navigation_menu_item = 2130903084;
+			public const int design_navigation_item_subheader = 2130903084;
 			
 			// aapt resource value: 0x7f03002d
-			public const int design_text_input_password_icon = 2130903085;
+			public const int design_navigation_menu = 2130903085;
 			
 			// aapt resource value: 0x7f03002e
-			public const int Main = 2130903086;
+			public const int design_navigation_menu_item = 2130903086;
 			
 			// aapt resource value: 0x7f03002f
-			public const int MainContent = 2130903087;
+			public const int design_text_input_password_icon = 2130903087;
 			
 			// aapt resource value: 0x7f030030
-			public const int MainNavHeader = 2130903088;
+			public const int DialogProduct = 2130903088;
 			
 			// aapt resource value: 0x7f030031
-			public const int MainToolbar = 2130903089;
+			public const int Main = 2130903089;
 			
 			// aapt resource value: 0x7f030032
-			public const int maps_fragment_layout = 2130903090;
+			public const int main_fragment = 2130903090;
 			
 			// aapt resource value: 0x7f030033
-			public const int messenger_button_send_blue_large = 2130903091;
+			public const int MainContent = 2130903091;
 			
 			// aapt resource value: 0x7f030034
-			public const int messenger_button_send_blue_round = 2130903092;
+			public const int MainNavHeader = 2130903092;
 			
 			// aapt resource value: 0x7f030035
-			public const int messenger_button_send_blue_small = 2130903093;
+			public const int MainSearch = 2130903093;
 			
 			// aapt resource value: 0x7f030036
-			public const int messenger_button_send_white_large = 2130903094;
+			public const int MainToolbar = 2130903094;
 			
 			// aapt resource value: 0x7f030037
-			public const int messenger_button_send_white_round = 2130903095;
+			public const int maps_fragment_layout = 2130903095;
 			
 			// aapt resource value: 0x7f030038
-			public const int messenger_button_send_white_small = 2130903096;
+			public const int maps_layout = 2130903096;
 			
 			// aapt resource value: 0x7f030039
-			public const int notification_action = 2130903097;
+			public const int messenger_button_send_blue_large = 2130903097;
 			
 			// aapt resource value: 0x7f03003a
-			public const int notification_action_tombstone = 2130903098;
+			public const int messenger_button_send_blue_round = 2130903098;
 			
 			// aapt resource value: 0x7f03003b
-			public const int notification_media_action = 2130903099;
+			public const int messenger_button_send_blue_small = 2130903099;
 			
 			// aapt resource value: 0x7f03003c
-			public const int notification_media_cancel_action = 2130903100;
+			public const int messenger_button_send_white_large = 2130903100;
 			
 			// aapt resource value: 0x7f03003d
-			public const int notification_template_big_media = 2130903101;
+			public const int messenger_button_send_white_round = 2130903101;
 			
 			// aapt resource value: 0x7f03003e
-			public const int notification_template_big_media_custom = 2130903102;
+			public const int messenger_button_send_white_small = 2130903102;
 			
 			// aapt resource value: 0x7f03003f
-			public const int notification_template_big_media_narrow = 2130903103;
+			public const int notification_action = 2130903103;
 			
 			// aapt resource value: 0x7f030040
-			public const int notification_template_big_media_narrow_custom = 2130903104;
+			public const int notification_action_tombstone = 2130903104;
 			
 			// aapt resource value: 0x7f030041
-			public const int notification_template_custom_big = 2130903105;
+			public const int notification_media_action = 2130903105;
 			
 			// aapt resource value: 0x7f030042
-			public const int notification_template_icon_group = 2130903106;
+			public const int notification_media_cancel_action = 2130903106;
 			
 			// aapt resource value: 0x7f030043
-			public const int notification_template_lines_media = 2130903107;
+			public const int notification_template_big_media = 2130903107;
 			
 			// aapt resource value: 0x7f030044
-			public const int notification_template_media = 2130903108;
+			public const int notification_template_big_media_custom = 2130903108;
 			
 			// aapt resource value: 0x7f030045
-			public const int notification_template_media_custom = 2130903109;
+			public const int notification_template_big_media_narrow = 2130903109;
 			
 			// aapt resource value: 0x7f030046
-			public const int notification_template_part_chronometer = 2130903110;
+			public const int notification_template_big_media_narrow_custom = 2130903110;
 			
 			// aapt resource value: 0x7f030047
-			public const int notification_template_part_time = 2130903111;
+			public const int notification_template_custom_big = 2130903111;
 			
 			// aapt resource value: 0x7f030048
-			public const int select_dialog_item_material = 2130903112;
+			public const int notification_template_icon_group = 2130903112;
 			
 			// aapt resource value: 0x7f030049
-			public const int select_dialog_multichoice_material = 2130903113;
+			public const int notification_template_lines_media = 2130903113;
 			
 			// aapt resource value: 0x7f03004a
-			public const int select_dialog_singlechoice_material = 2130903114;
+			public const int notification_template_media = 2130903114;
 			
 			// aapt resource value: 0x7f03004b
-			public const int SesionIntroHeader = 2130903115;
+			public const int notification_template_media_custom = 2130903115;
 			
 			// aapt resource value: 0x7f03004c
-			public const int Signin = 2130903116;
+			public const int notification_template_part_chronometer = 2130903116;
 			
 			// aapt resource value: 0x7f03004d
-			public const int Signup = 2130903117;
+			public const int notification_template_part_time = 2130903117;
 			
 			// aapt resource value: 0x7f03004e
-			public const int SignupEmailOrPhone = 2130903118;
+			public const int offers_fragment_layout = 2130903118;
 			
 			// aapt resource value: 0x7f03004f
-			public const int SignupGender = 2130903119;
+			public const int offers_item_layout = 2130903119;
 			
 			// aapt resource value: 0x7f030050
-			public const int support_simple_spinner_dropdown_item = 2130903120;
+			public const int pager_item = 2130903120;
 			
 			// aapt resource value: 0x7f030051
-			public const int user_list_layout = 2130903121;
+			public const int products_fragment_layout = 2130903121;
 			
 			// aapt resource value: 0x7f030052
-			public const int user_list_layout_item = 2130903122;
+			public const int products_item_layout = 2130903122;
 			
 			// aapt resource value: 0x7f030053
-			public const int UserPreference = 2130903123;
+			public const int ProductsCardView = 2130903123;
 			
 			// aapt resource value: 0x7f030054
-			public const int UserPreferenceItem = 2130903124;
+			public const int psts_tab = 2130903124;
+			
+			// aapt resource value: 0x7f030055
+			public const int search_menu_toolbar_layout = 2130903125;
+			
+			// aapt resource value: 0x7f030056
+			public const int select_dialog_item_material = 2130903126;
+			
+			// aapt resource value: 0x7f030057
+			public const int select_dialog_multichoice_material = 2130903127;
+			
+			// aapt resource value: 0x7f030058
+			public const int select_dialog_singlechoice_material = 2130903128;
+			
+			// aapt resource value: 0x7f030059
+			public const int send_menu_toolbar_layout = 2130903129;
+			
+			// aapt resource value: 0x7f03005a
+			public const int SesionIntroHeader = 2130903130;
+			
+			// aapt resource value: 0x7f03005b
+			public const int Signin = 2130903131;
+			
+			// aapt resource value: 0x7f03005c
+			public const int Signup = 2130903132;
+			
+			// aapt resource value: 0x7f03005d
+			public const int signup_image_layout = 2130903133;
+			
+			// aapt resource value: 0x7f03005e
+			public const int SignupAccount = 2130903134;
+			
+			// aapt resource value: 0x7f03005f
+			public const int SignupGender = 2130903135;
+			
+			// aapt resource value: 0x7f030060
+			public const int splash_layout = 2130903136;
+			
+			// aapt resource value: 0x7f030061
+			public const int support_simple_spinner_dropdown_item = 2130903137;
+			
+			// aapt resource value: 0x7f030062
+			public const int user_list_layout = 2130903138;
+			
+			// aapt resource value: 0x7f030063
+			public const int user_list_layout_item = 2130903139;
+			
+			// aapt resource value: 0x7f030064
+			public const int UserPreference = 2130903140;
+			
+			// aapt resource value: 0x7f030065
+			public const int UserPreferenceItem = 2130903141;
 			
 			static Layout()
 			{
@@ -3918,7 +5774,16 @@ namespace SMobile.Android
 		{
 			
 			// aapt resource value: 0x7f0d0000
-			public const int NavMenu = 2131558400;
+			public const int main_toolbar_menu = 2131558400;
+			
+			// aapt resource value: 0x7f0d0001
+			public const int menu_bottom_navigation_view = 2131558401;
+			
+			// aapt resource value: 0x7f0d0002
+			public const int NavMenu = 2131558402;
+			
+			// aapt resource value: 0x7f0d0003
+			public const int search_menu = 2131558403;
 			
 			static Menu()
 			{
@@ -3933,8 +5798,8 @@ namespace SMobile.Android
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f070074
-			public const int GoogleMapsAPI = 2131165300;
+			// aapt resource value: 0x7f070077
+			public const int GoogleMapsAPI = 2131165303;
 			
 			// aapt resource value: 0x7f07003f
 			public const int abc_action_bar_home_description = 2131165247;
@@ -4029,8 +5894,8 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f070051
 			public const int abc_toolbar_collapse_description = 2131165265;
 			
-			// aapt resource value: 0x7f07006f
-			public const int app_name = 2131165295;
+			// aapt resource value: 0x7f070072
+			public const int app_name = 2131165298;
 			
 			// aapt resource value: 0x7f070060
 			public const int appbar_scrolling_view_behavior = 2131165280;
@@ -4227,38 +6092,47 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f07000f
 			public const int common_signin_button_text_long = 2131165199;
 			
-			// aapt resource value: 0x7f07006a
-			public const int default_web_client_id = 2131165290;
+			// aapt resource value: 0x7f070068
+			public const int define_roundedimageview = 2131165288;
 			
-			// aapt resource value: 0x7f070071
-			public const int drawer_close = 2131165297;
-			
-			// aapt resource value: 0x7f070070
-			public const int drawer_open = 2131165296;
-			
-			// aapt resource value: 0x7f070072
-			public const int facebook_app_id = 2131165298;
+			// aapt resource value: 0x7f070074
+			public const int drawer_close = 2131165300;
 			
 			// aapt resource value: 0x7f070073
-			public const int fb_login_protocol_scheme = 2131165299;
+			public const int drawer_open = 2131165299;
 			
-			// aapt resource value: 0x7f07006b
-			public const int firebase_database_url = 2131165291;
+			// aapt resource value: 0x7f070075
+			public const int facebook_app_id = 2131165301;
 			
-			// aapt resource value: 0x7f070068
-			public const int gcm_defaultSenderId = 2131165288;
-			
-			// aapt resource value: 0x7f07006c
-			public const int google_api_key = 2131165292;
+			// aapt resource value: 0x7f070076
+			public const int fb_login_protocol_scheme = 2131165302;
 			
 			// aapt resource value: 0x7f070069
-			public const int google_app_id = 2131165289;
+			public const int library_roundedimageview_author = 2131165289;
+			
+			// aapt resource value: 0x7f07006a
+			public const int library_roundedimageview_authorWebsite = 2131165290;
+			
+			// aapt resource value: 0x7f07006b
+			public const int library_roundedimageview_isOpenSource = 2131165291;
+			
+			// aapt resource value: 0x7f07006c
+			public const int library_roundedimageview_libraryDescription = 2131165292;
 			
 			// aapt resource value: 0x7f07006d
-			public const int google_crash_reporting_api_key = 2131165293;
+			public const int library_roundedimageview_libraryName = 2131165293;
 			
 			// aapt resource value: 0x7f07006e
-			public const int google_storage_bucket = 2131165294;
+			public const int library_roundedimageview_libraryVersion = 2131165294;
+			
+			// aapt resource value: 0x7f07006f
+			public const int library_roundedimageview_libraryWebsite = 2131165295;
+			
+			// aapt resource value: 0x7f070070
+			public const int library_roundedimageview_licenseId = 2131165296;
+			
+			// aapt resource value: 0x7f070071
+			public const int library_roundedimageview_repositoryLink = 2131165297;
 			
 			// aapt resource value: 0x7f070028
 			public const int messenger_send_button_text = 2131165224;
@@ -4297,44 +6171,44 @@ namespace SMobile.Android
 		public partial class Style
 		{
 			
+			// aapt resource value: 0x7f0a00b7
+			public const int AlertDialog_AppCompat = 2131361975;
+			
+			// aapt resource value: 0x7f0a00b8
+			public const int AlertDialog_AppCompat_Light = 2131361976;
+			
+			// aapt resource value: 0x7f0a00b9
+			public const int Animation_AppCompat_Dialog = 2131361977;
+			
+			// aapt resource value: 0x7f0a00ba
+			public const int Animation_AppCompat_DropDownUp = 2131361978;
+			
+			// aapt resource value: 0x7f0a017b
+			public const int Animation_Design_BottomSheetDialog = 2131362171;
+			
+			// aapt resource value: 0x7f0a0197
+			public const int AppTheme_Toolbar_Title = 2131362199;
+			
 			// aapt resource value: 0x7f0a00bb
-			public const int AlertDialog_AppCompat = 2131361979;
+			public const int Base_AlertDialog_AppCompat = 2131361979;
 			
 			// aapt resource value: 0x7f0a00bc
-			public const int AlertDialog_AppCompat_Light = 2131361980;
+			public const int Base_AlertDialog_AppCompat_Light = 2131361980;
 			
 			// aapt resource value: 0x7f0a00bd
-			public const int Animation_AppCompat_Dialog = 2131361981;
+			public const int Base_Animation_AppCompat_Dialog = 2131361981;
 			
 			// aapt resource value: 0x7f0a00be
-			public const int Animation_AppCompat_DropDownUp = 2131361982;
-			
-			// aapt resource value: 0x7f0a017d
-			public const int Animation_Design_BottomSheetDialog = 2131362173;
-			
-			// aapt resource value: 0x7f0a0199
-			public const int AppTheme_Toolbar_Title = 2131362201;
-			
-			// aapt resource value: 0x7f0a00bf
-			public const int Base_AlertDialog_AppCompat = 2131361983;
-			
-			// aapt resource value: 0x7f0a00c0
-			public const int Base_AlertDialog_AppCompat_Light = 2131361984;
-			
-			// aapt resource value: 0x7f0a00c1
-			public const int Base_Animation_AppCompat_Dialog = 2131361985;
-			
-			// aapt resource value: 0x7f0a00c2
-			public const int Base_Animation_AppCompat_DropDownUp = 2131361986;
+			public const int Base_Animation_AppCompat_DropDownUp = 2131361982;
 			
 			// aapt resource value: 0x7f0a0019
 			public const int Base_CardView = 2131361817;
 			
-			// aapt resource value: 0x7f0a00c3
-			public const int Base_DialogWindowTitle_AppCompat = 2131361987;
+			// aapt resource value: 0x7f0a00bf
+			public const int Base_DialogWindowTitle_AppCompat = 2131361983;
 			
-			// aapt resource value: 0x7f0a00c4
-			public const int Base_DialogWindowTitleBackground_AppCompat = 2131361988;
+			// aapt resource value: 0x7f0a00c0
+			public const int Base_DialogWindowTitleBackground_AppCompat = 2131361984;
 			
 			// aapt resource value: 0x7f0a005b
 			public const int Base_TextAppearance_AppCompat = 2131361883;
@@ -4390,8 +6264,8 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f0a0068
 			public const int Base_TextAppearance_AppCompat_Menu = 2131361896;
 			
-			// aapt resource value: 0x7f0a00c5
-			public const int Base_TextAppearance_AppCompat_SearchResult = 2131361989;
+			// aapt resource value: 0x7f0a00c1
+			public const int Base_TextAppearance_AppCompat_SearchResult = 2131361985;
 			
 			// aapt resource value: 0x7f0a0069
 			public const int Base_TextAppearance_AppCompat_SearchResult_Subtitle = 2131361897;
@@ -4441,17 +6315,17 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f0a0074
 			public const int Base_TextAppearance_AppCompat_Widget_Button = 2131361908;
 			
-			// aapt resource value: 0x7f0a00b7
-			public const int Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131361975;
+			// aapt resource value: 0x7f0a00c2
+			public const int Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131361986;
 			
-			// aapt resource value: 0x7f0a00b8
-			public const int Base_TextAppearance_AppCompat_Widget_Button_Colored = 2131361976;
+			// aapt resource value: 0x7f0a00c3
+			public const int Base_TextAppearance_AppCompat_Widget_Button_Colored = 2131361987;
 			
 			// aapt resource value: 0x7f0a00b1
 			public const int Base_TextAppearance_AppCompat_Widget_Button_Inverse = 2131361969;
 			
-			// aapt resource value: 0x7f0a00c6
-			public const int Base_TextAppearance_AppCompat_Widget_DropDownItem = 2131361990;
+			// aapt resource value: 0x7f0a00c4
+			public const int Base_TextAppearance_AppCompat_Widget_DropDownItem = 2131361988;
 			
 			// aapt resource value: 0x7f0a0075
 			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131361909;
@@ -4468,8 +6342,8 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f0a0079
 			public const int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131361913;
 			
-			// aapt resource value: 0x7f0a00c7
-			public const int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131361991;
+			// aapt resource value: 0x7f0a00c5
+			public const int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131361989;
 			
 			// aapt resource value: 0x7f0a007a
 			public const int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131361914;
@@ -4480,8 +6354,8 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f0a007c
 			public const int Base_Theme_AppCompat = 2131361916;
 			
-			// aapt resource value: 0x7f0a00c8
-			public const int Base_Theme_AppCompat_CompactMenu = 2131361992;
+			// aapt resource value: 0x7f0a00c6
+			public const int Base_Theme_AppCompat_CompactMenu = 2131361990;
 			
 			// aapt resource value: 0x7f0a002d
 			public const int Base_Theme_AppCompat_Dialog = 2131361837;
@@ -4489,8 +6363,8 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f0a002e
 			public const int Base_Theme_AppCompat_Dialog_Alert = 2131361838;
 			
-			// aapt resource value: 0x7f0a00c9
-			public const int Base_Theme_AppCompat_Dialog_FixedSize = 2131361993;
+			// aapt resource value: 0x7f0a00c7
+			public const int Base_Theme_AppCompat_Dialog_FixedSize = 2131361991;
 			
 			// aapt resource value: 0x7f0a002f
 			public const int Base_Theme_AppCompat_Dialog_MinWidth = 2131361839;
@@ -4501,8 +6375,8 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f0a007d
 			public const int Base_Theme_AppCompat_Light = 2131361917;
 			
-			// aapt resource value: 0x7f0a00ca
-			public const int Base_Theme_AppCompat_Light_DarkActionBar = 2131361994;
+			// aapt resource value: 0x7f0a00c8
+			public const int Base_Theme_AppCompat_Light_DarkActionBar = 2131361992;
 			
 			// aapt resource value: 0x7f0a0030
 			public const int Base_Theme_AppCompat_Light_Dialog = 2131361840;
@@ -4510,8 +6384,8 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f0a0031
 			public const int Base_Theme_AppCompat_Light_Dialog_Alert = 2131361841;
 			
-			// aapt resource value: 0x7f0a00cb
-			public const int Base_Theme_AppCompat_Light_Dialog_FixedSize = 2131361995;
+			// aapt resource value: 0x7f0a00c9
+			public const int Base_Theme_AppCompat_Light_Dialog_FixedSize = 2131361993;
 			
 			// aapt resource value: 0x7f0a0032
 			public const int Base_Theme_AppCompat_Light_Dialog_MinWidth = 2131361842;
@@ -4519,20 +6393,20 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f0a001e
 			public const int Base_Theme_AppCompat_Light_DialogWhenLarge = 2131361822;
 			
-			// aapt resource value: 0x7f0a0197
-			public const int Base_Theme_SadaraTheme = 2131362199;
+			// aapt resource value: 0x7f0a0195
+			public const int Base_Theme_SadaraTheme = 2131362197;
+			
+			// aapt resource value: 0x7f0a00ca
+			public const int Base_ThemeOverlay_AppCompat = 2131361994;
+			
+			// aapt resource value: 0x7f0a00cb
+			public const int Base_ThemeOverlay_AppCompat_ActionBar = 2131361995;
 			
 			// aapt resource value: 0x7f0a00cc
-			public const int Base_ThemeOverlay_AppCompat = 2131361996;
+			public const int Base_ThemeOverlay_AppCompat_Dark = 2131361996;
 			
 			// aapt resource value: 0x7f0a00cd
-			public const int Base_ThemeOverlay_AppCompat_ActionBar = 2131361997;
-			
-			// aapt resource value: 0x7f0a00ce
-			public const int Base_ThemeOverlay_AppCompat_Dark = 2131361998;
-			
-			// aapt resource value: 0x7f0a00cf
-			public const int Base_ThemeOverlay_AppCompat_Dark_ActionBar = 2131361999;
+			public const int Base_ThemeOverlay_AppCompat_Dark_ActionBar = 2131361997;
 			
 			// aapt resource value: 0x7f0a0033
 			public const int Base_ThemeOverlay_AppCompat_Dialog = 2131361843;
@@ -4540,8 +6414,8 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f0a0034
 			public const int Base_ThemeOverlay_AppCompat_Dialog_Alert = 2131361844;
 			
-			// aapt resource value: 0x7f0a00d0
-			public const int Base_ThemeOverlay_AppCompat_Light = 2131362000;
+			// aapt resource value: 0x7f0a00ce
+			public const int Base_ThemeOverlay_AppCompat_Light = 2131361998;
 			
 			// aapt resource value: 0x7f0a0035
 			public const int Base_V11_Theme_AppCompat_Dialog = 2131361845;
@@ -4585,35 +6459,35 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f0a00b3
 			public const int Base_V23_Theme_AppCompat_Light = 2131361971;
 			
+			// aapt resource value: 0x7f0a00cf
+			public const int Base_V7_Theme_AppCompat = 2131361999;
+			
+			// aapt resource value: 0x7f0a00d0
+			public const int Base_V7_Theme_AppCompat_Dialog = 2131362000;
+			
 			// aapt resource value: 0x7f0a00d1
-			public const int Base_V7_Theme_AppCompat = 2131362001;
+			public const int Base_V7_Theme_AppCompat_Light = 2131362001;
 			
 			// aapt resource value: 0x7f0a00d2
-			public const int Base_V7_Theme_AppCompat_Dialog = 2131362002;
+			public const int Base_V7_Theme_AppCompat_Light_Dialog = 2131362002;
 			
 			// aapt resource value: 0x7f0a00d3
-			public const int Base_V7_Theme_AppCompat_Light = 2131362003;
+			public const int Base_V7_ThemeOverlay_AppCompat_Dialog = 2131362003;
 			
 			// aapt resource value: 0x7f0a00d4
-			public const int Base_V7_Theme_AppCompat_Light_Dialog = 2131362004;
+			public const int Base_V7_Widget_AppCompat_AutoCompleteTextView = 2131362004;
 			
 			// aapt resource value: 0x7f0a00d5
-			public const int Base_V7_ThemeOverlay_AppCompat_Dialog = 2131362005;
+			public const int Base_V7_Widget_AppCompat_EditText = 2131362005;
 			
 			// aapt resource value: 0x7f0a00d6
-			public const int Base_V7_Widget_AppCompat_AutoCompleteTextView = 2131362006;
+			public const int Base_Widget_AppCompat_ActionBar = 2131362006;
 			
 			// aapt resource value: 0x7f0a00d7
-			public const int Base_V7_Widget_AppCompat_EditText = 2131362007;
+			public const int Base_Widget_AppCompat_ActionBar_Solid = 2131362007;
 			
 			// aapt resource value: 0x7f0a00d8
-			public const int Base_Widget_AppCompat_ActionBar = 2131362008;
-			
-			// aapt resource value: 0x7f0a00d9
-			public const int Base_Widget_AppCompat_ActionBar_Solid = 2131362009;
-			
-			// aapt resource value: 0x7f0a00da
-			public const int Base_Widget_AppCompat_ActionBar_TabBar = 2131362010;
+			public const int Base_Widget_AppCompat_ActionBar_TabBar = 2131362008;
 			
 			// aapt resource value: 0x7f0a0083
 			public const int Base_Widget_AppCompat_ActionBar_TabText = 2131361923;
@@ -4630,11 +6504,11 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f0a0087
 			public const int Base_Widget_AppCompat_ActionButton_Overflow = 2131361927;
 			
-			// aapt resource value: 0x7f0a00db
-			public const int Base_Widget_AppCompat_ActionMode = 2131362011;
+			// aapt resource value: 0x7f0a00d9
+			public const int Base_Widget_AppCompat_ActionMode = 2131362009;
 			
-			// aapt resource value: 0x7f0a00dc
-			public const int Base_Widget_AppCompat_ActivityChooserView = 2131362012;
+			// aapt resource value: 0x7f0a00da
+			public const int Base_Widget_AppCompat_ActivityChooserView = 2131362010;
 			
 			// aapt resource value: 0x7f0a0041
 			public const int Base_Widget_AppCompat_AutoCompleteTextView = 2131361857;
@@ -4648,8 +6522,8 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f0a008a
 			public const int Base_Widget_AppCompat_Button_Borderless_Colored = 2131361930;
 			
-			// aapt resource value: 0x7f0a00dd
-			public const int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131362013;
+			// aapt resource value: 0x7f0a00db
+			public const int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131362011;
 			
 			// aapt resource value: 0x7f0a00b4
 			public const int Base_Widget_AppCompat_Button_Colored = 2131361972;
@@ -4660,8 +6534,8 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f0a008c
 			public const int Base_Widget_AppCompat_ButtonBar = 2131361932;
 			
-			// aapt resource value: 0x7f0a00de
-			public const int Base_Widget_AppCompat_ButtonBar_AlertDialog = 2131362014;
+			// aapt resource value: 0x7f0a00dc
+			public const int Base_Widget_AppCompat_ButtonBar_AlertDialog = 2131362012;
 			
 			// aapt resource value: 0x7f0a008d
 			public const int Base_Widget_AppCompat_CompoundButton_CheckBox = 2131361933;
@@ -4669,14 +6543,14 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f0a008e
 			public const int Base_Widget_AppCompat_CompoundButton_RadioButton = 2131361934;
 			
-			// aapt resource value: 0x7f0a00df
-			public const int Base_Widget_AppCompat_CompoundButton_Switch = 2131362015;
+			// aapt resource value: 0x7f0a00dd
+			public const int Base_Widget_AppCompat_CompoundButton_Switch = 2131362013;
 			
 			// aapt resource value: 0x7f0a001c
 			public const int Base_Widget_AppCompat_DrawerArrowToggle = 2131361820;
 			
-			// aapt resource value: 0x7f0a00e0
-			public const int Base_Widget_AppCompat_DrawerArrowToggle_Common = 2131362016;
+			// aapt resource value: 0x7f0a00de
+			public const int Base_Widget_AppCompat_DrawerArrowToggle_Common = 2131362014;
 			
 			// aapt resource value: 0x7f0a008f
 			public const int Base_Widget_AppCompat_DropDownItem_Spinner = 2131361935;
@@ -4687,14 +6561,14 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f0a0090
 			public const int Base_Widget_AppCompat_ImageButton = 2131361936;
 			
+			// aapt resource value: 0x7f0a00df
+			public const int Base_Widget_AppCompat_Light_ActionBar = 2131362015;
+			
+			// aapt resource value: 0x7f0a00e0
+			public const int Base_Widget_AppCompat_Light_ActionBar_Solid = 2131362016;
+			
 			// aapt resource value: 0x7f0a00e1
-			public const int Base_Widget_AppCompat_Light_ActionBar = 2131362017;
-			
-			// aapt resource value: 0x7f0a00e2
-			public const int Base_Widget_AppCompat_Light_ActionBar_Solid = 2131362018;
-			
-			// aapt resource value: 0x7f0a00e3
-			public const int Base_Widget_AppCompat_Light_ActionBar_TabBar = 2131362019;
+			public const int Base_Widget_AppCompat_Light_ActionBar_TabBar = 2131362017;
 			
 			// aapt resource value: 0x7f0a0091
 			public const int Base_Widget_AppCompat_Light_ActionBar_TabText = 2131361937;
@@ -4711,8 +6585,8 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f0a0095
 			public const int Base_Widget_AppCompat_Light_PopupMenu_Overflow = 2131361941;
 			
-			// aapt resource value: 0x7f0a00e4
-			public const int Base_Widget_AppCompat_ListMenuView = 2131362020;
+			// aapt resource value: 0x7f0a00e2
+			public const int Base_Widget_AppCompat_ListMenuView = 2131362018;
 			
 			// aapt resource value: 0x7f0a0096
 			public const int Base_Widget_AppCompat_ListPopupWindow = 2131361942;
@@ -4732,8 +6606,8 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f0a009b
 			public const int Base_Widget_AppCompat_PopupMenu_Overflow = 2131361947;
 			
-			// aapt resource value: 0x7f0a00e5
-			public const int Base_Widget_AppCompat_PopupWindow = 2131362021;
+			// aapt resource value: 0x7f0a00e3
+			public const int Base_Widget_AppCompat_PopupWindow = 2131362019;
 			
 			// aapt resource value: 0x7f0a0038
 			public const int Base_Widget_AppCompat_ProgressBar = 2131361848;
@@ -4750,17 +6624,17 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f0a00b6
 			public const int Base_Widget_AppCompat_RatingBar_Small = 2131361974;
 			
-			// aapt resource value: 0x7f0a00e6
-			public const int Base_Widget_AppCompat_SearchView = 2131362022;
+			// aapt resource value: 0x7f0a00e4
+			public const int Base_Widget_AppCompat_SearchView = 2131362020;
 			
-			// aapt resource value: 0x7f0a00e7
-			public const int Base_Widget_AppCompat_SearchView_ActionBar = 2131362023;
+			// aapt resource value: 0x7f0a00e5
+			public const int Base_Widget_AppCompat_SearchView_ActionBar = 2131362021;
 			
 			// aapt resource value: 0x7f0a009d
 			public const int Base_Widget_AppCompat_SeekBar = 2131361949;
 			
-			// aapt resource value: 0x7f0a00e8
-			public const int Base_Widget_AppCompat_SeekBar_Discrete = 2131362024;
+			// aapt resource value: 0x7f0a00e6
+			public const int Base_Widget_AppCompat_SeekBar_Discrete = 2131362022;
 			
 			// aapt resource value: 0x7f0a009e
 			public const int Base_Widget_AppCompat_Spinner = 2131361950;
@@ -4771,17 +6645,17 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f0a009f
 			public const int Base_Widget_AppCompat_TextView_SpinnerItem = 2131361951;
 			
-			// aapt resource value: 0x7f0a00e9
-			public const int Base_Widget_AppCompat_Toolbar = 2131362025;
+			// aapt resource value: 0x7f0a00e7
+			public const int Base_Widget_AppCompat_Toolbar = 2131362023;
 			
 			// aapt resource value: 0x7f0a00a0
 			public const int Base_Widget_AppCompat_Toolbar_Button_Navigation = 2131361952;
 			
-			// aapt resource value: 0x7f0a017e
-			public const int Base_Widget_Design_AppBarLayout = 2131362174;
+			// aapt resource value: 0x7f0a017c
+			public const int Base_Widget_Design_AppBarLayout = 2131362172;
 			
-			// aapt resource value: 0x7f0a017f
-			public const int Base_Widget_Design_TabLayout = 2131362175;
+			// aapt resource value: 0x7f0a017d
+			public const int Base_Widget_Design_TabLayout = 2131362173;
 			
 			// aapt resource value: 0x7f0a0018
 			public const int CardView = 2131361816;
@@ -4792,8 +6666,8 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f0a001b
 			public const int CardView_Light = 2131361819;
 			
-			// aapt resource value: 0x7f0a0196
-			public const int Main_Theme_SadaraTheme = 2131362198;
+			// aapt resource value: 0x7f0a0194
+			public const int Main_Theme_SadaraTheme = 2131362196;
 			
 			// aapt resource value: 0x7f0a0000
 			public const int MessengerButton = 2131361792;
@@ -4870,17 +6744,11 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f0a00a5
 			public const int Platform_V21_AppCompat_Light = 2131361957;
 			
-			// aapt resource value: 0x7f0a00b9
-			public const int Platform_V25_AppCompat = 2131361977;
-			
-			// aapt resource value: 0x7f0a00ba
-			public const int Platform_V25_AppCompat_Light = 2131361978;
-			
 			// aapt resource value: 0x7f0a003e
 			public const int Platform_Widget_AppCompat_Spinner = 2131361854;
 			
-			// aapt resource value: 0x7f0a0198
-			public const int ProgressBarTheme = 2131362200;
+			// aapt resource value: 0x7f0a0196
+			public const int ProgressBarTheme = 2131362198;
 			
 			// aapt resource value: 0x7f0a004d
 			public const int RtlOverlay_DialogWindowTitle_AppCompat = 2131361869;
@@ -4924,65 +6792,65 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f0a005a
 			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2131361882;
 			
+			// aapt resource value: 0x7f0a00e8
+			public const int TextAppearance_AppCompat = 2131362024;
+			
+			// aapt resource value: 0x7f0a00e9
+			public const int TextAppearance_AppCompat_Body1 = 2131362025;
+			
 			// aapt resource value: 0x7f0a00ea
-			public const int TextAppearance_AppCompat = 2131362026;
+			public const int TextAppearance_AppCompat_Body2 = 2131362026;
 			
 			// aapt resource value: 0x7f0a00eb
-			public const int TextAppearance_AppCompat_Body1 = 2131362027;
+			public const int TextAppearance_AppCompat_Button = 2131362027;
 			
 			// aapt resource value: 0x7f0a00ec
-			public const int TextAppearance_AppCompat_Body2 = 2131362028;
+			public const int TextAppearance_AppCompat_Caption = 2131362028;
 			
 			// aapt resource value: 0x7f0a00ed
-			public const int TextAppearance_AppCompat_Button = 2131362029;
+			public const int TextAppearance_AppCompat_Display1 = 2131362029;
 			
 			// aapt resource value: 0x7f0a00ee
-			public const int TextAppearance_AppCompat_Caption = 2131362030;
+			public const int TextAppearance_AppCompat_Display2 = 2131362030;
 			
 			// aapt resource value: 0x7f0a00ef
-			public const int TextAppearance_AppCompat_Display1 = 2131362031;
+			public const int TextAppearance_AppCompat_Display3 = 2131362031;
 			
 			// aapt resource value: 0x7f0a00f0
-			public const int TextAppearance_AppCompat_Display2 = 2131362032;
+			public const int TextAppearance_AppCompat_Display4 = 2131362032;
 			
 			// aapt resource value: 0x7f0a00f1
-			public const int TextAppearance_AppCompat_Display3 = 2131362033;
+			public const int TextAppearance_AppCompat_Headline = 2131362033;
 			
 			// aapt resource value: 0x7f0a00f2
-			public const int TextAppearance_AppCompat_Display4 = 2131362034;
+			public const int TextAppearance_AppCompat_Inverse = 2131362034;
 			
 			// aapt resource value: 0x7f0a00f3
-			public const int TextAppearance_AppCompat_Headline = 2131362035;
+			public const int TextAppearance_AppCompat_Large = 2131362035;
 			
 			// aapt resource value: 0x7f0a00f4
-			public const int TextAppearance_AppCompat_Inverse = 2131362036;
+			public const int TextAppearance_AppCompat_Large_Inverse = 2131362036;
 			
 			// aapt resource value: 0x7f0a00f5
-			public const int TextAppearance_AppCompat_Large = 2131362037;
+			public const int TextAppearance_AppCompat_Light_SearchResult_Subtitle = 2131362037;
 			
 			// aapt resource value: 0x7f0a00f6
-			public const int TextAppearance_AppCompat_Large_Inverse = 2131362038;
+			public const int TextAppearance_AppCompat_Light_SearchResult_Title = 2131362038;
 			
 			// aapt resource value: 0x7f0a00f7
-			public const int TextAppearance_AppCompat_Light_SearchResult_Subtitle = 2131362039;
+			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131362039;
 			
 			// aapt resource value: 0x7f0a00f8
-			public const int TextAppearance_AppCompat_Light_SearchResult_Title = 2131362040;
+			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131362040;
 			
 			// aapt resource value: 0x7f0a00f9
-			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131362041;
+			public const int TextAppearance_AppCompat_Medium = 2131362041;
 			
 			// aapt resource value: 0x7f0a00fa
-			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131362042;
+			public const int TextAppearance_AppCompat_Medium_Inverse = 2131362042;
 			
 			// aapt resource value: 0x7f0a00fb
-			public const int TextAppearance_AppCompat_Medium = 2131362043;
-			
-			// aapt resource value: 0x7f0a00fc
-			public const int TextAppearance_AppCompat_Medium_Inverse = 2131362044;
-			
-			// aapt resource value: 0x7f0a00fd
-			public const int TextAppearance_AppCompat_Menu = 2131362045;
+			public const int TextAppearance_AppCompat_Menu = 2131362043;
 			
 			// aapt resource value: 0x7f0a0046
 			public const int TextAppearance_AppCompat_Notification = 2131361862;
@@ -4993,11 +6861,11 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f0a00a7
 			public const int TextAppearance_AppCompat_Notification_Info_Media = 2131361959;
 			
-			// aapt resource value: 0x7f0a00fe
-			public const int TextAppearance_AppCompat_Notification_Line2 = 2131362046;
+			// aapt resource value: 0x7f0a00fc
+			public const int TextAppearance_AppCompat_Notification_Line2 = 2131362044;
 			
-			// aapt resource value: 0x7f0a00ff
-			public const int TextAppearance_AppCompat_Notification_Line2_Media = 2131362047;
+			// aapt resource value: 0x7f0a00fd
+			public const int TextAppearance_AppCompat_Notification_Line2_Media = 2131362045;
 			
 			// aapt resource value: 0x7f0a00a8
 			public const int TextAppearance_AppCompat_Notification_Media = 2131361960;
@@ -5014,107 +6882,107 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f0a00ab
 			public const int TextAppearance_AppCompat_Notification_Title_Media = 2131361963;
 			
+			// aapt resource value: 0x7f0a00fe
+			public const int TextAppearance_AppCompat_SearchResult_Subtitle = 2131362046;
+			
+			// aapt resource value: 0x7f0a00ff
+			public const int TextAppearance_AppCompat_SearchResult_Title = 2131362047;
+			
 			// aapt resource value: 0x7f0a0100
-			public const int TextAppearance_AppCompat_SearchResult_Subtitle = 2131362048;
+			public const int TextAppearance_AppCompat_Small = 2131362048;
 			
 			// aapt resource value: 0x7f0a0101
-			public const int TextAppearance_AppCompat_SearchResult_Title = 2131362049;
+			public const int TextAppearance_AppCompat_Small_Inverse = 2131362049;
 			
 			// aapt resource value: 0x7f0a0102
-			public const int TextAppearance_AppCompat_Small = 2131362050;
+			public const int TextAppearance_AppCompat_Subhead = 2131362050;
 			
 			// aapt resource value: 0x7f0a0103
-			public const int TextAppearance_AppCompat_Small_Inverse = 2131362051;
+			public const int TextAppearance_AppCompat_Subhead_Inverse = 2131362051;
 			
 			// aapt resource value: 0x7f0a0104
-			public const int TextAppearance_AppCompat_Subhead = 2131362052;
+			public const int TextAppearance_AppCompat_Title = 2131362052;
 			
 			// aapt resource value: 0x7f0a0105
-			public const int TextAppearance_AppCompat_Subhead_Inverse = 2131362053;
+			public const int TextAppearance_AppCompat_Title_Inverse = 2131362053;
 			
 			// aapt resource value: 0x7f0a0106
-			public const int TextAppearance_AppCompat_Title = 2131362054;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131362054;
 			
 			// aapt resource value: 0x7f0a0107
-			public const int TextAppearance_AppCompat_Title_Inverse = 2131362055;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131362055;
 			
 			// aapt resource value: 0x7f0a0108
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131362056;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131362056;
 			
 			// aapt resource value: 0x7f0a0109
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131362057;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Title = 2131362057;
 			
 			// aapt resource value: 0x7f0a010a
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131362058;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131362058;
 			
 			// aapt resource value: 0x7f0a010b
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Title = 2131362059;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131362059;
 			
 			// aapt resource value: 0x7f0a010c
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131362060;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = 2131362060;
 			
 			// aapt resource value: 0x7f0a010d
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131362061;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Title = 2131362061;
 			
 			// aapt resource value: 0x7f0a010e
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = 2131362062;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = 2131362062;
 			
 			// aapt resource value: 0x7f0a010f
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Title = 2131362063;
+			public const int TextAppearance_AppCompat_Widget_Button = 2131362063;
 			
 			// aapt resource value: 0x7f0a0110
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = 2131362064;
+			public const int TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131362064;
 			
 			// aapt resource value: 0x7f0a0111
-			public const int TextAppearance_AppCompat_Widget_Button = 2131362065;
+			public const int TextAppearance_AppCompat_Widget_Button_Colored = 2131362065;
 			
 			// aapt resource value: 0x7f0a0112
-			public const int TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131362066;
+			public const int TextAppearance_AppCompat_Widget_Button_Inverse = 2131362066;
 			
 			// aapt resource value: 0x7f0a0113
-			public const int TextAppearance_AppCompat_Widget_Button_Colored = 2131362067;
+			public const int TextAppearance_AppCompat_Widget_DropDownItem = 2131362067;
 			
 			// aapt resource value: 0x7f0a0114
-			public const int TextAppearance_AppCompat_Widget_Button_Inverse = 2131362068;
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131362068;
 			
 			// aapt resource value: 0x7f0a0115
-			public const int TextAppearance_AppCompat_Widget_DropDownItem = 2131362069;
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131362069;
 			
 			// aapt resource value: 0x7f0a0116
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131362070;
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131362070;
 			
 			// aapt resource value: 0x7f0a0117
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131362071;
+			public const int TextAppearance_AppCompat_Widget_Switch = 2131362071;
 			
 			// aapt resource value: 0x7f0a0118
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131362072;
+			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131362072;
 			
-			// aapt resource value: 0x7f0a0119
-			public const int TextAppearance_AppCompat_Widget_Switch = 2131362073;
+			// aapt resource value: 0x7f0a017e
+			public const int TextAppearance_Design_CollapsingToolbar_Expanded = 2131362174;
 			
-			// aapt resource value: 0x7f0a011a
-			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131362074;
+			// aapt resource value: 0x7f0a017f
+			public const int TextAppearance_Design_Counter = 2131362175;
 			
 			// aapt resource value: 0x7f0a0180
-			public const int TextAppearance_Design_CollapsingToolbar_Expanded = 2131362176;
+			public const int TextAppearance_Design_Counter_Overflow = 2131362176;
 			
 			// aapt resource value: 0x7f0a0181
-			public const int TextAppearance_Design_Counter = 2131362177;
+			public const int TextAppearance_Design_Error = 2131362177;
 			
 			// aapt resource value: 0x7f0a0182
-			public const int TextAppearance_Design_Counter_Overflow = 2131362178;
+			public const int TextAppearance_Design_Hint = 2131362178;
 			
 			// aapt resource value: 0x7f0a0183
-			public const int TextAppearance_Design_Error = 2131362179;
+			public const int TextAppearance_Design_Snackbar_Message = 2131362179;
 			
 			// aapt resource value: 0x7f0a0184
-			public const int TextAppearance_Design_Hint = 2131362180;
-			
-			// aapt resource value: 0x7f0a0185
-			public const int TextAppearance_Design_Snackbar_Message = 2131362181;
-			
-			// aapt resource value: 0x7f0a0186
-			public const int TextAppearance_Design_Tab = 2131362182;
+			public const int TextAppearance_Design_Tab = 2131362180;
 			
 			// aapt resource value: 0x7f0a0048
 			public const int TextAppearance_StatusBar_EventContent = 2131361864;
@@ -5131,20 +6999,20 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f0a004c
 			public const int TextAppearance_StatusBar_EventContent_Title = 2131361868;
 			
+			// aapt resource value: 0x7f0a0119
+			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131362073;
+			
+			// aapt resource value: 0x7f0a011a
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131362074;
+			
 			// aapt resource value: 0x7f0a011b
-			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131362075;
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131362075;
 			
 			// aapt resource value: 0x7f0a011c
-			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131362076;
+			public const int Theme_AppCompat = 2131362076;
 			
 			// aapt resource value: 0x7f0a011d
-			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131362077;
-			
-			// aapt resource value: 0x7f0a011e
-			public const int Theme_AppCompat = 2131362078;
-			
-			// aapt resource value: 0x7f0a011f
-			public const int Theme_AppCompat_CompactMenu = 2131362079;
+			public const int Theme_AppCompat_CompactMenu = 2131362077;
 			
 			// aapt resource value: 0x7f0a0020
 			public const int Theme_AppCompat_DayNight = 2131361824;
@@ -5167,239 +7035,239 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f0a0026
 			public const int Theme_AppCompat_DayNight_NoActionBar = 2131361830;
 			
+			// aapt resource value: 0x7f0a011e
+			public const int Theme_AppCompat_Dialog = 2131362078;
+			
+			// aapt resource value: 0x7f0a011f
+			public const int Theme_AppCompat_Dialog_Alert = 2131362079;
+			
 			// aapt resource value: 0x7f0a0120
-			public const int Theme_AppCompat_Dialog = 2131362080;
+			public const int Theme_AppCompat_Dialog_MinWidth = 2131362080;
 			
 			// aapt resource value: 0x7f0a0121
-			public const int Theme_AppCompat_Dialog_Alert = 2131362081;
+			public const int Theme_AppCompat_DialogWhenLarge = 2131362081;
 			
 			// aapt resource value: 0x7f0a0122
-			public const int Theme_AppCompat_Dialog_MinWidth = 2131362082;
+			public const int Theme_AppCompat_Light = 2131362082;
 			
 			// aapt resource value: 0x7f0a0123
-			public const int Theme_AppCompat_DialogWhenLarge = 2131362083;
+			public const int Theme_AppCompat_Light_DarkActionBar = 2131362083;
 			
 			// aapt resource value: 0x7f0a0124
-			public const int Theme_AppCompat_Light = 2131362084;
+			public const int Theme_AppCompat_Light_Dialog = 2131362084;
 			
 			// aapt resource value: 0x7f0a0125
-			public const int Theme_AppCompat_Light_DarkActionBar = 2131362085;
+			public const int Theme_AppCompat_Light_Dialog_Alert = 2131362085;
 			
 			// aapt resource value: 0x7f0a0126
-			public const int Theme_AppCompat_Light_Dialog = 2131362086;
+			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131362086;
 			
 			// aapt resource value: 0x7f0a0127
-			public const int Theme_AppCompat_Light_Dialog_Alert = 2131362087;
+			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131362087;
 			
 			// aapt resource value: 0x7f0a0128
-			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131362088;
+			public const int Theme_AppCompat_Light_NoActionBar = 2131362088;
 			
 			// aapt resource value: 0x7f0a0129
-			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131362089;
+			public const int Theme_AppCompat_NoActionBar = 2131362089;
 			
-			// aapt resource value: 0x7f0a012a
-			public const int Theme_AppCompat_Light_NoActionBar = 2131362090;
+			// aapt resource value: 0x7f0a0185
+			public const int Theme_Design = 2131362181;
 			
-			// aapt resource value: 0x7f0a012b
-			public const int Theme_AppCompat_NoActionBar = 2131362091;
+			// aapt resource value: 0x7f0a0186
+			public const int Theme_Design_BottomSheetDialog = 2131362182;
 			
 			// aapt resource value: 0x7f0a0187
-			public const int Theme_Design = 2131362183;
+			public const int Theme_Design_Light = 2131362183;
 			
 			// aapt resource value: 0x7f0a0188
-			public const int Theme_Design_BottomSheetDialog = 2131362184;
+			public const int Theme_Design_Light_BottomSheetDialog = 2131362184;
 			
 			// aapt resource value: 0x7f0a0189
-			public const int Theme_Design_Light = 2131362185;
+			public const int Theme_Design_Light_NoActionBar = 2131362185;
 			
 			// aapt resource value: 0x7f0a018a
-			public const int Theme_Design_Light_BottomSheetDialog = 2131362186;
+			public const int Theme_Design_NoActionBar = 2131362186;
 			
-			// aapt resource value: 0x7f0a018b
-			public const int Theme_Design_Light_NoActionBar = 2131362187;
+			// aapt resource value: 0x7f0a012a
+			public const int ThemeOverlay_AppCompat = 2131362090;
 			
-			// aapt resource value: 0x7f0a018c
-			public const int Theme_Design_NoActionBar = 2131362188;
+			// aapt resource value: 0x7f0a012b
+			public const int ThemeOverlay_AppCompat_ActionBar = 2131362091;
 			
 			// aapt resource value: 0x7f0a012c
-			public const int ThemeOverlay_AppCompat = 2131362092;
+			public const int ThemeOverlay_AppCompat_Dark = 2131362092;
 			
 			// aapt resource value: 0x7f0a012d
-			public const int ThemeOverlay_AppCompat_ActionBar = 2131362093;
+			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131362093;
 			
 			// aapt resource value: 0x7f0a012e
-			public const int ThemeOverlay_AppCompat_Dark = 2131362094;
+			public const int ThemeOverlay_AppCompat_Dialog = 2131362094;
 			
 			// aapt resource value: 0x7f0a012f
-			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131362095;
+			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131362095;
 			
 			// aapt resource value: 0x7f0a0130
-			public const int ThemeOverlay_AppCompat_Dialog = 2131362096;
+			public const int ThemeOverlay_AppCompat_Light = 2131362096;
 			
 			// aapt resource value: 0x7f0a0131
-			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131362097;
+			public const int Widget_AppCompat_ActionBar = 2131362097;
 			
 			// aapt resource value: 0x7f0a0132
-			public const int ThemeOverlay_AppCompat_Light = 2131362098;
+			public const int Widget_AppCompat_ActionBar_Solid = 2131362098;
 			
 			// aapt resource value: 0x7f0a0133
-			public const int Widget_AppCompat_ActionBar = 2131362099;
+			public const int Widget_AppCompat_ActionBar_TabBar = 2131362099;
 			
 			// aapt resource value: 0x7f0a0134
-			public const int Widget_AppCompat_ActionBar_Solid = 2131362100;
+			public const int Widget_AppCompat_ActionBar_TabText = 2131362100;
 			
 			// aapt resource value: 0x7f0a0135
-			public const int Widget_AppCompat_ActionBar_TabBar = 2131362101;
+			public const int Widget_AppCompat_ActionBar_TabView = 2131362101;
 			
 			// aapt resource value: 0x7f0a0136
-			public const int Widget_AppCompat_ActionBar_TabText = 2131362102;
+			public const int Widget_AppCompat_ActionButton = 2131362102;
 			
 			// aapt resource value: 0x7f0a0137
-			public const int Widget_AppCompat_ActionBar_TabView = 2131362103;
+			public const int Widget_AppCompat_ActionButton_CloseMode = 2131362103;
 			
 			// aapt resource value: 0x7f0a0138
-			public const int Widget_AppCompat_ActionButton = 2131362104;
+			public const int Widget_AppCompat_ActionButton_Overflow = 2131362104;
 			
 			// aapt resource value: 0x7f0a0139
-			public const int Widget_AppCompat_ActionButton_CloseMode = 2131362105;
+			public const int Widget_AppCompat_ActionMode = 2131362105;
 			
 			// aapt resource value: 0x7f0a013a
-			public const int Widget_AppCompat_ActionButton_Overflow = 2131362106;
+			public const int Widget_AppCompat_ActivityChooserView = 2131362106;
 			
 			// aapt resource value: 0x7f0a013b
-			public const int Widget_AppCompat_ActionMode = 2131362107;
+			public const int Widget_AppCompat_AutoCompleteTextView = 2131362107;
 			
 			// aapt resource value: 0x7f0a013c
-			public const int Widget_AppCompat_ActivityChooserView = 2131362108;
+			public const int Widget_AppCompat_Button = 2131362108;
 			
 			// aapt resource value: 0x7f0a013d
-			public const int Widget_AppCompat_AutoCompleteTextView = 2131362109;
+			public const int Widget_AppCompat_Button_Borderless = 2131362109;
 			
 			// aapt resource value: 0x7f0a013e
-			public const int Widget_AppCompat_Button = 2131362110;
+			public const int Widget_AppCompat_Button_Borderless_Colored = 2131362110;
 			
 			// aapt resource value: 0x7f0a013f
-			public const int Widget_AppCompat_Button_Borderless = 2131362111;
+			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131362111;
 			
 			// aapt resource value: 0x7f0a0140
-			public const int Widget_AppCompat_Button_Borderless_Colored = 2131362112;
+			public const int Widget_AppCompat_Button_Colored = 2131362112;
 			
 			// aapt resource value: 0x7f0a0141
-			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131362113;
+			public const int Widget_AppCompat_Button_Small = 2131362113;
 			
 			// aapt resource value: 0x7f0a0142
-			public const int Widget_AppCompat_Button_Colored = 2131362114;
+			public const int Widget_AppCompat_ButtonBar = 2131362114;
 			
 			// aapt resource value: 0x7f0a0143
-			public const int Widget_AppCompat_Button_Small = 2131362115;
+			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131362115;
 			
 			// aapt resource value: 0x7f0a0144
-			public const int Widget_AppCompat_ButtonBar = 2131362116;
+			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131362116;
 			
 			// aapt resource value: 0x7f0a0145
-			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131362117;
+			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131362117;
 			
 			// aapt resource value: 0x7f0a0146
-			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131362118;
+			public const int Widget_AppCompat_CompoundButton_Switch = 2131362118;
 			
 			// aapt resource value: 0x7f0a0147
-			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131362119;
+			public const int Widget_AppCompat_DrawerArrowToggle = 2131362119;
 			
 			// aapt resource value: 0x7f0a0148
-			public const int Widget_AppCompat_CompoundButton_Switch = 2131362120;
+			public const int Widget_AppCompat_DropDownItem_Spinner = 2131362120;
 			
 			// aapt resource value: 0x7f0a0149
-			public const int Widget_AppCompat_DrawerArrowToggle = 2131362121;
+			public const int Widget_AppCompat_EditText = 2131362121;
 			
 			// aapt resource value: 0x7f0a014a
-			public const int Widget_AppCompat_DropDownItem_Spinner = 2131362122;
+			public const int Widget_AppCompat_ImageButton = 2131362122;
 			
 			// aapt resource value: 0x7f0a014b
-			public const int Widget_AppCompat_EditText = 2131362123;
+			public const int Widget_AppCompat_Light_ActionBar = 2131362123;
 			
 			// aapt resource value: 0x7f0a014c
-			public const int Widget_AppCompat_ImageButton = 2131362124;
+			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131362124;
 			
 			// aapt resource value: 0x7f0a014d
-			public const int Widget_AppCompat_Light_ActionBar = 2131362125;
+			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131362125;
 			
 			// aapt resource value: 0x7f0a014e
-			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131362126;
+			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131362126;
 			
 			// aapt resource value: 0x7f0a014f
-			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131362127;
+			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131362127;
 			
 			// aapt resource value: 0x7f0a0150
-			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131362128;
+			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131362128;
 			
 			// aapt resource value: 0x7f0a0151
-			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131362129;
+			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131362129;
 			
 			// aapt resource value: 0x7f0a0152
-			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131362130;
+			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131362130;
 			
 			// aapt resource value: 0x7f0a0153
-			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131362131;
+			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131362131;
 			
 			// aapt resource value: 0x7f0a0154
-			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131362132;
+			public const int Widget_AppCompat_Light_ActionButton = 2131362132;
 			
 			// aapt resource value: 0x7f0a0155
-			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131362133;
+			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131362133;
 			
 			// aapt resource value: 0x7f0a0156
-			public const int Widget_AppCompat_Light_ActionButton = 2131362134;
+			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131362134;
 			
 			// aapt resource value: 0x7f0a0157
-			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131362135;
+			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131362135;
 			
 			// aapt resource value: 0x7f0a0158
-			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131362136;
+			public const int Widget_AppCompat_Light_ActivityChooserView = 2131362136;
 			
 			// aapt resource value: 0x7f0a0159
-			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131362137;
+			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131362137;
 			
 			// aapt resource value: 0x7f0a015a
-			public const int Widget_AppCompat_Light_ActivityChooserView = 2131362138;
+			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131362138;
 			
 			// aapt resource value: 0x7f0a015b
-			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131362139;
+			public const int Widget_AppCompat_Light_ListPopupWindow = 2131362139;
 			
 			// aapt resource value: 0x7f0a015c
-			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131362140;
+			public const int Widget_AppCompat_Light_ListView_DropDown = 2131362140;
 			
 			// aapt resource value: 0x7f0a015d
-			public const int Widget_AppCompat_Light_ListPopupWindow = 2131362141;
+			public const int Widget_AppCompat_Light_PopupMenu = 2131362141;
 			
 			// aapt resource value: 0x7f0a015e
-			public const int Widget_AppCompat_Light_ListView_DropDown = 2131362142;
+			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131362142;
 			
 			// aapt resource value: 0x7f0a015f
-			public const int Widget_AppCompat_Light_PopupMenu = 2131362143;
+			public const int Widget_AppCompat_Light_SearchView = 2131362143;
 			
 			// aapt resource value: 0x7f0a0160
-			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131362144;
+			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131362144;
 			
 			// aapt resource value: 0x7f0a0161
-			public const int Widget_AppCompat_Light_SearchView = 2131362145;
+			public const int Widget_AppCompat_ListMenuView = 2131362145;
 			
 			// aapt resource value: 0x7f0a0162
-			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131362146;
+			public const int Widget_AppCompat_ListPopupWindow = 2131362146;
 			
 			// aapt resource value: 0x7f0a0163
-			public const int Widget_AppCompat_ListMenuView = 2131362147;
+			public const int Widget_AppCompat_ListView = 2131362147;
 			
 			// aapt resource value: 0x7f0a0164
-			public const int Widget_AppCompat_ListPopupWindow = 2131362148;
+			public const int Widget_AppCompat_ListView_DropDown = 2131362148;
 			
 			// aapt resource value: 0x7f0a0165
-			public const int Widget_AppCompat_ListView = 2131362149;
-			
-			// aapt resource value: 0x7f0a0166
-			public const int Widget_AppCompat_ListView_DropDown = 2131362150;
-			
-			// aapt resource value: 0x7f0a0167
-			public const int Widget_AppCompat_ListView_Menu = 2131362151;
+			public const int Widget_AppCompat_ListView_Menu = 2131362149;
 			
 			// aapt resource value: 0x7f0a00ac
 			public const int Widget_AppCompat_NotificationActionContainer = 2131361964;
@@ -5407,95 +7275,95 @@ namespace SMobile.Android
 			// aapt resource value: 0x7f0a00ad
 			public const int Widget_AppCompat_NotificationActionText = 2131361965;
 			
+			// aapt resource value: 0x7f0a0166
+			public const int Widget_AppCompat_PopupMenu = 2131362150;
+			
+			// aapt resource value: 0x7f0a0167
+			public const int Widget_AppCompat_PopupMenu_Overflow = 2131362151;
+			
 			// aapt resource value: 0x7f0a0168
-			public const int Widget_AppCompat_PopupMenu = 2131362152;
+			public const int Widget_AppCompat_PopupWindow = 2131362152;
 			
 			// aapt resource value: 0x7f0a0169
-			public const int Widget_AppCompat_PopupMenu_Overflow = 2131362153;
+			public const int Widget_AppCompat_ProgressBar = 2131362153;
 			
 			// aapt resource value: 0x7f0a016a
-			public const int Widget_AppCompat_PopupWindow = 2131362154;
+			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131362154;
 			
 			// aapt resource value: 0x7f0a016b
-			public const int Widget_AppCompat_ProgressBar = 2131362155;
+			public const int Widget_AppCompat_RatingBar = 2131362155;
 			
 			// aapt resource value: 0x7f0a016c
-			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131362156;
+			public const int Widget_AppCompat_RatingBar_Indicator = 2131362156;
 			
 			// aapt resource value: 0x7f0a016d
-			public const int Widget_AppCompat_RatingBar = 2131362157;
+			public const int Widget_AppCompat_RatingBar_Small = 2131362157;
 			
 			// aapt resource value: 0x7f0a016e
-			public const int Widget_AppCompat_RatingBar_Indicator = 2131362158;
+			public const int Widget_AppCompat_SearchView = 2131362158;
 			
 			// aapt resource value: 0x7f0a016f
-			public const int Widget_AppCompat_RatingBar_Small = 2131362159;
+			public const int Widget_AppCompat_SearchView_ActionBar = 2131362159;
 			
 			// aapt resource value: 0x7f0a0170
-			public const int Widget_AppCompat_SearchView = 2131362160;
+			public const int Widget_AppCompat_SeekBar = 2131362160;
 			
 			// aapt resource value: 0x7f0a0171
-			public const int Widget_AppCompat_SearchView_ActionBar = 2131362161;
+			public const int Widget_AppCompat_SeekBar_Discrete = 2131362161;
 			
 			// aapt resource value: 0x7f0a0172
-			public const int Widget_AppCompat_SeekBar = 2131362162;
+			public const int Widget_AppCompat_Spinner = 2131362162;
 			
 			// aapt resource value: 0x7f0a0173
-			public const int Widget_AppCompat_SeekBar_Discrete = 2131362163;
+			public const int Widget_AppCompat_Spinner_DropDown = 2131362163;
 			
 			// aapt resource value: 0x7f0a0174
-			public const int Widget_AppCompat_Spinner = 2131362164;
+			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131362164;
 			
 			// aapt resource value: 0x7f0a0175
-			public const int Widget_AppCompat_Spinner_DropDown = 2131362165;
+			public const int Widget_AppCompat_Spinner_Underlined = 2131362165;
 			
 			// aapt resource value: 0x7f0a0176
-			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131362166;
+			public const int Widget_AppCompat_TextView_SpinnerItem = 2131362166;
 			
 			// aapt resource value: 0x7f0a0177
-			public const int Widget_AppCompat_Spinner_Underlined = 2131362167;
+			public const int Widget_AppCompat_Toolbar = 2131362167;
 			
 			// aapt resource value: 0x7f0a0178
-			public const int Widget_AppCompat_TextView_SpinnerItem = 2131362168;
-			
-			// aapt resource value: 0x7f0a0179
-			public const int Widget_AppCompat_Toolbar = 2131362169;
+			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131362168;
 			
 			// aapt resource value: 0x7f0a017a
-			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131362170;
+			public const int Widget_Design_AppBarLayout = 2131362170;
 			
-			// aapt resource value: 0x7f0a017c
-			public const int Widget_Design_AppBarLayout = 2131362172;
+			// aapt resource value: 0x7f0a018b
+			public const int Widget_Design_BottomNavigationView = 2131362187;
+			
+			// aapt resource value: 0x7f0a018c
+			public const int Widget_Design_BottomSheet_Modal = 2131362188;
 			
 			// aapt resource value: 0x7f0a018d
-			public const int Widget_Design_BottomNavigationView = 2131362189;
+			public const int Widget_Design_CollapsingToolbar = 2131362189;
 			
 			// aapt resource value: 0x7f0a018e
-			public const int Widget_Design_BottomSheet_Modal = 2131362190;
+			public const int Widget_Design_CoordinatorLayout = 2131362190;
 			
 			// aapt resource value: 0x7f0a018f
-			public const int Widget_Design_CollapsingToolbar = 2131362191;
+			public const int Widget_Design_FloatingActionButton = 2131362191;
 			
 			// aapt resource value: 0x7f0a0190
-			public const int Widget_Design_CoordinatorLayout = 2131362192;
+			public const int Widget_Design_NavigationView = 2131362192;
 			
 			// aapt resource value: 0x7f0a0191
-			public const int Widget_Design_FloatingActionButton = 2131362193;
+			public const int Widget_Design_ScrimInsetsFrameLayout = 2131362193;
 			
 			// aapt resource value: 0x7f0a0192
-			public const int Widget_Design_NavigationView = 2131362194;
+			public const int Widget_Design_Snackbar = 2131362194;
+			
+			// aapt resource value: 0x7f0a0179
+			public const int Widget_Design_TabLayout = 2131362169;
 			
 			// aapt resource value: 0x7f0a0193
-			public const int Widget_Design_ScrimInsetsFrameLayout = 2131362195;
-			
-			// aapt resource value: 0x7f0a0194
-			public const int Widget_Design_Snackbar = 2131362196;
-			
-			// aapt resource value: 0x7f0a017b
-			public const int Widget_Design_TabLayout = 2131362171;
-			
-			// aapt resource value: 0x7f0a0195
-			public const int Widget_Design_TextInputLayout = 2131362197;
+			public const int Widget_Design_TextInputLayout = 2131362195;
 			
 			// aapt resource value: 0x7f0a000e
 			public const int com_facebook_activity_theme = 2131361806;
@@ -6830,6 +8698,80 @@ namespace SMobile.Android
 			// aapt resource value: 14
 			public const int MapAttrs_zOrderOnTop = 14;
 			
+			public static int[] MaterialSpinner = new int[] {
+					2130772366,
+					2130772367,
+					2130772368,
+					2130772369,
+					2130772370,
+					2130772371,
+					2130772372,
+					2130772373,
+					2130772374,
+					2130772375,
+					2130772376,
+					2130772377,
+					2130772378,
+					2130772379,
+					2130772380,
+					2130772381,
+					2130772382,
+					2130772383};
+			
+			// aapt resource value: 11
+			public const int MaterialSpinner_ms_alignLabels = 11;
+			
+			// aapt resource value: 15
+			public const int MaterialSpinner_ms_arrowColor = 15;
+			
+			// aapt resource value: 14
+			public const int MaterialSpinner_ms_arrowSize = 14;
+			
+			// aapt resource value: 0
+			public const int MaterialSpinner_ms_baseColor = 0;
+			
+			// aapt resource value: 17
+			public const int MaterialSpinner_ms_enableErrorLabel = 17;
+			
+			// aapt resource value: 16
+			public const int MaterialSpinner_ms_enableFloatingLabel = 16;
+			
+			// aapt resource value: 3
+			public const int MaterialSpinner_ms_error = 3;
+			
+			// aapt resource value: 2
+			public const int MaterialSpinner_ms_errorColor = 2;
+			
+			// aapt resource value: 7
+			public const int MaterialSpinner_ms_floatingLabelColor = 7;
+			
+			// aapt resource value: 6
+			public const int MaterialSpinner_ms_floatingLabelText = 6;
+			
+			// aapt resource value: 1
+			public const int MaterialSpinner_ms_highlightColor = 1;
+			
+			// aapt resource value: 4
+			public const int MaterialSpinner_ms_hint = 4;
+			
+			// aapt resource value: 5
+			public const int MaterialSpinner_ms_hintColor = 5;
+			
+			// aapt resource value: 8
+			public const int MaterialSpinner_ms_multiline = 8;
+			
+			// aapt resource value: 9
+			public const int MaterialSpinner_ms_nbErrorLines = 9;
+			
+			// aapt resource value: 12
+			public const int MaterialSpinner_ms_thickness = 12;
+			
+			// aapt resource value: 13
+			public const int MaterialSpinner_ms_thickness_error = 13;
+			
+			// aapt resource value: 10
+			public const int MaterialSpinner_ms_typeface = 10;
+			
 			public static int[] MenuGroup = new int[] {
 					16842766,
 					16842960,
@@ -7006,6 +8948,76 @@ namespace SMobile.Android
 			// aapt resource value: 4
 			public const int NavigationView_menu = 4;
 			
+			public static int[] PagerSlidingTabStrip = new int[] {
+					2130772349,
+					2130772350,
+					2130772351,
+					2130772352,
+					2130772353,
+					2130772354,
+					2130772355,
+					2130772356,
+					2130772357,
+					2130772358,
+					2130772359,
+					2130772360,
+					2130772361,
+					2130772362,
+					2130772363,
+					2130772364,
+					2130772365};
+			
+			// aapt resource value: 2
+			public const int PagerSlidingTabStrip_pstsDividerColor = 2;
+			
+			// aapt resource value: 6
+			public const int PagerSlidingTabStrip_pstsDividerPadding = 6;
+			
+			// aapt resource value: 3
+			public const int PagerSlidingTabStrip_pstsDividerWidth = 3;
+			
+			// aapt resource value: 0
+			public const int PagerSlidingTabStrip_pstsIndicatorColor = 0;
+			
+			// aapt resource value: 4
+			public const int PagerSlidingTabStrip_pstsIndicatorHeight = 4;
+			
+			// aapt resource value: 12
+			public const int PagerSlidingTabStrip_pstsPaddingMiddle = 12;
+			
+			// aapt resource value: 8
+			public const int PagerSlidingTabStrip_pstsScrollOffset = 8;
+			
+			// aapt resource value: 10
+			public const int PagerSlidingTabStrip_pstsShouldExpand = 10;
+			
+			// aapt resource value: 9
+			public const int PagerSlidingTabStrip_pstsTabBackground = 9;
+			
+			// aapt resource value: 7
+			public const int PagerSlidingTabStrip_pstsTabPaddingLeftRight = 7;
+			
+			// aapt resource value: 11
+			public const int PagerSlidingTabStrip_pstsTextAllCaps = 11;
+			
+			// aapt resource value: 14
+			public const int PagerSlidingTabStrip_pstsTextAlpha = 14;
+			
+			// aapt resource value: 13
+			public const int PagerSlidingTabStrip_pstsTextColorSelected = 13;
+			
+			// aapt resource value: 16
+			public const int PagerSlidingTabStrip_pstsTextSelectedStyle = 16;
+			
+			// aapt resource value: 15
+			public const int PagerSlidingTabStrip_pstsTextStyle = 15;
+			
+			// aapt resource value: 1
+			public const int PagerSlidingTabStrip_pstsUnderlineColor = 1;
+			
+			// aapt resource value: 5
+			public const int PagerSlidingTabStrip_pstsUnderlineHeight = 5;
+			
 			public static int[] PopupWindow = new int[] {
 					16843126,
 					16843465,
@@ -7061,6 +9073,60 @@ namespace SMobile.Android
 			
 			// aapt resource value: 5
 			public const int RecyclerView_stackFromEnd = 5;
+			
+			public static int[] RoundedImageView = new int[] {
+					16843037,
+					2130772337,
+					2130772338,
+					2130772339,
+					2130772340,
+					2130772341,
+					2130772342,
+					2130772343,
+					2130772344,
+					2130772345,
+					2130772346,
+					2130772347,
+					2130772348};
+			
+			// aapt resource value: 0
+			public const int RoundedImageView_android_scaleType = 0;
+			
+			// aapt resource value: 7
+			public const int RoundedImageView_riv_border_color = 7;
+			
+			// aapt resource value: 6
+			public const int RoundedImageView_riv_border_width = 6;
+			
+			// aapt resource value: 1
+			public const int RoundedImageView_riv_corner_radius = 1;
+			
+			// aapt resource value: 4
+			public const int RoundedImageView_riv_corner_radius_bottom_left = 4;
+			
+			// aapt resource value: 5
+			public const int RoundedImageView_riv_corner_radius_bottom_right = 5;
+			
+			// aapt resource value: 2
+			public const int RoundedImageView_riv_corner_radius_top_left = 2;
+			
+			// aapt resource value: 3
+			public const int RoundedImageView_riv_corner_radius_top_right = 3;
+			
+			// aapt resource value: 8
+			public const int RoundedImageView_riv_mutate_background = 8;
+			
+			// aapt resource value: 9
+			public const int RoundedImageView_riv_oval = 9;
+			
+			// aapt resource value: 10
+			public const int RoundedImageView_riv_tile_mode = 10;
+			
+			// aapt resource value: 11
+			public const int RoundedImageView_riv_tile_mode_x = 11;
+			
+			// aapt resource value: 12
+			public const int RoundedImageView_riv_tile_mode_y = 12;
 			
 			public static int[] ScrimInsetsFrameLayout = new int[] {
 					2130772304};

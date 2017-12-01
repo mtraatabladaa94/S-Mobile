@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="12dp"
+    android:paddingRight="12dp">
+    <android.support.v7.widget.CardView
+        android:id="@+id/business_item_cardview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:background="@color/transparent"
+        android:elevation="0dp"
+        app:cardElevation="0dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/profileImageView"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="12dp"
+                android:layout_width="58dp"
+                android:layout_height="58dp"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/ic_business" />
+            <RelativeLayout
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/profileImageView"
+                android:layout_marginLeft="8dp">
+                <LinearLayout
+                    android:id="@+id/infoLinearLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/callLinearLayout"
+                    android:orientation="vertical">
+                  
+                    <TextView
+                        android:id="@+id/nameTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        android:ellipsize="end"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:textColor="#455a64" />
+
+                    <TextView
+                        android:id="@+id/attentionTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        android:ellipsize="end"
+                        android:textSize="13dp"
+                        android:textColor="#90a4ae" />
+                  
+                    <TextView
+                        android:id="@+id/captionTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        android:ellipsize="end"
+                        android:textSize="13dp"
+                        android:textColor="#90a4ae" />
+                  
+                </LinearLayout>
+              
+                <LinearLayout
+                    android:id="@+id/callLinearLayout"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true">
+                  
+                    <android.support.design.widget.FloatingActionButton
+                        android:id="@+id/callFab"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:elevation="0dp"
+                        app:backgroundTint="#60eceff1"
+                        app:borderWidth="0dp"
+                        app:elevation="0dp"
+                        app:srcCompat="@drawable/ic_call"
+                        app:fabSize="normal" />
+                  
+                </LinearLayout>
+              
+            </RelativeLayout>
+          
+            <View
+                android:layout_marginLeft="66dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#F1F1F1"
+                android:layout_alignParentBottom="true" />
+          
+        </RelativeLayout>
+      
+    </android.support.v7.widget.CardView>
+  
+</RelativeLayout>

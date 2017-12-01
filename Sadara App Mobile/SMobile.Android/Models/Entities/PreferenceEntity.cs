@@ -16,7 +16,7 @@ namespace SMobile.Android.Models.Entities
             return PreferenceEntity.PREFERENCE_NAME;
 
         }
-
+        
         public string uid { get; set; } // Key del nodo
 
         public string name { get; set; } // Nombre de la preferencia

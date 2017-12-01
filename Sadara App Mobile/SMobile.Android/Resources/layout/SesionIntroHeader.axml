@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:tools="http://schemas.android.com/tools"
   android:id="@+id/iconLayout"
   android:layout_width="match_parent"
@@ -15,4 +15,33 @@
     android:layout_height="48dp"
     android:layout_centerHorizontal="true" />
   
-</RelativeLayout>
+</RelativeLayout>-->
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  >
+
+  <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/toolbar_coordinator_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/SignupAppBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Light">
+      <android.support.v7.widget.Toolbar
+          android:id="@+id/signin_toolbar"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:elevation="4dp"
+          android:background="?attr/colorPrimary"
+          android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+          android:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+    </android.support.design.widget.AppBarLayout>
+  </android.support.design.widget.CoordinatorLayout>
+  
+</LinearLayout>

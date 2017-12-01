@@ -5,7 +5,7 @@
   <xs:import schemaLocation="schemas.android.com.tools.xsd" namespace="http://schemas.android.com/tools" />
   <xs:annotation>
     <xs:documentation>v25</xs:documentation>
-    <xs:documentation>16/10/2017 19:06:25</xs:documentation>
+    <xs:documentation>17/11/2017 19:16:32</xs:documentation>
   </xs:annotation>
   <xs:group name="any-view">
     <xs:choice>
@@ -82,6 +82,8 @@
       <xs:element ref="RadioGroup" />
       <xs:element ref="TextSwitcher" />
       <xs:element ref="fragment" />
+      <xs:element ref="com.refractored.PagerSlidingTabStrip" />
+      <xs:element ref="fr.ganfra.materialspinner.MaterialSpinner" />
       <xs:element ref="com.facebook.share.widget.ShareButton" />
       <xs:element ref="com.facebook.share.widget.SendButton" />
       <xs:element ref="com.facebook.share.widget.ShareButtonBase" />
@@ -91,11 +93,11 @@
       <xs:element ref="com.facebook.login.widget.LoginButton" />
       <xs:element ref="com.facebook.login.widget.DeviceLoginButton" />
       <xs:element ref="com.facebook.FacebookButtonBase" />
-      <xs:element ref="com.google.android.gms.maps.StreetViewPanoramaView" />
-      <xs:element ref="com.google.android.gms.maps.MapView" />
       <xs:element ref="com.google.android.gms.plus.PlusOneDummyView" />
       <xs:element ref="com.google.android.gms.plus.PlusOneButton" />
       <xs:element ref="com.google.android.gms.common.SignInButton" />
+      <xs:element ref="com.google.android.gms.maps.StreetViewPanoramaView" />
+      <xs:element ref="com.google.android.gms.maps.MapView" />
       <xs:element ref="android.support.design.widget.TextInputEditText" />
       <xs:element ref="android.support.design.widget.TabItem" />
       <xs:element ref="android.support.design.widget.NavigationView" />
@@ -157,6 +159,7 @@
       <xs:element ref="android.support.v4.view.PagerTitleStrip" />
       <xs:element ref="android.support.v4.view.PagerTabStrip" />
       <xs:element ref="android.support.v4.app.FragmentTabHost" />
+      <xs:element ref="com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx" />
       <xs:element ref="include" />
     </xs:choice>
   </xs:group>
@@ -1476,6 +1479,63 @@
     <xs:attribute ref="android:layout_marginEnd" />
     <xs:attribute ref="android:style" />
   </xs:complexType>
+  <xs:element name="com.refractored.PagerSlidingTabStrip" type="com.refractored.PagerSlidingTabStrip">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: com.refractored.PagerSlidingTabStrip</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="com.refractored.PagerSlidingTabStrip">
+    <xs:complexContent mixed="false">
+      <xs:extension base="HorizontalScrollView">
+        <xs:attribute ref="app:pstsIndicatorColor" />
+        <xs:attribute ref="app:pstsUnderlineColor" />
+        <xs:attribute ref="app:pstsDividerColor" />
+        <xs:attribute ref="app:pstsDividerWidth" />
+        <xs:attribute ref="app:pstsIndicatorHeight" />
+        <xs:attribute ref="app:pstsUnderlineHeight" />
+        <xs:attribute ref="app:pstsDividerPadding" />
+        <xs:attribute ref="app:pstsTabPaddingLeftRight" />
+        <xs:attribute ref="app:pstsScrollOffset" />
+        <xs:attribute ref="app:pstsTabBackground" />
+        <xs:attribute ref="app:pstsShouldExpand" />
+        <xs:attribute ref="app:pstsTextAllCaps" />
+        <xs:attribute ref="app:pstsPaddingMiddle" />
+        <xs:attribute ref="app:pstsTextColorSelected" />
+        <xs:attribute ref="app:pstsTextAlpha" />
+        <xs:attribute ref="app:pstsTextStyle" />
+        <xs:attribute ref="app:pstsTextSelectedStyle" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="fr.ganfra.materialspinner.MaterialSpinner" type="fr.ganfra.materialspinner.MaterialSpinner">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: FR.Ganfra.Materialspinner.MaterialSpinner</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="fr.ganfra.materialspinner.MaterialSpinner">
+    <xs:complexContent mixed="false">
+      <xs:extension base="Spinner">
+        <xs:attribute ref="app:ms_baseColor" />
+        <xs:attribute ref="app:ms_highlightColor" />
+        <xs:attribute ref="app:ms_errorColor" />
+        <xs:attribute ref="app:ms_error" />
+        <xs:attribute ref="app:ms_hint" />
+        <xs:attribute ref="app:ms_hintColor" />
+        <xs:attribute ref="app:ms_floatingLabelText" />
+        <xs:attribute ref="app:ms_floatingLabelColor" />
+        <xs:attribute ref="app:ms_multiline" />
+        <xs:attribute ref="app:ms_nbErrorLines" />
+        <xs:attribute ref="app:ms_typeface" />
+        <xs:attribute ref="app:ms_alignLabels" />
+        <xs:attribute ref="app:ms_thickness" />
+        <xs:attribute ref="app:ms_thickness_error" />
+        <xs:attribute ref="app:ms_arrowSize" />
+        <xs:attribute ref="app:ms_arrowColor" />
+        <xs:attribute ref="app:ms_enableFloatingLabel" />
+        <xs:attribute ref="app:ms_enableErrorLabel" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
   <xs:element name="com.facebook.share.widget.ShareButton" type="com.facebook.share.widget.ShareButton">
     <xs:annotation>
       <xs:documentation>Runtime Type: Xamarin.Facebook.Share.Widget.ShareButton</xs:documentation>
@@ -1566,26 +1626,6 @@
       <xs:extension base="Button" />
     </xs:complexContent>
   </xs:complexType>
-  <xs:element name="com.google.android.gms.maps.StreetViewPanoramaView" type="com.google.android.gms.maps.StreetViewPanoramaView">
-    <xs:annotation>
-      <xs:documentation>Runtime Type: Android.Gms.Maps.StreetViewPanoramaView</xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:complexType name="com.google.android.gms.maps.StreetViewPanoramaView">
-    <xs:complexContent mixed="false">
-      <xs:extension base="FrameLayout" />
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:element name="com.google.android.gms.maps.MapView" type="com.google.android.gms.maps.MapView">
-    <xs:annotation>
-      <xs:documentation>Runtime Type: Android.Gms.Maps.MapView</xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:complexType name="com.google.android.gms.maps.MapView">
-    <xs:complexContent mixed="false">
-      <xs:extension base="FrameLayout" />
-    </xs:complexContent>
-  </xs:complexType>
   <xs:element name="com.google.android.gms.plus.PlusOneDummyView" type="com.google.android.gms.plus.PlusOneDummyView">
     <xs:annotation>
       <xs:documentation>Runtime Type: Android.Gms.Plus.PlusOneDummyView</xs:documentation>
@@ -1618,6 +1658,26 @@
         <xs:attribute ref="app:colorScheme" />
         <xs:attribute ref="app:scopeUris" />
       </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="com.google.android.gms.maps.StreetViewPanoramaView" type="com.google.android.gms.maps.StreetViewPanoramaView">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: Android.Gms.Maps.StreetViewPanoramaView</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="com.google.android.gms.maps.StreetViewPanoramaView">
+    <xs:complexContent mixed="false">
+      <xs:extension base="FrameLayout" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="com.google.android.gms.maps.MapView" type="com.google.android.gms.maps.MapView">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: Android.Gms.Maps.MapView</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="com.google.android.gms.maps.MapView">
+    <xs:complexContent mixed="false">
+      <xs:extension base="FrameLayout" />
     </xs:complexContent>
   </xs:complexType>
   <xs:element name="android.support.design.widget.TextInputEditText" type="android.support.design.widget.TextInputEditText">
@@ -2397,6 +2457,16 @@
   <xs:complexType name="android.support.v4.app.FragmentTabHost">
     <xs:complexContent mixed="false">
       <xs:extension base="TabHost" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx" type="com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: Com.Ittianyu.Bottomnavigationviewex.BottomNavigationViewEx</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx">
+    <xs:complexContent mixed="false">
+      <xs:extension base="FrameLayout" />
     </xs:complexContent>
   </xs:complexType>
   <xs:element name="include" type="include">

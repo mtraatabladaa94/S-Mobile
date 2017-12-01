@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<menu
+  
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  
+  xmlns:tools="http://schemas.android.com/tools"
+  
+  tools:context=".MainActivity"
+  
+>
+
+  <!--<item
+    
+      android:id="@+id/list_message_menu"
+      
+      app:actionLayout="@layout/send_menu_toolbar_layout"
+      
+      app:showAsAction="always"
+
+    />-->
+  
+  <item
+    
+      android:id="@+id/search_menu"
+      
+      app:actionLayout="@layout/search_menu_toolbar_layout"
+      
+      app:showAsAction="always"
+
+    />
+
+</menu>

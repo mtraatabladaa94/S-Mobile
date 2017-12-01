@@ -9,61 +9,236 @@ using Android.Content;
 using SMobile.Android.Configuration;
 using Android.Views;
 
-using Xamarin.Facebook;
-using Java.Lang;
-using Xamarin.Facebook.Login.Widget;
-using Xamarin.Facebook.Login;
+//using Xamarin.Facebook;
+//using Java.Lang;
+//using Xamarin.Facebook.Login.Widget;
+//using Xamarin.Facebook.Login;
 
-using Android.Gms.Plus;
-using Android.Gms.Common.Apis;
-using Android.Gms.Common;
-using Android.Util;
+//using Android.Gms.Plus;
+//using Android.Gms.Common.Apis;
+//using Android.Gms.Common;
+//using Android.Util;
 using System;
 using Android.Runtime;
 using Android;
-using Xamarin.Facebook.AppEvents;
+//using Xamarin.Facebook.AppEvents;
 using Org.Json;
 using Newtonsoft.Json;
+using Android.Support.Design.Widget;
+
+using Firebase.Xamarin.Database;
+using Firebase.Xamarin.Database.Query;
+
+using V7Toolbar = Android.Support.V7.Widget.Toolbar;
+
+
+
+using mTask = System.Threading.Tasks.Task;
+
+
 
 namespace SMobile.Android.Activities
 {
     [Activity(Label = "Iniciar Sesión")]
-    public class SigninActivity : AppCompatActivity, IOnCompleteListener, IFacebookCallback, GoogleApiClient.IOnConnectionFailedListener, GoogleApiClient.IConnectionCallbacks, GraphRequest.IGraphJSONObjectCallback
+    public class SigninActivity : AppCompatActivity, IOnSuccessListener, IOnFailureListener //, IFacebookCallback, GoogleApiClient.IOnConnectionFailedListener, GoogleApiClient.IConnectionCallbacks, GraphRequest.IGraphJSONObjectCallback
     {
 
+        #region Compnoents for View
+        V7Toolbar toolbar;
+        private EditText edtUsername, edtPassword;
+        private Button btnSignin;
+        private RelativeLayout lytSignin;
+        private TextView txtRegister1, txtRegister2;
+
         FirebaseAuth auth;
-
-        EditText edtUsername, edtPassword;
-
-        Button btnSignin;
-
-        RelativeLayout lytSignin, lytSignup;
-
-        TextView txtRegister1, txtRegister2;
+        private ProgressDialog progress;
+        #endregion
 
         //------------SAIRA
-        private GoogleApiClient mGoogleApiClient;
-        private SignInButton mGoogleSignIn;
+        //private GoogleApiClient mGoogleApiClient;
+        //private SignInButton mGoogleSignIn;
 
-        const string TAG = "SigninActivity";
-        const string KEY_resuelto = "resuelto";
-        const string KEY_poresolver = "por_resolver";
-        const int RC_SIGN_IN = 9001;
-        TextView mStatus;
-        bool resuelto = false;
-        bool poresolver = false;
+        //const string TAG = "SigninActivity";
+        //const string KEY_resuelto = "resuelto";
+        //const string KEY_poresolver = "por_resolver";
+        //const int RC_SIGN_IN = 9001;
+        //TextView mStatus;
+        //bool resuelto = false;
+        //bool poresolver = false;
         //____________________
 
         /*Facebook Objects*/
-        Button facebookButton;
-        ICallbackManager facebookCallbackManager;
-        Models.FacebookModel.MyProfileTracker myProfile;
+        //Button facebookButton;
+        //ICallbackManager facebookCallbackManager;
+        //Models.FacebookModel.MyProfileTracker myProfile;
         /*Fin Facebook Objects*/
+
+        private void InitialComponents()
+        {
+
+            //Toolbar
+            this.toolbar = FindViewById<V7Toolbar>(Resource.Id.signin_toolbar);
+            toolbar.Title = "Iniciar Sesión";
+            this.SetSupportActionBar(this.toolbar);
+            this.SupportActionBar.SetDisplayHomeAsUpEnabled(true);
+            this.SupportActionBar.SetHomeButtonEnabled(true);
+
+            this.RequestPermissions();
+            this.edtUsername = FindViewById<EditText>(Resource.Id.usernameEditText);
+            this.edtPassword = FindViewById<EditText>(Resource.Id.passwordEditText);
+            this.lytSignin = FindViewById<RelativeLayout>(Resource.Id.Signin);
+
+            this.btnSignin = FindViewById<Button>(Resource.Id.signinButton);
+            this.btnSignin.Click += BtnSignin_Click;
+
+        }
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
 
-            base.OnCreate(savedInstanceState);            
+            base.OnCreate(savedInstanceState);
+
+            this.SetContentView(Resource.Layout.Signin);
+
+            this.InitialComponents();
+
+            /*Initialize SDK Facebook*/
+            //FacebookSdk.SdkInitialize(this);
+            //AppEventsLogger.ActivateApp(this);
+            //this.myProfile = new Models.FacebookModel.MyProfileTracker();
+            //this.myProfile.OnProfileChanged += MyProfile_onProfileChanged;
+            //this.myProfile.StartTracking();
+            /*Fin SDK Facebook*/
+            
+            //----------------------------//
+            //if (savedInstanceState != null)
+            //{
+            //    resuelto = savedInstanceState.GetBoolean(KEY_resuelto);
+            //    poresolver = savedInstanceState.GetBoolean(KEY_poresolver);
+            //}
+            //___________________________________________________
+            //_____________________________________________________//
+            //this.mStatus = FindViewById<TextView>(Resource.Id.forgotPasswordTextView);
+
+            //mGoogleSignIn = FindViewById<SignInButton>(Resource.Id.signinButtongoogle);
+            ////mGoogleSignIn.SetOnClickListener(this);
+            //mGoogleSignIn.Click += delegate {
+            //    mStatus.Text = "Sign in..";
+            //    poresolver = true;
+            //    mGoogleApiClient.Connect();
+            //};
+            //FindViewById<TextView>(Resource.Id.SignOut).SetOnClickListener(this);
+            //TextView txtSignout = FindViewById<TextView>(Resource.Id.SignOut);
+            //mStatus.Click += delegate {
+            //    if (mGoogleApiClient.IsConnected)
+            //    {
+            //        PlusClass.AccountApi.ClearDefaultAccount(mGoogleApiClient);
+            //        mGoogleApiClient.Disconnect();
+            //        Toast.MakeText(this, "Ya habia iniciado sesión", ToastLength.Long).Show();
+            //    }
+            //    else
+            //    {
+            //        Toast.MakeText(this, "No ha iniciado sesión", ToastLength.Long).Show();
+            //    }
+            //    UpdateUI(false);
+            //};
+
+            //mGoogleApiClient = new GoogleApiClient.Builder(this)
+            // .AddConnectionCallbacks(this)
+            // .AddOnConnectionFailedListener(this)
+            // .AddApi(PlusClass.API)
+            // .AddScope(new Scope(Scopes.Profile))
+            // .Build();
+
+
+            // GoogleSignInOptions gso= new GoogleSignInOptions.B
+            // GoogleApiClientBuilder builder = new GoogleApiClientBuilder(this);
+
+            //_____________________________________________________///
+            
+            /*Login de Facebook*/
+            //this.facebookButton = FindViewById<Button>(Resource.Id.facebookButton);//Receipt button from view
+            
+            //this.facebookCallbackManager = CallbackManagerFactory.Create();//Create interface 'ICallbackManager'
+
+            //LoginButton loginButton = FindViewById<LoginButton>(Resource.Id.login_button);
+            //loginButton.RegisterCallback(this.facebookCallbackManager, this);
+
+            //LoginManager.Instance.RegisterCallback(facebookCallbackManager, this);//Register instance 'ICallbackManager' in LoginManager
+
+            //this.facebookButton.Click += (e, handler) => {
+
+            //    if (AccessToken.CurrentAccessToken == null)
+            //    {
+                    
+            //        LoginManager.Instance.LogInWithReadPermissions(
+
+            //            this,
+
+            //            new System.Collections.Generic.List<string>() {
+                            
+            //                "email",
+                            
+            //            }
+
+            //        );
+                    
+            //    }
+
+            //};
+            ///*Fin Login de Facebook*/
+            
+        }
+
+        #region Eventos for components
+
+        private void BtnSignin_Click(object sender, EventArgs e)
+        {
+
+            if (this.ValidateEntity())
+            {
+
+                this.SigninUser(this.edtUsername.Text, this.edtPassword.Text);
+
+                this.ShowProgressDialog();
+
+            }
+
+        }
+
+        #endregion
+
+        #region Private functions
+
+        private bool ValidateEntity()
+        {
+
+            bool temp = true;
+
+            if (this.edtUsername.Text.Trim().Length == 0)
+            {
+
+                this.edtUsername.Error = "Ingresar email";
+
+                temp = false;
+
+            }
+
+            if (this.edtPassword.Text.Trim().Length == 0)
+            {
+
+                this.edtPassword.Error = "Ingresar contraseña";
+
+                temp = false;
+
+            }
+
+            return temp;
+
+        }
+
+        private void RequestPermissions()
+        {
 
             RequestPermissions(
 
@@ -85,208 +260,87 @@ namespace SMobile.Android.Activities
 
             );
 
-            /*Initialize SDK Facebook*/
-            FacebookSdk.SdkInitialize(this);
-            AppEventsLogger.ActivateApp(this);
-            this.myProfile = new Models.FacebookModel.MyProfileTracker();
-            this.myProfile.OnProfileChanged += MyProfile_onProfileChanged;
-            this.myProfile.StartTracking();
-            /*Fin SDK Facebook*/
-
-            this.SetContentView(Resource.Layout.Signin);
-
-            //----------------------------//
-            if (savedInstanceState != null)
-            {
-                resuelto = savedInstanceState.GetBoolean(KEY_resuelto);
-                poresolver = savedInstanceState.GetBoolean(KEY_poresolver);
-            }
-            //___________________________________________________
-            //_____________________________________________________//
-            this.mStatus = FindViewById<TextView>(Resource.Id.forgotPasswordTextView);
-
-            mGoogleSignIn = FindViewById<SignInButton>(Resource.Id.signinButtongoogle);
-            //mGoogleSignIn.SetOnClickListener(this);
-            mGoogleSignIn.Click += delegate {
-                mStatus.Text = "Sign in..";
-                poresolver = true;
-                mGoogleApiClient.Connect();
-            };
-            //FindViewById<TextView>(Resource.Id.SignOut).SetOnClickListener(this);
-            TextView txtSignout = FindViewById<TextView>(Resource.Id.SignOut);
-            mStatus.Click += delegate {
-                if (mGoogleApiClient.IsConnected)
-                {
-                    PlusClass.AccountApi.ClearDefaultAccount(mGoogleApiClient);
-                    mGoogleApiClient.Disconnect();
-                    Toast.MakeText(this, "Ya habia iniciado sesión", ToastLength.Long).Show();
-                }
-                else
-                {
-                    Toast.MakeText(this, "No ha iniciado sesión", ToastLength.Long).Show();
-                }
-                UpdateUI(false);
-            };
-
-            mGoogleApiClient = new GoogleApiClient.Builder(this)
-             .AddConnectionCallbacks(this)
-             .AddOnConnectionFailedListener(this)
-             .AddApi(PlusClass.API)
-             .AddScope(new Scope(Scopes.Profile))
-             .Build();
-
-
-            // GoogleSignInOptions gso= new GoogleSignInOptions.B
-            // GoogleApiClientBuilder builder = new GoogleApiClientBuilder(this);
-
-            //_____________________________________________________///
-
-            this.StartFirebaseAuth();
-
-
-            this.edtUsername = FindViewById<EditText>(Resource.Id.usernameEditText);
-
-            this.edtPassword = FindViewById<EditText>(Resource.Id.passwordEditText);
-
-            this.lytSignin = FindViewById<RelativeLayout>(Resource.Id.Signin);
-
-            this.btnSignin = FindViewById<Button>(Resource.Id.signinButton);
-
-            this.btnSignin.Click += delegate
-            {
-
-                this.SigninClick(edtUsername.Text, edtPassword.Text);
-
-            };
-
-            this.lytSignup = FindViewById<RelativeLayout>(Resource.Id.registerLayout);
-
-            this.lytSignup.Click += delegate
-            {
-
-                this.SignupClick();
-
-            };
-
-            this.txtRegister1 = FindViewById<TextView>(Resource.Id.register1TextView);
-
-            this.txtRegister1.Click += delegate
-            {
-
-                this.SignupClick();
-
-            };
-
-            this.txtRegister2 = FindViewById<TextView>(Resource.Id.register2TextView);
-
-            this.txtRegister2.Click += delegate
-            {
-
-                this.SignupClick();
-
-            };
-
-            
-            /*Login de Facebook*/
-            this.facebookButton = FindViewById<Button>(Resource.Id.facebookButton);//Receipt button from view
-            
-            this.facebookCallbackManager = CallbackManagerFactory.Create();//Create interface 'ICallbackManager'
-
-            LoginButton loginButton = FindViewById<LoginButton>(Resource.Id.login_button);
-            loginButton.RegisterCallback(this.facebookCallbackManager, this);
-
-            LoginManager.Instance.RegisterCallback(facebookCallbackManager, this);//Register instance 'ICallbackManager' in LoginManager
-
-            this.facebookButton.Click += (e, handler) => {
-
-                if (AccessToken.CurrentAccessToken == null)
-                {
-                    
-                    LoginManager.Instance.LogInWithReadPermissions(
-
-                        this,
-
-                        new System.Collections.Generic.List<string>() {
-                            
-                            "email",
-                            
-                        }
-
-                    );
-                    
-                }
-
-            };
-            /*Fin Login de Facebook*/
-            
-        }
-
-        private void MyProfile_onProfileChanged(object sender, Models.FacebookModel.OnProfileChangedEventArgs e)
-        {
-            if(e.profile != null)
-                Toast.MakeText(this, $"Nombre: {e.profile.FirstName} {e.profile.LastName} {e.profile.Name} {e.profile.GetProfilePictureUri(512, 512).ToString()}", ToastLength.Long).Show();
-        }
-
-        protected override void OnDestroy()
-        {
-            
-            myProfile.StopTracking();
-
-            base.OnDestroy();
-
         }
 
         private void StartFirebaseAuth()
         {
-            
+
             if (FirebaseConfig.App == null)
                 FirebaseConfig.App = FirebaseApp.InitializeApp(this, FirebaseConfig.FirebaseOptions, "Sadara Mobile");
-            
+
             this.auth = FirebaseAuth.GetInstance(FirebaseConfig.App);
-            
+
         }
 
-        private void SigninClick(string UserName, string Password)
+        private async void SigninUser(string UserName, string Password)
         {
 
-            this.auth
+            Configuration.FirebaseConfig.Auth
                 .SignInWithEmailAndPassword(UserName, Password)
-                .AddOnCompleteListener(this)
-                ;
+                .AddOnSuccessListener(this)
+                .AddOnFailureListener(this);
 
         }
 
-        private void SignupClick()
+        private void StartMainActivity()
         {
 
-            this.StartActivity(new Intent(this, typeof(SignupActivity)));
+            var intent = new Intent(this, typeof(MainActivity));
+
+            this.StartActivity(intent);
 
         }
 
-        public void OnComplete(Task task)
+        private void ShowProgressDialog()
         {
 
-            if (task.IsSuccessful)
+            this.progress = new ProgressDialog(this);
+
+            this.progress.SetTitle("Cargando...");
+
+            this.progress.SetMessage("Espere un momento por favor...");
+
+            this.progress.Window.SetType(WindowManagerTypes.SystemAlert);
+
+            this.progress.Show();
+
+        }
+
+        private async mTask  FindUserById(string email)
+        {
+
+            Models.FirebaseModel.FirebaseModels<Models.Entities.UserEntity> firebaseModel =
+                new Models.FirebaseModel.FirebaseModels<Models.Entities.UserEntity>();
+
+            var users = await firebaseModel.List(Models.Entities.UserEntity.USER_NAME);
+
+            foreach (var item in users)
             {
 
-                this.StartActivity(new Intent(this, typeof(MainActivity)));
-
-                this.Finish();
-
-            }
-            else
-            {
-
-                if (task.Exception != null)
+                if (item.Object.email.Equals(email))
                 {
 
-                    Toast.MakeText(this, task.Exception.Message, ToastLength.Long).Show();
+                    Configuration.UserConfig.currentUserEntity = new Models.Entities.UserEntity() {
 
-                }
-                else
-                {
+                        uid = item.Key,
 
-                    Toast.MakeText(this, "No ha podido iniciar sesión", ToastLength.Long).Show();
+                        firstName = item.Object.firstName,
+
+                        lastName = item.Object.lastName,
+
+                        gender = item.Object.gender,
+
+                        birthDate = item.Object.birthDate,
+
+                        email = item.Object.email,
+
+                        phone = item.Object.phone,
+
+                        imageUrl = item.Object.imageUrl,
+
+                    };
+
+                    return;
 
                 }
 
@@ -294,238 +348,324 @@ namespace SMobile.Android.Activities
 
         }
 
+        #endregion
+
+        #region Overrides functions
+
+        public override bool OnOptionsItemSelected(IMenuItem item)
+        {
+
+            switch (item.ItemId)
+            {
+                //Button back again
+                case 16908332: //Home Id
+
+                    this.Finish();
+
+                    break;
+                    
+            }
+
+            return true;
+
+        }
+
+        #endregion
+
+        #region Functions of interfaces
+
+        async void IOnSuccessListener.OnSuccess(Java.Lang.Object result)
+        {
+
+            var user = Configuration.FirebaseConfig.Auth.CurrentUser;
+
+            if (user != null)
+            {
+
+                await this.FindUserById(user.Email);
+
+            }
+
+            this.StartMainActivity();
+
+            this.progress.Dismiss();
+
+            this.Finish();
+
+        }
+
+        void IOnFailureListener.OnFailure(Java.Lang.Exception e)
+        {
+
+            this.progress.Dismiss();
+
+            Snackbar snackbar = Snackbar
+                .Make(this.lytSignin, $"{e.Message}", Snackbar.LengthShort)
+                .SetAction("Ok", (view) => {
+
+                    //Insert code for action here
+
+                });
+
+            snackbar.Show();
+
+        }
+
+        #endregion
+
+        #region Codes comments
+
+        //private void MyProfile_onProfileChanged(object sender, Models.FacebookModel.OnProfileChangedEventArgs e)
+        //{
+        //    if(e.profile != null)
+        //        Toast.MakeText(this, $"Nombre: {e.profile.FirstName} {e.profile.LastName} {e.profile.Name} {e.profile.GetProfilePictureUri(512, 512).ToString()}", ToastLength.Long).Show();
+        //}
+
+        //protected override void OnDestroy()
+        //{
+
+        //    myProfile.StopTracking();
+
+        //    base.OnDestroy();
+
+        //}
+        
         //Facebook Callback
-        public void OnCancel()
-        {
+        //public void OnCancel()
+        //{
 
-        }
+        //}
 
-        public void OnError(FacebookException error)
-        {
+        //public void OnError(FacebookException error)
+        //{
 
-        }
+        //}
 
-        public void OnSuccess(Java.Lang.Object result)
-        {
+        //public void OnSuccess(Java.Lang.Object result)
+        //{
 
-            if (AccessToken.CurrentAccessToken != null)
-            {
+        //    if (AccessToken.CurrentAccessToken != null)
+        //    {
 
-                var permisos = AccessToken.CurrentAccessToken.Permissions;
+        //        var permisos = AccessToken.CurrentAccessToken.Permissions;
 
-                GraphRequest graphRequest = GraphRequest.NewMeRequest(AccessToken.CurrentAccessToken, this);
+        //        GraphRequest graphRequest = GraphRequest.NewMeRequest(AccessToken.CurrentAccessToken, this);
 
-                Bundle bundle = new Bundle();
+        //        Bundle bundle = new Bundle();
 
-                bundle.PutString("fields", "id,email,first_name,last_name,birthday,gender");
+        //        bundle.PutString("fields", "id,email,first_name,last_name,birthday,gender");
 
-                graphRequest.Parameters = bundle;
+        //        graphRequest.Parameters = bundle;
 
-                graphRequest.ExecuteAsync();
+        //        graphRequest.ExecuteAsync();
 
-            }
+        //    }
 
-        }
+        //}
+
         //End Facebook Callback
 
         //Google API Client
-        public void OnConnectionFailed(ConnectionResult result)
-        {
+        //public void OnConnectionFailed(ConnectionResult result)
+        //{
 
-            Log.Debug(TAG, "onConnectionFailed:" + result);
-            
-            if (!resuelto && poresolver)
-            {
+        //    Log.Debug(TAG, "onConnectionFailed:" + result);
 
-                if (result.HasResolution)
-                {
+        //    if (!resuelto && poresolver)
+        //    {
 
-                    try
-                    {
+        //        if (result.HasResolution)
+        //        {
 
-                        result.StartResolutionForResult(this, RC_SIGN_IN);
+        //            try
+        //            {
 
-                        resuelto = true;
+        //                result.StartResolutionForResult(this, RC_SIGN_IN);
 
-                    }
-                    catch (IntentSender.SendIntentException e)
-                    {
+        //                resuelto = true;
 
-                        Log.Error(TAG, "No se puede resolver la conexión.", e);
+        //            }
+        //            catch (IntentSender.SendIntentException e)
+        //            {
 
-                        resuelto = false;
+        //                Log.Error(TAG, "No se puede resolver la conexión.", e);
 
-                        mGoogleApiClient.Connect();
+        //                resuelto = false;
 
-                    }
+        //                mGoogleApiClient.Connect();
 
-                }
-                else
-                {
+        //            }
 
-                    ShowErrorDialog(result);
+        //        }
+        //        else
+        //        {
 
-                }
+        //            ShowErrorDialog(result);
 
-            }
-            else
-            {
+        //        }
 
-                UpdateUI(false);
+        //    }
+        //    else
+        //    {
 
-            }
+        //        UpdateUI(false);
 
-        }
+        //    }
 
-        class DialogInterfaceOnCancelListener : Java.Lang.Object, IDialogInterfaceOnCancelListener
-        {
-            public Action<IDialogInterface> OnCancelImpl { get; set; }
+        //}
 
-            public void OnCancel(IDialogInterface dialog)
-            {
-                OnCancelImpl(dialog);
-            }
-        }
+        //class DialogInterfaceOnCancelListener : Java.Lang.Object, IDialogInterfaceOnCancelListener
+        //{
+        //    public Action<IDialogInterface> OnCancelImpl { get; set; }
 
-        void ShowErrorDialog(ConnectionResult connectionResult)
-        {
-            int errorCode = connectionResult.ErrorCode;
+        //    public void OnCancel(IDialogInterface dialog)
+        //    {
+        //        OnCancelImpl(dialog);
+        //    }
+        //}
 
-            if (GooglePlayServicesUtil.IsUserRecoverableError(errorCode))
-            {
-                var listener = new DialogInterfaceOnCancelListener();
-                listener.OnCancelImpl = (dialog) =>
-                {
-                    poresolver = false;
-                    UpdateUI(false);
-                };
-                GooglePlayServicesUtil.GetErrorDialog(errorCode, this, RC_SIGN_IN, listener).Show();
-            }
-            else
-            {
-                //var errorstring = string.Format(GetString(Resource.String.common_google_play_services_update_title), errorCode);
-                var errorstring = string.Format("ERROR Google Play Service", errorCode);
-                Toast.MakeText(this, errorstring, ToastLength.Short).Show();
+        //void ShowErrorDialog(ConnectionResult connectionResult)
+        //{
+        //    int errorCode = connectionResult.ErrorCode;
 
-                poresolver = false;
-                UpdateUI(false);
-            }
+        //    if (GooglePlayServicesUtil.IsUserRecoverableError(errorCode))
+        //    {
+        //        var listener = new DialogInterfaceOnCancelListener();
+        //        listener.OnCancelImpl = (dialog) =>
+        //        {
+        //            poresolver = false;
+        //            UpdateUI(false);
+        //        };
+        //        GooglePlayServicesUtil.GetErrorDialog(errorCode, this, RC_SIGN_IN, listener).Show();
+        //    }
+        //    else
+        //    {
+        //        //var errorstring = string.Format(GetString(Resource.String.common_google_play_services_update_title), errorCode);
+        //        var errorstring = string.Format("ERROR Google Play Service", errorCode);
+        //        Toast.MakeText(this, errorstring, ToastLength.Short).Show();
 
-        }
+        //        poresolver = false;
+        //        UpdateUI(false);
+        //    }
 
-        public void OnConnected(Bundle connectionHint)
-        {
-            Log.Debug(TAG, "onConnected:" + connectionHint);
+        //}
 
-            UpdateUI(true);
-        }
+        //public void OnConnected(Bundle connectionHint)
+        //{
+        //    Log.Debug(TAG, "onConnected:" + connectionHint);
 
-        public void OnConnectionSuspended(int cause)
-        {
-            Log.Warn(TAG, "onConnectionSuspended:" + cause);
-        }
+        //    UpdateUI(true);
+        //}
 
-        void UpdateUI(bool isSignedIn)
-        {
+        //public void OnConnectionSuspended(int cause)
+        //{
+        //    Log.Warn(TAG, "onConnectionSuspended:" + cause);
+        //}
 
-            if (isSignedIn)
-            {
+        //void UpdateUI(bool isSignedIn)
+        //{
 
-                var person = PlusClass.PeopleApi.GetCurrentPerson(mGoogleApiClient);
-                var name = string.Empty;
-                if (person != null)
-                    name = person.DisplayName;
-                var genero = person.Gender;
-                var fechaNac = person.Birthday;
-                var personPhoto = person.Image;
-                    
-            
-                var email = PlusClass.AccountApi.GetAccountName(mGoogleApiClient);
-                //mStatus.Text = string.Format(GetString(Resource.String.signed_in_fmt), name);
-                mStatus.Text = name.ToString();
+        //    if (isSignedIn)
+        //    {
+
+        //        var person = PlusClass.PeopleApi.GetCurrentPerson(mGoogleApiClient);
+        //        var name = string.Empty;
+        //        if (person != null)
+        //            name = person.DisplayName;
+        //        var genero = person.Gender;
+        //        var fechaNac = person.Birthday;
+        //        var personPhoto = person.Image;
 
 
-                FindViewById(Resource.Id.signinButtongoogle).Visibility = ViewStates.Gone;
-                FindViewById(Resource.Id.SignOut).Visibility = ViewStates.Visible;
+        //        var email = PlusClass.AccountApi.GetAccountName(mGoogleApiClient);
+        //        //mStatus.Text = string.Format(GetString(Resource.String.signed_in_fmt), name);
+        //        mStatus.Text = name.ToString();
 
-            }
-            else
-            {
 
-                mStatus.Text = "Sign OUT";
+        //        FindViewById(Resource.Id.signinButtongoogle).Visibility = ViewStates.Gone;
+        //        FindViewById(Resource.Id.SignOut).Visibility = ViewStates.Visible;
 
-                FindViewById(Resource.Id.signinButtongoogle).Enabled = true;
-                //  FindViewById(Resource.Id.sign_in_button).Visibility = ViewStates.Visible;
-                FindViewById(Resource.Id.SignOut).Visibility = ViewStates.Gone;
+        //    }
+        //    else
+        //    {
 
-            }
+        //        mStatus.Text = "Sign OUT";
 
-        }
+        //        FindViewById(Resource.Id.signinButtongoogle).Enabled = true;
+        //        //  FindViewById(Resource.Id.sign_in_button).Visibility = ViewStates.Visible;
+        //        FindViewById(Resource.Id.SignOut).Visibility = ViewStates.Gone;
+
+        //    }
+
+        //}
 
         //End Google API Client
 
-        protected override void OnStart()
-        {
+        //protected override void OnStart()
+        //{
 
-            base.OnStart();
+        //    base.OnStart();
 
-            mGoogleApiClient.Connect();
+        //    mGoogleApiClient.Connect();
 
-        }
+        //}
 
-        protected override void OnStop()
-        {
+        //protected override void OnStop()
+        //{
 
-            base.OnStop();
+        //    base.OnStop();
 
-            mGoogleApiClient.Disconnect();
+        //    mGoogleApiClient.Disconnect();
 
-        }
+        //}
 
-        protected override void OnActivityResult(int requestCode, [GeneratedEnum] Result resultCode, Intent data)
-        {
-            base.OnActivityResult(requestCode, resultCode, data);
-            Log.Debug(TAG, "onActivityResult:" + requestCode + ":" + resultCode + ":" + data);
-            if (requestCode == RC_SIGN_IN)
-            {
-                if (resultCode != Result.Ok)
-                {
-                    poresolver = false;
-                }
-                resuelto = false;
-                mGoogleApiClient.Connect();
-            }
+        //protected override void OnActivityResult(int requestCode, [GeneratedEnum] Result resultCode, Intent data)
+        //{
+        //    base.OnActivityResult(requestCode, resultCode, data);
+        //    Log.Debug(TAG, "onActivityResult:" + requestCode + ":" + resultCode + ":" + data);
+        //    if (requestCode == RC_SIGN_IN)
+        //    {
+        //        if (resultCode != Result.Ok)
+        //        {
+        //            poresolver = false;
+        //        }
+        //        resuelto = false;
+        //        mGoogleApiClient.Connect();
+        //    }
 
-            /*Facebook SDK Result*/
-            this.facebookCallbackManager.OnActivityResult(requestCode, (int)resultCode, data);
-        }
+        //    /*Facebook SDK Result*/
+        //    this.facebookCallbackManager.OnActivityResult(requestCode, (int)resultCode, data);
+        //}
 
-        public void OnCompleted(JSONObject @object, GraphResponse response)
-        {
+        //public void OnCompleted(JSONObject @object, GraphResponse response)
+        //{
 
-            Models.FacebookModel.FacebookResult result = JsonConvert.DeserializeObject<Models.FacebookModel.FacebookResult>(@object.ToString());
+        //    Models.FacebookModel.FacebookResult result = JsonConvert.DeserializeObject<Models.FacebookModel.FacebookResult>(@object.ToString());
 
-            Models.FirebaseModel.UserModel userModel = new Models.FirebaseModel.UserModel();
+        //    Models.FirebaseModel.UserModel userModel = new Models.FirebaseModel.UserModel();
 
-            userModel.Add(
-                new Models.Entities.UserEntity() {
+        //    userModel.Add(
+        //        new Models.Entities.UserEntity() {
 
-                    firstName = result.first_name,
+        //            firstName = result.first_name,
 
-                    lastName = result.last_name,
+        //            lastName = result.last_name,
 
-                    email = result.email,
+        //            email = result.email,
 
-                    gender = result.gender,
+        //            gender = result.gender,
 
-                    birthDate = "",
+        //            birthDate = DateTime.Now,
 
-                    phone = "",
+        //            phone = "",
 
-                }
-            );
+        //        }
+        //    );
 
-        }
+        //}
+
+        #endregion
+
     }
 
 }

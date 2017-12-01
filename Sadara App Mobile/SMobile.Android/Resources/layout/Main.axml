@@ -4,38 +4,66 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-  
     <android.support.v4.widget.DrawerLayout xmlns:app="http://schemas.android.com/apk/res-auto"
         android:id="@+id/drawer_layout"
         android:layout_height="match_parent"
         android:layout_width="fill_parent"
         android:fitsSystemWindows="true">
-      
-        <LinearLayout
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-          
-          <include
-              android:layout_height="wrap_content"
+            <include
+                android:id="@+id/main_toolbar_include"
+                android:layout_alignParentTop="true"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                layout="@layout/maintoolbar" />
+            <FrameLayout
+                android:id="@+id/pon_fragmentos"
+                android:layout_below="@+id/main_toolbar_include"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        <!--<android.support.design.widget.BottomNavigationView
+              android:id="@+id/menu_bottom_navigation_view"
+              android:layout_alignParentBottom="true"
               android:layout_width="match_parent"
-              layout="@layout/maintoolbar" />
-          
-          <include
-            layout="@layout/maincontent"
-            />
-          
-        </LinearLayout>
-        
-        <android.support.design.widget.NavigationView
+              android:paddingBottom="0dp"
+              app:itemBackground="@color/color_primary_dark_bottom_navigation_view"
+              app:itemIconTint="@drawable/bottom_nav_item_color"
+              app:itemTextColor="@drawable/bottom_nav_item_color"
+              app:menu="@menu/menu_bottom_navigation_view"
+              app:elevation="1dp"
+            />-->
+        <!--<com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx
+                android:id="@+id/menu_bottom_navigation_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@color/color_primary_dark_bottom_navigation_view"
+                app:itemIconTint="@drawable/selector_bottom_nav_item_color"
+                app:itemTextColor="@drawable/selector_bottom_nav_item_color"
+                app:menu="@menu/menu_bottom_navigation_view"
+                app:elevation="8dp" />-->
+        </RelativeLayout>
+      <android.support.design.widget.NavigationView
+          android:id="@+id/nav_view"
+          android:layout_height="match_parent"
+          android:layout_width="300dp"
+          android:layout_gravity="start"
+          android:background="@color/menu_drawer_background"
+          android:fitsSystemWindows="true"
+          android:theme="@style/ThemeOverlay.AppCompat.Light"
+          android:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+      <!--<android.support.design.widget.NavigationView
             android:id="@+id/nav_view"
             android:layout_height="match_parent"
-            android:layout_width="365dp"
+            android:layout_width="300dp"
             android:layout_gravity="start"
             android:background="@color/menu_drawer_background"
             android:fitsSystemWindows="true"
-            app:headerLayout="@layout/mainnavheader" />
-      
+            android:theme="@style/ThemeOverlay.AppCompat.Light"
+            android:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:headerLayout="@layout/mainnavheader" />-->
     </android.support.v4.widget.DrawerLayout>
-  
 </LinearLayout>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/offers_cardview_fragment_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="12dp"
+    android:layout_marginRight="12dp"
+    android:layout_marginTop="12dp"
+    android:layout_marginBottom="12dp"
+    card_view:cardCornerRadius="2dp"
+    card_view:cardElevation="2dp"
+    card_view:cardBackgroundColor="#FFFFFF">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        
+        <RelativeLayout
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            
+            <ImageView
+                android:id="@+id/profileImageView"
+                android:scaleType="centerCrop"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_business" />
+            
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginLeft="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/profileImageView"
+                android:layout_toLeftOf="@+id/actionmenuImageView"
+                android:layout_centerVertical="true">
+                
+                <TextView
+                    android:id="@+id/usernameTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:textColor="#455a64"
+                    android:text="Michel Roberto Traña Tablada" />
+                      
+                <TextView
+                    android:id="@+id/userdescriptionTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:textSize="12dp"
+                    android:textColor="#90a4ae"
+                    android:text="Desarrollador de Software" />
+                
+            </LinearLayout>
+
+            <ImageView
+              android:id="@+id/actionmenuImageView"
+              android:layout_margin="4dp"
+              android:layout_width="12dp"
+              android:layout_height="12dp"
+              android:layout_alignParentRight="true"
+              android:src="@drawable/ic_menu_down" />
+            
+        </RelativeLayout>
+        
+        <ImageView
+            android:id="@+id/coverImageView"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="156dp"
+            android:background="#eceff1" />
+        
+        <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:padding="8dp"
+          android:background="#29b6f6"
+          >
+          
+          <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            >
+            
+            <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:textSize="12dp"
+              android:textStyle="bold"
+              android:textColor="#e1f5fe"
+              android:text="Inicia el"
+              />
+            
+            <TextView
+              android:id="@+id/startDateTextView"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:textSize="14dp"
+              android:textStyle="bold"
+              android:textColor="#FFFFFF"
+              />
+          
+          </LinearLayout>
+          
+          <LinearLayout
+            android:id="@+id/endTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            >
+            <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:textSize="12dp"
+              android:textStyle="bold"
+              android:textColor="#e1f5fe"
+              android:text="Termina el"
+              />
+            <TextView
+              android:id="@+id/endDateTextView"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:textSize="14dp"
+              android:textStyle="bold"
+              android:textColor="#FFFFFF"
+              />
+          </LinearLayout>
+        
+        </LinearLayout>
+        
+        <LinearLayout
+          android:id="@+id/captionOfferLinearLayout"
+          android:orientation="vertical"
+          android:padding="8dp"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          >
+
+          <TextView
+            android:id="@+id/titleoffersTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="#455a64"
+            android:text="El día más barato del año 11 y 12 de noviembre" />
+
+          <TextView
+              android:id="@+id/descriptionoffersTextView"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textSize="16dp"
+              android:textColor="#455a64"
+              android:text="El día más barato del año 11 y 12 de noviembre. El día más barato del año 11 y 12 de noviembre. El día más barato del año 11 y 12 de noviembre" />
+          
+        </LinearLayout>
+        
+      <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        
+      </LinearLayout>
+      
+    </LinearLayout>
+  
+</android.support.v7.widget.CardView>

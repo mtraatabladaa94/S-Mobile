@@ -27,9 +27,7 @@ namespace SMobile.Android.Models.FirebaseModel
 
                 .Child(Entity.ToString())
 
-                .PostAsync<T>
-
-                (Entity);
+                .PostAsync<T>(Entity);
 
         }
 

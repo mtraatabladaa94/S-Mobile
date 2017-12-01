@@ -9,6 +9,12 @@ using Android.Gms.Tasks;
 using Android.Content;
 using SMobile.Android.Configuration;
 
+using V7Toolbar = Android.Support.V7.Widget.Toolbar;
+using Android.Support.Design.Widget;
+using FR.Ganfra.Materialspinner;
+using System.Collections.Generic;
+using Android.Views;
+
 namespace SMobile.Android.Activities
 {
 
@@ -17,15 +23,19 @@ namespace SMobile.Android.Activities
     public class SignupActivity : AppCompatActivity
     {
 
-        //declarate button stages
-        Button nextSignupButton, nextSignupGenderButton, nextSignupEmailOrPhoneButton;
+        #region Components for view
+        V7Toolbar toolbar;
+        EditText firstnameEditText, lastnameEditText;
+        EditText dayEditText, monthEditText, yearEditText;
+        RadioButton maleRadioButton, femaleRadioButton;
+        EditText phoneEditText;
+        FloatingActionButton nextSignupButton;
 
-        //object user
-        private Models.Entities.UserEntity userEntity = new Models.Entities.UserEntity();
+        //firebase model user
+        private Models.FirebaseModel.FirebaseModels<Models.Entities.UserEntity> firebaseModels = new Models.FirebaseModel.FirebaseModels<Models.Entities.UserEntity>();
 
-        //counter stage
-        private byte nextStage = 1;
-
+        #endregion
+        
         protected override void OnCreate(Bundle savedInstanceState)
         {
 
@@ -34,174 +44,282 @@ namespace SMobile.Android.Activities
             // Create your application here
             this.SetContentView(Resource.Layout.Signup);
 
-            this.nextSignupButton = FindViewById<Button>(Resource.Id.nextSignupButton);
-
-            //this.nextSignupButton.Click += new System.EventHandler(this.nextButton_Click);
+            this.InitialComponents();
             
         }
 
-        private void nextButton_Click()
+        private void InitialComponents()
         {
 
-            //Evaluate stages
-            switch (this.nextStage)
-            {
-                case 1:
+            //Principal toolbar
+            this.toolbar = FindViewById<V7Toolbar>(Resource.Id.signup_toolbar);
+            toolbar.Title = "Crear Cuenta";
+            this.SetSupportActionBar(this.toolbar);
+            this.SupportActionBar.SetDisplayHomeAsUpEnabled(true);
+            this.SupportActionBar.SetHomeButtonEnabled(true);
 
-                    this.nextStageOne();
+            //EditText Name
+            this.firstnameEditText = this.FindViewById<EditText>(Resource.Id.firstnameEditText);
+            this.firstnameEditText.TextChanged += FirstnameEditText_TextChanged;
 
-                    break;
+            //EditText Lastname
+            this.lastnameEditText = this.FindViewById<EditText>(Resource.Id.lastnameEditText);
+            this.lastnameEditText.TextChanged += LastnameEditText_TextChanged;
 
-                case 2:
+            //EditText's birthdate(day)
+            this.dayEditText = this.FindViewById<EditText>(Resource.Id.dayEditText);
+            this.dayEditText.TextChanged += DayEditText_TextChanged;
 
-                    this.nextStageTwo();
+            //EditText's birthdate(month)
+            this.monthEditText = this.FindViewById<EditText>(Resource.Id.monthEditText);
+            this.monthEditText.TextChanged += MonthEditText_TextChanged;
 
-                    break;
-                case 3:
+            //EditText's birthdate(year)
+            this.yearEditText = this.FindViewById<EditText>(Resource.Id.yearEditText);
+            this.yearEditText.TextChanged += YearEditText_TextChanged;
 
-                    this.nextStageThree();
+            //RadioButton Male
+            this.maleRadioButton = this.FindViewById<RadioButton>(Resource.Id.maleRadioButton);
+            this.maleRadioButton.CheckedChange += MaleRadioButton_CheckedChange;
 
-                    break;
-            }
+            //RadioButton Female
+            this.femaleRadioButton = this.FindViewById<RadioButton>(Resource.Id.femaleRadioButton);
+            this.femaleRadioButton.CheckedChange += FemaleRadioButton_CheckedChange;
 
-            //Increase stage
-            this.nextStage++;
+            //EditText's phone
+            this.phoneEditText = this.FindViewById<EditText>(Resource.Id.phoneEditText);
+            this.phoneEditText.TextChanged += PhoneEditText_TextChanged;
 
+            //FloatingActionButton Next
+            this.nextSignupButton = FindViewById<FloatingActionButton>(Resource.Id.nextSignupButton);
+            this.nextSignupButton.Click += NextButton_Click;
+            
         }
+        
+        #region Events for component
 
-        //First view - Receipt firstname and lastname
-        private void nextStageOne()
+        private void FirstnameEditText_TextChanged(object sender, global::Android.Text.TextChangedEventArgs e)
         {
 
-            EditText firstName, lastName;
-
-            firstName = this.FindViewById<EditText>(Resource.Id.firstnameEditText);
-
-            lastName = this.FindViewById<EditText>(Resource.Id.lastnameEditText);
-
-            if (string.IsNullOrWhiteSpace(firstName.Text))
+            if (firstnameEditText.Text.Trim() != "")
             {
 
-                Toast.MakeText(this, "Ingresar nombre", ToastLength.Short).Show();
+                this.firstnameEditText.Error = null;
+
+                Configuration.UserConfig.currentUserEntity.firstName = this.firstnameEditText.Text;
 
             }
             else
             {
 
-                if (string.IsNullOrWhiteSpace(lastName.Text))
+                this.firstnameEditText.Error = "Ingresar nombres";
+
+            }
+
+        }
+
+        private void LastnameEditText_TextChanged(object sender, global::Android.Text.TextChangedEventArgs e)
+        {
+
+            if (lastnameEditText.Text.Trim() != "")
+            {
+
+                this.lastnameEditText.Error = null;
+
+                Configuration.UserConfig.currentUserEntity.lastName = this.lastnameEditText.Text;
+
+            }
+            else
+            {
+
+                this.lastnameEditText.Error = "Ingresar apellidos";
+
+            }
+
+        }
+
+
+        private void DayEditText_TextChanged(object sender, global::Android.Text.TextChangedEventArgs e)
+        {
+            try
+            {
+                int day = int.Parse(dayEditText.Text);
+                if (day >= 1 && day <= 31)
                 {
 
-                    Toast.MakeText(this, "Ingresar apellido", ToastLength.Short).Show();
+                    this.dayEditText.Error = null;
+
+                    Configuration.UserConfig.currentUserEntity.birthDate =
+                        new System.DateTime(
+                            Configuration.UserConfig.currentUserEntity.birthDate.Year,
+                            Configuration.UserConfig.currentUserEntity.birthDate.Month,
+                            day);
+                }
+                else
+                {
+                    this.dayEditText.Error = "Día de nacimiento incorrecto";
+                }
+            }
+            catch
+            {
+                //Toast.MakeText(this, "Día de nacimiento incorrecto", ToastLength.Short).Show();
+                this.dayEditText.Error = "Día de nacimiento incorrecto";
+            }
+        }
+
+        private void MonthEditText_TextChanged(object sender, global::Android.Text.TextChangedEventArgs e)
+        {
+            try
+            {
+                int month = int.Parse(monthEditText.Text);
+                if (month >= 1 && month <= 12)
+                {
+
+                    this.monthEditText.Error = null;
+
+                    Configuration.UserConfig.currentUserEntity.birthDate =
+                        new System.DateTime(
+                            Configuration.UserConfig.currentUserEntity.birthDate.Year
+                            ,
+                            month,
+                            Configuration.UserConfig.currentUserEntity.birthDate.Day);
 
                 }
                 else
                 {
-
-                    //Asignando campos al objeto
-                    this.userEntity.firstName = firstName.Text;
-                    this.userEntity.lastName = lastName.Text;
-
-                    
-
-                    //cambiar de layout
-                    this.SetContentView(Resource.Layout.SignupGender);
-
+                    this.monthEditText.Error = "Mes de nacimiento incorrecto";
                 }
-
             }
-
+            catch
+            {
+                this.monthEditText.Error = "Mes de nacimiento incorrecto";
+            }
         }
 
-        //Second view - Receipt gender
-        private void nextStageTwo()
+        private void YearEditText_TextChanged(object sender, global::Android.Text.TextChangedEventArgs e)
         {
 
-            RadioButton male, female;
+            try
+            {
+                int year = int.Parse(yearEditText.Text);
+                if (year >= 1920 && year <= System.DateTime.Now.Year)
+                {
 
-            male = this.FindViewById<RadioButton>(Resource.Id.maleRadioButton);
+                    this.yearEditText.Error = null;
 
-            female = this.FindViewById<RadioButton>(Resource.Id.femaleRadioButton);
+                    Configuration.UserConfig.currentUserEntity.birthDate =
+                        new System.DateTime(
+                            year,
+                            Configuration.UserConfig.currentUserEntity.birthDate.Month,
+                            Configuration.UserConfig.currentUserEntity.birthDate.Day);
 
-            //Evaluate if there is selected
-            if (!male.Checked && !female.Checked)
+                }
+                else
+                {
+                    this.yearEditText.Error = "Año de nacimiento incorrecto ";
+                }
+            }
+            catch
+            {
+                this.yearEditText.Error = "Año de nacimiento incorrecto";
+            }
+        }
+
+        private void MaleRadioButton_CheckedChange(object sender, CompoundButton.CheckedChangeEventArgs e)
+        {
+            if (this.maleRadioButton.Checked)
+            {
+                Configuration.UserConfig.currentUserEntity.gender = "M";
+            }
+            else
+            {
+                Configuration.UserConfig.currentUserEntity.gender = "F";
+            }
+        }
+
+        private void FemaleRadioButton_CheckedChange(object sender, CompoundButton.CheckedChangeEventArgs e)
+        {
+            if (this.maleRadioButton.Checked)
+            {
+                Configuration.UserConfig.currentUserEntity.gender = "M";
+            }
+            else
+            {
+                Configuration.UserConfig.currentUserEntity.gender = "F";
+            }
+        }
+        
+        private void PhoneEditText_TextChanged(object sender, global::Android.Text.TextChangedEventArgs e)
+        {
+
+            if (phoneEditText.Text.Length == 8)
             {
 
-                Toast.MakeText(this, "Seleccionar su género", ToastLength.Short).Show();
+                this.phoneEditText.Error = null;
+
+                Configuration.UserConfig.currentUserEntity.phone = this.phoneEditText.Text;
 
             }
             else
             {
 
-                //Asignando campos al objeto
-                this.userEntity.gender = male.Checked ? "M" : "F";
-
-                //cambiar de layout
-                this.SetContentView(Resource.Layout.SignupEmailOrPhone);
+                this.phoneEditText.Error = "Teléfono incorrecto";
 
             }
 
         }
 
-        //Third view - Receipt email and phone
-        private void nextStageThree()
+        private void NextButton_Click(object sender, System.EventArgs e)
         {
 
-            EditText email, phone;
+            this.ValidateEntity(Configuration.UserConfig.currentUserEntity);
 
-            email = this.FindViewById<EditText>(Resource.Id.emailEditText);
-
-            phone = this.FindViewById<EditText>(Resource.Id.phoneEditText);
-
-            //if (string.IsNullOrWhiteSpace(email.Text) && string.IsNullOrWhiteSpace(phone.Text))
-            //{
-            //}
-
-            this.registerUser();
+            this.StartSignupImageActivity();
 
         }
 
-        private void registerUser()
+        #endregion
+
+        #region Private functions
+
+        private void ValidateEntity(Models.Entities.UserEntity user)
         {
 
-            Models.FirebaseModel.UserModel userModel = new Models.FirebaseModel.UserModel();
-
-            userModel.Add(this.userEntity);
+            
 
         }
 
-
-
-
-        //códigos de prueba
-        private void testFirebaseModel()
+        private void StartSignupImageActivity()
         {
 
-            try
+            Intent intent = new Intent(this, typeof(SignupImageActivity));
+
+            this.StartActivity(intent);
+
+        }
+
+        #endregion
+
+        #region Overrides functions
+
+        public override bool OnOptionsItemSelected(IMenuItem item)
+        {
+
+            switch (item.ItemId)
             {
+                //Button back again
+                case 16908332: //Home Id
 
-                Models.FirebaseModel.UserModel userModel = new Models.FirebaseModel.UserModel();
+                    this.Finish();
 
-                userModel.Add(
-                    new Models.Entities.UserEntity()
-                    {
-                        firstName = "Michel Roberto",
-                        lastName = "Traña Tablada",
-                        gender = "h",
-                        birthDate = "02/09/1994",
-                        email = "mtraatabladaa94@gmail.com",
-                        phone = "8367 - 1719"
-                    }
-                );
+                    break;
 
             }
-            catch (System.Exception ex)
-            {
-                Toast.MakeText(this, $"Error: {ex.Message}", ToastLength.Long).Show();
-            }
 
+            return true;
         }
 
-        
+        #endregion
 
     }
 

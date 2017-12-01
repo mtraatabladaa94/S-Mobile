@@ -7,30 +7,42 @@
     android:background="@color/windows_background_light">
   
   <include
-      android:id="@+id/headerInclude"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      layout="@layout/sesionintroheader" />
+    android:id="@+id/headerInclude"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    layout="@layout/sesionintroheader"
+  />
   
   <RelativeLayout
-      android:id="@+id/contentLayout"
-      android:layout_below="@+id/headerInclude"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:padding="16dp">
-    
+    android:id="@+id/contentLayout"
+    android:layout_below="@+id/headerInclude"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
     <TextView
-        android:id="@+id/titleTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Bienvenido ¿Eres hombre o mujer?"
-        android:textColor="@color/text_color_primary_light"
-        android:textStyle="bold"
-        android:textSize="20dp" />
+      android:id="@+id/titleTextView"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+      android:text="Bienvenido ¿Eres hombre o mujer?"
+      android:textColor="@color/text_color_primary_light"
+      android:textStyle="bold"
+      android:textSize="20dp" />
+
+    <TextView
+      android:id="@+id/subtitle1TextView"
+      android:layout_below="@+id/titleTextView"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="¿Como te llamas?"
+      android:textColor="@color/text_color_primary_light"
+      android:textStyle="bold"
+      android:textSize="14dp" />
     
     <RelativeLayout
       android:id="@+id/genderLayout"
-      android:layout_below="@+id/titleTextView"
+      android:layout_below="@+id/subtitle1TextView"
       android:layout_centerHorizontal="true"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
@@ -99,11 +111,21 @@
           android:layout_height="wrap_content" />
       </RadioGroup>
     </RelativeLayout>
+
+    <TextView
+      android:id="@+id/subtitle1TextView"
+      android:layout_below="@+id/genderLayout"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="¿Cuál es tu género?"
+      android:textColor="@color/text_color_primary_light"
+      android:textStyle="bold"
+      android:textSize="14dp" />
     
     <Button
       android:id="@+id/nextSignupGenderButton"
-      android:layout_below="@+id/genderLayout"
-      android:text="Siguiente"
+      android:layout_below="@+id/subtitle1TextView"
+      android:text="Crear Cuenta"
       style="@style/Widget.AppCompat.Button.Colored"
       android:layout_width="match_parent"
       android:layout_height="wrap_content" />

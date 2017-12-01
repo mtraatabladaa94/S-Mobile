@@ -10,6 +10,8 @@
   <string name="facebook_app_id">118266012183399</string>
   <string name="fb_login_protocol_scheme">fb118266012183399</string>
 
-  <string name="GoogleMapsAPI">AIzaSyBFdEMwXBf4zzFxRYD0S24tPrjFs-ASKUg</string>
+  <string name="GoogleMapsAPI">AIzaSyBfaiE7ZOvk3n2mrzcE3vveqd0wOIjWlI4</string>
+
+  <dimen name="margin_layout_user">16dp</dimen>
   
 </resources>

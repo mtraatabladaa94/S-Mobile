@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textviewmap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Este es tu mapa perro" />
+    <Button
+        android:id="@+id/buttonmap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Botón" />
+    <fragment
+        android:id="@+id/maps_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="SMobile.Android.Activities.MapsFragmentActivity" />
+</LinearLayout>

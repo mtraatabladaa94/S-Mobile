@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card-view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <android.support.v7.widget.CardView
+        android:layout_height="180dp"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        card-view:cardElevation="4dp"
+        card-view:cardUseCompatPadding="true"
+        card-view:cardCornerRadius="5dp">
+        <RelativeLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:padding="8dp">
+            <ImageView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/Id_ImageView"
+                android:src="@drawable/ic_isotipo_sadara"
+                android:scaleType="centerCrop"
+                android:layout_marginRight="16dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true" />
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textColor="@color/color_accent"
+                android:text="Producto"
+                android:id="@+id/NameProduct"
+                android:layout_toRightOf="@id/Id_ImageView"
+                android:layout_alignParentTop="true"
+                android:textSize="20sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Description"
+                android:text="Descripción"
+                android:layout_toRightOf="@+id/Id_ImageView"
+                android:layout_below="@+id/NameProduct" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="8dp"
+                android:id="@+id/txtranking"
+                android:text="Ranking: "
+                android:layout_below="@+id/Id_ImageView" />
+          <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="8dp"
+                android:id="@+id/txtprice"
+                android:text="Precio: "
+                android:layout_below="@+id/Id_ImageView" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

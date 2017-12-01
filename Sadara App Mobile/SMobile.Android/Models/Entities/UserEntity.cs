@@ -10,7 +10,7 @@ using Firebase.Xamarin.Database;
 namespace SMobile.Android.Models.Entities
 {
 
-    internal sealed class UserEntity
+    public sealed class UserEntity
     {
         
         public const string USER_NAME = "users";
@@ -30,11 +30,15 @@ namespace SMobile.Android.Models.Entities
 
         public string gender { get; set; } // género
 
-        public string birthDate { get; set; } // fecha de nacimiento
+        public DateTime birthDate { get; set; } = new DateTime(1980, 1, 1); // fecha de nacimiento
 
         public string email { get; set; } // correo electrónico
 
+        public string password { get; set; }
+
         public string phone { get; set; } // número de teléfono
+
+        public string imageUrl { get; set; } // url de imagen
 
     }
 
